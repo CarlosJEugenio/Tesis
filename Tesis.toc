@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Resumen}{\es@scroman {xiii}}{chapter*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1} Nanonomateriales}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Nanomateriales}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}S\IeC {\'\i }ntesis}{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Caracterizaci\IeC {\'o}n}{4}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Aplicaciones}{4}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Grafeno}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Supercondensadores}{7}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}El condensador ideal}{8}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}El condensador real}{8}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Breakdown voltage}{9}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Circuito equivalente}{10}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Resistencia en serie equivalente}{10}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador super?}{10}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{10}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{10}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}T\IeC {\'\i }tulo Cap\IeC {\'\i }tulo 4}{13}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Resultados, conclusiones y recomendaciones}{15}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexo}{17}{chapter*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{19}{chapter*.9}

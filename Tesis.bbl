@@ -1,0 +1,116 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{YAHALOM19701429}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Yahalom}{Y.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zahavi}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YJZJ1}
+  \strng{fullhash}{YJZJ1}
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/0013-4686(70)80064-0
+  \endverb
+  \field{issn}{0013-4686}
+  \field{number}{9}
+  \field{pages}{1429 \bibrangedash  1435}
+  \field{title}{Electrolytic breakdown crystallization of anodic oxide films on
+  A1, Ta and Ti}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/0013468670800640
+  \endverb
+  \field{volume}{15}
+  \field{journaltitle}{Electrochimica Acta}
+  \field{year}{1970}
+\endentry
+
+\entry{YAHALOM1971603}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Yahalom}{Y.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zahavi}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YJZJ1}
+  \strng{fullhash}{YJZJ1}
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/0013-4686(71)85169-1
+  \endverb
+  \field{issn}{0013-4686}
+  \field{number}{5}
+  \field{pages}{603 \bibrangedash  607}
+  \field{title}{Experimental evaluation of some electrolytic breakdown
+  hypotheses}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/0013468671851691
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Electrochimica Acta}
+  \field{year}{1971}
+\endentry
+
+\entry{Frackowiak2001937}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Frackowiak}{F.}%
+     {Elzbieta}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Béguin}{B.}%
+     {François}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{A. Activated carbon, Carbon aerogel, Carbon nanotubes, Carbon xerogel}
+  \strng{namehash}{FEBF1}
+  \strng{fullhash}{FEBF1}
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/S0008-6223(00)00183-4
+  \endverb
+  \field{issn}{0008-6223}
+  \field{number}{6}
+  \field{pages}{937 \bibrangedash  950}
+  \field{title}{Carbon materials for the electrochemical storage of energy in
+  capacitors}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0008622300001834
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Carbon}
+  \field{year}{2001}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
