@@ -24,48 +24,52 @@ Database file #1: Tesis-blx.bib
 Database file #2: bibliografia.bib
 Warning--I'm ignoring Frackowiak2001937's extra "keywords" field
 --line 117 of file bibliografia.bib
+Illegal end of database file---line 154 of file bibliografia.bib
+ :  volume =    {},
+ :                 
+I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 4 entries,
+You've used 5 entries,
             6047 wiz_defined-function locations,
-            1169 strings with 9080 characters,
-and the built_in function-call counts, 10211 in all, are:
-= -- 359
-> -- 370
-< -- 64
-+ -- 126
-- -- 154
-* -- 756
-:= -- 834
+            1175 strings with 9172 characters,
+and the built_in function-call counts, 12891 in all, are:
+= -- 473
+> -- 450
+< -- 89
++ -- 148
+- -- 175
+* -- 902
+:= -- 976
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 21
+call.type$ -- 5
+change.case$ -- 37
 chr.to.int$ -- 34
-cite$ -- 6
-duplicate$ -- 1013
-empty$ -- 1079
-format.name$ -- 203
-if$ -- 2282
+cite$ -- 8
+duplicate$ -- 1332
+empty$ -- 1384
+format.name$ -- 249
+if$ -- 2905
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 11
 missing$ -- 0
-newline$ -- 113
-num.names$ -- 120
-pop$ -- 976
+newline$ -- 132
+num.names$ -- 169
+pop$ -- 1290
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 51
 quote$ -- 0
-skip$ -- 582
+skip$ -- 755
 stack$ -- 0
-substring$ -- 255
-swap$ -- 378
-text.length$ -- 85
+substring$ -- 310
+swap$ -- 476
+text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 140
+type$ -- 178
 warning$ -- 0
-while$ -- 106
+while$ -- 121
 width$ -- 0
-write$ -- 108
-(There was 1 warning)
+write$ -- 126
+(There was 1 error message)

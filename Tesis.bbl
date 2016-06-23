@@ -32,7 +32,7 @@
   \strng{namehash}{YJZJ1}
   \strng{fullhash}{YJZJ1}
   \verb{doi}
-  \verb http://dx.doi.org/10.1016/0013-4686(70)80064-0
+  \verb 10.1016/0013-4686(70)80064-0
   \endverb
   \field{issn}{0013-4686}
   \field{number}{9}
@@ -63,7 +63,7 @@
   \strng{namehash}{YJZJ1}
   \strng{fullhash}{YJZJ1}
   \verb{doi}
-  \verb http://dx.doi.org/10.1016/0013-4686(71)85169-1
+  \verb 10.1016/0013-4686(71)85169-1
   \endverb
   \field{issn}{0013-4686}
   \field{number}{5}
@@ -95,7 +95,7 @@
   \strng{namehash}{FEBF1}
   \strng{fullhash}{FEBF1}
   \verb{doi}
-  \verb http://dx.doi.org/10.1016/S0008-6223(00)00183-4
+  \verb 10.1016/S0008-6223(00)00183-4
   \endverb
   \field{issn}{0008-6223}
   \field{number}{6}
@@ -108,6 +108,26 @@
   \field{volume}{39}
   \field{journaltitle}{Carbon}
   \field{year}{2001}
+\endentry
+
+\entry{book:614961}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Conway}{C.}%
+     {B.~E.}{B.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{CBE1}
+  \strng{fullhash}{CBE1}
+  \field{edition}{1}
+  \field{isbn}{0306457369,9780306457364}
+  \field{title}{Electrochemical Supercapacitors: Scientific Fundamentals and
+  Technological Applications}
+  \field{year}{1999}
 \endentry
 
 \lossort
