@@ -2,13 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tesis.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: Introduccion.aux
-A level-1 auxiliary file: Capitulo_01.aux
-A level-1 auxiliary file: Capitulo_02.aux
-A level-1 auxiliary file: Capitulo_03.aux
-A level-1 auxiliary file: Capitulo_04.aux
-A level-1 auxiliary file: Conclusiones.aux
-A level-1 auxiliary file: Anexo.aux
+A level-1 auxiliary file: nanomateriales.aux
+A level-1 auxiliary file: grafeno.aux
+A level-1 auxiliary file: supercondensadores.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -22,54 +18,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Tesis-blx.bib
 Database file #2: bibliografia.bib
-Warning--I'm ignoring Frackowiak2001937's extra "keywords" field
---line 117 of file bibliografia.bib
-Illegal end of database file---line 154 of file bibliografia.bib
- :  volume =    {},
- :                 
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Thounthong2009376"
+Warning--I didn't find a database entry for "YAHALOM19701429"
+Warning--I didn't find a database entry for "YAHALOM1971603"
+Warning--I didn't find a database entry for "Frackowiak2001937"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 5 entries,
+You've used 1 entry,
             6047 wiz_defined-function locations,
-            1175 strings with 9172 characters,
-and the built_in function-call counts, 12891 in all, are:
-= -- 473
-> -- 450
-< -- 89
-+ -- 148
-- -- 175
-* -- 902
-:= -- 976
+            1140 strings with 8261 characters,
+and the built_in function-call counts, 1306 in all, are:
+= -- 64
+> -- 58
+< -- 1
++ -- 41
+- -- 24
+* -- 23
+:= -- 295
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 37
+call.type$ -- 1
+change.case$ -- 0
 chr.to.int$ -- 34
-cite$ -- 8
-duplicate$ -- 1332
-empty$ -- 1384
-format.name$ -- 249
-if$ -- 2905
+cite$ -- 0
+duplicate$ -- 12
+empty$ -- 92
+format.name$ -- 0
+if$ -- 289
 int.to.chr$ -- 0
-int.to.str$ -- 11
+int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 132
-num.names$ -- 169
-pop$ -- 1290
+newline$ -- 22
+num.names$ -- 0
+pop$ -- 44
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 0
 quote$ -- 0
-skip$ -- 755
+skip$ -- 74
 stack$ -- 0
-substring$ -- 310
-swap$ -- 476
-text.length$ -- 103
+substring$ -- 117
+swap$ -- 1
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 178
+type$ -- 26
 warning$ -- 0
-while$ -- 121
+while$ -- 50
 width$ -- 0
-write$ -- 126
-(There was 1 error message)
+write$ -- 20
+(There were 4 warnings)

@@ -1,0 +1,172 @@
+BIBLIOGRAFÍA TESIS
+
+@article{doi:10.1021/nl802558y,
+	author = {Meryl D. Stoller and Sungjin Park and Yanwu Zhu and Jinho An and Rodney S. Ruoff},
+	title = {Graphene-Based Ultracapacitors},
+	journal = {Nano Letters},
+	volume = {8},
+	number = {10},
+	pages = {3498-3502},
+	year = {2008},
+	doi = {10.1021/nl802558y},
+	note ={PMID: 18788793},
+	
+	URL = { 
+	http://dx.doi.org/10.1021/nl802558y
+	
+	},
+	eprint = { 
+	http://dx.doi.org/10.1021/nl802558y
+	
+	}
+	
+}
+
+@Article{Novoselov2012,
+	author={Novoselov, K. S.
+	and Fal[prime]ko, V. I.
+	and Colombo, L.
+	and Gellert, P. R.
+	and Schwab, M. G.
+	and Kim, K.},
+	title={A roadmap for graphene},
+	journal={Nature},
+	year={2012},
+	month={Oct},
+	day={11},
+	publisher={Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.},
+	volume={490},
+	number={7419},
+	pages={192-200},
+	issn={0028-0836},
+	doi={10.1038/nature11458},
+	url={http://dx.doi.org/10.1038/nature11458}
+}
+
+
+@book{book:1407292,
+	title =     {Nanosciences and Nanotechnology: Evolution or Revolution?},
+	author =    {Jean-Michel Lourtioz, Marcel Lahmani, Claire Dupas-Haeberlin, Patrice Hesto (eds.)},
+	publisher = {Springer International Publishing},
+	isbn =      {978-3-319-19359-5,978-3-319-19360-1},
+	year =      {2016},
+	series =    {},
+	edition =   {1},
+	volume =    {},
+	url =       {http://gen.lib.rus.ec/book/index.php?md5=C2962D3C82092CB83039ECD1497C9194}
+}
+
+@article{YAHALOM19701429,
+
+	title = "Electrolytic breakdown crystallization of anodic oxide films on A1, Ta and Ti",
+	journal = "Electrochimica Acta",
+	volume = "15",
+	number = "9",
+	pages = "1429 - 1435",
+	year = "1970",
+	note = "",
+	issn = "0013-4686",
+	doi = "10.1016/0013-4686(70)80064-0",
+	url = "http://www.sciencedirect.com/science/article/pii/0013468670800640",
+	author = "J. Yahalom and J. Zahavi",
+
+}
+
+@article{YAHALOM1971603,
+
+	title = "Experimental evaluation of some electrolytic breakdown hypotheses",
+	journal = "Electrochimica Acta",
+	volume = "16",
+	number = "5",
+	pages = "603 - 607",
+	year = "1971",
+	note = "",
+	issn = "0013-4686",
+	doi = "10.1016/0013-4686(71)85169-1",
+	url = "http://www.sciencedirect.com/science/article/pii/0013468671851691",
+	author = "J. Yahalom and J. Zahavi",
+
+
+}
+
+@article{feynman1960there,
+	title={There's plenty of room at the bottom},
+	author={Feynman, Richard P},
+	journal={Engineering and science},
+	volume={23},
+	number={5},
+	pages={22--36},
+	year={1960},
+	publisher={California Institute of Technology}
+}
+
+@article{Frackowiak2001937,
+	title = "Carbon materials for the electrochemical storage of energy in capacitors ",
+	journal = "Carbon ",
+	volume = "39",
+	number = "6",
+	pages = "937 - 950",
+	year = "2001",
+	note = "",
+	issn = "0008-6223",
+	doi = "10.1016/S0008-6223(00)00183-4",
+	url = "http://www.sciencedirect.com/science/article/pii/S0008622300001834",
+	author = "Elzbieta Frackowiak and François Béguin",
+	keywords = "A. Activated carbon, Carbon aerogel, Carbon nanotubes, Carbon xerogel",
+	keywords = "D. Electrochemical properties "
+}
+
+@article{hummers1958preparation,
+	title={Preparation of graphitic oxide},
+	author={Hummers Jr, William S and Offeman, Richard E},
+	journal={Journal of the American Chemical Society},
+	volume={80},
+	number={6},
+	pages={1339--1339},
+	year={1958},
+	publisher={ACS Publications}
+}
+
+@Article{Abdolhosseinzadeh2015,
+	author={Abdolhosseinzadeh, Sina
+	and Asgharzadeh, Hamed
+	and Seop Kim, Hyoung},
+	title={Fast and fully-scalable synthesis of reduced graphene oxide},
+	journal={Scientific Reports},
+	year={2015},
+	month={May},
+	day={15},
+	publisher={The Author(s) SN  -},
+	volume={5},
+	pages={10160 EP  -},
+	note={Article},
+	url={10.1038/srep10160}
+}
+
+@book{book:614961,
+	title =     {Electrochemical Supercapacitors: Scientific Fundamentals and Technological Applications},
+	author =    {B. E. Conway},
+	publisher = {Springer},
+	isbn =      {0306457369,9780306457364},
+	year =      {1999},
+	series =    {},
+	edition =   {1},
+	volume =    {}
+}
+
+@article{Thounthong2009376,
+title = "Energy management of fuel cell/battery/supercapacitor hybrid power source for vehicle applications ",
+journal = "Journal of Power Sources ",
+volume = "193",
+number = "1",
+pages = "376 - 385",
+year = "2009",
+note = "Scientific Advances in Fuel Cell Systems ",
+issn = "0378-7753",
+doi = "http://dx.doi.org/10.1016/j.jpowsour.2008.12.120",
+url = "http://www.sciencedirect.com/science/article/pii/S0378775308024981",
+author = "Phatiphat Thounthong and Stephane Raël and Bernard Davat",
+
+}
+
+

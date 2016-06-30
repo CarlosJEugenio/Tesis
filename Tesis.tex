@@ -39,10 +39,11 @@
 \crefname{section}{sección}{Sección}
 \crefname{chapter}{capítulo}{Capítulo}
 
-\graphicspath{{Imagenes/}} 	%La carpeta de dibujos es figs
-% \includeonly{Capitulo_02}	%Incluye sólo los archivos que se especifican como parámetro. Se mantiene numeración global del documento.
+\graphicspath{{Imagenes/}}
 
-
+%============================================================
+%===================Comienzo del documento===================
+%============================================================
 \begin{document}
 \renewcommand{\contentsname}{Tabla de contenidos}	%Cambiar nombre de Índice por Tabla de contenidos
 \renewcommand{\listfigurename}{Índice de Ilustraciones}	%Cambiar nombre de Índice de Figuras por Índice de Ilustraciones
@@ -54,6 +55,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %(1) PORTADA			[L]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{titlepage}
   \begin{flushright}
     \begin{tabular}{cl}
@@ -174,10 +176,8 @@ en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
 \newpage
 \pagenumbering{arabic}
 \include{Introduccion}
-\include{Capitulo_01}
-\include{Capitulo_02}
-\include{Capitulo_03}
-\include{Capitulo_04}
+\include{Marco_teorico}
+\include{Cuerpo_tesis}
 \include{Conclusiones}
 \include{Anexo}
 

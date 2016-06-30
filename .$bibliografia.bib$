@@ -74,58 +74,65 @@
   Year                     = {2016},
   Edition                  = {1},
 
-  ISBN                     = {978-3-319-19359-5,978-3-319-19360-1},
-  Url                      = {http://gen.lib.rus.ec/book/index.php?md5=C2962D3C82092CB83039ECD1497C9194}
+  ISBN                     = {978-3-319-19359-5,978-3-319-19360-1}
 }
 
-@Article{Novoselov2012,
+@Article{Novoselov2012a,
   Title                    = {A roadmap for graphene},
-  Author                   = {Novoselov, K. S. and Fal[prime]ko, V. I. and Colombo, L. and Gellert, P. R. and Schwab, M. G. and Kim, K.},
+  Author                   = {Novoselov, K. S. and Fal′ko, V. I. and Colombo, L. and Gellert, P. R. and Schwab, M. G. and Kim, K.},
   Journal                  = {Nature},
   Year                     = {2012},
 
   Month                    = {Oct},
   Number                   = {7419},
-  Pages                    = {192-200},
+  Pages                    = {192–200},
   Volume                   = {490},
 
-  Day                      = {11},
+  __markedentry            = {[javier:6]},
   Doi                      = {10.1038/nature11458},
-  ISSN                     = {0028-0836},
-  Publisher                = {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.},
+  ISSN                     = {1476-4687},
+  Owner                    = {javier},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2016.06.30},
   Url                      = {http://dx.doi.org/10.1038/nature11458}
 }
 
-@Article{Stoller2008,
+@Article{Stoller2008a,
   Title                    = {Graphene-Based Ultracapacitors},
-  Author                   = {Meryl D. Stoller and Sungjin Park and Yanwu Zhu and Jinho An and Rodney S. Ruoff},
-  Journal                  = {Nano Letters},
+  Author                   = {Stoller, Meryl D. and Park, Sungjin and Zhu, Yanwu and An, Jinho and Ruoff, Rodney S.},
+  Journal                  = {Nano Lett.},
   Year                     = {2008},
-  Note                     = {PMID: 18788793},
+
+  Month                    = {Oct},
   Number                   = {10},
-  Pages                    = {3498-3502},
+  Pages                    = {3498–3502},
   Volume                   = {8},
 
+  __markedentry            = {[javier:]},
   Doi                      = {10.1021/nl802558y},
-  Eprint                   = { http://dx.doi.org/10.1021/nl802558y
-},
-  Url                      = { http://dx.doi.org/10.1021/nl802558y
-}
+  ISSN                     = {1530-6992},
+  Owner                    = {javier},
+  Publisher                = {American Chemical Society (ACS)},
+  Timestamp                = {2016.06.30},
+  Url                      = {http://dx.doi.org/10.1021/nl802558y}
 }
 
-@Article{Thounthong2009,
-  Title                    = {Energy management of fuel cell/battery/supercapacitor hybrid power source for vehicle applications },
-  Author                   = {Phatiphat Thounthong and Stephane Raël and Bernard Davat},
-  Journal                  = {Journal of Power Sources },
+@Article{Thounthong2009a,
+  Title                    = {Energy management of fuel cell/battery/supercapacitor hybrid power source for vehicle applications},
+  Author                   = {Thounthong, Phatiphat and Raël, Stephane and Davat, Bernard},
+  Journal                  = {Journal of Power Sources},
   Year                     = {2009},
-  Note                     = {Scientific Advances in Fuel Cell Systems },
-  Number                   = {1},
-  Pages                    = {376 - 385},
-  Volume                   = {193},
 
-  Doi                      = {http://dx.doi.org/10.1016/j.jpowsour.2008.12.120},
+  Month                    = {Aug},
+  Number                   = {1},
+  Pages                    = {376–385},
+  Volume                   = {193},
+  Doi                      = {10.1016/j.jpowsour.2008.12.120},
   ISSN                     = {0378-7753},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/S0378775308024981}
+  Owner                    = {javier},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2016.06.30},
+  Url                      = {http://dx.doi.org/10.1016/j.jpowsour.2008.12.120}
 }
 
 @Article{Yahalom1971,
