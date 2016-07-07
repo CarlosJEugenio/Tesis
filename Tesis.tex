@@ -1,8 +1,13 @@
 \documentclass[12pt]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage[backend=bibtex, sorting=none]{biblatex}
-\bibliography{bibliografia}
+\usepackage[
+backend=bibtex,
+sorting=none,
+style=phys,
+citestyle=numeric-comp
+]{biblatex}
+\bibliography{../bibtexs/Nanosintesis}
 \usepackage{graphics}
 \usepackage{pst-all,pstricks-add,pst-math}
 \usepackage{tikz}
@@ -31,7 +36,7 @@
 \oddsidemargin=1.5cm  %margen izquierdx|o (por defecto queda a 1.5 cm)
 
 \usepackage{multirow}
-\setcounter{tocdepth}{4} 	%Inserta subsubsecciones y párrafos en el indice
+\setcounter{tocdepth}{1} 	%Inserta subsubsecciones y párrafos en el indice
 \usepackage{cleveref}		%Inserta la palabra correspondiente al referenciar un objeto (Figura, Tabla, etc)
 \crefname{equation}{ecuación}{ecuaciones}
 \crefname{table}{tabla}{tablas}
@@ -125,7 +130,7 @@ en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
 \newpage
 \chapter*{}
 \begin{flushright}
-\textit{Dedicatoria}
+\textit{Dedicado a...}
 \end{flushright}
 \newpage
 
@@ -170,7 +175,7 @@ en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
 %(9) RESUMEN			[]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\chapter*{Resumen}
+\include{Resumen}
 \addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
 
 \newpage

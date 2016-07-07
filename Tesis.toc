@@ -2,9 +2,9 @@
 \defcounter {refsection}{0}\relax 
 \select@language {spanish}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Resumen}{\es@scroman {xiii}}{chapter*.6}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Resumen}{1}{chapter*.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Marco te\IeC {\'o}rico}{3}{part.1}
 \defcounter {refsection}{0}\relax 
@@ -30,30 +30,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}El condensador ideal}{10}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}El condensador real}{10}{section.3.2}
+\contentsline {section}{\numberline {3.2}El condensador real}{11}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Breakdown voltage}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Breakdown voltage}{12}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Circuito equivalente}{12}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Resistencia en serie equivalente (ESR)}{12}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Corriente de fuga (\emph {leakage current})}{12}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Corriente de fuga (\emph {leakage current})}{13}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador?}{13}{section.3.3}
+\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador?}{14}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{14}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{13}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{14}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{II\hspace {1em}Cuerpo de la tesis}{15}{part.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}S\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Materiales}{17}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Procedimiento}{17}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Resultados}{17}{section.4.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{19}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Materiales}{19}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Procedimiento}{19}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Resultados}{19}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{21}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Conclusiones}{23}{part.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Anexo}{25}{chapter*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{27}{chapter*.10}
