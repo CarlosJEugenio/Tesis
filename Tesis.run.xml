@@ -53,7 +53,7 @@
     <requires type="static">
       <file>blx-compat.def</file>
       <file>biblatex_legacy.def</file>
-      <file>phys.bbx</file>
+      <file>nature.bbx</file>
       <file>numeric-comp.bbx</file>
       <file>numeric.bbx</file>
       <file>standard.bbx</file>

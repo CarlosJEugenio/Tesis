@@ -1,48 +1,18 @@
-\documentclass[12pt]{book}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\documentclass{usachtesis}
 \usepackage[
 backend=bibtex,
 sorting=none,
-style=phys,
+style=nature,
 citestyle=numeric-comp
 ]{biblatex}
 \bibliography{../bibtexs/Nanosintesis}
-\usepackage{graphics}
-\usepackage{pst-all,pstricks-add,pst-math}
-\usepackage{tikz}
-\usepackage{float}
-\usepackage{textcomp}
-\usepackage{dsfont}
-\usepackage{booktabs}
-\usepackage{makeidx}
-\usepackage[colorlinks=true, pdfborder={0 100 100}, linkcolor=orange, linktoc=page, citecolor=Green]{hyperref}
-\usepackage{microtype}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage[format=hang, font=small, labelfont=bf, margin=1cm]{caption}
 
 
-\definecolor{orange}{RGB}{250,120,0}
-\definecolor{Green}{RGB}{50,200,100}
 
-\renewcommand{\rmdefault}{phv} % Arial
-\renewcommand{\sfdefault}{phv} % Arial
-\renewcommand{\baselinestretch}{1.5}
+
 \makeindex
 
-
-\topmargin=0cm     %margen superior
-\oddsidemargin=1.5cm  %margen izquierdx|o (por defecto queda a 1.5 cm)
-
-\usepackage{multirow}
-\setcounter{tocdepth}{1} 	%Inserta subsubsecciones y párrafos en el indice
-\usepackage{cleveref}		%Inserta la palabra correspondiente al referenciar un objeto (Figura, Tabla, etc)
-\crefname{equation}{ecuación}{ecuaciones}
-\crefname{table}{tabla}{tablas}
-\crefname{figure}{figura}{figuras}
-\crefname{section}{sección}{Sección}
-\crefname{chapter}{capítulo}{Capítulo}
+\setcounter{tocdepth}{1}
 
 \graphicspath{{Imagenes/}}
 
@@ -50,55 +20,19 @@ citestyle=numeric-comp
 %===================Comienzo del documento===================
 %============================================================
 \begin{document}
-\renewcommand{\contentsname}{Tabla de contenidos}	%Cambiar nombre de Índice por Tabla de contenidos
-\renewcommand{\listfigurename}{Índice de Ilustraciones}	%Cambiar nombre de Índice de Figuras por Índice de Ilustraciones
-\renewcommand{\indexname}{Índice analítico}		%Cambiar nombre de Índice alfabético -> Índice analítico
-% \renewcommand{\figurename}{Índice de Ilustraciones}	%Cambiar nombre de Índice de Figuras por Índice de Ilustraciones
-\renewcommand{\listtablename}{Índice de tablas}
-\renewcommand{\tablename}{Tabla}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %(1) PORTADA			[L]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+ \title{Grafeno blablabla}
+ \author{Carlos Eugenio}
+ \facultad{CIENCIA}
+ \departamento{FÍSICA}
+ \profesorguia{DINESH PRATAP SINGH}
+ \tituloprofesional{Ingeniero Físico}
+ \anolol{2016}
+ 
 \begin{titlepage}
-  \begin{flushright}
-    \begin{tabular}{cl}
-      &\multirow{4}{*}{\hspace{0cm}\includegraphics[width=2cm]{logoBN.png}}\\
-      \large{\textbf{UNIVERSIDAD DE SANTIAGO DE CHILE}}&  \\
-      \textbf{FACULTAD DE CIENCIA}&\\
-      \textbf{DEPARTAMENTO DE FÍSICA}& \\
-    \end{tabular}
-  \end{flushright}
-
-\vspace*{3cm}
-
-  \begin{center}
-    \large{\textbf{SÍNTESIS DE GRAFENO Y SUPERCONDENSADORES BASADOS EN GRAFENO}}\\ %\vspace*{2cm}
-  \end{center}
-  \begin{center}
-    \textbf{CARLOS JAVIER EUGENIO HERRERA}
-  \end{center}
-
-\vspace*{1cm}
-
-  \begin{flushright}
-    \begin{tabular}{ll}
-      \textbf{Profesor Guía:}& DINESH PRATAP SINGH\\
-    \end{tabular}
-\\\vspace{3cm}
-
-  \begin{center}
-    \textbf{Trabajo de Titulación presentado en conformidad a los
-    requisitos para obtener el título profesional de Ingeníero Físico.}
-  \end{center}
-  \end{flushright}
-
-\vfill
-
-  \begin{center}
-    \textbf{Santiago -  Chile\\2016}
-  \end{center}
+	\maketitle
 \end{titlepage}
 
 \newpage
@@ -109,16 +43,7 @@ citestyle=numeric-comp
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %(2) DERECHOS DE AUTOR		[L]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vfill
-\begin{center}
-\textbf{© 2016, Carlos Eugenio\\
-Algunos  derechos  reservados. 
-Esta  obra  está  bajo  una  Licencia  Creative  Commons  Atribución-NoComercial-Compartir Igual  
-3.0. Sus condiciones de uso pueden ser revisadas 
-en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
-\\
-\includegraphics[width=2cm]{by-nc-sa.png}
-\end{center}
+\derechosdeautor
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %(3) HOJA DE CALIFICACIONES	[]
