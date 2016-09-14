@@ -1,40 +1,67 @@
-This is 8-bit Big BibTeX version 0.99d
-Implementation:  C for Unix
-Release version: 3.71 (18 mar 2013)
-
-The 8-bit codepage and sorting file: 88591lat.csf
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tesis.aux
 The style file: biblatex.bst
-A level-1 auxilliary file: Resumen.aux
-A level-1 auxilliary file: Introduccion.aux
-A level-1 auxilliary file: Marco_teorico.aux
-A level-1 auxilliary file: Cuerpo_tesis.aux
-A level-1 auxilliary file: Conclusiones.aux
-A level-1 auxilliary file: Anexo.aux
-Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
-Reallocated global_strs (elt_size=20001) to 10 items from 0.
-Reallocated glb_str_end (elt_size=8) to 10 items from 0.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
+A level-1 auxiliary file: Resumen.aux
+A level-1 auxiliary file: Introduccion.aux
+A level-1 auxiliary file: Marco_teorico.aux
+A level-1 auxiliary file: Cuerpo_tesis.aux
+A level-1 auxiliary file: Conclusiones.aux
+A level-1 auxiliary file: Anexo.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Tesis-blx.bib
 Database file #2: ../bibtexs/Nanosintesis.bib
 Biblatex version: 3.3
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
-
-Here's how much of BibTeX's memory you used:
- Cites:                11 out of 750
- Fields:             1401 out of 5000
- Hash table:        34705 out of 35307
- Strings:            1263 out of 35307
- Free string pool:  19800 out of 65000
- Wizard functions:   6047 out of 9000
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 6 entries,
+            6047 wiz_defined-function locations,
+            1198 strings with 14288 characters,
+and the built_in function-call counts, 17639 in all, are:
+= -- 689
+> -- 569
+< -- 136
++ -- 208
+- -- 240
+* -- 1296
+:= -- 1204
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 75
+chr.to.int$ -- 34
+cite$ -- 10
+duplicate$ -- 1901
+empty$ -- 1897
+format.name$ -- 367
+if$ -- 3915
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 214
+num.names$ -- 234
+pop$ -- 1638
+preamble$ -- 1
+purify$ -- 95
+quote$ -- 0
+skip$ -- 979
+stack$ -- 0
+substring$ -- 510
+swap$ -- 720
+text.length$ -- 125
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 216
+warning$ -- 0
+while$ -- 140
+width$ -- 0
+write$ -- 207
