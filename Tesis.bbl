@@ -16,6 +16,385 @@
   {}
 \endgroup
 
+\entry{Gressler2013}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gre{\ss}ler}{G.}%
+     {Sabine}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gazs{\'{o}}}{G.}%
+     {Andr{\'{e}}}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Eigenverlag/Self}%
+  }
+  \strng{namehash}{GSGA1}
+  \strng{fullhash}{GSGA1}
+  \field{abstract}{%
+  Das NanoTrust-Team bietet an dieser Stelle in loser Folge sog. Dossiers an,
+  die in leicht-fasslicher, aber wissenschaftlich fundierter Weise auf ca. drei
+  bis sechs Seiten den aktuellen Wissensstand zu den aktuellen Themen der
+  aufkommmenden Nanodebatte zusammenfassen. In order to regulate nanomaterials
+  and to determine mandatory product labelling a generally accepted agreement
+  what the term {\&}{\#}x201c;nanomaterial{\&}{\#}x201d; means has to be
+  reached beforehand. The EU Parliament requires that a definition shall be
+  science-based and comprehensive. Furthermore, for regulatory measures in
+  individual sectors, it shall be unambiguous, flexible, easy and practical to
+  handle. During the past few years various institutions came up with
+  suggestions for a definition, leading to a recommendation of the EU
+  commission, which finally is being accepted into new and existing EU
+  legislation. Some provisions in this proposal are controversial and the
+  implementation into specific sectoral legislation constitutes a major
+  challenge.%
+  }
+  \verb{doi}
+  \verb 10.1553/ita-nt-039en
+  \endverb
+  \field{title}{{Definition of the term “nanomaterial”}}
+  \field{journaltitle}{ITA Nanotrust Dossiers}
+  \field{year}{2013}
+\endentry
+
+\entry{Novoselov2004}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Novoselov}{N.}%
+     {KS}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Geim}{G.}%
+     {AK}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morozov}{M.}%
+     {SV}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NK+1}
+  \strng{fullhash}{NKGAMS1}
+  \field{abstract}{%
+  We describe monocrystalline graphitic films, which are a few atoms thick but
+  are nonetheless stable under ambient conditions, metallic, and of remarkably
+  high quality. The films are found to be a two-dimensional semimetal with a
+  tiny overlap between valence and conductance bands, and they exhibit a strong
+  ambipolar electric field effect such that electrons and holes in
+  concentrations up to 10(13) per square centimeter and with room-temperature
+  mobilities of approximately 10,000 square centimeters per volt-second can be
+  induced by applying gate voltage.%
+  }
+  \verb{doi}
+  \verb 10.1126/science.1102896
+  \endverb
+  \field{issn}{1095-9203}
+  \field{pages}{666\bibrangedash 9}
+  \field{title}{{Electric field effect in atomically thin carbon films}}
+  \verb{url}
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/15499015$\backslash$nhttp://www.scie
+  \verb ncemag.org/content/306/5696/666.short
+  \endverb
+  \field{volume}{306}
+  \verb{file}
+  \verb :home/javier/Downloads/novoselov2004.pdf:pdf
+  \endverb
+  \field{journaltitle}{Science}
+  \field{year}{2004}
+\endentry
+
+\entry{Balandin2008}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Balandin}{B.}%
+     {Alexander~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghosh}{G.}%
+     {Suchismita}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bao}{B.}%
+     {Wenzhong}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calizo}{C.}%
+     {Irene}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Teweldebrhan}{T.}%
+     {Desalegne}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miao}{M.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lau}{L.}%
+     {Chun~Ning}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BAA+1}
+  \strng{fullhash}{BAAGSBWCITDMFLCN1}
+  \field{abstract}{%
+  We report the measurement of the thermal conductivity of a suspended
+  single-layer graphene. The room temperature values of the thermal
+  conductivity in the range ∼(4.84 (0.44) × 10 3 to (5.30 (0.48) × 10 3
+  W/mK were extracted for a single-layer graphene from the dependence of the
+  Raman G peak frequency on the excitation laser power and independently
+  measured G peak temperature coefficient. The extremely high value of the
+  thermal conductivity suggests that graphene can outperform carbon nanotubes
+  in heat conduction. The superb thermal conduction property of graphene is
+  beneficial for the proposed electronic applications and establishes graphene
+  as an excellent material for thermal management. Graphene, a recently
+  discovered form of carbon 1 that consists of only one plain layer of atoms
+  arranged in a honeycomb lattice, exhibits a number of intriguing properties.
+  1–8 The unusual energy dispersion relation, the low-lying electrons in
+  single-layer graphene behave like massless relativistic Dirac fermions, gives
+  rise to unique phenomena such as quantum spin Hall effect, 2,3 enhanced
+  Coulomb interaction,%
+  }
+  \verb{doi}
+  \verb 10.1021/nl0731872
+  \endverb
+  \verb{eprint}
+  \verb 0802.1367v1
+  \endverb
+  \field{isbn}{1530-6984}
+  \field{issn}{15306984}
+  \field{number}{3}
+  \field{pages}{902\bibrangedash 907}
+  \field{title}{{Superior thermal conductivity of single-layer graphene}}
+  \field{volume}{8}
+  \verb{file}
+  \verb :home/javier/data/Documents/papers tesis/ballandin.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nano Letters}
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
+\endentry
+
+\entry{Bolotin2008}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Bolotin}{B.}%
+     {K.~I.}{K.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sikes}{S.}%
+     {K.~J.}{K.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jiang}{J.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klima}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fudenberg}{F.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hone}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stormer}{S.}%
+     {H.~L.}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{A. Graphene,B. Nanofabrication,D. Electronic transport}
+  \strng{namehash}{BKI+1}
+  \strng{fullhash}{BKISKJJZKMFGHJKPSHL1}
+  \field{abstract}{%
+  We have achieved mobilities in excess of 200,000??cm2??V -1??s-1 at electron
+  densities of ???2 ??1011??cm-2 by suspending single layer graphene.
+  Suspension ???150??nm above a Si/SiO2 gate electrode and electrical contacts
+  to the graphene was achieved by a combination of electron beam lithography
+  and etching. The specimens were cleaned in situ by employing current-induced
+  heating, directly resulting in a significant improvement of electrical
+  transport. Concomitant with large mobility enhancement, the widths of the
+  characteristic Dirac peaks are reduced by a factor of 10 compared to
+  traditional, nonsuspended devices. This advance should allow for accessing
+  the intrinsic transport properties of graphene. ?? 2008 Elsevier Ltd. All
+  rights reserved.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.ssc.2008.02.024
+  \endverb
+  \verb{eprint}
+  \verb 0802.2389
+  \endverb
+  \field{isbn}{0038-1098}
+  \field{issn}{00381098}
+  \field{number}{9-10}
+  \field{pages}{351\bibrangedash 355}
+  \field{title}{{Ultrahigh electron mobility in suspended graphene}}
+  \field{volume}{146}
+  \verb{file}
+  \verb :home/javier/data/Documents/papers tesis/0802.2389.pdf:pdf
+  \endverb
+  \field{journaltitle}{Solid State Communications}
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
+\endentry
+
+\entry{Bonaccorso2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Bonaccorso}{B.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sun}{S.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hasan}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferrari}{F.}%
+     {A~C}{A.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{BF+1}
+  \strng{fullhash}{BFSZHTFAC1}
+  \field{abstract}{%
+  The richness of optical and electronic properties of graphene attracts
+  enormous interest. Graphene has high mobility and optical transparency, in
+  addition to flexibility, robustness and environmental stability. So far, the
+  main focus has been on fundamental physics and electronic devices. However,
+  we believe its true potential to be in photonics and optoelectronics, where
+  the combination of its unique optical and electronic properties can be fully
+  exploited, even in the absence of a bandgap, and the linear dispersion of the
+  Dirac electrons enables ultra-wide-band tunability. The rise of graphene in
+  photonics and optoelectronics is shown by several recent results, ranging
+  from solar cells and light emitting devices, to touch screens, photodetectors
+  and ultrafast lasers. Here we review the state of the art in this emerging
+  field.%
+  }
+  \verb{doi}
+  \verb 10.1038/nphoton.2010.186
+  \endverb
+  \verb{eprint}
+  \verb 1006.4854
+  \endverb
+  \field{isbn}{1749-4885}
+  \field{issn}{1749-4885}
+  \field{number}{9}
+  \field{pages}{611\bibrangedash 622}
+  \field{title}{{Graphene Photonics and Optoelectronics}}
+  \verb{url}
+  \verb http://arxiv.org/abs/1006.4854
+  \endverb
+  \field{volume}{4}
+  \verb{file}
+  \verb :home/javier/data/Documents/papers tesis/nphoton.2010.186.pdf:pdf
+  \endverb
+  \field{journaltitle}{Nature Photonics}
+  \field{eprinttype}{arXiv}
+  \field{year}{2010}
+\endentry
+
+\entry{Lee2008}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Lee}{L.}%
+     {Changgu}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wei}{W.}%
+     {Xiaoding}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kysar}{K.}%
+     {Jeffrey~W.}{J.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hone}{H.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {=}{.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LC+1}
+  \strng{fullhash}{LCWXKJWHJ1}
+  \field{abstract}{%
+  We measured the elastic properties and intrinsic breaking strength of
+  free-standing monolayer graphene membranes by nanoindentation in an atomic
+  force microscope. The force-displacement behavior is interpreted within a
+  framework of nonlinear elastic stress-strain response, and yields second- and
+  third-order elastic stiffnesses of 340 newtons per meter (N m−1) and −690
+  Nm−1, respectively. The breaking strength is 42 N m−1 and represents the
+  intrinsic strength of a defect-free sheet. These quantities correspond to a
+  Young's modulus of E = 1.0 terapascals, third-order elastic stiffness of D =
+  –2.0 terapascals, and intrinsic strength of sint = 130 gigapascals for bulk
+  graphite. These experiments establish graphene as the strongest material ever
+  measured, and show that atomically perfect nanoscale materials can be
+  mechanically tested to deformations well beyond the linear regime.%
+  }
+  \verb{doi}
+  \verb 10.1126/science.1157996
+  \endverb
+  \verb{eprint}
+  \verb 47749150628
+  \endverb
+  \field{isbn}{0036-8075}
+  \field{issn}{0036-8075}
+  \field{number}{18 July 2008}
+  \field{pages}{385\bibrangedash 388}
+  \field{title}{{Measurement of the Elastic Properties and Intrinsic Strength
+  of Monolayer Graphene}}
+  \field{volume}{321}
+  \verb{file}
+  \verb :home/javier/data/Documents/papers tesis/Lee{\_}C{\_}Wei{\_}X{\_}D{\_}K
+  \verb ysar{\_}J{\_}W{\_}Hone{\_}J{\_}Measurement{\_}of{\_}the{\_}.pdf:pdf
+  \endverb
+  \field{journaltitle}{Science}
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
+\endentry
+
 \entry{Thounthong2009}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -24,7 +403,7 @@
      {}{}%
      {}{}}%
     {{}%
-     {Ra{\"{e}}l}{R.}%
+     {Ra??l}{R.}%
      {Stephane}{S.}%
      {}{}%
      {}{}}%
@@ -115,6 +494,106 @@
   \endverb
   \field{journaltitle}{Electrochimica Acta}
   \field{year}{1971}
+\endentry
+
+\entry{Hummers1958}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hummers}{H.}%
+     {William~S.}{W.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Offeman}{O.}%
+     {Richard~E.}{R.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HWSORE1}
+  \strng{fullhash}{HWSORE1}
+  \field{abstract}{%
+  The preparation of graphitic oxide by methods described in the literature is
+  time consuming and hazardous. A rapid, relatively safe method has been
+  developed for preparing graphitic oxide from graphite in what is essentially
+  an anhydrous mixture of sulfuric acid, sodium nitrate and potassium
+  permanganate%
+  }
+  \verb{doi}
+  \verb 10.1021/ja01539a017
+  \endverb
+  \field{isbn}{0002-7863}
+  \field{issn}{0002-7863}
+  \field{number}{6}
+  \field{pages}{1339\bibrangedash 1339}
+  \field{title}{{Preparation of Graphitic Oxide}}
+  \verb{url}
+  \verb http://pubs.acs.org/doi/abs/10.1021/ja01539a017
+  \endverb
+  \field{volume}{80}
+  \verb{file}
+  \verb :home/javier/data/Documents/Laboratorio/Docs/Graphene/Preparation of Gr
+  \verb aphitic Oxide.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of the American Chemical Society}
+  \field{year}{1958}
+\endentry
+
+\entry{Abdolhosseinzadeh2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Abdolhosseinzadeh}{A.}%
+     {Sina}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Asgharzadeh}{A.}%
+     {Hamed}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Seop Kim}}{S.}%
+     {Hyoung}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{AS+1}
+  \strng{fullhash}{ASAHSH1}
+  \field{abstract}{%
+  Exfoliation of graphite is a promising approach for large-scale production of
+  graphene. Oxidation of graphite effectively facilitates the exfoliation
+  process, yet necessitates several lengthy washing and reduction processes to
+  convert the exfoliated graphite oxide (graphene oxide, GO) to reduced
+  graphene oxide (RGO). Although filtration, centrifugation and dialysis have
+  been frequently used in the washing stage, none of them is favorable for
+  large-scale production. Here, we report the synthesis of RGO by
+  sonication-assisted oxidation of graphite in a solution of potassium
+  permanganate and concentrated sulfuric acid followed by reduction with
+  ascorbic acid prior to any washing processes. GO loses its hydrophilicity
+  during the reduction stage which facilitates the washing step and reduces the
+  time required for production of RGO. Furthermore, simultaneous oxidation and
+  exfoliation significantly enhance the yield of few-layer GO. We hope this
+  one-pot and fully-scalable protocol paves the road toward out of lab
+  applications of graphene.%
+  }
+  \verb{doi}
+  \verb 10.1038/srep10160
+  \endverb
+  \field{issn}{2045-2322}
+  \field{pages}{10160}
+  \field{title}{{Fast and fully-scalable synthesis of reduced graphene oxide}}
+  \verb{url}
+  \verb http://www.nature.com/doifinder/10.1038/srep10160
+  \endverb
+  \field{volume}{5}
+  \verb{file}
+  \verb :home/javier/data/Documents/Laboratorio/Docs/Graphene/Fast and fully-sc
+  \verb alable synthesis of reduced graphene oxide.pdf:pdf
+  \endverb
+  \field{journaltitle}{Scientific Reports}
+  \field{year}{2015}
 \endentry
 
 \lossort

@@ -5,6 +5,7 @@ Release version: 3.71 (18 mar 2013)
 The 8-bit codepage and sorting file: 88591lat.csf
 The top-level auxiliary file: Tesis.aux
 The style file: biblatex.bst
+A level-1 auxilliary file: Resumen.aux
 A level-1 auxilliary file: Introduccion.aux
 A level-1 auxilliary file: Marco_teorico.aux
 A level-1 auxilliary file: Cuerpo_tesis.aux
@@ -31,9 +32,9 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 
 Here's how much of BibTeX's memory you used:
- Cites:                 3 out of 750
- Fields:              289 out of 5000
- Hash table:        34714 out of 35307
- Strings:            1159 out of 35307
- Free string pool:  10586 out of 65000
+ Cites:                11 out of 750
+ Fields:             1401 out of 5000
+ Hash table:        34705 out of 35307
+ Strings:            1263 out of 35307
+ Free string pool:  19800 out of 65000
  Wizard functions:   6047 out of 9000

@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{usachtesis}[2016/07/07 USACH thesis class]
 
-\LoadClass[12pt]{book}
+\LoadClass[12pt,oneside]{book}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[spanish]{babel}
 \RequirePackage{graphics}
