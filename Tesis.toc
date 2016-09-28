@@ -73,5 +73,3 @@
 \contentsline {part}{III\hspace {1em}Conclusiones}{18}{part.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Anexo}{19}{chapter*.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{21}{chapter*.12}
