@@ -3,7 +3,7 @@
 
 \LoadClass[12pt,oneside]{book}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage[spanish]{babel}
+\RequirePackage{babel-spanish}
 \RequirePackage{graphics}
 \RequirePackage{pst-all,pstricks-add,pst-math}
 \RequirePackage{tikz}
