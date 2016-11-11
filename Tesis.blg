@@ -20,34 +20,34 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Tesis-blx.bib
-Database file #2: ../bibtexs/Nanosintesis.bib
+Database file #2: Nanosintesis.bib
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 6 entries,
             6047 wiz_defined-function locations,
-            1198 strings with 14288 characters,
-and the built_in function-call counts, 17639 in all, are:
+            1198 strings with 13897 characters,
+and the built_in function-call counts, 17549 in all, are:
 = -- 689
 > -- 569
 < -- 136
 + -- 208
-- -- 240
-* -- 1296
-:= -- 1204
+- -- 228
+* -- 1284
+:= -- 1198
 add.period$ -- 0
 call.type$ -- 6
 change.case$ -- 75
 chr.to.int$ -- 34
 cite$ -- 10
-duplicate$ -- 1901
-empty$ -- 1897
+duplicate$ -- 1895
+empty$ -- 1885
 format.name$ -- 367
-if$ -- 3915
+if$ -- 3903
 int.to.chr$ -- 0
 int.to.str$ -- 12
 missing$ -- 0
-newline$ -- 214
+newline$ -- 208
 num.names$ -- 234
 pop$ -- 1638
 preamble$ -- 1
@@ -55,8 +55,8 @@ purify$ -- 95
 quote$ -- 0
 skip$ -- 979
 stack$ -- 0
-substring$ -- 510
-swap$ -- 720
+substring$ -- 498
+swap$ -- 714
 text.length$ -- 125
 text.prefix$ -- 0
 top$ -- 1
@@ -64,4 +64,4 @@ type$ -- 216
 warning$ -- 0
 while$ -- 140
 width$ -- 0
-write$ -- 207
+write$ -- 201
