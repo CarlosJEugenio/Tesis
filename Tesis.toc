@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Corriente de fuga (\emph {leakage current})}{11}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador?}{12}{section.3.3}
+\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador super?}{12}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{12}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
@@ -72,4 +72,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Conclusiones}{19}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexo}{20}{chapter*.12}
+\contentsline {chapter}{Anexo}{20}{chapter*.13}
