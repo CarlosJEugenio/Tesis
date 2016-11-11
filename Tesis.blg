@@ -24,44 +24,44 @@ Database file #2: Nanosintesis.bib
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 6 entries,
+You've used 7 entries,
             6047 wiz_defined-function locations,
-            1198 strings with 14277 characters,
-and the built_in function-call counts, 17639 in all, are:
-= -- 689
-> -- 569
-< -- 136
-+ -- 208
-- -- 240
-* -- 1296
-:= -- 1204
+            1212 strings with 16201 characters,
+and the built_in function-call counts, 20666 in all, are:
+= -- 783
+> -- 668
+< -- 157
++ -- 235
+- -- 286
+* -- 1552
+:= -- 1378
 add.period$ -- 0
-call.type$ -- 6
-change.case$ -- 75
+call.type$ -- 7
+change.case$ -- 82
 chr.to.int$ -- 34
-cite$ -- 10
-duplicate$ -- 1901
-empty$ -- 1897
-format.name$ -- 367
-if$ -- 3915
+cite$ -- 12
+duplicate$ -- 2251
+empty$ -- 2243
+format.name$ -- 440
+if$ -- 4579
 int.to.chr$ -- 0
-int.to.str$ -- 12
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 214
-num.names$ -- 234
-pop$ -- 1638
+newline$ -- 251
+num.names$ -- 272
+pop$ -- 1955
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 106
 quote$ -- 0
-skip$ -- 979
+skip$ -- 1141
 stack$ -- 0
-substring$ -- 510
-swap$ -- 720
-text.length$ -- 125
+substring$ -- 554
+swap$ -- 861
+text.length$ -- 148
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 216
+type$ -- 254
 warning$ -- 0
-while$ -- 140
+while$ -- 158
 width$ -- 0
-write$ -- 207
+write$ -- 243

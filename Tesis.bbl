@@ -164,6 +164,64 @@
   \field{year}{1971}
 \endentry
 
+\entry{Frackowiak2001}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Frackowiak}{F.}%
+     {Elzbieta}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {B{\'{e}}guin}{B.}%
+     {Fran{\c{c}}ois}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{A. Activated carbon, Carbon aerogel, Carbon nanotu,D. Electrochemical
+  properties}
+  \strng{namehash}{FEBF1}
+  \strng{fullhash}{FEBF1}
+  \field{abstract}{%
+  The electrochemical storage of energy in various carbon materials (activated
+  carbons, aerogels, xerogels, nanostructures) used as capacitor electrodes is
+  considered. Different types of capacitors with a pure electrostatic
+  attraction and/or pseudocapacitance effects are presented. Their performance
+  in various electrolytes is studied taking into account the different range of
+  operating voltage (1 V for aqueous and 3 V for aprotic solutions). Trials are
+  undertaken for estimating the role of micro and mesopores during charging the
+  electrical double layer in both kinds of electrolytic solutions for which the
+  electrical conductivity and the size of solvated ions are different. The
+  effect of pseudocapacitance for maximising the total capacitance is
+  especially documented. Carbons chemically modified by a strong oxidation
+  treatment represent a very well defined region of pseudocapacitance
+  properties due to the Faradaic redox reactions of their rich surface
+  functionality. Conducting polymers (polyaniline, polypyrrole, polythiophene
+  derivatives) and oxidised metallic particles (Ru, Mn, Co,...) deposited on
+  the carbons also participate in the enhancement of the final capacity through
+  fast faradaic pseudocapacitance effects. Evaluation of capacitor performance
+  by different techniques, e.g. voltammetry, impedance spectroscopy,
+  charge/discharge characteristics is also discussed. {\textcopyright} 2001
+  Elsevier Science Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0008-6223(00)00183-4
+  \endverb
+  \field{isbn}{0008-6223}
+  \field{issn}{00086223}
+  \field{number}{6}
+  \field{pages}{937\bibrangedash 950}
+  \field{title}{{Carbon materials for the electrochemical storage of energy in
+  capacitors}}
+  \field{volume}{39}
+  \verb{file}
+  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
+  \verb nloaded/Frackowiak, B{\'{e}}guin - 2001 - Carbon materials for the elec
+  \verb trochemical storage of energy in capacitors.pdf:pdf
+  \endverb
+  \field{journaltitle}{Carbon}
+  \field{year}{2001}
+\endentry
+
 \entry{Hummers1958}{article}{}
   \name{author}{2}{}{%
     {{}%
