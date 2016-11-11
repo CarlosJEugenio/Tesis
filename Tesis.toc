@@ -46,32 +46,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{12}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Mediciones en supercondensadores}{12}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Voltametr\IeC {\'\i }a c\IeC {\'\i }clica}{12}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Espectroscop\IeC {\'\i }a de impedacia electroqu\IeC {\'\i }mica}{12}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Carga y descarga c\IeC {\'\i }clica}{12}{subsection.3.4.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{II\hspace {1em}Cuerpo de la tesis}{14}{part.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}S\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Procedimiento experimental}{15}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Resultados}{15}{section.4.2}
+\contentsline {section}{\numberline {4.2}Resultados}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{16}{chapter.5}
+\contentsline {chapter}{\numberline {5}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Materiales}{16}{section.5.1}
+\contentsline {section}{\numberline {5.1}Materiales}{17}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Procedimiento}{16}{section.5.2}
+\contentsline {section}{\numberline {5.2}Procedimiento}{17}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Resultados}{16}{section.5.3}
+\contentsline {section}{\numberline {5.3}Resultados}{17}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{17}{chapter.6}
+\contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{18}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Armado del dispositivo}{17}{section.6.1}
+\contentsline {section}{\numberline {6.1}Armado del dispositivo}{18}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Celda de prueba de supercondensador}{19}{section.6.2}
+\contentsline {section}{\numberline {6.2}Celda de prueba de supercondensador}{20}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Resultados}{19}{section.6.3}
+\contentsline {section}{\numberline {6.3}Resultados}{20}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Conclusiones}{20}{part.3}
+\contentsline {part}{III\hspace {1em}Conclusiones}{21}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Anexo}{21}{chapter*.13}
+\contentsline {chapter}{Anexo}{22}{chapter*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{23}{chapter*.13}
+\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{24}{chapter*.13}
