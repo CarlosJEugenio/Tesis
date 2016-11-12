@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>Tesis.aux</file>
@@ -51,10 +51,8 @@
       <file>Tesis.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
-      <file>biblatex.def</file>
+      <file>biblatex_legacy.def</file>
       <file>nature.bbx</file>
       <file>numeric-comp.bbx</file>
       <file>numeric.bbx</file>
@@ -64,7 +62,7 @@
       <file>spanish.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
@@ -85,6 +83,7 @@
       <file>Tesis-blx.bib</file>
     </requires>
     <requires type="editable">
+      <file>Nanosintesis.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

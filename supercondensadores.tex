@@ -37,15 +37,15 @@ Para corrientes constantes, el voltaje varía linealmente como en la carga y des
 \end{figure}
 
 \section{El condensador real\index{condensador real}}
-Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de la naturaleza de su construcción y por su puesto, del propósito que fue diseñado.
+Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron, pensando en su propósito.
 
-\subsection{Breakdown voltage}
+\subsection{Breakdown voltage\index{breakdown voltage}}
 Los condensadores convencionales construidos con materiales dieléctricos están sujetos a un voltaje máximo de operación determinado por la tensión de ruptura (\textit{Breakdown voltage})\index{tensión de ruptura, \textit{breakdown voltage}}, voltaje al cual se pierden las propiedades dieléctricas del material ocasionando cortocircuito al interior del dispositivo, determinado por la fuerza dieléctrica del material y el espesor de este. En los condensadores electrolíticos la tensión de ruptura es determinada por otros mecanismos\cite{Yahalom1971}. En lo que respecta a los supercondensadores, el voltaje máximo de carga depende fundamentalmente de electrolíto usado, principalmente por las reacciones que ocurren a ciertos potenciales, este tema será abordado con más detalle en la sección correspondiente.
 
-\subsection{Circuito equivalente}
+\subsection{Circuito equivalente\index{circuito equivalente}}
 El comportamiento de los condensadores reales son modeladas por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
 
-\subsection{Resistencia en serie equivalente (ESR)}
+\subsection{Resistencia en serie equivalente (ESR)\index{resistencia en serie equivalente}}
 Las imperfecciones en la construcción de los electrodos, y la naturaleza de los materiales utilizados (e.g. resistencia no cero), disipan energía durante la carga y descarga como si se tratase de una resistencia en serie al condensador, esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), y disminuye la eficiencia de éste.
 
 \begin{figure}[h!]
@@ -56,11 +56,27 @@ Las imperfecciones en la construcción de los electrodos, y la naturaleza de los
 	\label{fig:plot:charge-discharge_esr}
 \end{figure}
 
-\subsection{Corriente de fuga (\emph{leakage current})}
+\subsection{Corriente de fuga (\emph{leakage current})\index{corriente de fuga}}
 Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos, esta corriente 
 
-\section{¿Qué hace a un supercondensador?}
+\section{¿Qué hace a un supercondensador super?\index{supercondensador}}
+La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, como comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios) para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios. Esta característica le otorga el grado de super a los supercondensadores.
 
-\subsection{Doble capa electrostática de Helmholtz}
+\subsection{Doble capa electrostática de Helmholtz\index{doble capa de Helmholtz}}
+La gran densidad de energía de un supercondensador tiene que surgir de algún mecanismo de almacenamiento de cargas, a diferencia de las baterías, este mecanismo es puramente físico, pues no hay reacciones químicas en los electrodos, las cargas son separadas en lo que Helmholtz llamó \textit{Doble capa electrónica}.\cite{Frackowiak2001}
 
-\subsection{Pseudocapacitancia}
+\begin{figure}[h!]
+	\centering
+	\fbox{
+		\includegraphics[width=0.7\textwidth]{edlc_schem.png}
+		}
+	\caption{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo.}
+	\label{fig:edlc}
+\end{figure}
+\subsection{Pseudocapacitancia\index{pseudocapacitancia}}
+
+
+\section{Mediciones en supercondensadores}
+\subsection{Voltametría cíclica}
+\subsection{Espectroscopía de impedacia electroquímica}
+\subsection{Carga y descarga cíclica}
