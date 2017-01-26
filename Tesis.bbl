@@ -1,0 +1,352 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{Gressler2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GS}{%
+         family={Gre{\ss}ler},
+         familyi={G\bibinitperiod},
+         given={Sabine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gazs{\'{o}}},
+         familyi={G\bibinitperiod},
+         given={Andr{\'{e}}},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Eigenverlag/Self}%
+    }
+    \strng{namehash}{GSGA1}
+    \strng{fullhash}{GSGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Das NanoTrust-Team bietet an dieser Stelle in loser Folge sog. Dossiers an,
+  die in leicht-fasslicher, aber wissenschaftlich fundierter Weise auf ca. drei
+  bis sechs Seiten den aktuellen Wissensstand zu den aktuellen Themen der
+  aufkommmenden Nanodebatte zusammenfassen. In order to regulate nanomaterials
+  and to determine mandatory product labelling a generally accepted agreement
+  what the term {\&}{\#}x201c;nanomaterial{\&}{\#}x201d; means has to be
+  reached beforehand. The EU Parliament requires that a definition shall be
+  science-based and comprehensive. Furthermore, for regulatory measures in
+  individual sectors, it shall be unambiguous, flexible, easy and practical to
+  handle. During the past few years various institutions came up with
+  suggestions for a definition, leading to a recommendation of the EU
+  commission, which finally is being accepted into new and existing EU
+  legislation. Some provisions in this proposal are controversial and the
+  implementation into specific sectoral legislation constitutes a major
+  challenge.%
+    }
+    \verb{doi}
+    \verb 10.1553/ita-nt-039en
+    \endverb
+    \field{title}{{Definition of the term “nanomaterial”}}
+    \field{journaltitle}{ITA Nanotrust Dossiers}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Thounthong2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TP}{%
+         family={Thounthong},
+         familyi={T\bibinitperiod},
+         given={Phatiphat},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ra??l},
+         familyi={R\bibinitperiod},
+         given={Stephane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Davat},
+         familyi={D\bibinitperiod},
+         given={Bernard},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Battery,Converters,Current control,Electric vehicles,Fuel
+  cells,Supercapacitor}
+    \strng{namehash}{TP+1}
+    \strng{fullhash}{TPRSDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This paper proposes a perfect energy source supplied by a polymer
+  electrolyte membrane fuel cell (PEMFC) as a main power source and storage
+  devices: battery and supercapacitor, for modern distributed generation
+  system, particularly for future fuel cell vehicle applications. The energy in
+  hybrid system is balanced by the dc bus voltage regulation. A supercapacitor
+  module, as a high dynamic and high power density device, functions for
+  supplying energy to regulate a dc bus voltage. A battery module, as a high
+  energy density device, operates for supplying energy to a supercapacitor bank
+  to keep it charged. A FC, as a slowest dynamic source in this system,
+  functions to supply energy to a battery bank in order to keep it charged.
+  Therefore, there are three voltage control loops: dc bus voltage regulated by
+  a supercapacitor bank, supercapacitor voltage regulated by a battery bank,
+  and battery voltage regulated by a FC. To authenticate the proposed control
+  algorithm, a hardware system in our laboratory is realized by analog circuits
+  and numerical calculation by dSPACE. Experimental results with small-scale
+  devices (a PEMFC: 500-W, 50-A; a battery bank: 68-Ah, 24-V; and a
+  supercapacitor bank: 292-F, 30-V, 500-A) corroborate the excellent control
+  principle during motor drive cycle. ?? 2008 Elsevier B.V. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jpowsour.2008.12.120
+    \endverb
+    \field{isbn}{0378-7753}
+    \field{issn}{03787753}
+    \field{number}{1}
+    \field{pages}{376\bibrangedash 385}
+    \field{title}{{Energy management of fuel cell/battery/supercapacitor hybrid
+  power source for vehicle applications}}
+    \field{volume}{193}
+    \verb{file}
+    \verb :home/javier/Documents/Mendeley/Thounthong, Ral, Davat - 2009 - Energ
+    \verb y management of fuel cellbatterysupercapacitor hybrid power source fo
+    \verb r vehicle applications.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Power Sources}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Yahalom1971}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YJ}{%
+         family={Yahalom},
+         familyi={Y\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zahavi},
+         familyi={Z\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YJZJ1}
+    \strng{fullhash}{YJZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Earlier hypothese for electrolytic breakdown mechanisms on Al, Ti and Ta
+  are criticised in the light of further experiments. These included film
+  temperature-rise measurements, furnace crystallization of films, transmission
+  electron microscopy of films after breakdown and crystallization and
+  multistage anodizing. It is concluded that breakdown is controlled at the
+  film/electrolyte-solution interface. ?? 1971.%
+    }
+    \verb{doi}
+    \verb 10.1016/0013-4686(71)85169-1
+    \endverb
+    \field{isbn}{0013-4686}
+    \field{issn}{00134686}
+    \field{number}{5}
+    \field{pages}{603\bibrangedash 607}
+    \field{title}{{Experimental evaluation of some electrolytic breakdown
+  hypotheses}}
+    \field{volume}{16}
+    \verb{file}
+    \verb :home/javier/Documents/Mendeley/Yahalom, Zahavi - 1971 - Experimental
+    \verb  evaluation of some electrolytic breakdown hypotheses.pdf:pdf
+    \endverb
+    \field{journaltitle}{Electrochimica Acta}
+    \field{year}{1971}
+  \endentry
+
+  \entry{Frackowiak2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FE}{%
+         family={Frackowiak},
+         familyi={F\bibinitperiod},
+         given={Elzbieta},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={B{\'{e}}guin},
+         familyi={B\bibinitperiod},
+         given={Fran{\c{c}}ois},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{A. Activated carbon, Carbon aerogel, Carbon nanotu,D. Electrochemical
+  properties}
+    \strng{namehash}{FEBF1}
+    \strng{fullhash}{FEBF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The electrochemical storage of energy in various carbon materials
+  (activated carbons, aerogels, xerogels, nanostructures) used as capacitor
+  electrodes is considered. Different types of capacitors with a pure
+  electrostatic attraction and/or pseudocapacitance effects are presented.
+  Their performance in various electrolytes is studied taking into account the
+  different range of operating voltage (1 V for aqueous and 3 V for aprotic
+  solutions). Trials are undertaken for estimating the role of micro and
+  mesopores during charging the electrical double layer in both kinds of
+  electrolytic solutions for which the electrical conductivity and the size of
+  solvated ions are different. The effect of pseudocapacitance for maximising
+  the total capacitance is especially documented. Carbons chemically modified
+  by a strong oxidation treatment represent a very well defined region of
+  pseudocapacitance properties due to the Faradaic redox reactions of their
+  rich surface functionality. Conducting polymers (polyaniline, polypyrrole,
+  polythiophene derivatives) and oxidised metallic particles (Ru, Mn, Co,...)
+  deposited on the carbons also participate in the enhancement of the final
+  capacity through fast faradaic pseudocapacitance effects. Evaluation of
+  capacitor performance by different techniques, e.g. voltammetry, impedance
+  spectroscopy, charge/discharge characteristics is also discussed.
+  {\textcopyright} 2001 Elsevier Science Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0008-6223(00)00183-4
+    \endverb
+    \field{isbn}{0008-6223}
+    \field{issn}{00086223}
+    \field{number}{6}
+    \field{pages}{937\bibrangedash 950}
+    \field{title}{{Carbon materials for the electrochemical storage of energy
+  in capacitors}}
+    \field{volume}{39}
+    \verb{file}
+    \verb :home/javier/Documents/Mendeley/Frackowiak, B{\'{e}}guin - 2001 - Car
+    \verb bon materials for the electrochemical storage of energy in capacitors
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Carbon}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Hummers1958}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HWS}{%
+         family={Hummers},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ORE}{%
+         family={Offeman},
+         familyi={O\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HWSORE1}
+    \strng{fullhash}{HWSORE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The preparation of graphitic oxide by methods described in the literature
+  is time consuming and hazardous. A rapid, relatively safe method has been
+  developed for preparing graphitic oxide from graphite in what is essentially
+  an anhydrous mixture of sulfuric acid, sodium nitrate and potassium
+  permanganate%
+    }
+    \verb{doi}
+    \verb 10.1021/ja01539a017
+    \endverb
+    \field{isbn}{0002-7863}
+    \field{issn}{0002-7863}
+    \field{number}{6}
+    \field{pages}{1339\bibrangedash 1339}
+    \field{title}{{Preparation of Graphitic Oxide}}
+    \verb{url}
+    \verb http://pubs.acs.org/doi/abs/10.1021/ja01539a017
+    \endverb
+    \field{volume}{80}
+    \verb{file}
+    \verb :home/javier/Documents/Mendeley/Hummers, Offeman - 1958 - Preparation
+    \verb  of Graphitic Oxide.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of the American Chemical Society}
+    \field{year}{1958}
+  \endentry
+
+  \entry{Abdolhosseinzadeh2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AS}{%
+         family={Abdolhosseinzadeh},
+         familyi={A\bibinitperiod},
+         given={Sina},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Asgharzadeh},
+         familyi={A\bibinitperiod},
+         given={Hamed},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={{Seop Kim}},
+         familyi={S\bibinitperiod},
+         given={Hyoung},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASAHSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Exfoliation of graphite is a promising approach for large-scale production
+  of graphene. Oxidation of graphite effectively facilitates the exfoliation
+  process, yet necessitates several lengthy washing and reduction processes to
+  convert the exfoliated graphite oxide (graphene oxide, GO) to reduced
+  graphene oxide (RGO). Although filtration, centrifugation and dialysis have
+  been frequently used in the washing stage, none of them is favorable for
+  large-scale production. Here, we report the synthesis of RGO by
+  sonication-assisted oxidation of graphite in a solution of potassium
+  permanganate and concentrated sulfuric acid followed by reduction with
+  ascorbic acid prior to any washing processes. GO loses its hydrophilicity
+  during the reduction stage which facilitates the washing step and reduces the
+  time required for production of RGO. Furthermore, simultaneous oxidation and
+  exfoliation significantly enhance the yield of few-layer GO. We hope this
+  one-pot and fully-scalable protocol paves the road toward out of lab
+  applications of graphene.%
+    }
+    \verb{doi}
+    \verb 10.1038/srep10160
+    \endverb
+    \field{issn}{2045-2322}
+    \field{pages}{10160}
+    \field{title}{{Fast and fully-scalable synthesis of reduced graphene
+  oxide}}
+    \verb{url}
+    \verb http://www.nature.com/doifinder/10.1038/srep10160
+    \endverb
+    \field{volume}{5}
+    \verb{file}
+    \verb :home/javier/Documents/Mendeley/Abdolhosseinzadeh, Asgharzadeh, Seop
+    \verb Kim - 2015 - Fast and fully-scalable synthesis of reduced graphene ox
+    \verb ide.pdf:pdf
+    \endverb
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2015}
+  \endentry
+\endsortlist
+\endinput

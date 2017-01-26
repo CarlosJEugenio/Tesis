@@ -1,27 +1,70 @@
-This is 8-bit Big BibTeX version 0.99d
-Implementation:  C for Unix
-Release version: 3.71 (18 mar 2013)
-
-The 8-bit codepage and sorting file: 88591lat.csf
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tesis.aux
-I couldn't open style file biblatex.bst
----line 23 of file Tesis.aux
- : \bibstyle{biblatex
- :                   }
-I'm skipping whatever remains of this command
-A level-1 auxilliary file: Resumen.aux
-A level-1 auxilliary file: Introduccion.aux
-A level-1 auxilliary file: Marco_teorico.aux
-A level-1 auxilliary file: Cuerpo_tesis.aux
-A level-1 auxilliary file: Conclusiones.aux
-A level-1 auxilliary file: Anexo.aux
-I found no style file---while reading file Tesis.aux
-
-Here's how much of BibTeX's memory you used:
- Cites:                 7 out of 750
- Fields:                0 out of 5000
- Hash table:       100000 out of 100000
- Strings:             103 out of 100000
- Free string pool:    763 out of 65000
- Wizard functions:      0 out of 3000
-(There were 2 error messages)
+The style file: biblatex.bst
+A level-1 auxiliary file: Resumen.aux
+A level-1 auxiliary file: Introduccion.aux
+A level-1 auxiliary file: Marco_teorico.aux
+A level-1 auxiliary file: Cuerpo_tesis.aux
+A level-1 auxiliary file: Conclusiones.aux
+A level-1 auxiliary file: Anexo.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Tesis-blx.bib
+Database file #2: Nanosintesis.bib
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 7 entries,
+            6256 wiz_defined-function locations,
+            1258 strings with 16413 characters,
+and the built_in function-call counts, 34587 in all, are:
+= -- 2292
+> -- 662
+< -- 157
++ -- 795
+- -- 278
+* -- 2540
+:= -- 3476
+add.period$ -- 0
+call.type$ -- 7
+change.case$ -- 82
+chr.to.int$ -- 30
+cite$ -- 12
+duplicate$ -- 3625
+empty$ -- 3346
+format.name$ -- 426
+if$ -- 7097
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 0
+newline$ -- 272
+num.names$ -- 272
+pop$ -- 2075
+preamble$ -- 1
+purify$ -- 120
+quote$ -- 0
+skip$ -- 1064
+stack$ -- 0
+substring$ -- 3866
+swap$ -- 1006
+text.length$ -- 146
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 226
+warning$ -- 0
+while$ -- 433
+width$ -- 0
+write$ -- 266
