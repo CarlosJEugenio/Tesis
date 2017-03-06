@@ -51,10 +51,8 @@
       <file>Tesis.bbl</file>
     </requires>
     <requires type="static">
-      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
-      <file>blx-bibtex.def</file>
-      <file>biblatex.def</file>
+      <file>biblatex_legacy.def</file>
       <file>nature.bbx</file>
       <file>numeric-comp.bbx</file>
       <file>numeric.bbx</file>

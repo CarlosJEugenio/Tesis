@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Resumen.aux
@@ -8,9 +8,8 @@ A level-1 auxiliary file: Marco_teorico.aux
 A level-1 auxiliary file: Cuerpo_tesis.aux
 A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Anexo.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -20,51 +19,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Tesis-blx.bib
 Database file #2: Nanosintesis.bib
 Biblatex version: 3.3
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 7 entries,
-            6256 wiz_defined-function locations,
-            1258 strings with 16413 characters,
-and the built_in function-call counts, 34587 in all, are:
-= -- 2292
-> -- 662
-< -- 157
-+ -- 795
-- -- 278
-* -- 2540
-:= -- 3476
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 11 entries,
+            6047 wiz_defined-function locations,
+            1269 strings with 19260 characters,
+and the built_in function-call counts, 33970 in all, are:
+= -- 1278
+> -- 1065
+< -- 254
++ -- 364
+- -- 458
+* -- 2662
+:= -- 2120
 add.period$ -- 0
-call.type$ -- 7
-change.case$ -- 82
-chr.to.int$ -- 30
-cite$ -- 12
-duplicate$ -- 3625
-empty$ -- 3346
-format.name$ -- 426
-if$ -- 7097
+call.type$ -- 11
+change.case$ -- 136
+chr.to.int$ -- 35
+cite$ -- 20
+duplicate$ -- 3817
+empty$ -- 3735
+format.name$ -- 745
+if$ -- 7478
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 272
-num.names$ -- 272
-pop$ -- 2075
+newline$ -- 425
+num.names$ -- 452
+pop$ -- 3211
 preamble$ -- 1
-purify$ -- 120
+purify$ -- 177
 quote$ -- 0
-skip$ -- 1064
+skip$ -- 1858
 stack$ -- 0
-substring$ -- 3866
-swap$ -- 1006
-text.length$ -- 146
-text.prefix$ -- 0
+substring$ -- 860
+swap$ -- 1496
+text.length$ -- 233
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 226
+type$ -- 406
 warning$ -- 0
-while$ -- 433
+while$ -- 234
 width$ -- 0
-write$ -- 266
+write$ -- 413
