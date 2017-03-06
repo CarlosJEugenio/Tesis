@@ -234,25 +234,85 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {American Physical Society}%
-  }
   \strng{namehash}{WPR1}
   \strng{fullhash}{WPR1}
+  \field{abstract}{%
+  The structure of the electronic energy bands and Brillouin zones for graphite
+  is developed using the "tight binding" approximation. Graphite is found to be
+  a semi-conductor with zero activation energy, i.e., there are no free
+  electrons at zero temperature, but they are created at higher temperatures by
+  excitation to a band contiguous to the highest one which is normally filled.
+  The electrical conductivity is treated with assumptions about the mean free
+  path. It is found to be about 100 times as great parallel to as across
+  crystal planes. A large and anisotropic diamagnetic susceptibility is
+  predicted for the conduction electrons; this is greatest for fields across
+  the layers. The volume optical absorption is accounted for.%
+  }
   \verb{doi}
   \verb 10.1103/PhysRev.71.622
   \endverb
-  \field{issn}{0031-899X}
+  \verb{eprint}
+  \verb arXiv:1011.1669v3
+  \endverb
+  \field{isbn}{0031-899X}
+  \field{issn}{0031899X}
   \field{number}{9}
   \field{pages}{622\bibrangedash 634}
-  \field{title}{{The Band Theory of Graphite}}
-  \verb{url}
-  \verb http://link.aps.org/doi/10.1103/PhysRev.71.622
-  \endverb
+  \field{title}{{The band theory of graphite}}
   \field{volume}{71}
+  \verb{file}
+  \verb :home/nanosintesis/Downloads/PhysRev.71.622.pdf:pdf
+  \endverb
   \field{journaltitle}{Physical Review}
+  \field{eprinttype}{arXiv}
   \field{year}{1947}
-  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Boehm1986}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Boehm}{B.}%
+     {H.~P.}{H.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Setton}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stumpp}{S.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BHP+1}
+  \strng{fullhash}{BHPSRSE1}
+  \field{abstract}{%
+  Recommendations are presented for the nomenclature and terminology of
+  graphite intercalation compounds, i.e. compounds that retain the planarity of
+  the layers in the graphite structure. Not included are compounds with
+  covalent bonding of heteroatoms to the carbon atoms which leads to a sp3
+  hybridization of the carbon atoms and a corresponding loss of planarity of
+  the layers. Rules for a structural notation are described in addition to
+  those for the naming and the formulation of graphite intercalation
+  compounds.%
+  }
+  \verb{doi}
+  \verb 10.1016/0008-6223(86)90126-0
+  \endverb
+  \field{isbn}{0008-6223}
+  \field{issn}{00086223}
+  \field{number}{2}
+  \field{pages}{241\bibrangedash 245}
+  \field{title}{{Nomenclature and terminology of graphite intercalation
+  compounds}}
+  \field{volume}{24}
+  \verb{file}
+  \verb :home/nanosintesis/Downloads/boehm1986.pdf:pdf
+  \endverb
+  \field{journaltitle}{Carbon}
+  \field{year}{1986}
 \endentry
 
 \entry{Thounthong2009}{article}{}
