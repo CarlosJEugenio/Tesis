@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.14)  7 MAR 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.14)  7 MAR 2017 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2153,6 +2153,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
  []
 
 
+Package natbib Warning: Citation `Bunch2008' on page 5 undefined on input line 
+18.
+
+
 Overfull \hbox (9.33173pt too wide) in paragraph at lines 18--19
 \OT1/phv/m/n/10 (-20) en nu-me-ro-sos ex-pe-ri-men-tos: mo-vi-li-dad electr[]on
 i-ca de 200.000 $[]$([][]Bolotin
@@ -2198,41 +2202,41 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 34.
 )
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
@@ -2344,7 +2348,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
 [8
 
-] <Imagenes/charge-discharge_ideal_cap.png, id=305, 614.295pt x 361.35pt>
+] <Imagenes/charge-discharge_ideal_cap.png, id=309, 614.295pt x 361.35pt>
 File: Imagenes/charge-discharge_ideal_cap.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_ideal_cap.png>
@@ -2431,7 +2435,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 51.
 [10 <./Imagenes/charge-discharge_ideal_cap.png>]
-<Imagenes/charge-discharge_esr.png, id=324, 614.295pt x 361.35pt>
+<Imagenes/charge-discharge_esr.png, id=328, 614.295pt x 361.35pt>
 File: Imagenes/charge-discharge_esr.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_esr.png>
@@ -2486,7 +2490,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 65.
 [11 <./Imagenes/charge-discharge_esr.png>]
-<Imagenes/edlc_schem.png, id=335, 724.8681pt x 696.32146pt>
+<Imagenes/edlc_schem.png, id=339, 724.8681pt x 696.32146pt>
 File: Imagenes/edlc_schem.png Graphic file (type png)
 
 <use Imagenes/edlc_schem.png>
@@ -2782,7 +2786,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
 
-<Imagenes/SC_process.png, id=370, 1628.60445pt x 578.8827pt>
+<Imagenes/SC_process.png, id=374, 1628.60445pt x 578.8827pt>
 File: Imagenes/SC_process.png Graphic file (type png)
 
 <use Imagenes/SC_process.png>
@@ -2804,7 +2808,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 11.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 11.
-<Imagenes/cell4.png, id=371, 692.5875pt x 606.76688pt>
+<Imagenes/cell4.png, id=375, 692.5875pt x 606.76688pt>
 File: Imagenes/cell4.png Graphic file (type png)
 
 <use Imagenes/cell4.png>
@@ -3013,6 +3017,9 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
 Package babel Info: Redefining spanish shorthand <<
@@ -3039,14 +3046,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 107.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 107.
- [22]
+[22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (./Tesis.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (./Resumen.aux) (./Introduccion.aux)
-(./Marco_teorico.aux) (./Cuerpo_tesis.aux) (./Conclusiones.aux) (./Anexo.aux))
+ (./Resumen.aux) (./Introduccion.aux) (./Marco_teorico.aux)
+(./Cuerpo_tesis.aux) (./Conclusiones.aux) (./Anexo.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
@@ -3054,11 +3061,11 @@ Package rerunfilecheck Info: File `Tesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 26333 strings out of 493029
- 472114 string characters out of 6136234
+ 26341 strings out of 493029
+ 472206 string characters out of 6136234
  662060 words of memory out of 5000000
- 29026 multiletter control sequences out of 15000+600000
- 53022 words of font info for 170 fonts, out of 8000000 for 9000
+ 29030 multiletter control sequences out of 15000+600000
+ 53135 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,12n,94p,1081b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3068,10 +3075,10 @@ fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pf
 b>
-Output written on Tesis.pdf (31 pages, 1587766 bytes).
+Output written on Tesis.pdf (31 pages, 1588407 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 450 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
  34616 words of extra memory for PDF output out of 35830 (max. 10000000)
 
