@@ -1,586 +1,92 @@
-% $ biblatex auxiliary file $
-% $ biblatex version 2.6 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{}
 
-\entry{Gressler2013}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Gre{\ss}ler}{G.}%
-     {Sabine}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gazs{\'{o}}}{G.}%
-     {Andr{\'{e}}}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Eigenverlag/Self}%
-  }
-  \strng{namehash}{GSGA1}
-  \strng{fullhash}{GSGA1}
-  \field{abstract}{%
-  Das NanoTrust-Team bietet an dieser Stelle in loser Folge sog. Dossiers an,
-  die in leicht-fasslicher, aber wissenschaftlich fundierter Weise auf ca. drei
-  bis sechs Seiten den aktuellen Wissensstand zu den aktuellen Themen der
-  aufkommmenden Nanodebatte zusammenfassen. In order to regulate nanomaterials
-  and to determine mandatory product labelling a generally accepted agreement
-  what the term {\&}{\#}x201c;nanomaterial{\&}{\#}x201d; means has to be
-  reached beforehand. The EU Parliament requires that a definition shall be
-  science-based and comprehensive. Furthermore, for regulatory measures in
-  individual sectors, it shall be unambiguous, flexible, easy and practical to
-  handle. During the past few years various institutions came up with
-  suggestions for a definition, leading to a recommendation of the EU
-  commission, which finally is being accepted into new and existing EU
-  legislation. Some provisions in this proposal are controversial and the
-  implementation into specific sectoral legislation constitutes a major
-  challenge.%
-  }
-  \verb{doi}
-  \verb 10.1553/ita-nt-039en
-  \endverb
-  \field{title}{{Definition of the term “nanomaterial”}}
-  \field{journaltitle}{ITA Nanotrust Dossiers}
-  \field{year}{2013}
-\endentry
+\bibitem[Abdolhosseinzadeh et~al., 2015]{Abdolhosseinzadeh2015}
+Abdolhosseinzadeh, S., Asgharzadeh, H., and {Seop Kim}, H. (2015).
+\newblock {Fast and fully-scalable synthesis of reduced graphene oxide}.
+\newblock {\em Scientific Reports}, 5:10160.
 
-\entry{Novoselov2004}{article}{}
-  \name{author}{8}{}{%
-    {{}%
-     {Novoselov}{N.}%
-     {Konstantin~S}{K.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Geim}{G.}%
-     {A~K}{A.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Morozov}{M.}%
-     {S~V}{S.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Jiang}{J.}%
-     {D}{D}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zhang}{Z.}%
-     {Y}{Y}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dubonos}{D.}%
-     {S~V}{S.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Grigorieva}{G.}%
-     {I~V}{I.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Firsov}{F.}%
-     {A~A}{A.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{NKS+1}
-  \strng{fullhash}{NKSGAKMSVJDZYDSVGIVFAA1}
-  \field{abstract}{%
-  We describe monocrystalline graphitic films, which are a few atoms thick but
-  are nonetheless stable under ambient conditions, metallic, and of remarkably
-  high quality. The films are found to be a two-dimensional semimetal with a
-  tiny overlap between valence and conductance bands, and they exhibit a strong
-  ambipolar electric field effect such that electrons and holes in
-  concentrations up to 1013 per square centimeter and with room-temperature
-  mobilities of ∼10,000 square centimeters per volt-second can be induced by
-  applying gate voltage.%
-  }
-  \verb{doi}
-  \verb 10.1126/science.1102896
-  \endverb
-  \verb{eprint}
-  \verb 0410550
-  \endverb
-  \field{isbn}{0036-8075$\backslash$r1095-9203}
-  \field{issn}{1095-9203}
-  \field{number}{5696}
-  \field{pages}{666\bibrangedash 669}
-  \field{title}{{Electric Field Effect in Atomically Thin Carbon Films}}
-  \verb{url}
-  \verb http://www.sciencemag.org/content/306/5696/666.abstract
-  \endverb
-  \field{volume}{306}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Novoselov, Geim, Morozov - 2004 - Electric field effect in atom
-  \verb ically thin carbon films.pdf:pdf
-  \endverb
-  \field{journaltitle}{Science}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{cond-mat}
-  \field{year}{2004}
-\endentry
+\bibitem[Balandin, 2011]{Balandin2011}
+Balandin, A.~A. (2011).
+\newblock {Thermal Properties of Graphene, Carbon Nanotubes and Nanostructured
+  Carbon Materials}.
 
-\entry{Daniel2004}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Daniel}{D.}%
-     {Marie Christine~Mc.}{M.~C.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Astruc}{A.}%
-     {Didier}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{DMCMAD1}
-  \strng{fullhash}{DMCMAD1}
-  \field{abstract}{%
-  The assembly, supramolecular chemistry, quantum-size-related properties and
-  applications towards biology, catalysis and nanotechnology of gold
-  nanoparticles (AuNP) were discussed. The optimization of
-  potassium-ion-exchanged optical waveguides in glass for evanescent field
-  propulsion of AuNP was also done. It was observed that the optical
-  manipulation of AuNP on waveguide surfaces offers a controllable tool for
-  application to particle sorting, sensing and atomic mirrors. The use of AuNP
-  in optoelectronic devices enhance the optical and electrical properties,
-  stability and inhibits photoluminescence decay.%
-  }
-  \verb{doi}
-  \verb 10.1021/cr030698+
-  \endverb
-  \verb{eprint}
-  \verb 0403600v1
-  \endverb
-  \field{isbn}{0009-2665}
-  \field{issn}{00092665}
-  \field{number}{1}
-  \field{pages}{293\bibrangedash 346}
-  \field{title}{{Gold Nanoparticles: Assembly, Supramolecular Chemistry,
-  Quantum-Size Related Properties and Applications toward Biology, Catalysis
-  and Nanotechnology,}}
-  \field{volume}{104}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Daniel, Astruc - 2004 - Gold Nanoparticles Assembly, Supramolec
-  \verb ular Chemistry, Quantum-Size Related Properties and Applications toward
-  \verb  B.pdf:pdf
-  \endverb
-  \field{journaltitle}{Chemical Reviews}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{arXiv:cond-mat}
-  \field{year}{2004}
-\endentry
+\bibitem[Boehm et~al., 1986]{Boehm1986}
+Boehm, H.~P., Setton, R., and Stumpp, E. (1986).
+\newblock {Nomenclature and terminology of graphite intercalation compounds}.
+\newblock {\em Carbon}, 24(2):241--245.
 
-\entry{Geim2012}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Geim}{G.}%
-     {A~K}{A.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GAK1}
-  \strng{fullhash}{GAK1}
-  \field{abstract}{%
-  After the 2010 Nobel Prize recognized the research breakthrough reported by
-  our group in a 2004 paper, I feel that, as my contribution to the proceedings
-  of the Nobel symposium held earlier in 2010, it is both appropriate and
-  important to review pre-2004 scientific literature and acknowledge early
-  ideas. With the benefit of hindsight, I also try to analyze why our first
-  graphene paper has attracted so much interest.%
-  }
-  \verb{doi}
-  \verb 10.1088/0031-8949/2012/T146/014003
-  \endverb
-  \field{isbn}{1402-4896}
-  \field{issn}{0031-8949}
-  \field{pages}{014003}
-  \field{title}{{Graphene prehistory}}
-  \field{volume}{T146}
-  \verb{file}
-  \verb :home/nanosintesis/Downloads/Geim{\_}2012{\_}Phys.{\_}Scr.{\_}2012{\_}0
-  \verb 14003.pdf:pdf
-  \endverb
-  \field{journaltitle}{Physica Scripta}
-  \field{year}{2012}
-\endentry
+\bibitem[Bolotin et~al., 2008]{Bolotin2008}
+Bolotin, K.~I., Sikes, K.~J., Jiang, Z., Klima, M., Fudenberg, G., Hone, J.,
+  Kim, P., and Stormer, H.~L. (2008).
+\newblock {Ultrahigh electron mobility in suspended graphene}.
+\newblock {\em Solid State Communications}, 146(9-10):351--355.
 
-\entry{Wallace1947}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Wallace}{W.}%
-     {P.~R.}{P.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{WPR1}
-  \strng{fullhash}{WPR1}
-  \field{abstract}{%
-  The structure of the electronic energy bands and Brillouin zones for graphite
-  is developed using the "tight binding" approximation. Graphite is found to be
-  a semi-conductor with zero activation energy, i.e., there are no free
-  electrons at zero temperature, but they are created at higher temperatures by
-  excitation to a band contiguous to the highest one which is normally filled.
-  The electrical conductivity is treated with assumptions about the mean free
-  path. It is found to be about 100 times as great parallel to as across
-  crystal planes. A large and anisotropic diamagnetic susceptibility is
-  predicted for the conduction electrons; this is greatest for fields across
-  the layers. The volume optical absorption is accounted for.%
-  }
-  \verb{doi}
-  \verb 10.1103/PhysRev.71.622
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1011.1669v3
-  \endverb
-  \field{isbn}{0031-899X}
-  \field{issn}{0031899X}
-  \field{number}{9}
-  \field{pages}{622\bibrangedash 634}
-  \field{title}{{The band theory of graphite}}
-  \field{volume}{71}
-  \verb{file}
-  \verb :home/nanosintesis/Downloads/PhysRev.71.622.pdf:pdf
-  \endverb
-  \field{journaltitle}{Physical Review}
-  \field{eprinttype}{arXiv}
-  \field{year}{1947}
-\endentry
+\bibitem[Brodie, 1859]{Brodie1859}
+Brodie, B.~C. (1859).
+\newblock {On the Atomic Weight of Graphite}.
+\newblock {\em Philosophical Transactions of the Royal Society of London},
+  149(9):249--259.
 
-\entry{Boehm1986}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Boehm}{B.}%
-     {H.~P.}{H.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Setton}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stumpp}{S.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BHP+1}
-  \strng{fullhash}{BHPSRSE1}
-  \field{abstract}{%
-  Recommendations are presented for the nomenclature and terminology of
-  graphite intercalation compounds, i.e. compounds that retain the planarity of
-  the layers in the graphite structure. Not included are compounds with
-  covalent bonding of heteroatoms to the carbon atoms which leads to a sp3
-  hybridization of the carbon atoms and a corresponding loss of planarity of
-  the layers. Rules for a structural notation are described in addition to
-  those for the naming and the formulation of graphite intercalation
-  compounds.%
-  }
-  \verb{doi}
-  \verb 10.1016/0008-6223(86)90126-0
-  \endverb
-  \field{isbn}{0008-6223}
-  \field{issn}{00086223}
-  \field{number}{2}
-  \field{pages}{241\bibrangedash 245}
-  \field{title}{{Nomenclature and terminology of graphite intercalation
-  compounds}}
-  \field{volume}{24}
-  \verb{file}
-  \verb :home/nanosintesis/Downloads/boehm1986.pdf:pdf
-  \endverb
-  \field{journaltitle}{Carbon}
-  \field{year}{1986}
-\endentry
+\bibitem[Daniel and Astruc, 2004]{Daniel2004}
+Daniel, M. C.~M. and Astruc, D. (2004).
+\newblock {Gold Nanoparticles: Assembly, Supramolecular Chemistry, Quantum-Size
+  Related Properties and Applications toward Biology, Catalysis and
+  Nanotechnology,}.
+\newblock {\em Chemical Reviews}, 104(1):293--346.
 
-\entry{Thounthong2009}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Thounthong}{T.}%
-     {Phatiphat}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ra??l}{R.}%
-     {Stephane}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Davat}{D.}%
-     {Bernard}{B.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Battery,Converters,Current control,Electric vehicles,Fuel
-  cells,Supercapacitor}
-  \strng{namehash}{TP+1}
-  \strng{fullhash}{TPRSDB1}
-  \field{abstract}{%
-  This paper proposes a perfect energy source supplied by a polymer electrolyte
-  membrane fuel cell (PEMFC) as a main power source and storage devices:
-  battery and supercapacitor, for modern distributed generation system,
-  particularly for future fuel cell vehicle applications. The energy in hybrid
-  system is balanced by the dc bus voltage regulation. A supercapacitor module,
-  as a high dynamic and high power density device, functions for supplying
-  energy to regulate a dc bus voltage. A battery module, as a high energy
-  density device, operates for supplying energy to a supercapacitor bank to
-  keep it charged. A FC, as a slowest dynamic source in this system, functions
-  to supply energy to a battery bank in order to keep it charged. Therefore,
-  there are three voltage control loops: dc bus voltage regulated by a
-  supercapacitor bank, supercapacitor voltage regulated by a battery bank, and
-  battery voltage regulated by a FC. To authenticate the proposed control
-  algorithm, a hardware system in our laboratory is realized by analog circuits
-  and numerical calculation by dSPACE. Experimental results with small-scale
-  devices (a PEMFC: 500-W, 50-A; a battery bank: 68-Ah, 24-V; and a
-  supercapacitor bank: 292-F, 30-V, 500-A) corroborate the excellent control
-  principle during motor drive cycle. ?? 2008 Elsevier B.V. All rights
-  reserved.%
-  }
-  \verb{doi}
-  \verb 10.1016/j.jpowsour.2008.12.120
-  \endverb
-  \field{isbn}{0378-7753}
-  \field{issn}{03787753}
-  \field{number}{1}
-  \field{pages}{376\bibrangedash 385}
-  \field{title}{{Energy management of fuel cell/battery/supercapacitor hybrid
-  power source for vehicle applications}}
-  \field{volume}{193}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Thounthong, Ral, Davat - 2009 - Energy management of fuel cellb
-  \verb atterysupercapacitor hybrid power source for vehicle applications.pdf:p
-  \verb df
-  \endverb
-  \field{journaltitle}{Journal of Power Sources}
-  \field{year}{2009}
-\endentry
+\bibitem[Frackowiak and B{\'{e}}guin, 2001]{Frackowiak2001}
+Frackowiak, E. and B{\'{e}}guin, F. (2001).
+\newblock {Carbon materials for the electrochemical storage of energy in
+  capacitors}.
+\newblock {\em Carbon}, 39(6):937--950.
 
-\entry{Yahalom1971}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Yahalom}{Y.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zahavi}{Z.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{YJZJ1}
-  \strng{fullhash}{YJZJ1}
-  \field{abstract}{%
-  Earlier hypothese for electrolytic breakdown mechanisms on Al, Ti and Ta are
-  criticised in the light of further experiments. These included film
-  temperature-rise measurements, furnace crystallization of films, transmission
-  electron microscopy of films after breakdown and crystallization and
-  multistage anodizing. It is concluded that breakdown is controlled at the
-  film/electrolyte-solution interface. ?? 1971.%
-  }
-  \verb{doi}
-  \verb 10.1016/0013-4686(71)85169-1
-  \endverb
-  \field{isbn}{0013-4686}
-  \field{issn}{00134686}
-  \field{number}{5}
-  \field{pages}{603\bibrangedash 607}
-  \field{title}{{Experimental evaluation of some electrolytic breakdown
-  hypotheses}}
-  \field{volume}{16}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Yahalom, Zahavi - 1971 - Experimental evaluation of some electr
-  \verb olytic breakdown hypotheses.pdf:pdf
-  \endverb
-  \field{journaltitle}{Electrochimica Acta}
-  \field{year}{1971}
-\endentry
+\bibitem[Geim, 2012]{Geim2012}
+Geim, A.~K. (2012).
+\newblock {Graphene prehistory}.
+\newblock {\em Physica Scripta}, T146:014003.
 
-\entry{Frackowiak2001}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Frackowiak}{F.}%
-     {Elzbieta}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {B{\'{e}}guin}{B.}%
-     {Fran{\c{c}}ois}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{A. Activated carbon, Carbon aerogel, Carbon nanotu,D. Electrochemical
-  properties}
-  \strng{namehash}{FEBF1}
-  \strng{fullhash}{FEBF1}
-  \field{abstract}{%
-  The electrochemical storage of energy in various carbon materials (activated
-  carbons, aerogels, xerogels, nanostructures) used as capacitor electrodes is
-  considered. Different types of capacitors with a pure electrostatic
-  attraction and/or pseudocapacitance effects are presented. Their performance
-  in various electrolytes is studied taking into account the different range of
-  operating voltage (1 V for aqueous and 3 V for aprotic solutions). Trials are
-  undertaken for estimating the role of micro and mesopores during charging the
-  electrical double layer in both kinds of electrolytic solutions for which the
-  electrical conductivity and the size of solvated ions are different. The
-  effect of pseudocapacitance for maximising the total capacitance is
-  especially documented. Carbons chemically modified by a strong oxidation
-  treatment represent a very well defined region of pseudocapacitance
-  properties due to the Faradaic redox reactions of their rich surface
-  functionality. Conducting polymers (polyaniline, polypyrrole, polythiophene
-  derivatives) and oxidised metallic particles (Ru, Mn, Co,...) deposited on
-  the carbons also participate in the enhancement of the final capacity through
-  fast faradaic pseudocapacitance effects. Evaluation of capacitor performance
-  by different techniques, e.g. voltammetry, impedance spectroscopy,
-  charge/discharge characteristics is also discussed. {\textcopyright} 2001
-  Elsevier Science Ltd.%
-  }
-  \verb{doi}
-  \verb 10.1016/S0008-6223(00)00183-4
-  \endverb
-  \field{isbn}{0008-6223}
-  \field{issn}{00086223}
-  \field{number}{6}
-  \field{pages}{937\bibrangedash 950}
-  \field{title}{{Carbon materials for the electrochemical storage of energy in
-  capacitors}}
-  \field{volume}{39}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Frackowiak, B{\'{e}}guin - 2001 - Carbon materials for the elec
-  \verb trochemical storage of energy in capacitors.pdf:pdf
-  \endverb
-  \field{journaltitle}{Carbon}
-  \field{year}{2001}
-\endentry
+\bibitem[Gre{\ss}ler and Gazs{\'{o}}, 2013]{Gressler2013}
+Gre{\ss}ler, S. and Gazs{\'{o}}, A. (2013).
+\newblock {Definition of the term “nanomaterial”}.
+\newblock {\em ITA Nanotrust Dossiers}.
 
-\entry{Hummers1958}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Hummers}{H.}%
-     {William~S.}{W.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Offeman}{O.}%
-     {Richard~E.}{R.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HWSORE1}
-  \strng{fullhash}{HWSORE1}
-  \field{abstract}{%
-  The preparation of graphitic oxide by methods described in the literature is
-  time consuming and hazardous. A rapid, relatively safe method has been
-  developed for preparing graphitic oxide from graphite in what is essentially
-  an anhydrous mixture of sulfuric acid, sodium nitrate and potassium
-  permanganate%
-  }
-  \verb{doi}
-  \verb 10.1021/ja01539a017
-  \endverb
-  \field{isbn}{0002-7863}
-  \field{issn}{0002-7863}
-  \field{number}{6}
-  \field{pages}{1339\bibrangedash 1339}
-  \field{title}{{Preparation of Graphitic Oxide}}
-  \verb{url}
-  \verb http://pubs.acs.org/doi/abs/10.1021/ja01539a017
-  \endverb
-  \field{volume}{80}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Hummers, Offeman - 1958 - Preparation of Graphitic Oxide.pdf:pd
-  \verb f
-  \endverb
-  \field{journaltitle}{Journal of the American Chemical Society}
-  \field{year}{1958}
-\endentry
+\bibitem[Hummers and Offeman, 1958]{Hummers1958}
+Hummers, W.~S. and Offeman, R.~E. (1958).
+\newblock {Preparation of Graphitic Oxide}.
+\newblock {\em Journal of the American Chemical Society}, 80(6):1339--1339.
 
-\entry{Abdolhosseinzadeh2015}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Abdolhosseinzadeh}{A.}%
-     {Sina}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Asgharzadeh}{A.}%
-     {Hamed}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Seop Kim}}{S.}%
-     {Hyoung}{H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Nature Publishing Group}%
-  }
-  \strng{namehash}{AS+1}
-  \strng{fullhash}{ASAHSH1}
-  \field{abstract}{%
-  Exfoliation of graphite is a promising approach for large-scale production of
-  graphene. Oxidation of graphite effectively facilitates the exfoliation
-  process, yet necessitates several lengthy washing and reduction processes to
-  convert the exfoliated graphite oxide (graphene oxide, GO) to reduced
-  graphene oxide (RGO). Although filtration, centrifugation and dialysis have
-  been frequently used in the washing stage, none of them is favorable for
-  large-scale production. Here, we report the synthesis of RGO by
-  sonication-assisted oxidation of graphite in a solution of potassium
-  permanganate and concentrated sulfuric acid followed by reduction with
-  ascorbic acid prior to any washing processes. GO loses its hydrophilicity
-  during the reduction stage which facilitates the washing step and reduces the
-  time required for production of RGO. Furthermore, simultaneous oxidation and
-  exfoliation significantly enhance the yield of few-layer GO. We hope this
-  one-pot and fully-scalable protocol paves the road toward out of lab
-  applications of graphene.%
-  }
-  \verb{doi}
-  \verb 10.1038/srep10160
-  \endverb
-  \field{issn}{2045-2322}
-  \field{pages}{10160}
-  \field{title}{{Fast and fully-scalable synthesis of reduced graphene oxide}}
-  \verb{url}
-  \verb http://www.nature.com/doifinder/10.1038/srep10160
-  \endverb
-  \field{volume}{5}
-  \verb{file}
-  \verb :home/nanosintesis/.local/share/data/Mendeley Ltd./Mendeley Desktop/Dow
-  \verb nloaded/Abdolhosseinzadeh, Asgharzadeh, Seop Kim - 2015 - Fast and full
-  \verb y-scalable synthesis of reduced graphene oxide.pdf:pdf
-  \endverb
-  \field{journaltitle}{Scientific Reports}
-  \field{year}{2015}
-\endentry
+\bibitem[Lee et~al., 2008]{Lee2008}
+Lee, C., Wei, X., Kysar, J.~W., Hone, J., and = (2008).
+\newblock {Measurement of the Elastic Properties and Intrinsic Strength of
+  Monolayer Graphene}.
+\newblock {\em Science}, 321(18 July 2008):385--388.
 
-\lossort
-\endlossort
+\bibitem[Nair et~al., 2008]{Nair2008}
+Nair, R.~R., Blake, P., Grigorenko, A.~N., Novoselov, K.~S., Booth, T.~J.,
+  Stauber, T., Peres, N. M.~R., and Geim, A.~K. (2008).
+\newblock {Fine Structure Constant Defines Visual Transparency of Graphene}.
+\newblock {\em Science}, 320(5881):1308--1308.
 
-\endinput
+\bibitem[Novoselov et~al., 2004]{Novoselov2004}
+Novoselov, K.~S., Geim, A.~K., Morozov, S.~V., Jiang, D., Zhang, Y., Dubonos,
+  S.~V., Grigorieva, I.~V., and Firsov, A.~A. (2004).
+\newblock {Electric Field Effect in Atomically Thin Carbon Films}.
+\newblock {\em Science}, 306(5696):666--669.
+
+\bibitem[Thounthong et~al., 2009]{Thounthong2009}
+Thounthong, P., Ra??l, S., and Davat, B. (2009).
+\newblock {Energy management of fuel cell/battery/supercapacitor hybrid power
+  source for vehicle applications}.
+\newblock {\em Journal of Power Sources}, 193(1):376--385.
+
+\bibitem[Wallace, 1947]{Wallace1947}
+Wallace, P.~R. (1947).
+\newblock {The band theory of graphite}.
+\newblock {\em Physical Review}, 71(9):622--634.
+
+\bibitem[Yahalom and Zahavi, 1971]{Yahalom1971}
+Yahalom, J. and Zahavi, J. (1971).
+\newblock {Experimental evaluation of some electrolytic breakdown hypotheses}.
+\newblock {\em Electrochimica Acta}, 16(5):603--607.
+
+\end{thebibliography}

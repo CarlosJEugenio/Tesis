@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{usachtesis}[2016/07/07 USACH thesis class]
 
-\LoadClass[12pt,oneside]{book}
+\LoadClass[10pt,oneside]{book}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[spanish]{babel}
 \RequirePackage{graphics}
@@ -25,10 +25,12 @@
 
 \definecolor{orange}{RGB}{250,120,0}
 \definecolor{Green}{RGB}{50,200,100}
+\RequirePackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\RequirePackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
 
-\renewcommand{\rmdefault}{phv}
-\renewcommand{\sfdefault}{phv}
 \renewcommand{\baselinestretch}{1.5}
+
 
 \topmargin=0cm
 \oddsidemargin=1.5cm
@@ -97,9 +99,9 @@
 \newcommand{\derechosdeautor}{
 	\vfill
 	\begin{center}
-		\textbf{© \@anolol, \@author\\
-			Algunos  derechos  reservados. 
-			Esta  obra  está  bajo  una  Licencia  Creative  Commons  Atribución-NoComercial-Compartir Igual  
+		\textbf{© \@author, \@anolol\\
+			Algunos  derechos  reservados.
+			Esta  obra  está  bajo  una  Licencia  Creative  Commons  Atribución-NoComercial-Compartir Igual
 			3.0. Sus condiciones de uso pueden ser revisadas 
 			en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
 		\\

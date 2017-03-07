@@ -1,67 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tesis.aux
-The style file: biblatex.bst
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Introduccion.aux
 A level-1 auxiliary file: Marco_teorico.aux
 A level-1 auxiliary file: Cuerpo_tesis.aux
 A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Anexo.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: Tesis-blx.bib
-Database file #2: Nanosintesis.bib
-Biblatex version: 3.3
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 12 entries,
-            6047 wiz_defined-function locations,
-            1281 strings with 20727 characters,
-and the built_in function-call counts, 36112 in all, are:
-= -- 1275
-> -- 1123
-< -- 244
-+ -- 363
-- -- 495
-* -- 2934
-:= -- 2261
-add.period$ -- 0
-call.type$ -- 12
-change.case$ -- 117
-chr.to.int$ -- 34
-cite$ -- 22
-duplicate$ -- 4103
-empty$ -- 4039
-format.name$ -- 817
-if$ -- 7901
-int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 0
-newline$ -- 468
-num.names$ -- 462
-pop$ -- 3520
+The style file: apalike.bst
+Database file #1: Nanosintesis.bib
+Warning--empty journal in Balandin2011
+You've used 16 entries,
+            1935 wiz_defined-function locations,
+            602 strings with 6581 characters,
+and the built_in function-call counts, 6800 in all, are:
+= -- 664
+> -- 304
+< -- 9
++ -- 104
+- -- 104
+* -- 630
+:= -- 1192
+add.period$ -- 47
+call.type$ -- 16
+change.case$ -- 132
+chr.to.int$ -- 16
+cite$ -- 17
+duplicate$ -- 222
+empty$ -- 460
+format.name$ -- 130
+if$ -- 1293
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 16
+newline$ -- 82
+num.names$ -- 48
+pop$ -- 97
 preamble$ -- 1
-purify$ -- 162
+purify$ -- 132
 quote$ -- 0
-skip$ -- 1933
+skip$ -- 170
 stack$ -- 0
-substring$ -- 774
-swap$ -- 1623
-text.length$ -- 252
-text.prefix$ -- 2
-top$ -- 1
-type$ -- 444
-warning$ -- 0
-while$ -- 251
+substring$ -- 537
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 1
+while$ -- 58
 width$ -- 0
-write$ -- 455
+write$ -- 206
+(There was 1 warning)

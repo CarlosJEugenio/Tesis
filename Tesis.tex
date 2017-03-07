@@ -1,14 +1,11 @@
 \documentclass[oneside]{usachtesis} %%clase para tesis usach
+\usepackage[cm]{sfmath}
 %%package para bibliografía
-\usepackage[
-backend=bibtex,
-sorting=none,
-style=nature,
-citestyle=numeric-comp
-]{biblatex}
 
+\usepackage{natbib}
 
-\bibliography{Nanosintesis} %%bibliografía: Nanosintesis.bib
+\sansmath % Enable sans-serif math for rest of document
+
 \makeindex
 \setcounter{tocdepth}{1}
 \graphicspath{{Imagenes/}}
@@ -23,7 +20,7 @@ citestyle=numeric-comp
 \begin{document}
 %%PORTADA						
  \title{Síntesis de Grafeno por medios químicos y construcción de supercondensadores basados en grafeno}
- \author{Carlos Eugenio}
+ \author{Carlos Javier Eugenio Herrera}
  \facultad{CIENCIA}
  \departamento{FÍSICA}
  \profesorguia{DINESH PRATAP SINGH}
@@ -103,6 +100,8 @@ citestyle=numeric-comp
 
 %%BIBLIOGRAFÍA
 \newpage
-\printbibliography
+
+\bibliography{Nanosintesis}
+\bibliographystyle{apalike}
 
 \end{document}
