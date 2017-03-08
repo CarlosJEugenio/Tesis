@@ -9,47 +9,44 @@ A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Anexo.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-Warning--I didn't find a database entry for "Bunch2008"
-Warning--empty journal in Balandin2011
-You've used 17 entries,
+You've used 27 entries,
             1935 wiz_defined-function locations,
-            611 strings with 6759 characters,
-and the built_in function-call counts, 7255 in all, are:
-= -- 709
-> -- 327
-< -- 9
-+ -- 112
-- -- 112
-* -- 672
-:= -- 1272
-add.period$ -- 50
-call.type$ -- 17
-change.case$ -- 141
-chr.to.int$ -- 17
-cite$ -- 18
-duplicate$ -- 236
-empty$ -- 489
-format.name$ -- 139
-if$ -- 1379
+            687 strings with 8720 characters,
+and the built_in function-call counts, 11834 in all, are:
+= -- 1155
+> -- 551
+< -- 12
++ -- 190
+- -- 190
+* -- 1116
+:= -- 2069
+add.period$ -- 81
+call.type$ -- 27
+change.case$ -- 230
+chr.to.int$ -- 27
+cite$ -- 27
+duplicate$ -- 376
+empty$ -- 791
+format.name$ -- 231
+if$ -- 2250
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 87
-num.names$ -- 51
-pop$ -- 104
+missing$ -- 27
+newline$ -- 138
+num.names$ -- 81
+pop$ -- 166
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 230
 quote$ -- 0
-skip$ -- 180
+skip$ -- 284
 stack$ -- 0
-substring$ -- 574
-swap$ -- 16
+substring$ -- 942
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 102
-warning$ -- 1
-while$ -- 62
+type$ -- 162
+warning$ -- 0
+while$ -- 100
 width$ -- 0
-write$ -- 219
-(There were 2 warnings)
+write$ -- 352
