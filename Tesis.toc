@@ -1,42 +1,42 @@
 \select@language {spanish}
 \contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.7}
 \contentsline {chapter}{Resumen}{1}{chapter*.6}
-\contentsline {part}{I\hspace {1em}Marco te\IeC {\'o}rico}{2}{part.1}
-\contentsline {chapter}{\numberline {1}Nanomateriales}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Nanomateriales}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}S\IeC {\'\i }ntesis}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Caracterizaci\IeC {\'o}n}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}Aplicaciones}{4}{section.1.4}
-\contentsline {chapter}{\numberline {2}Grafeno}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}\IeC {\'O}xido reducido de grafeno (RGO)}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}S\IeC {\'\i }ntesis de RGO}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Aplicaciones}{7}{section.2.3}
-\contentsline {chapter}{\numberline {3}Supercondensadores}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}El condensador ideal}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}El condensador real}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Breakdown voltage}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Circuito equivalente}{11}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Resistencia en serie equivalente (ESR)}{11}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Corriente de fuga (\emph {leakage current})}{11}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador super?}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{12}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{13}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Mediciones en supercondensadores}{13}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Voltametr\IeC {\'\i }a c\IeC {\'\i }clica}{13}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Espectroscop\IeC {\'\i }a de impedacia electroqu\IeC {\'\i }mica}{13}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Carga y descarga c\IeC {\'\i }clica}{13}{subsection.3.4.3}
-\contentsline {part}{II\hspace {1em}Cuerpo de la tesis}{14}{part.2}
-\contentsline {chapter}{\numberline {4}S\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Procedimiento experimental}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Resultados}{15}{section.4.2}
-\contentsline {chapter}{\numberline {5}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Materiales}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Procedimiento}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}Resultados}{16}{section.5.3}
-\contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Armado del dispositivo}{17}{section.6.1}
-\contentsline {section}{\numberline {6.2}Celda de prueba de supercondensador}{17}{section.6.2}
-\contentsline {section}{\numberline {6.3}Resultados}{17}{section.6.3}
-\contentsline {part}{III\hspace {1em}Conclusiones}{19}{part.3}
-\contentsline {chapter}{Anexo}{20}{chapter*.14}
-\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{21}{chapter*.14}
+\contentsline {part}{I\hspace {1em}Marco te\IeC {\'o}rico}{3}{part.1}
+\contentsline {chapter}{\numberline {1}Nanomateriales}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Nanomateriales}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}S\IeC {\'\i }ntesis}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Caracterizaci\IeC {\'o}n}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Aplicaciones}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Grafeno}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}\IeC {\'O}xido reducido de grafeno (RGO)}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}S\IeC {\'\i }ntesis de rGO}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Aplicaciones}{8}{section.2.3}
+\contentsline {chapter}{\numberline {3}Supercondensadores}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}El condensador ideal}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}El condensador real}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Breakdown voltage}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Circuito equivalente}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Resistencia en serie equivalente (ESR)}{12}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Corriente de fuga (\emph {leakage current})}{12}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador super?}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Pseudocapacitancia}{14}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Mediciones en supercondensadores}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Voltametr\IeC {\'\i }a c\IeC {\'\i }clica}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Espectroscop\IeC {\'\i }a de impedacia electroqu\IeC {\'\i }mica}{14}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Carga y descarga c\IeC {\'\i }clica}{14}{subsection.3.4.3}
+\contentsline {part}{II\hspace {1em}Cuerpo de la tesis}{15}{part.2}
+\contentsline {chapter}{\numberline {4}S\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Procedimiento experimental}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Resultados}{16}{section.4.2}
+\contentsline {chapter}{\numberline {5}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Materiales}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Procedimiento}{17}{section.5.2}
+\contentsline {section}{\numberline {5.3}Resultados}{17}{section.5.3}
+\contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Armado del dispositivo}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Celda de prueba de supercondensador}{18}{section.6.2}
+\contentsline {section}{\numberline {6.3}Resultados}{18}{section.6.3}
+\contentsline {part}{III\hspace {1em}Conclusiones}{20}{part.3}
+\contentsline {chapter}{Anexo}{21}{chapter*.16}
+\contentsline {chapter}{\IeC {\'I}ndice Anal\IeC {\'\i }tico}{22}{chapter*.16}

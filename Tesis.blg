@@ -9,44 +9,46 @@ A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Anexo.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-You've used 32 entries,
+Warning--empty publisher in Haick2013
+You've used 34 entries,
             1935 wiz_defined-function locations,
-            721 strings with 9805 characters,
-and the built_in function-call counts, 14312 in all, are:
-= -- 1396
-> -- 681
-< -- 12
-+ -- 236
-- -- 236
-* -- 1360
-:= -- 2497
-add.period$ -- 96
-call.type$ -- 32
-change.case$ -- 278
-chr.to.int$ -- 32
-cite$ -- 32
-duplicate$ -- 446
-empty$ -- 950
-format.name$ -- 282
-if$ -- 2719
+            732 strings with 9977 characters,
+and the built_in function-call counts, 14999 in all, are:
+= -- 1464
+> -- 695
+< -- 15
++ -- 240
+- -- 240
+* -- 1406
+:= -- 2611
+add.period$ -- 101
+call.type$ -- 34
+change.case$ -- 289
+chr.to.int$ -- 34
+cite$ -- 35
+duplicate$ -- 481
+empty$ -- 1005
+format.name$ -- 288
+if$ -- 2861
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 163
-num.names$ -- 96
-pop$ -- 204
+missing$ -- 35
+newline$ -- 172
+num.names$ -- 102
+pop$ -- 218
 preamble$ -- 1
-purify$ -- 278
+purify$ -- 290
 quote$ -- 0
-skip$ -- 334
+skip$ -- 364
 stack$ -- 0
-substring$ -- 1157
-swap$ -- 32
-text.length$ -- 0
+substring$ -- 1205
+swap$ -- 41
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
-warning$ -- 0
-while$ -- 120
+type$ -- 202
+warning$ -- 1
+while$ -- 127
 width$ -- 0
-write$ -- 417
+write$ -- 440
+(There was 1 warning)
