@@ -57,6 +57,11 @@ El-Kady, M.~F. and Kaner, R.~B. (2013).
   for flexible and on-chip energy storage.}
 \newblock {\em Nature communications}, 4:1475.
 
+\bibitem[Feng et~al., 2016]{Feng2016}
+Feng, X., Chen, W., and Yan, L. (2016).
+\newblock {Electrochemical reduction of bulk graphene oxide materials}.
+\newblock {\em RSC Adv.}, 6(83):80106--80113.
+
 \bibitem[Frackowiak and B{\'{e}}guin, 2001]{Frackowiak2001}
 Frackowiak, E. and B{\'{e}}guin, F. (2001).
 \newblock {Carbon materials for the electrochemical storage of energy in
@@ -72,6 +77,12 @@ Geim, A.~K. (2012).
 Gre{\ss}ler, S. and Gazs{\'{o}}, A. (2013).
 \newblock {Definition of the term “nanomaterial”}.
 \newblock {\em ITA Nanotrust Dossiers}.
+
+\bibitem[Harima et~al., 2011]{Harima2011}
+Harima, Y., Setodoi, S., Imae, I., Komaguchi, K., Ooyama, Y., Ohshita, J.,
+  Mizota, H., and Yano, J. (2011).
+\newblock {Electrochemical reduction of graphene oxide in organic solvents}.
+\newblock {\em Electrochimica Acta}, 56(15):5363--5368.
 
 \bibitem[Hummers and Offeman, 1958]{Hummers1958}
 Hummers, W.~S. and Offeman, R.~E. (1958).
@@ -89,6 +100,12 @@ Lee, S.~W., Mattevi, C., Chhowalla, M., and Sankaran, R.~M. (2012).
 \newblock {Plasma-assisted reduction of graphene oxide at low temperature and
   atmospheric pressure for flexible conductor applications}.
 \newblock {\em Journal of Physical Chemistry Letters}, 3(6):772--777.
+
+\bibitem[Liu et~al., 2011]{Liu2011}
+Liu, C., Wang, K., Luo, S., Tang, Y., and Chen, L. (2011).
+\newblock {Direct electrodeposition of graphene enabling the one-step synthesis
+  of graphene-metal nanocomposite films}.
+\newblock {\em Small}, 7(9):1203--1206.
 
 \bibitem[Loh et~al., 2010]{Loh2010}
 Loh, K.~P., Bao, Q., Ang, P.~K., and Yang, J. (2010).
@@ -136,10 +153,22 @@ Thounthong, P., Ra??l, S., and Davat, B. (2009).
   source for vehicle applications}.
 \newblock {\em Journal of Power Sources}, 193(1):376--385.
 
+\bibitem[Toh et~al., 2014]{Toh2014}
+Toh, S.~Y., Loha, K.~S., Kamarudin, S.~K., and Dauda, W. R.~W. (2014).
+\newblock {Graphene production via electrochemical reduction of graphene oxide:
+  Synthesis and characterisation}.
+\newblock {\em Chemical Engineering Journal}, 251:422--434.
+
 \bibitem[Wallace, 1947]{Wallace1947}
 Wallace, P.~R. (1947).
 \newblock {The band theory of graphite}.
 \newblock {\em Physical Review}, 71(9):622--634.
+
+\bibitem[Xie et~al., 2014]{Xie2014}
+Xie, G., Forslund, M., and Pan, J. (2014).
+\newblock {Direct electrochemical synthesis of reduced graphene oxide
+  (rGO)/copper composite films and their electrical/electroactive properties}.
+\newblock {\em ACS Applied Materials and Interfaces}, 6(10):7444--7455.
 
 \bibitem[Yahalom and Zahavi, 1971]{Yahalom1971}
 Yahalom, J. and Zahavi, J. (1971).

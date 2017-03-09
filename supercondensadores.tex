@@ -12,8 +12,15 @@
 \rule{\linewidth}{1 pt}\\
 \vfill
 
-%ENERGY STORAGE
+%TODO add ragone plot
 El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width = 0.7\textwidth]{ragone.png}
+	\label{fig:ragone}
+	\caption{Ragone plot}
+\end{figure}
 
 \section{El condensador ideal\index{condensador ideal}}
 Generalmente un condensador se modela como un par de placas paralelas separadas por un dieléctrico, es definido por su capacitancia, la que refleja la capacidad de almacenar energía. Del modelo de placas paralelas se desprende la definición de capacitancia $C$ como la razón entre la magnitud de carga en cada placa $Q$ y el voltaje entre los terminales $V$:
@@ -58,7 +65,7 @@ Las imperfecciones en la construcción de los electrodos, y la naturaleza de los
 \end{figure}
 
 \subsection{Corriente de fuga (\emph{leakage current})\index{corriente de fuga}}
-Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos, esta corriente 
+Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos (cuando el condensador está cargado), esta corriente 
 
 \section{¿Qué hace a un supercondensador super?\index{supercondensador}}
 La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, como comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios) para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios. Esta característica le otorga el grado de super a los supercondensadores.
@@ -74,8 +81,9 @@ La gran densidad de energía de un supercondensador tiene que surgir de algún m
 	\caption{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo.}
 	\label{fig:edlc}
 \end{figure}
-\subsection{Pseudocapacitancia\index{pseudocapacitancia}}
 
+\subsection{Pseudocapacitancia\index{pseudocapacitancia}}
+Cuando en un supercondensador existen reacciones químicas que contribuyen a la capacidad del dispositivo (como en las baterías), se habla de pseudocapacitancia. En un supercondensador como
 
 \section{Mediciones en supercondensadores}
 \subsection{Voltametría cíclica}
