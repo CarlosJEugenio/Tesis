@@ -12,7 +12,7 @@
 \RequirePackage{dsfont}
 \RequirePackage{booktabs}
 \RequirePackage{makeidx}
-\RequirePackage[colorlinks=true, pdfborder={0 100 100}, linkcolor=orange, linktoc=page, citecolor=Green]{hyperref}
+\RequirePackage[colorlinks=true, pdfborder={0 100 100}, linkcolor=black, linktoc=page, citecolor=black]{hyperref}
 \RequirePackage{microtype}
 \RequirePackage{amssymb}
 \RequirePackage{amsmath}
@@ -100,12 +100,8 @@
 	\vfill
 	\begin{center}
 		\textbf{© \@author, \@anolol\\
-			Algunos  derechos  reservados.
-			Esta  obra  está  bajo  una  Licencia  Creative  Commons  Atribución-NoComercial-Compartir Igual
-			3.0. Sus condiciones de uso pueden ser revisadas 
-			en: http://creativecommons.org/licenses/by-nc-sa/3.0/cl/.}
+			Licencia Creative Commons Atribución-NoComercial Chile 3.0}
 		\\
-		\includegraphics[width=2cm]{by-nc-sa.png}
 	\end{center}
 	
 	}

@@ -1,13 +1,43 @@
 \documentclass[oneside]{usachtesis} %%clase para tesis usach
-\usepackage[cm]{sfmath}
-%%package para bibliografía
 
+\usepackage[cm]{sfmath}
+
+%%package para bibliografía
 \usepackage{natbib}
+
+\usepackage{fancyhdr}
+
+\usepackage{titlesec}
+
+\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	\fancyhead{} % clear all header fields
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[RO]{\thepage}
+	\fancyfoot[RE]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{plain}
+
+\titleformat{\chapter}
+{\normalfont\bfseries}{\thechapter}{1em}{}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\normalfont\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+
 
 \sansmath % Enable sans-serif math for rest of document
 
 \makeindex
 \setcounter{tocdepth}{1}
+
 \graphicspath{{Imagenes/}}
 
 \newcommand*\circled[1]{%
@@ -84,19 +114,24 @@
 \include{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
+%%INTRODUCCIÓN
+\newpage
+\include{Introduccion}
+\addcontentsline{toc}{chapter}{Introducción}
+
+
 %%CAPÍTULOS
 \newpage
 \pagenumbering{arabic}
-\include{Introduccion}
 \include{Marco_teorico}
 \include{Cuerpo_tesis}
 \include{Conclusiones}
-\include{Anexo}
+%\include{Anexo}
 
 %%ÍNDICE ANALÍTICO
-\newpage
-\printindex
-\addcontentsline{toc}{chapter}{Índice Analítico}
+%\newpage
+%\printindex
+%\addcontentsline{toc}{chapter}{Índice Analítico}
 
 %%BIBLIOGRAFÍA
 \newpage
