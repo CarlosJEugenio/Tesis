@@ -10,6 +10,11 @@ Balandin, A.~A. (2011).
 \newblock {Thermal properties of graphene and nanostructured carbon materials}.
 \newblock {\em Nature Materials}, 10(8):569--581.
 
+\bibitem[Binnig and Rohrer, 1982]{Binnig1982}
+Binnig, G. and Rohrer, H. (1982).
+\newblock {Scanning tunneling microscopy}.
+\newblock {\em Surface Science}, 126(126):236--244.
+
 \bibitem[Boehm et~al., 1986]{Boehm1986}
 Boehm, H.~P., Setton, R., and Stumpp, E. (1986).
 \newblock {Nomenclature and terminology of graphite intercalation compounds}.
@@ -32,6 +37,11 @@ Bunch, J.~S., van~der Zande, A.~M., Verbridge, S.~S., Parpia, J.~M., Craighead,
   H.~G., and McEuen, P.~L. (2008).
 \newblock {Impermeable Atomic Membranes from Graphene Sheets}.
 \newblock {\em Nano Letters}, 8(8):2458--2462.
+
+\bibitem[Chen, 2008]{Chen2008}
+Chen, C.~J. (2008).
+\newblock {\em {Introduction to Scanning Tunneling Microscopy Second Edition}}.
+\newblock Oxford.
 
 \bibitem[Chua and Pumera, 2015]{Chua2015}
 Chua, C.~K. and Pumera, M. (2015).
@@ -86,6 +96,7 @@ Gre{\ss}ler, S. and Gazs{\'{o}}, A. (2013).
 \bibitem[Haick, 2013]{Haick2013}
 Haick, H. (2013).
 \newblock {\em {Nanotechnology and Nanosensors}}.
+\newblock Technion.
 
 \bibitem[Harima et~al., 2011]{Harima2011}
 Harima, Y., Setodoi, S., Imae, I., Komaguchi, K., Ooyama, Y., Ohshita, J.,
@@ -99,7 +110,7 @@ Hummers, W.~S. and Offeman, R.~E. (1958).
 \newblock {\em Journal of the American Chemical Society}, 80(6):1339--1339.
 
 \bibitem[Lee et~al., 2008]{Lee2008}
-Lee, C., Wei, X., Kysar, J.~W., Hone, J., and = (2008).
+Lee, C., Wei, X., Kysar, J.~W., and Hone, J. (2008).
 \newblock {Measurement of the Elastic Properties and Intrinsic Strength of
   Monolayer Graphene}.
 \newblock {\em Science}, 321(18 July 2008):385--388.
@@ -157,7 +168,7 @@ Staudenmaier, L. (1898).
   31(2):1481--1487.
 
 \bibitem[Thounthong et~al., 2009]{Thounthong2009}
-Thounthong, P., Ra??l, S., and Davat, B. (2009).
+Thounthong, P., Ra{\"{e}}l, S., and Davat, B. (2009).
 \newblock {Energy management of fuel cell/battery/supercapacitor hybrid power
   source for vehicle applications}.
 \newblock {\em Journal of Power Sources}, 193(1):376--385.

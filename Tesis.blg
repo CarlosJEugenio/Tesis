@@ -6,49 +6,46 @@ A level-1 auxiliary file: Introduccion.aux
 A level-1 auxiliary file: Marco_teorico.aux
 A level-1 auxiliary file: Cuerpo_tesis.aux
 A level-1 auxiliary file: Conclusiones.aux
-A level-1 auxiliary file: Anexo.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-Warning--empty publisher in Haick2013
-You've used 34 entries,
+You've used 36 entries,
             1935 wiz_defined-function locations,
-            732 strings with 9977 characters,
-and the built_in function-call counts, 14999 in all, are:
-= -- 1464
-> -- 695
-< -- 15
-+ -- 240
-- -- 240
-* -- 1406
-:= -- 2611
-add.period$ -- 101
-call.type$ -- 34
-change.case$ -- 289
-chr.to.int$ -- 34
-cite$ -- 35
-duplicate$ -- 481
-empty$ -- 1005
-format.name$ -- 288
-if$ -- 2861
+            747 strings with 10207 characters,
+and the built_in function-call counts, 15651 in all, are:
+= -- 1531
+> -- 710
+< -- 17
++ -- 244
+- -- 244
+* -- 1453
+:= -- 2726
+add.period$ -- 108
+call.type$ -- 36
+change.case$ -- 300
+chr.to.int$ -- 36
+cite$ -- 36
+duplicate$ -- 509
+empty$ -- 1058
+format.name$ -- 296
+if$ -- 2991
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 172
-num.names$ -- 102
-pop$ -- 218
+missing$ -- 38
+newline$ -- 183
+num.names$ -- 108
+pop$ -- 228
 preamble$ -- 1
-purify$ -- 290
+purify$ -- 302
 quote$ -- 0
-skip$ -- 364
+skip$ -- 385
 stack$ -- 0
-substring$ -- 1205
-swap$ -- 41
+substring$ -- 1254
+swap$ -- 43
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 202
-warning$ -- 1
-while$ -- 127
+type$ -- 212
+warning$ -- 0
+while$ -- 133
 width$ -- 0
-write$ -- 440
-(There was 1 warning)
+write$ -- 467
