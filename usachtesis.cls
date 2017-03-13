@@ -9,7 +9,6 @@
 \RequirePackage{tikz}
 \RequirePackage{float}
 \RequirePackage{textcomp}
-\RequirePackage{dsfont}
 \RequirePackage{booktabs}
 \RequirePackage{makeidx}
 \RequirePackage[colorlinks=true, pdfborder={0 100 100}, linkcolor=black, linktoc=page, citecolor=black]{hyperref}
