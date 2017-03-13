@@ -31,6 +31,5 @@
 \contentsline {section}{\numberline {5.2}Procedimiento}{12}{section.5.2}
 \contentsline {section}{\numberline {5.3}Resultados}{12}{section.5.3}
 \contentsline {chapter}{\numberline {6}Construcci\IeC {\'o}n de supercondensadores}{13}{chapter.6}
-\contentsline {section}{\numberline {6.1}Armado del dispositivo}{13}{section.6.1}
-\contentsline {section}{\numberline {6.2}Celda de prueba de supercondensador}{14}{section.6.2}
-\contentsline {section}{\numberline {6.3}Resultados}{14}{section.6.3}
+\contentsline {section}{\numberline {6.1}Celda de pruebas de supercondensador}{13}{section.6.1}
+\contentsline {section}{\numberline {6.2}Resultados}{14}{section.6.2}
