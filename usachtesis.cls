@@ -56,14 +56,16 @@
 \newcommand\@anolol{}
 
 \renewcommand{\maketitle}{
-	\begin{flushright}
+	\makebox[\textwidth]{
+		\hspace{3cm}
 		\begin{tabular}{cl}
-			&\multirow{4}{*}{\hspace{0cm}\includegraphics[width=2cm]{logoBN.png}}\\
+			&\multirow{4}{*}{\hspace{0cm}\includegraphics[width=3cm]{logoBN.png}}\\
 			\large{\textbf{UNIVERSIDAD DE SANTIAGO DE CHILE}}&  \\
 			\textbf{FACULTAD DE \@facultad}&\\
 			\textbf{DEPARTAMENTO DE \@departamento}& \\
 		\end{tabular}
-	\end{flushright}
+	}
+
 	
 	\vspace*{3cm}
 	
@@ -74,19 +76,17 @@
 		\textbf{\@author}
 	\end{center}
 	
-	\vspace*{1cm}
-	
-	\begin{flushright}
+	\vspace*{3cm}
+	\makebox[\textwidth]{
+		\hspace{0.5\textwidth}
 		\begin{tabular}{ll}
+			\multicolumn{2}{l}{\textbf{Tesis para optar al Título Profesional de}}\\
+			\multicolumn{2}{l}{\textbf{\@tituloprofesional}}\\
 			\textbf{Profesor Guía:}& \textsc{\@profesorguia}
 		\end{tabular}
+	}
 		\\\vspace{3cm}
 		
-		\begin{center}
-			\textbf{Trabajo de Titulación presentado en conformidad a los
-				requisitos para obtener el título profesional de \@tituloprofesional.}
-		\end{center}
-	\end{flushright}
 	
 	\vfill
 	
