@@ -1,12 +1,12 @@
 %\chapter{Supercondensadores}
-El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}.
+El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}. Se utiliza el diagrama de Ragone (ver figura \ref{fig:ragone}), para comparar las diferentes tecnologías de almacenamiento de energía. 
 
 \begin{figure}
 	\centering
 	\fbox{
 		\includegraphics[width = 0.7\textwidth]{ragone.png}
 	}
-	\caption[Diagrama de Ragone]{Diagrama de Ragone.}
+	\caption[Diagrama de Ragone]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía. }
 	\label{fig:ragone}
 \end{figure}
 
@@ -17,7 +17,7 @@ Generalmente un condensador se modela como un par de placas paralelas separadas 
 	C = \frac{Q}{V}
 \end{equation}
 
-Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente con el voltaje, considerando que $i = dq/dt$:
+Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente\footnote{En estricto rigor, no hay corriente en el condensador, pues los electrones no ``saltan'' de una placa a otra, solo se acumulan en una de ellas. La corriente en el condensador, es más bien una corriente de desplazamiento.} con el voltaje en los terminales del dispositivo, considerando que $i = dq/dt$:
 
 \begin{equation}
 	i(t) = C \frac{dv(t)}{dt}
@@ -34,13 +34,11 @@ Para corrientes constantes, el voltaje varía linealmente como en el gráfico de
 \end{figure}
 
 \section{El condensador real}
-Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron, pensando en su propósito.
+Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron.
 
 \subsection{Breakdown voltage}
 Los condensadores convencionales construidos con materiales dieléctricos están sujetos a un voltaje máximo de operación determinado por la tensión de ruptura (\textit{Breakdown voltage}), voltaje al cual se pierden las propiedades dieléctricas del material ocasionando cortocircuito al interior del dispositivo, está determinado por la fuerza dieléctrica del material y el espesor de este. En los condensadores electrolíticos la tensión de ruptura es determinada por otros mecanismos\citep{Yahalom1971}. En lo que respecta a los supercondensadores, el voltaje máximo de carga depende fundamentalmente de electrolíto usado, principalmente por las reacciones que ocurren a ciertos potenciales.\\
 
-\subsection{Circuito equivalente}
-El comportamiento de los condensadores reales (convencionales o electroquímicos), son modeladas por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
 Las imperfecciones en la construcción de los electrodos, y la naturaleza de los materiales utilizados (e.g. resistencia no cero), disipan energía durante la carga y descarga como si se tratase de una resistencia en serie al condensador, esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), y disminuye la eficiencia de éste.
@@ -56,6 +54,9 @@ Las imperfecciones en la construcción de los electrodos, y la naturaleza de los
 
 \subsection{Corriente de fuga (\emph{leakage current})}
 Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos (cuando el condensador está cargado), esta corriente descarga al condensador incluso si está desconectado. Esta imperfección es modelada como una resistencia en paralelo al condensador.
+
+\subsection{Circuito equivalente}
+El comportamiento de los condensadores reales (convencionales o electroquímicos), son modeladas por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
 
 \section{¿Qué hace a un supercondensador super?}
 La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios. Esta característica le otorga el grado de super a los supercondensadores.
