@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  4 APR 2017 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  6 APR 2017 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3076,6 +3076,31 @@ Package babel Info: Redefining spanish shorthand "?
  [13
 
 ]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 5.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 5.
+ [14]
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 5.
@@ -3102,7 +3127,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
- <Imagenes/cell3.png, id=451, 1055.50336pt x 422.7795pt>
+ <Imagenes/cell3.png, id=456, 1055.50336pt x 422.7795pt>
 File: Imagenes/cell3.png Graphic file (type png)
 
 <use Imagenes/cell3.png>
@@ -3145,7 +3170,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 126.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 126.
- [14
+ [15
 
  <./Imagenes/cell3.png>]
 Package babel Info: Redefining spanish shorthand <<
@@ -3172,7 +3197,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 126.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 126.
- [15]
+ [16]
 \openout2 = `Conclusiones.aux'.
 
  (./Conclusiones.tex
@@ -3213,7 +3238,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 127.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 127.
- [16
+ [17
 
 
 
@@ -3242,7 +3267,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 52.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 52.
- [17
+ [18
 
 
 ]
@@ -3270,7 +3295,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 117.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 117.
- [18]
+ [19]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 175.
 Package babel Info: Redefining spanish shorthand >>
@@ -3295,7 +3320,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 175.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 175.
- [19])
+ [20])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 141.
 Package babel Info: Redefining spanish shorthand >>
@@ -3320,7 +3345,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 141.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 141.
- [20]
+ [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./Tesis.aux
@@ -3336,8 +3361,8 @@ Package rerunfilecheck Info: File `Tesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 36082 strings out of 493013
- 674377 string characters out of 6133343
+ 36083 strings out of 493013
+ 674384 string characters out of 6133343
  854410 words of memory out of 5000000
  38649 multiletter control sequences out of 15000+600000
  55182 words of font info for 210 fonts, out of 8000000 for 9000
@@ -3352,10 +3377,10 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 16/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (34 pages, 6030670 bytes).
+Output written on Tesis.pdf (35 pages, 6032352 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 466 compressed objects within 5 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 125 named destinations out of 1000 (max. 500000)
  34553 words of extra memory for PDF output out of 35830 (max. 10000000)
 
