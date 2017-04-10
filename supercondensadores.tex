@@ -1,17 +1,18 @@
 %\chapter{Supercondensadores}
-El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}. Se utiliza el diagrama de Ragone (ver figura \ref{fig:ragone}), para comparar las diferentes tecnologías de almacenamiento de energía. 
+El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}.\\
+%ADD supercapacitor description
 
 \begin{figure}
 	\centering
 	\fbox{
 		\includegraphics[width = 0.7\textwidth]{ragone.png}
 	}
-	\caption[Diagrama de Ragone]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía. }
+	\caption[Diagrama de Ragone]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía.}
 	\label{fig:ragone}
 \end{figure}
 
-\section{El condensador ideal\index{condensador ideal}}
-Generalmente un condensador se modela como un par de placas paralelas separadas por un dieléctrico, este es definido por su capacitancia, la que refleja la capacidad de almacenar energía. Del modelo de placas paralelas se desprende la definición de capacitancia $C$ como la razón entre la magnitud de carga en cada placa $Q$ y el voltaje entre los terminales $V$:
+\section{El condensador ideal}
+Generalmente un condensador se modela como un par de placas paralelas separadas por un dieléctrico, este es definido por su capacitancia, la que refleja a groso modo, la capacidad de almacenar energía. Del modelo de placas paralelas se desprende la definición de capacitancia $C$ como la razón entre la magnitud de carga en cada placa $Q$ y el voltaje entre los terminales $V$:
 
 \begin{equation}
 	C = \frac{Q}{V}
@@ -34,11 +35,8 @@ Para corrientes constantes, el voltaje varía linealmente como en el gráfico de
 \end{figure}
 
 \section{El condensador real}
-Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron.
-
-\subsection{Breakdown voltage}
-Los condensadores convencionales construidos con materiales dieléctricos están sujetos a un voltaje máximo de operación determinado por la tensión de ruptura (\textit{Breakdown voltage}), voltaje al cual se pierden las propiedades dieléctricas del material ocasionando cortocircuito al interior del dispositivo, está determinado por la fuerza dieléctrica del material y el espesor de este. En los condensadores electrolíticos la tensión de ruptura es determinada por otros mecanismos\citep{Yahalom1971}. En lo que respecta a los supercondensadores, el voltaje máximo de carga depende fundamentalmente de electrolíto usado, principalmente por las reacciones que ocurren a ciertos potenciales.\\
-
+Un condensador ideal almacenaría energía al cargase y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron.\\
+El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje al cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En lo que respecta a los supercondensadores, el voltaje máximo de carga depende fundamentalmente de electrolíto usado, principalmente por las reacciones que ocurren a ciertos potenciales.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
 Las imperfecciones en la construcción de los electrodos, y la naturaleza de los materiales utilizados (e.g. resistencia no cero), disipan energía durante la carga y descarga como si se tratase de una resistencia en serie al condensador, esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), y disminuye la eficiencia de éste.
@@ -83,7 +81,7 @@ Cuando en un supercondensador existe intercambio de electrones entre los electro
 En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal y se registra la corriente, típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
 
 \subsection{Espectroscopía de impedancia electroquímica}
-
+Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, se aplica en los terminales del dispositivo midiendo la respuesta (voltaje o corriente según corresponda, junto con el desfase), así, se obtiene la impedancia del sistema a determinada frecuencia. Haciendo un barrido en frecuencia que puede ir desde los milihertz hasta los megahertz, se obtiene el espectro de impedancia del dispositivo. Una forma de representación de los datos obtenidos es con el gráfico de Nyquist. 
 
 \subsection{Carga y descarga cíclica}
-Aquí se aplica una corriente constante para cargar el condensador hasta un potencial preestablecido, cuando se alcanza dicho potencial, se comienza la descarga aplicando una corriente igual a la de carga pero en sentido contrario hasta alcanzar un potencial inferior pre
+Aquí se aplica una corriente constante para cargar el condensador hasta un potencial preestablecido, cuando se alcanza dicho potencial, se comienza la descarga aplicando una corriente igual a la de carga pero en sentido contrario hasta alcanzar un potencial inferior predefinido. De las curvas obtenidas se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente (ESR). Al extender la medición a miles de ciclos (hasta 100.000 ciclos), se puede determinar como será el comportamiento del dispositivo al pasar el tiempo.
