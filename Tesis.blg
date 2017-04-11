@@ -8,44 +8,44 @@ A level-1 auxiliary file: Cuerpo_tesis.aux
 A level-1 auxiliary file: Conclusiones.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-You've used 37 entries,
+You've used 38 entries,
             1935 wiz_defined-function locations,
-            752 strings with 10388 characters,
-and the built_in function-call counts, 16142 in all, are:
-= -- 1578
-> -- 738
+            759 strings with 10592 characters,
+and the built_in function-call counts, 16589 in all, are:
+= -- 1623
+> -- 756
 < -- 17
-+ -- 254
-- -- 254
-* -- 1502
-:= -- 2812
-add.period$ -- 111
-call.type$ -- 37
-change.case$ -- 310
-chr.to.int$ -- 37
-cite$ -- 37
-duplicate$ -- 523
-empty$ -- 1088
-format.name$ -- 307
-if$ -- 3083
++ -- 260
+- -- 260
+* -- 1545
+:= -- 2888
+add.period$ -- 114
+call.type$ -- 38
+change.case$ -- 318
+chr.to.int$ -- 38
+cite$ -- 38
+duplicate$ -- 537
+empty$ -- 1120
+format.name$ -- 314
+if$ -- 3169
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 39
-newline$ -- 188
-num.names$ -- 111
-pop$ -- 236
+missing$ -- 40
+newline$ -- 193
+num.names$ -- 114
+pop$ -- 242
 preamble$ -- 1
-purify$ -- 312
+purify$ -- 320
 quote$ -- 0
-skip$ -- 395
+skip$ -- 405
 stack$ -- 0
-substring$ -- 1291
-swap$ -- 44
+substring$ -- 1334
+swap$ -- 45
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 218
+type$ -- 224
 warning$ -- 0
-while$ -- 137
+while$ -- 141
 width$ -- 0
-write$ -- 480
+write$ -- 493
