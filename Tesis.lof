@@ -4,19 +4,18 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Densidad de estados en diferentes dimensionalidades}}{\es@scroman {xii}}{figure.caption.10}
 \contentsline {figure}{\numberline {4}{\ignorespaces Subdivisiones de un cubo demostrando el aumento de \IeC {\'a}rea superficial total}}{\es@scroman {xiii}}{figure.caption.11}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Izquierda: Red de grafeno en espacio real. Derecha: Red en espacio rec\IeC {\'\i }proco.\relax }}{2}{figure.caption.12}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Estructuras propuestas para el \IeC {\'o}xido de grafeno \citep {Dreyer2010}.\relax }}{3}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Izquierda: Red de grafeno en espacio real. Derecha: Red en espacio rec\IeC {\'\i }proco.\relax }}{3}{figure.caption.12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Estructuras propuestas para el \IeC {\'o}xido de grafeno \citep {Dreyer2010}.\relax }}{4}{figure.caption.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de Ragone}}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Carga y descarga de un condensador ideal a corriente constante.\relax }}{7}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Carga y descarga de un condensador evidenciando el efecto de una ESR.\relax }}{8}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep {Fletcher2014}.\relax }}{9}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Esquema de un supercondensador mostrando una doble capa electr\IeC {\'o}nica de Helmholtz en cada electrodo.\relax }}{10}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Ragone}}{7}{figure.caption.14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Carga y descarga de un condensador ideal a corriente constante.\relax }}{8}{figure.caption.15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Carga y descarga de un condensador evidenciando el efecto de una ESR.\relax }}{9}{figure.caption.16}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep {Fletcher2014}.\relax }}{10}{figure.caption.17}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Esquema de un supercondensador mostrando una doble capa electr\IeC {\'o}nica de Helmholtz en cada electrodo.\relax }}{11}{figure.caption.18}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces GO\relax }}{14}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces GO\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces RGO\relax }}{16}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces RGO\relax }}{17}{figure.caption.20}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Derecha: Vista longitudinal de la celda de pruebas, mostrando los componentes m\IeC {\'a}s importantes. Izquierda: Fotograf\IeC {\'\i }a de la celda armada y conectada al potenciostato \relax }}{19}{figure.caption.21}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Electrodos\relax }}{19}{figure.caption.22}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Izquierda: Vista longitudinal de la celda de pruebas, mostrando los componentes m\IeC {\'a}s importantes. Derecha: Fotograf\IeC {\'\i }a de la celda armada y conectada al potenciostato.\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Electrodos utilizados en la celda de pruebas de supercondensador. De izquierda a derecha: Electro sin material depositado. Electrodo con material depositado mediante goteo (\emph {drop-casting}). Electrodo con material en forma de papel descentrado. Electrodo con material en forma de papel bien centrado soble el metal.\relax }}{18}{figure.caption.22}
