@@ -10,24 +10,24 @@ The style file: apalike.bst
 Database file #1: Nanosintesis.bib
 You've used 38 entries,
             1935 wiz_defined-function locations,
-            759 strings with 10592 characters,
-and the built_in function-call counts, 16589 in all, are:
-= -- 1623
+            758 strings with 10586 characters,
+and the built_in function-call counts, 16629 in all, are:
+= -- 1630
 > -- 756
 < -- 17
 + -- 260
 - -- 260
-* -- 1545
-:= -- 2888
+* -- 1549
+:= -- 2892
 add.period$ -- 114
 call.type$ -- 38
 change.case$ -- 318
 chr.to.int$ -- 38
 cite$ -- 38
 duplicate$ -- 537
-empty$ -- 1120
+empty$ -- 1123
 format.name$ -- 314
-if$ -- 3169
+if$ -- 3177
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 40
@@ -39,13 +39,13 @@ purify$ -- 320
 quote$ -- 0
 skip$ -- 405
 stack$ -- 0
-substring$ -- 1334
+substring$ -- 1347
 swap$ -- 45
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 224
 warning$ -- 0
-while$ -- 141
+while$ -- 142
 width$ -- 0
 write$ -- 493
