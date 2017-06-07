@@ -1,0 +1,24 @@
+function [filenames] = saveDataToFile(DATA)
+
+filenames = fieldnames(DATA);
+
+path = uigetdir('C:\Users\Public\Documents\My Gamry Data','Open folder to store the data files');
+cd(path)
+delete *
+
+if path==0  %user pressed cancel on dir window
+    return
+end
+
+for i = 1:length(filenames)
+    
+    fid = fopen([filenames{i} '.txt'],'w');
+    fprintf(fid, 'Scan rate %g', 
+    fprintf(fid, 'Vf Im\n');
+    fprintf(fid, '%g %g\n', cat(2,DATA.(filenames{i}).data.Vf.curve3',DATA.(filenames{i}).data.Im.curve3'));
+    fclose(fid);
+end
+    
+
+
+
