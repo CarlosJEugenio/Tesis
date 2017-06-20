@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Tesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesis.aux
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Introduccion.aux
 A level-1 auxiliary file: Marco_teorico.aux
@@ -8,44 +6,27 @@ A level-1 auxiliary file: Cuerpo_tesis.aux
 A level-1 auxiliary file: Conclusiones.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-You've used 38 entries,
-            1935 wiz_defined-function locations,
-            758 strings with 10586 characters,
-and the built_in function-call counts, 16629 in all, are:
-= -- 1630
-> -- 756
-< -- 17
-+ -- 260
-- -- 260
-* -- 1549
-:= -- 2892
-add.period$ -- 114
-call.type$ -- 38
-change.case$ -- 318
-chr.to.int$ -- 38
-cite$ -- 38
-duplicate$ -- 537
-empty$ -- 1123
-format.name$ -- 314
-if$ -- 3177
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 193
-num.names$ -- 114
-pop$ -- 242
-preamble$ -- 1
-purify$ -- 320
-quote$ -- 0
-skip$ -- 405
-stack$ -- 0
-substring$ -- 1347
-swap$ -- 45
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 224
-warning$ -- 0
-while$ -- 142
-width$ -- 0
-write$ -- 493
+Warning--I didn't find a database entry for "Dreyer2010"
+Warning--I didn't find a database entry for "Fletcher2014"
+Warning--I didn't find a database entry for "Haick2013"
+Warning--I didn't find a database entry for "Binnig1982"
+Warning--I didn't find a database entry for "Chen2008"
+Warning--I didn't find a database entry for "Daniel2004"
+Warning--I didn't find a database entry for "Brodie1859"
+Warning--I didn't find a database entry for "Geim2012"
+Warning--I didn't find a database entry for "Wallace1947"
+Warning--I didn't find a database entry for "Boehm1986"
+Warning--I didn't find a database entry for "Balandin2011"
+Warning--I didn't find a database entry for "Nair2008"
+Warning--I didn't find a database entry for "Bunch2007"
+Warning--I didn't find a database entry for "Moser2007"
+Warning--I didn't find a database entry for "Loh2010"
+Warning--I didn't find a database entry for "Staudenmaier1898"
+Warning--I didn't find a database entry for "Zhu2010a"
+Warning--I didn't find a database entry for "El-Kady2013"
+Warning--I didn't find a database entry for "Lee2012"
+Warning--I didn't find a database entry for "Mohandoss2017"
+Warning--I didn't find a database entry for "Harima2011"
+Warning--I didn't find a database entry for "Toh2014"
+Warning--I didn't find a database entry for "Feng2016"
+(There were 23 warnings)

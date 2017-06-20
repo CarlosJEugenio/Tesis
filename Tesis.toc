@@ -27,6 +27,6 @@
 \contentsline {section}{\numberline {4.3}Resultados}{17}{section.4.3}
 \contentsline {chapter}{\numberline {5}Construcci\IeC {\'o}n de supercondensadores}{18}{chapter.5}
 \contentsline {section}{\numberline {5.1}Celda de pruebas de supercondensador}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Construcci\IeC {\'o}n de electrodos y preparaci\IeC {\'o}n de electrolitos}{18}{section.5.2}
+\contentsline {section}{\numberline {5.2}Construcci\IeC {\'o}n de electrodos y preparaci\IeC {\'o}n de electrolitos}{19}{section.5.2}
 \contentsline {section}{\numberline {5.3}Resultados}{19}{section.5.3}
-\contentsline {chapter}{Conclusiones}{20}{chapter*.24}
+\contentsline {chapter}{Conclusiones}{21}{chapter*.25}
