@@ -1,5 +1,5 @@
 function A = retriveSettings(B,varargin)
-%A = datos en bruto
+%B = datos en bruto
 %args = 'SCANRATE', 'VLIMIT1', 'VLIMIT2', etc
 
 % nargin

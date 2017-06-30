@@ -12,7 +12,8 @@ for i=1:nargin-1
         
         if j==length(a)
             strCell = B(a(j):end,b(j):end);
-        else strCell = B(a(j):a(j+1),b(j):b(j+1));
+        else
+            strCell = B(a(j):a(j+1),b(j):b(j+1));
         end
         
         for k=1:length(strCell)
