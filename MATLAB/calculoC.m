@@ -14,7 +14,9 @@ switch nargin
         specific_capacitance_flag = true;
 end
 
-if isempty(Paths)
+if isa(Paths,'numeric')
+    error('No dir selected')
+elseif isempty(Paths)
     error('No dir found')
 end
 
@@ -23,6 +25,7 @@ end
 
 %open sample dir
 for k = 1:length(Paths)
+ 
 DATA = cell(length(Paths),1);
 path = Paths{k};
 splitPath = strsplit(path,'\');
@@ -64,7 +67,11 @@ for i = 1:length(D)  % empieza en 3 porque 1 y 2 son . y .. respectivamente
     data = retriveData(A,'Vf','Im');    %obtener datos
     settings = retriveSettings(A,'SCANRATE','VLIMIT1','VLIMIT2');   %obtener configuraciòn
     m = retriveMass(A) / 1000;
-    
+    if isnan(m)
+        m = 1 / 1000;   
+        specific_capacitance_flag = false;
+    end
+        
     I = trapz(data.Vf.(curve),data.Im.(curve)); %integral CV
     C = I / (2 * abs(settings.VLIMIT1 - settings.VLIMIT2) * m * ... %Capacitancia
         settings.SCANRATE / 1000); %scanrate is in mv, has to be in V
