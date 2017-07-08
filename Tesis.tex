@@ -14,6 +14,23 @@
 
 \usepackage{subcaption}
 
+\usepackage{pgfplots}
+
+\pgfplotsset{
+	colormap={parula}{
+		rgb255=(53,42,135)
+		rgb255=(15,92,221)
+		rgb255=(18,125,216)
+		rgb255=(7,156,207)
+		rgb255=(21,177,180)
+		rgb255=(89,189,140)
+		rgb255=(165,190,107)
+		rgb255=(225,185,82)
+		rgb255=(252,206,46)
+		rgb255=(249,251,14)}}
+	
+\usetikzlibrary{positioning}
+
 \fancypagestyle{plain}{%
 	\fancyhf{} % clear all header and footer fields
 	\fancyhead{} % clear all header fields
@@ -37,7 +54,7 @@
 {\normalfont}{\thesubsubsection}{1em}{}
 
 
-\sansmath % Enable sans-serif math for rest of document
+%\sansmath % Enable sans-serif math for rest of document
 
 \makeindex
 \setcounter{tocdepth}{1}

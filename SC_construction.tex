@@ -42,50 +42,73 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 \begin{figure}
 	\centering
 	{
-		\begin{subfigure}[t]{0.3\textwidth}		
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/CV_CRGO080617_1.png}
-			}
-			\caption{$CV_RGO080617_1$}
-			\label{fig:CV_RGO080617_1}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.3\textwidth}	
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/CV_CRGO080617_2.png}
-			}
-			\caption{$CV_RGO080617_2$}
-			\label{fig:CV_RGO080617_2}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.3\textwidth}	
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/CV_CRGO080617_3.png}
-			}
-			\caption{$CV_RGO080617_3$}
-			\label{fig:CV_RGO080617_3}
+		\begin{subfigure}{0.6\textwidth}
+			\includegraphics[width=\textwidth]{./Data/CV_CRGO300517_1.png}
+			\caption{Voltametría cíclica.}
 		\end{subfigure}
-	\medskip
-		\begin{subfigure}[t]{0.3\textwidth}		
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/SC_CRGO080617_1.png}
-			}
-			\caption{$SC_RGO080617_1$}
-			\label{fig:SC_RGO080617_1}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.3\textwidth}	
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/SC_CRGO080617_2.png}
-			}
-			\caption{$SC_RGO080617_2$}
-			\label{fig:SC_RGO080617_2}
-		\end{subfigure}\hfill
-		\begin{subfigure}[t]{0.3\textwidth}	
-			\fbox{
-				\includegraphics[width=\textwidth]{./Data/SC_CRGO080617_3.png}
-			}
-			\caption{$SC_RGO080617_3$}
-			\label{fig:SC_RGO080617_3}
+		\begin{subfigure}{0.6\textwidth}
+			\includegraphics[width=\textwidth]{./Data/SC_CRGO300517_1.png}
+			\caption{Capacidad específica}
 		\end{subfigure}
 	}
-
+	\caption{Voltametría cíclica. CRGO300517\_1}
+	\label{fig:CV_CRGO300517_1}
 \end{figure}
 	
+
+
+\begin{figure}
+	{
+		\begin{subfigure}{0.6\textwidth}
+			\includegraphics[width=\textwidth]{./Data/CV_CRGO300517_2.png}
+			\caption{Voltametría cíclica.}
+		\end{subfigure}
+		\begin{subfigure}{0.6\textwidth}
+			\includegraphics[width=\textwidth]{./Data/SC_CRGO300517_2.png}
+			\caption{Capacidad específica}
+		\end{subfigure}
+	}
+	\caption{Voltametría cíclica. CRGO300517\_2}
+	\label{fig:CV_CRGO300517_2}
+\end{figure}
+
+
+%CRGO300517_1: paper on steel disk
+\begin{figure}
+	\begin{subfigure}{0.4\textwidth}	
+		\begin{tikzpicture}
+			\begin{axis}
+			[
+			title=Voltametría Cíclica,
+			domain=-0.8:0.8,
+			ylabel={Corriente [A]},
+			xlabel={Voltage [V]},
+			cycle list name=exotic,
+			no markers,
+			]
+			
+				\addplot table {./Data/CV_CRGO300517_1/raw/sample1.txt};
+				\addplot table {./Data/CV_CRGO300517_1/raw/sample2.txt};
+				\addplot table {./Data/CV_CRGO300517_1/raw/sample3.txt};
+				\addplot table {./Data/CV_CRGO300517_1/raw/sample4.txt};
+				\addplot table {./Data/CV_CRGO300517_1/raw/sample5.txt};	
+			\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.4\textwidth}	
+		\begin{tikzpicture}
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table {./Data/CV_CRGO300517_1/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}	
+	\caption{pgfplots test.}
+\end{figure}

@@ -1,5 +1,5 @@
 %\chapter{Supercondensadores}
-El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías\citep{Thounthong2009}.\\
+El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
 Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no, una doble capa electrostática y la llamada pseudocapacitancia electroquímica. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones farádicas en los electródos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones farádicas, se tienen supercondensadores híbridos.
 
 \begin{figure}
@@ -77,7 +77,7 @@ La gran densidad de energía de un supercondensador tiene que surgir de algún m
 	\fbox{
 		\includegraphics[width=0.7\textwidth]{edlc_schem.png}
 		}
-	\caption{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo.}
+	\caption{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
 	\label{fig:edlc}
 \end{figure}
 
@@ -88,10 +88,17 @@ Cuando en un supercondensador existe intercambio de electrones entre los electro
 \section{Mediciones en supercondensadores}
 
 \subsection{Voltametría cíclica}
-En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal y se registra la corriente, típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
+En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal y se mide la corriente, típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
+
+La capacitancia específica puede ser calculada de la voltametría cíclica según la ecuación \ref{eq:cyclic_voltametry}\footnote{Esta ecuación corresponde a la carga total ($\int i dv / \nu$), dividida por la ventana de potencial $\Delta V$, el factor $2$ surge de que la voltametría cíclica comprende tanto un ciclo de carga como uno de descarga.}.
+
+\begin{equation}\label{eq:cyclic_voltametry}
+	C_{s} = \frac{\int_{V_i}^{V_f}i(v) \; dv}{2 \; \Delta V \; m \; \nu }
+\end{equation}
 
 \subsection{Espectroscopía de impedancia electroquímica}
 Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, se aplica en los terminales del dispositivo midiendo la respuesta (voltaje o corriente según corresponda, junto con el desfase), así, se obtiene la impedancia del sistema a determinada frecuencia. Haciendo un barrido en frecuencia que puede ir desde los milihertz hasta los megahertz, se obtiene el espectro de impedancia del dispositivo. Una forma de representación de los datos obtenidos es el gráfico de Nyquist, un gráfico paramétrico con la frecuencia como parámetro de barrido, donde el eje de las abscisas representa la parte real de la impedancia y las coordenadas la parte imaginaria. Cualitativamente la forma de la curva obtenida puede servir para asignarle un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como la resistencia en serie equivalente.
 
 \subsection{Carga y descarga cíclica}
-Aquí se aplica una corriente constante para cargar el condensador hasta un potencial preestablecido, cuando se alcanza dicho potencial, se comienza la descarga aplicando una corriente igual a la de carga pero en sentido contrario hasta alcanzar un potencial inferior predefinido. De las curvas obtenidas se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente (ESR). Al extender la medición a miles de ciclos (hasta 100.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
+Aquí se aplica una corriente constante para cargar el condensador hasta un potencial preestablecido, cuando se alcanza dicho potencial, se comienza la descarga aplicando una corriente igual a la de carga pero en sentido contrario hasta alcanzar un potencial inferior predefinido. De las curvas obtenidas se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente (ESR). Al extender la medición a miles de ciclos (hasta 10.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
+De esta medición se puede calcular la capacitancia y la resistencia en serie equivalente.

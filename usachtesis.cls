@@ -26,7 +26,7 @@
 \definecolor{Green}{RGB}{50,200,100}
 \RequirePackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-\RequirePackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
+%\RequirePackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
 
 \renewcommand{\baselinestretch}{1.5}
 

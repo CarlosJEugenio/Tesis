@@ -72,7 +72,7 @@ for i = 1:length(D)  % empieza en 3 porque 1 y 2 son . y .. respectivamente
         specific_capacitance_flag = false;
     end
         
-    I = trapz(data.Vf.(curve),data.Im.(curve)); %integral CV
+    I = polyarea(data.Vf.(curve),data.Im.(curve)); %integral CV
     C = I / (2 * abs(settings.VLIMIT1 - settings.VLIMIT2) * m * ... %Capacitancia
         settings.SCANRATE / 1000); %scanrate is in mv, has to be in V
     %save data
@@ -107,7 +107,7 @@ for i=1:length(fnames) %number of samples
                          DATA{k}.(fnames{i}).data.CAPACITANCE]);
 end
 %plots
-title([ strrep(samplename, '_', '\_') sprintf('mass = %g g',m) ] )
+% title([ strrep(samplename, '_', '\_') sprintf('mass = %g g',m) ] )
 legend(strrep(c, '_', '\_'),'Location','SouthEast')
 xlabel('Voltage [V]')
 if specific_capacitance_flag
@@ -122,7 +122,7 @@ for i=1:length(fnames)
     plot(capSr(i,1),capSr(i,2),'*','color',cc(i,:))
 end
 legend(strrep(c, '_', '\_'),'Location','NorthEast')
-title([ strrep(samplename, '_', '\_') sprintf('mass = %g g',m) ] )
+% title([ strrep(samplename, '_', '\_') sprintf('mass = %g g',m) ] )
 xlabel('Scan Rate [mV/s]')
 if specific_capacitance_flag
     ylabel('Specific capacitance [F/g]')
