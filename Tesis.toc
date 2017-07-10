@@ -29,4 +29,4 @@
 \contentsline {section}{\numberline {5.1}Celda de pruebas de supercondensador}{19}{section.5.1}
 \contentsline {section}{\numberline {5.2}Construcci\IeC {\'o}n de electrodos y preparaci\IeC {\'o}n de electrolitos}{20}{section.5.2}
 \contentsline {section}{\numberline {5.3}Resultados}{20}{section.5.3}
-\contentsline {chapter}{Conclusiones}{24}{chapter*.28}
+\contentsline {chapter}{Conclusiones}{24}{chapter*.27}
