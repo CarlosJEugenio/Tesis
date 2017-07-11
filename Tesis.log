@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  10 JUL 2017 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  11 JUL 2017 20:24
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -2446,7 +2446,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 
-<Imagenes/scale.png, id=223, 1423.719pt x 459.99855pt>
+<Imagenes/scale.png, id=225, 1423.719pt x 459.99855pt>
 File: Imagenes/scale.png Graphic file (type png)
 
 <use Imagenes/scale.png>
@@ -2490,7 +2490,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
-] <Imagenes/carbon_alotropes.png, id=244, 1236.90105pt x 338.58495pt>
+] <Imagenes/carbon_alotropes.png, id=246, 1236.90105pt x 338.58495pt>
 File: Imagenes/carbon_alotropes.png Graphic file (type png)
 
 <use Imagenes/carbon_alotropes.png>
@@ -2526,7 +2526,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
 [11 <./Imagenes/scale.png>]
-<Imagenes/DoE.png, id=253, 532.6299pt x 323.7696pt>
+<Imagenes/DoE.png, id=255, 532.6299pt x 323.7696pt>
 File: Imagenes/DoE.png Graphic file (type png)
  <use Imagenes/DoE.png>
 Package pdftex.def Info: Imagenes/DoE.png used on input line 43.
@@ -2557,7 +2557,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 50.
 
 [12 <./Imagenes/carbon_alotropes.png> <./Imagenes/DoE.png>]
-<Imagenes/area_cubes.png, id=265, 712.22086pt x 185.37254pt>
+<Imagenes/area_cubes.png, id=267, 712.22086pt x 185.37254pt>
 File: Imagenes/area_cubes.png Graphic file (type png)
 
 <use Imagenes/area_cubes.png>
@@ -2636,7 +2636,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 (grafeno.tex
-<Imagenes/graphene_lattice.png, id=296, 1180.53046pt x 755.9442pt>
+<Imagenes/graphene_lattice.png, id=298, 1180.53046pt x 755.9442pt>
 File: Imagenes/graphene_lattice.png Graphic file (type png)
 
 <use Imagenes/graphene_lattice.png>
@@ -2713,7 +2713,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
  [2 <./Imagenes/graphene_lattice.png>]
-<Imagenes/GO_structure.png, id=346, 1046.10825pt x 1536.4602pt>
+<Imagenes/GO_structure.png, id=348, 1046.10825pt x 1536.4602pt>
 File: Imagenes/GO_structure.png Graphic file (type png)
 
 <use Imagenes/GO_structure.png>
@@ -2807,7 +2807,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-(supercondensadores.tex <Imagenes/ragone.png, id=400, 632.3625pt x 350.5095pt>
+(supercondensadores.tex <Imagenes/ragone.png, id=402, 632.3625pt x 350.5095pt>
 File: Imagenes/ragone.png Graphic file (type png)
 
 <use Imagenes/ragone.png>
@@ -2853,7 +2853,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
 
-<Imagenes/charge-discharge_ideal_cap.png, id=408, 614.295pt x 361.35pt>
+<Imagenes/charge-discharge_ideal_cap.png, id=410, 614.295pt x 361.35pt>
 File: Imagenes/charge-discharge_ideal_cap.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_ideal_cap.png>
@@ -2927,7 +2927,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
 [7 <./Imagenes/charge-discharge_ideal_cap.png>]
-<Imagenes/charge-discharge_esr.png, id=431, 544.55444pt x 318.7107pt>
+<Imagenes/charge-discharge_esr.png, id=433, 544.55444pt x 318.7107pt>
 File: Imagenes/charge-discharge_esr.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_esr.png>
@@ -2958,8 +2958,8 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 59.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
- [8 <./Imagenes/charge-discharge_esr.png>] <Imagenes/equivalent_both.png, id=43
-9, 580.3281pt x 278.9622pt>
+ [8 <./Imagenes/charge-discharge_esr.png>] <Imagenes/equivalent_both.png, id=44
+1, 580.3281pt x 278.9622pt>
 File: Imagenes/equivalent_both.png Graphic file (type png)
 
 <use Imagenes/equivalent_both.png>
@@ -2978,7 +2978,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
 
-<Imagenes/edlc_schem.png, id=446, 898.67744pt x 696.32146pt>
+<Imagenes/edlc_schem.png, id=448, 898.67744pt x 696.32146pt>
 File: Imagenes/edlc_schem.png Graphic file (type png)
 
 <use Imagenes/edlc_schem.png>
@@ -3171,7 +3171,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 7.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 7.
- <Imagenes/GO_pic.png, id=489, 1003.75pt x 1229.59375pt>
+ <Imagenes/GO_pic.png, id=491, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 
 <use Imagenes/GO_pic.png>
@@ -3189,7 +3189,7 @@ s-converted-to.pdf Imagenes/../Data/Resumen.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<Imagenes/../Data/Resumen-eps-converted-to.pdf, id=490, 766.865pt x 590.205pt>
+<Imagenes/../Data/Resumen-eps-converted-to.pdf, id=492, 766.865pt x 590.205pt>
 File: Imagenes/../Data/Resumen-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Imagenes/../Data/Resumen-eps-converted-to.pdf>
@@ -3327,7 +3327,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
- <Imagenes/RGO_pic.png, id=547, 1003.75pt x 1328.965pt>
+ <Imagenes/RGO_pic.png, id=549, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 
 <use Imagenes/RGO_pic.png>
@@ -3400,7 +3400,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 (SC_construction.tex
-<Imagenes/SC_process.png, id=558, 1628.60445pt x 578.8827pt>
+<Imagenes/SC_process.png, id=560, 1628.60445pt x 578.8827pt>
 File: Imagenes/SC_process.png Graphic file (type png)
 
 <use Imagenes/SC_process.png>
@@ -3445,7 +3445,7 @@ Package babel Info: Redefining spanish shorthand "?
  [19
 
  <./Imagenes/SC_process.png>]
-<Imagenes/cell3.png, id=565, 1055.50336pt x 449.5194pt>
+<Imagenes/cell3.png, id=567, 1055.50336pt x 449.5194pt>
 File: Imagenes/cell3.png Graphic file (type png)
 
 <use Imagenes/cell3.png>
@@ -3464,7 +3464,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
 
-<Imagenes/rgo_electrodes.png, id=566, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=568, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 
 <use Imagenes/rgo_electrodes.png>
@@ -3520,13 +3520,13 @@ PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample5.txt}
 
-Overfull \hbox (52.5002pt too wide) in paragraph at lines 68--69
+Overfull \hbox (52.5002pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/capacitance.txt}
 
-Overfull \hbox (52.50105pt too wide) in paragraph at lines 83--84
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
@@ -3536,26 +3536,26 @@ PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample5.txt}
 
-Overfull \hbox (52.49669pt too wide) in paragraph at lines 104--105
+Overfull \hbox (52.49669pt too wide) in paragraph at lines 107--108
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/capacitance.txt}
 
-Overfull \hbox (52.50105pt too wide) in paragraph at lines 119--120
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 122--123
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/eisgalv.txt}
 
-Overfull \hbox (52.49551pt too wide) in paragraph at lines 135--136
+Overfull \hbox (52.49551pt too wide) in paragraph at lines 138--139
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/chargedischarge.txt}
 
-Overfull \hbox (52.4993pt too wide) in paragraph at lines 153--154
+Overfull \hbox (52.4993pt too wide) in paragraph at lines 156--157
 [][] 
  []
 
@@ -3565,13 +3565,13 @@ PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample5.txt}
 
-Overfull \hbox (91.49088pt too wide) in paragraph at lines 183--184
+Overfull \hbox (52.49309pt too wide) in paragraph at lines 186--187
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_3/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 198--199
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 201--202
 [][] 
  []
 
@@ -3581,13 +3581,26 @@ PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample5.txt}
 
-Overfull \hbox (91.50346pt too wide) in paragraph at lines 219--220
+Overfull \hbox (52.50316pt too wide) in paragraph at lines 222--223
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_4/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 234--235
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 237--238
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/eisgalv.txt}
+
+Overfull \hbox (52.49664pt too wide) in paragraph at lines 253--254
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/chargedischarge.txt}
+
+Overfull \hbox (52.49808pt too wide) in paragraph at lines 271--272
 [][] 
  []
 
@@ -3597,13 +3610,13 @@ PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample5.txt}
 
-Overfull \hbox (91.49614pt too wide) in paragraph at lines 260--261
+Overfull \hbox (52.4973pt too wide) in paragraph at lines 299--300
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 275--276
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 314--315
 [][] 
  []
 
@@ -3613,13 +3626,76 @@ PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample5.txt}
 
-Overfull \hbox (91.50346pt too wide) in paragraph at lines 296--297
+Overfull \hbox (52.50316pt too wide) in paragraph at lines 335--336
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_6/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 311--312
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 350--351
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/eisgalv.txt}
+
+Overfull \hbox (52.5005pt too wide) in paragraph at lines 366--367
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
+
+Package pgfplots Warning: the current plot has no coordinates (or all have been
+ filtered away) on input line 381.
+
+ [warning /pgfplots/warning/plot without coordinates]
+
+Overfull \hbox (52.4993pt too wide) in paragraph at lines 384--385
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample5.txt}
+
+Overfull \hbox (52.49924pt too wide) in paragraph at lines 412--413
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/capacitance.txt}
+
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 427--428
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/sample5.txt}
+
+Overfull \hbox (52.49533pt too wide) in paragraph at lines 448--449
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_8/raw/capacitance.txt}
+
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 463--464
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/eisgalv.txt}
+
+Overfull \hbox (52.497pt too wide) in paragraph at lines 479--480
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/chargedischarge.txt}
+
+Overfull \hbox (52.4993pt too wide) in paragraph at lines 497--498
 [][] 
  []
 
@@ -3724,6 +3800,31 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 149.
  [24]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 149.
+ [25]
 \openout2 = `Conclusiones.aux'.
 
  (Conclusiones.tex
@@ -3765,7 +3866,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 150.
 
-[25
+[26
 
 
 
@@ -3794,7 +3895,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 57.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
- [26
+ [27
 
 
 ]
@@ -3822,7 +3923,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 122.
- [27]
+ [28]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
@@ -3847,7 +3948,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 181.
- [28])
+ [29])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 164.
 Package babel Info: Redefining spanish shorthand >>
@@ -3872,7 +3973,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 164.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 164.
- [29]
+ [30]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (Tesis.aux
@@ -3883,14 +3984,14 @@ usiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2EA25E65D90610FC4AF15834E40228D4;1538.
+(rerunfilecheck)             Checksum: 8EF6870D46452B6F07F726BB1CCD32AF;1538.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 50529 strings out of 493333
- 1130532 string characters out of 3136611
- 1719595 words of memory out of 3000000
- 52819 multiletter control sequences out of 15000+200000
+ 54699 strings out of 493333
+ 1254940 string characters out of 3136611
+ 2130303 words of memory out of 3000000
+ 56985 multiletter control sequences out of 15000+200000
  47857 words of font info for 242 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,128p,10349b,2170s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3911,9 +4012,9 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on Tesis.pdf (44 pages, 23036271 bytes).
+Output written on Tesis.pdf (45 pages, 23124545 bytes).
 PDF statistics:
- 699 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 705 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  38175 words of extra memory for PDF output out of 42996 (max. 10000000)
 
