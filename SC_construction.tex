@@ -39,25 +39,146 @@ Los electrodos de rGO son fabricados mediante filtración por vacío. En este m�
 Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato (Interface 5000E, Gamry).
 
 
+
+
+\newcommand{\plotwidth}{0.3\textwidth}
+\newcommand{\plotscale}{0.8}
+
+%Paper on steel disk. mass = 0.6 mg
 \begin{figure}
 	\centering
-	\begin{subfigure}{0.3\textwidth}
-		\begin{tikzpicture}[trim axis right,trim axis left]
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}
 		[
 		title=Voltametría Cíclica,
 		domain=-0.8:0.8,
-		ylabel={Corriente [A]},
+		ylabel={Densidad de corriente [A/g]},
 		xlabel={Voltage [V]},
 		cycle list name=exotic,
 		no markers,
 		]
 		
-		\addplot table {./Data/CV_CRGO300517_1/raw/sample1.txt};
-		\addplot table {./Data/CV_CRGO300517_1/raw/sample2.txt};
-		\addplot table {./Data/CV_CRGO300517_1/raw/sample3.txt};
-		\addplot table {./Data/CV_CRGO300517_1/raw/sample4.txt};
-		\addplot table {./Data/CV_CRGO300517_1/raw/sample5.txt};	
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_CRGO300517_1/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=25:400,           
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_CRGO300517_2/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Espectro de impedancia electroquímica,
+		domain=0:50,
+		ylabel={-Z imag [Ohm]},
+		xlabel={Z real [Ohm]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_1/raw/eisgalv.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Carga y descarga cíclica,
+		xmin=0,
+		xmax=5,
+		ylabel={Voltaje [V]},
+		xlabel={Tiempo [s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot[restrict x to domain=0:5, color=red] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_1/raw/chargedischarge.txt};	
+		\addplot[restrict x to domain=0:5, color=blue] table [x expr=\thisrow{Time}-1583.89233300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_1/raw/chargedischarge.txt};
+%		\draw[black] decorate [decoration={zigzag}] {(axis cs:5,0) -- (axis cs:5,1)};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	\caption{Paper on steel disk. mass = 0.6 mg}
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% powder + pmma on Ni Foam. mass = 2.8 mg %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample5.txt};	
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
@@ -72,7 +193,7 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 		cycle list name=exotic,
 		]
 		
-		\addplot table {./Data/CV_CRGO300517_1/raw/capacitance.txt};	
+		\addplot table {./Data/CV_CRGO300517_3/raw/capacitance.txt};	
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
@@ -83,17 +204,17 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 		[
 		title=Voltametría Cíclica,
 		domain=-0.8:0.8,
-		ylabel={Corriente [A]},
+		ylabel={Densidad de corriente [A/g]},
 		xlabel={Voltage [V]},
 		cycle list name=exotic,
 		no markers,
 		]
 		
-		\addplot table {./Data/CV_CRGO300517_2/raw/sample1.txt};
-		\addplot table {./Data/CV_CRGO300517_2/raw/sample2.txt};
-		\addplot table {./Data/CV_CRGO300517_2/raw/sample3.txt};
-		\addplot table {./Data/CV_CRGO300517_2/raw/sample4.txt};
-		\addplot table {./Data/CV_CRGO300517_2/raw/sample5.txt};	
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample5.txt};	
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
@@ -108,49 +229,86 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 		cycle list name=exotic,
 		]
 		
-		\addplot table {./Data/CV_CRGO300517_2/raw/capacitance.txt};	
+		\addplot table {./Data/CV_CRGO300517_4/raw/capacitance.txt};	
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
-	\caption{pgfplots test 2.}
+	\caption{powder + pmma on Ni Foam. mass = 2.8 mg}
 \end{figure}
 
+% powder on Ni Foam m = 0.9 mg
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.3\textwidth}
 		\begin{tikzpicture}[trim axis right,trim axis left]
-			\begin{axis}
-				[
-				title=Voltametría Cíclica,
-				domain=-0.8:0.8,
-				ylabel={Corriente [A]},
-				xlabel={Voltage [V]},
-				cycle list name=exotic,
-				no markers,
-				]
-				
-				\addplot table {./Data/CV_CRGO300517_2/raw/sample1.txt};
-				\addplot table {./Data/CV_CRGO300517_2/raw/sample2.txt};
-				\addplot table {./Data/CV_CRGO300517_2/raw/sample3.txt};
-				\addplot table {./Data/CV_CRGO300517_2/raw/sample4.txt};
-				\addplot table {./Data/CV_CRGO300517_2/raw/sample5.txt};	
-			\end{axis}
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={ Densidad de corriente [A/g] },
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample5.txt};	
+		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.3\textwidth}
 		\begin{tikzpicture}[trim axis right,trim axis left]
-			\begin{axis}
-				[
-				title=Voltametría Cíclica,
-				domain=25:400,
-				ylabel={Capacidad específica [F/g]},
-				xlabel={Velocidad de barrido [mV/s]},
-				cycle list name=exotic,
-				]
-				
-				\addplot table {./Data/CV_CRGO300517_2/raw/capacitance.txt};	
-			\end{axis}
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table {./Data/CV_CRGO300517_5/raw/capacitance.txt};	
+		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
-	\caption{pgfplots test 2.}
+	
+	\begin{subfigure}{0.3\textwidth}
+		\begin{tikzpicture}[trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={ Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.3\textwidth}
+		\begin{tikzpicture}[trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table {./Data/CV_CRGO300517_6/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	\caption{Powder on Ni Foam. Mass = 0.9mg}
 \end{figure}

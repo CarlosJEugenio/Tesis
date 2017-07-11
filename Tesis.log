@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  9 JUL 2017 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  10 JUL 2017 23:33
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -2446,7 +2446,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 
-<Imagenes/scale.png, id=219, 1423.719pt x 459.99855pt>
+<Imagenes/scale.png, id=223, 1423.719pt x 459.99855pt>
 File: Imagenes/scale.png Graphic file (type png)
 
 <use Imagenes/scale.png>
@@ -2490,7 +2490,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
-] <Imagenes/carbon_alotropes.png, id=240, 1236.90105pt x 338.58495pt>
+] <Imagenes/carbon_alotropes.png, id=244, 1236.90105pt x 338.58495pt>
 File: Imagenes/carbon_alotropes.png Graphic file (type png)
 
 <use Imagenes/carbon_alotropes.png>
@@ -2526,7 +2526,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 38.
 [11 <./Imagenes/scale.png>]
-<Imagenes/DoE.png, id=249, 532.6299pt x 323.7696pt>
+<Imagenes/DoE.png, id=253, 532.6299pt x 323.7696pt>
 File: Imagenes/DoE.png Graphic file (type png)
  <use Imagenes/DoE.png>
 Package pdftex.def Info: Imagenes/DoE.png used on input line 43.
@@ -2557,7 +2557,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 50.
 
 [12 <./Imagenes/carbon_alotropes.png> <./Imagenes/DoE.png>]
-<Imagenes/area_cubes.png, id=261, 712.22086pt x 185.37254pt>
+<Imagenes/area_cubes.png, id=265, 712.22086pt x 185.37254pt>
 File: Imagenes/area_cubes.png Graphic file (type png)
 
 <use Imagenes/area_cubes.png>
@@ -2636,7 +2636,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 (grafeno.tex
-<Imagenes/graphene_lattice.png, id=292, 1180.53046pt x 755.9442pt>
+<Imagenes/graphene_lattice.png, id=296, 1180.53046pt x 755.9442pt>
 File: Imagenes/graphene_lattice.png Graphic file (type png)
 
 <use Imagenes/graphene_lattice.png>
@@ -2713,7 +2713,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
  [2 <./Imagenes/graphene_lattice.png>]
-<Imagenes/GO_structure.png, id=342, 1046.10825pt x 1536.4602pt>
+<Imagenes/GO_structure.png, id=346, 1046.10825pt x 1536.4602pt>
 File: Imagenes/GO_structure.png Graphic file (type png)
 
 <use Imagenes/GO_structure.png>
@@ -2807,7 +2807,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-(supercondensadores.tex <Imagenes/ragone.png, id=396, 632.3625pt x 350.5095pt>
+(supercondensadores.tex <Imagenes/ragone.png, id=400, 632.3625pt x 350.5095pt>
 File: Imagenes/ragone.png Graphic file (type png)
 
 <use Imagenes/ragone.png>
@@ -2853,7 +2853,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 14.
 
-<Imagenes/charge-discharge_ideal_cap.png, id=404, 614.295pt x 361.35pt>
+<Imagenes/charge-discharge_ideal_cap.png, id=408, 614.295pt x 361.35pt>
 File: Imagenes/charge-discharge_ideal_cap.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_ideal_cap.png>
@@ -2927,7 +2927,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
 [7 <./Imagenes/charge-discharge_ideal_cap.png>]
-<Imagenes/charge-discharge_esr.png, id=427, 544.55444pt x 318.7107pt>
+<Imagenes/charge-discharge_esr.png, id=431, 544.55444pt x 318.7107pt>
 File: Imagenes/charge-discharge_esr.png Graphic file (type png)
 
 <use Imagenes/charge-discharge_esr.png>
@@ -2959,7 +2959,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 59.
  [8 <./Imagenes/charge-discharge_esr.png>] <Imagenes/equivalent_both.png, id=43
-5, 580.3281pt x 278.9622pt>
+9, 580.3281pt x 278.9622pt>
 File: Imagenes/equivalent_both.png Graphic file (type png)
 
 <use Imagenes/equivalent_both.png>
@@ -2978,7 +2978,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 69.
 
-<Imagenes/edlc_schem.png, id=442, 898.67744pt x 696.32146pt>
+<Imagenes/edlc_schem.png, id=446, 898.67744pt x 696.32146pt>
 File: Imagenes/edlc_schem.png Graphic file (type png)
 
 <use Imagenes/edlc_schem.png>
@@ -3171,7 +3171,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 7.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 7.
- <Imagenes/GO_pic.png, id=485, 1003.75pt x 1229.59375pt>
+ <Imagenes/GO_pic.png, id=489, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 
 <use Imagenes/GO_pic.png>
@@ -3189,7 +3189,7 @@ s-converted-to.pdf Imagenes/../Data/Resumen.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<Imagenes/../Data/Resumen-eps-converted-to.pdf, id=486, 766.865pt x 590.205pt>
+<Imagenes/../Data/Resumen-eps-converted-to.pdf, id=490, 766.865pt x 590.205pt>
 File: Imagenes/../Data/Resumen-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Imagenes/../Data/Resumen-eps-converted-to.pdf>
@@ -3327,7 +3327,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
- <Imagenes/RGO_pic.png, id=543, 1003.75pt x 1328.965pt>
+ <Imagenes/RGO_pic.png, id=547, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 
 <use Imagenes/RGO_pic.png>
@@ -3400,7 +3400,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 (SC_construction.tex
-<Imagenes/SC_process.png, id=554, 1628.60445pt x 578.8827pt>
+<Imagenes/SC_process.png, id=558, 1628.60445pt x 578.8827pt>
 File: Imagenes/SC_process.png Graphic file (type png)
 
 <use Imagenes/SC_process.png>
@@ -3445,7 +3445,7 @@ Package babel Info: Redefining spanish shorthand "?
  [19
 
  <./Imagenes/SC_process.png>]
-<Imagenes/cell3.png, id=561, 1055.50336pt x 449.5194pt>
+<Imagenes/cell3.png, id=565, 1055.50336pt x 449.5194pt>
 File: Imagenes/cell3.png Graphic file (type png)
 
 <use Imagenes/cell3.png>
@@ -3464,7 +3464,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
 
-<Imagenes/rgo_electrodes.png, id=562, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=566, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 
 <use Imagenes/rgo_electrodes.png>
@@ -3520,13 +3520,13 @@ PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/sample5.txt}
 
-Overfull \hbox (91.49577pt too wide) in paragraph at lines 62--63
+Overfull \hbox (52.5002pt too wide) in paragraph at lines 68--69
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_1/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 77--78
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 83--84
 [][] 
  []
 
@@ -3536,29 +3536,90 @@ PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample5.txt}
 
-Overfull \hbox (91.49538pt too wide) in paragraph at lines 98--99
+Overfull \hbox (52.49669pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
 PGFPlots: reading {./Data/CV_CRGO300517_2/raw/capacitance.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 113--114
+Overfull \hbox (52.50105pt too wide) in paragraph at lines 119--120
 [][] 
  []
 
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample1.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample2.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample3.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample4.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample5.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_1/raw/eisgalv.txt}
 
-Overfull \hbox (91.49538pt too wide) in paragraph at lines 138--139
+Overfull \hbox (52.49551pt too wide) in paragraph at lines 135--136
 [][] 
  []
 
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/capacitance.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_1/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_1/raw/chargedischarge.txt}
 
-Overfull \hbox (91.50084pt too wide) in paragraph at lines 153--154
+Overfull \hbox (52.4993pt too wide) in paragraph at lines 153--154
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample5.txt}
+
+Overfull \hbox (91.49088pt too wide) in paragraph at lines 183--184
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/capacitance.txt}
+
+Overfull \hbox (91.50084pt too wide) in paragraph at lines 198--199
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample5.txt}
+
+Overfull \hbox (91.50346pt too wide) in paragraph at lines 219--220
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/capacitance.txt}
+
+Overfull \hbox (91.50084pt too wide) in paragraph at lines 234--235
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample5.txt}
+
+Overfull \hbox (91.49614pt too wide) in paragraph at lines 260--261
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/capacitance.txt}
+
+Overfull \hbox (91.50084pt too wide) in paragraph at lines 275--276
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample5.txt}
+
+Overfull \hbox (91.50346pt too wide) in paragraph at lines 296--297
+[][] 
+ []
+
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/capacitance.txt}
+
+Overfull \hbox (91.50084pt too wide) in paragraph at lines 311--312
 [][] 
  []
 
@@ -3638,6 +3699,31 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 149.
  [23]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 149.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 149.
+ [24]
 \openout2 = `Conclusiones.aux'.
 
  (Conclusiones.tex
@@ -3678,40 +3764,40 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 150.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 150.
- [24
 
+[25
+
+
+
+] (Tesis.bbl
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 57.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 57.
+ [26
 
 
 ]
-(Tesis.bbl
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 57.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 57.
- [25
-
-
-]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand >>
@@ -3736,7 +3822,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 122.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 122.
- [26]
+ [27]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
@@ -3761,7 +3847,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 181.
- [27])
+ [28])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 164.
 Package babel Info: Redefining spanish shorthand >>
@@ -3786,58 +3872,48 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 164.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 164.
- [28]
+ [29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (Tesis.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (Resumen.aux) (Introduccion.aux)
-(Marco_teorico.aux) (Cuerpo_tesis.aux) (Conclusiones.aux))
+ (Resumen.aux) (Introduccion.aux) (Marco_teorico.aux) (Cuerpo_tesis.aux) (Concl
+usiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
-
-
-Package rerunfilecheck Warning: File `Tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesis.out':
-(rerunfilecheck)             Before: 00BF80B23AB16A7EAEBEE2FB14F77D97;1538
-(rerunfilecheck)             After:  1340EC92C2DCB3A22B610CC67214C89F;1538.
+Package rerunfilecheck Info: File `Tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 2EA25E65D90610FC4AF15834E40228D4;1538.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 46507 strings out of 493333
- 1024692 string characters out of 3136611
- 1545327 words of memory out of 3000000
- 48806 multiletter control sequences out of 15000+200000
+ 50529 strings out of 493333
+ 1130532 string characters out of 3136611
+ 1719595 words of memory out of 3000000
+ 52819 multiletter control sequences out of 15000+200000
  47857 words of font info for 242 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,13n,128p,10349b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.26} has been referenced but does not exi
-st, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/
-helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic
-/uhvro8a.pfb>
-Output written on Tesis.pdf (43 pages, 22991357 bytes).
+ 74i,13n,128p,10349b,2170s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvet
+ic/uhvro8a.pfb>
+Output written on Tesis.pdf (44 pages, 23036271 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
+ 699 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
  38175 words of extra memory for PDF output out of 42996 (max. 10000000)
 
