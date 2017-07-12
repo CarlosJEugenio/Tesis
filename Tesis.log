@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  11 JUL 2017 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  11 JUL 2017 21:15
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -3645,12 +3645,7 @@ Overfull \hbox (52.5005pt too wide) in paragraph at lines 366--367
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
 
-Package pgfplots Warning: the current plot has no coordinates (or all have been
- filtered away) on input line 381.
-
- [warning /pgfplots/warning/plot without coordinates]
-
-Overfull \hbox (52.4993pt too wide) in paragraph at lines 384--385
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 384--385
 [][] 
  []
 
@@ -3660,7 +3655,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample4.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample5.txt}
 
-Overfull \hbox (52.49924pt too wide) in paragraph at lines 412--413
+Overfull \hbox (52.49925pt too wide) in paragraph at lines 412--413
 [][] 
  []
 
@@ -3988,10 +3983,10 @@ Package rerunfilecheck Info: File `Tesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 54699 strings out of 493333
- 1254940 string characters out of 3136611
- 2130303 words of memory out of 3000000
- 56985 multiletter control sequences out of 15000+200000
+ 58130 strings out of 493333
+ 1357810 string characters out of 3136611
+ 2134326 words of memory out of 3000000
+ 60416 multiletter control sequences out of 15000+200000
  47857 words of font info for 242 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,128p,10349b,2170s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4012,7 +4007,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on Tesis.pdf (45 pages, 23124545 bytes).
+Output written on Tesis.pdf (45 pages, 23139382 bytes).
 PDF statistics:
  705 PDF objects out of 1000 (max. 8388607)
  149 named destinations out of 1000 (max. 500000)
