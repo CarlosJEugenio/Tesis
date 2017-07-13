@@ -498,3 +498,229 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}
 	\caption{powder + pmma on Ni Foam m = 0.8 mg}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% powder on steel disk m = 0.4 mg %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_CRGO300517_9/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=25:400,           
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_CRGO300517_10/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Espectro de impedancia electroquímica,
+		domain=0:50,
+		ylabel={-Z imag [Ohm]},
+		xlabel={Z real [Ohm]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_9/raw/eisgalv.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Carga y descarga cíclica,
+		xmin=0,
+		xmax=10,
+		ylabel={Voltaje [V]},
+		xlabel={Tiempo [s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot[restrict x to domain=0:10, color=red] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};	
+		\addplot[restrict x to domain=0:10, color=blue] table [x expr=\thisrow{Time}-3101.89233300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+		%		\draw[black] decorate [decoration={zigzag}] {(axis cs:5,0) -- (axis cs:5,1)};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	\caption{powder on steel disk, m = 0,4mg}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% steel disk, no material %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Corriente [A]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=
+		ylabel={Capacidad [F]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_Steel_Disk_No_Material_1/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Corriente [A]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+		]		
+		
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample1.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample2.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample4.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample5.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Capacidad Específica,
+		domain=25:400,           
+		ylabel={Capacidad [F]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks] {./Data/CV_Steel_Disk_No_Material_2/raw/capacitance.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Espectro de impedancia electroquímica,
+		domain=0:50,
+		ylabel={-Z imag [Ohm]},
+		xlabel={Z real [Ohm]},
+		cycle list name=exotic,
+		]
+		
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt};	
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}
+		[
+		title=Carga y descarga cíclica,
+		xmin=0,
+		xmax=7,
+		ylabel={Voltaje [V]},
+		xlabel={Tiempo [s]},
+		cycle list name=exotic,
+		]
+		
+		\addplot[restrict x to domain=0:7, color=red] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};	
+		\addplot[restrict x to domain=0:7, color=blue] table [x expr=\thisrow{Time}-1954.91833300000, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};
+		%		\draw[black] decorate [decoration={zigzag}] {(axis cs:5,0) -- (axis cs:5,1)};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	\caption{Steel disk no material.}
+\end{figure}

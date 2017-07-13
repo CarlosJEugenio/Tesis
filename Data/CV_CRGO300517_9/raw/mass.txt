@@ -1,0 +1,2 @@
+/home/carlos/Documents/Tesis/Data/CV_CRGO300517_9 
+ mass = 0.0004 g

@@ -44,7 +44,7 @@ for i = 3:length(D)  % empieza en 3 porque 1 y 2 son . y .. respectivamente
     
     A = dtaImport(fullfile(path, D(i).name)); %importar datos en bruto
     data = retriveData(A,'T','Vf','Im');    %obtener datos
-    settings = retriveSettings(A,'STARTTIMEOFFSET');   %obtener configuraciòn
+    settings = retriveSettings(A,'STARTTIMEOFFSET');   %obtener configuraciï¿½n
     %save data
     DATA.(['sample' num2str(i-2)]).data = data; 
     DATA.(['sample' num2str(i-2)]).settings = settings;

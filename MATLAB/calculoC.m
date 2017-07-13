@@ -65,7 +65,7 @@ for i = 1:length(D)  % empieza en 3 porque 1 y 2 son . y .. respectivamente
     
     A = dtaImport(fullfile(path, D(i).name)); %importar datos en bruto
     data = retriveData(A,'Vf','Im');    %obtener datos
-    settings = retriveSettings(A,'SCANRATE','VLIMIT1','VLIMIT2');   %obtener configuraciòn
+    settings = retriveSettings(A,'SCANRATE','VLIMIT1','VLIMIT2');   %obtener configuraciï¿½n
     m = retriveMass(A) / 1000;
     if isnan(m)
         m = 1 / 1000;   
@@ -132,7 +132,7 @@ end
 
 DATA{k}.parent = splitPath{end};
 DATA{k}.mass = m;
-saveCVDataToFile(DATA{k},[path '\' 'raw']);
+saveCVDataToFile(DATA{k},[path '/' 'raw']);
 
 end
 cd(curDir)

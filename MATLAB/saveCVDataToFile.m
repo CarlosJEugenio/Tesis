@@ -13,7 +13,7 @@ for i = 1:length(filenames)
         continue
     end
     
-    fid = fopen([dirPath '\' filenames{i} '.txt'],'w');
+    fid = fopen([dirPath '/' filenames{i} '.txt'],'w');
     fprintf(fid, 'Voltaje\tCorriente\n');
 %     fprintf(fid, 'V\tA\n');
 %     fprintf(fid, 'Vf\t%s, SR:%0.0f mV/s\n',DATA.parent, DATA.(filenames{i}).settings.SCANRATE);
@@ -22,7 +22,7 @@ for i = 1:length(filenames)
 end
 
 %save capacitance data
-fid = fopen([dirPath '\' 'capacitance.txt'],'w');
+fid = fopen([dirPath '/' 'capacitance.txt'],'w');
 fprintf(fid, 'ScanRate\t Capacitancia\n');
 % fprintf(fid, 'mV/s\t F\n');
 % fprintf(fid, 'Vf\t%s, Vwindow %0.1f V\n',DATA.parent,  DATA.sample1.settings.VLIMIT2-DATA.sample1.settings.VLIMIT1);
@@ -38,7 +38,7 @@ for i = 1:length(filenames)
 end
 fclose(fid);
 
-fid = fopen([dirPath '\' 'mass.txt'],'w');
+fid = fopen([dirPath '/' 'mass.txt'],'w');
 fprintf(fid,'%s \n mass = %g g\n', DATA.parent, DATA.mass);
 fclose(fid);
 
