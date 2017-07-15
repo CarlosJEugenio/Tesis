@@ -48,6 +48,12 @@
 		domain=25:400,
 		ylabel={Capacidad específica [F/g]},
 		xlabel={Velocidad de barrido [mV/s]},
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.98)},
+			anchor=north east,
+		},
+		legend entries={Antes, Después},
 		cycle list name=exotic,
 	},
 	EISStyle/.style={

@@ -95,10 +95,10 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 			\begin{axis}[CVStyle,
-						legend entries={25mV/s antes, 400mV/s antes, 25MV/s después, 400mV/s después}]
+						legend entries={25mV/s antes, 25MV/s después,  400mV/s antes, 400mV/s después}]
 				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample1.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample5.txt};
 				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_1/raw/sample5.txt};
 				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_2/raw/sample5.txt};
 			\end{axis}
 		\end{tikzpicture}
@@ -115,53 +115,58 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\centering
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_3/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot[restrict x to domain=-0.8:0.8] table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot[restrict x to domain=-0.8:0.8] table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:20] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:20] table [x expr=\thisrow{Time}-2105.33533300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_4/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_3/raw/eisgalv.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_3/raw/eisgalv.txt};	
-		\end{axis}
+			\begin{axis}[SCStyle]
+				\addplot table [only marks] {./Data/CV_CRGO300517_3/raw/capacitance.txt};
+				\addplot table [only marks] {./Data/CV_CRGO300517_4/raw/capacitance.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:20] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:20] table [x expr=\thisrow{Time}-2105.33533300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{powder + pmma on Steel Disk. mass = 2.8 mg}
@@ -174,53 +179,58 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\centering
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_5/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-4328.46733300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_5/raw/eisgalv.txt};	
+			\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\\
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[SCStyle]
+		\addplot table [only marks] {./Data/CV_CRGO300517_5/raw/capacitance.txt};
 		\addplot table [only marks] {./Data/CV_CRGO300517_6/raw/capacitance.txt};	
 		\end{axis}
 		\end{tikzpicture}
-	\end{subfigure}\\
-	\begin{subfigure}{\plotwidth}
-		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_5/raw/eisgalv.txt};	
-		\end{axis}
-		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-4328.46733300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{powder on Ni Foam m = 0.9 mg}
@@ -244,42 +254,47 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_7/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:5] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:5] table [x expr=\thisrow{Time}-771.593133000000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_8/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_7/raw/eisgalv.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_7/raw/eisgalv.txt};	
-		\end{axis}
+			\begin{axis}[SCStyle]
+				\addplot table [only marks] {./Data/CV_CRGO300517_7/raw/capacitance.txt};	
+				\addplot table [only marks] {./Data/CV_CRGO300517_8/raw/capacitance.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:5] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:5] table [x expr=\thisrow{Time}-771.593133000000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_8/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{powder + pmma on Ni Foam m = 0.8 mg}
@@ -292,53 +307,58 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\centering
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_9/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:10] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:10] table [x expr=\thisrow{Time}-3101.89233300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_CRGO300517_10/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_9/raw/eisgalv.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_9/raw/eisgalv.txt};	
-		\end{axis}
+			\begin{axis}[SCStyle]
+				\addplot table [only marks] {./Data/CV_CRGO300517_9/raw/capacitance.txt};
+				\addplot table [only marks] {./Data/CV_CRGO300517_10/raw/capacitance.txt};		
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:10] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:10] table [x expr=\thisrow{Time}-3101.89233300000, y expr=\thisrow{Voltage}] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{powder on steel disk, m = 0,4mg}
@@ -351,55 +371,73 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\centering
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:3,
+			ylabel = {Corriente [A]},]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
+		\caption{asd}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_Steel_Disk_No_Material_1/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:6,
+			ylabel = {Corriente [A]},]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
+		\caption{asd}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Steel_Disk_No_Material_2/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:6] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:6] table [x expr=\thisrow{Time}-1954.91833300000, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
+		\caption{asd}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt};	
+			\end{axis}
+		\end{tikzpicture}
+		\caption{asd}
+	\end{subfigure}\\
+	\begin{subfigure}{\plotwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[SCStyle]
+		\addplot table [only marks] {./Data/CV_Steel_Disk_No_Material_1/raw/capacitance.txt};
 		\addplot table [only marks] {./Data/CV_Steel_Disk_No_Material_2/raw/capacitance.txt};	
 		\end{axis}
 		\end{tikzpicture}
-	\end{subfigure}\\
-	\begin{subfigure}{\plotwidth}
-		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt};	
-		\end{axis}
-		\end{tikzpicture}
+		\caption{asd}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:7] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:7] table [x expr=\thisrow{Time}-1954.91833300000, y expr=\thisrow{Voltage}] {./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:6,
+			ylabel = {Corriente [A]},
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Steel_Disk_No_Material_2/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Steel_Disk_No_Material_2/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
+		\caption{asd}
 	\end{subfigure}
+	
 	\caption{Steel disk no material.}
 \end{figure}
 
@@ -411,55 +449,67 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\centering
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:6,
+			ylabel = {Corriente [A]},]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_Nickel_Foam_No_Material_1/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:6,
+			ylabel = {Corriente [A]},]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample2.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample4.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample5.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample1.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample2.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample4.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente} ] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample5.txt};	
-		\end{axis}
+			\begin{axis}[CCDStyle]
+				\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt};	
+				\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-2399.28233300000, y expr=\thisrow{Voltage}] {./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[SCStyle]
-		\addplot table [only marks] {./Data/CV_Nickel_Foam_No_Material_2/raw/capacitance.txt};	
-		\end{axis}
+			\begin{axis}[EISStyle]
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Nickel_Foam_No_Material_1/raw/eisgalv.txt};	
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Nickel_Foam_No_Material_1/raw/eisgalv.txt};	
-		\end{axis}
+			\begin{axis}[SCStyle]
+				\addplot table [only marks] {./Data/CV_Nickel_Foam_No_Material_1/raw/capacitance.txt};
+				\addplot table [only marks] {./Data/CV_Nickel_Foam_No_Material_2/raw/capacitance.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CCDStyle]
-		\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage}] {./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt};	
-		\addplot+[restrict x to domain=0:12] table [x expr=\thisrow{Time}-2399.28233300000, y expr=\thisrow{Voltage}] {./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt};
-		\end{axis}
+			\begin{axis}[CVStyle,
+			scaled ticks=base 10:6,
+			ylabel = {Corriente [A]},
+			legend entries={25mV/s antes,25MV/s después,  400mV/s antes, 400mV/s después}]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample1.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Nickel_Foam_No_Material_1/raw/sample5.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}] {./Data/CV_Nickel_Foam_No_Material_2/raw/sample5.txt};
+			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
+
 	\caption{Nickel Foam no material.}
 \end{figure}
 
