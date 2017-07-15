@@ -16,12 +16,30 @@
 
 \usepackage{pgfplots}
 
+\usetikzlibrary{external}
+%\usepgfplotslibrary{external}
+\tikzexternalize[prefix=Imagenes/tikzext/]
+
+\usetikzlibrary{positioning}
+
+\newcommand{\plotwidth}{0.3\textwidth}
+\newcommand{\plotscale}{0.8}
+
 \pgfplotsset{
+	compat=1.15,
 	CVStyle/.style={
 		title=Voltametría Cíclica,
 		domain=-0.8:0.8,
+		xtick distance=0.4,
+		minor tick num=1,
 		ylabel={Densidad de corriente [A/g]},
-		xlabel={Voltage [V]},
+		xlabel={Voltaje [V]},
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.02)},
+			anchor=south east,
+		},
+		legend entries={25mV/s,50mV/s,100mV/s,200mV/s,400mV/s},
 		cycle list name=exotic,
 		no markers,
 	},
@@ -44,12 +62,17 @@
 		ylabel={Voltaje [V]},
 		xlabel={Tiempo [s]},
 		cycle list name=exotic,
-		no markers,
+		mark size = 0.2pt,
+		line width = 0.1pt,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.02)},
+			anchor=south east,
+		},
+		legend entries={Primeros ciclos, Últimos ciclos},
 	},
 }
 
-	
-\usetikzlibrary{positioning}
 
 \fancypagestyle{plain}{%
 	\fancyhf{} % clear all header and footer fields

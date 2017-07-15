@@ -7,6 +7,7 @@
 \RequirePackage{graphics}
 \RequirePackage{pst-all,pstricks-add,pst-math}
 \RequirePackage{tikz}
+\RequirePackage{pgf}
 \RequirePackage{float}
 \RequirePackage{textcomp}
 \RequirePackage{booktabs}

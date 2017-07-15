@@ -1,0 +1,5 @@
+Imagenes/tikzext/Tesis-figure12.pdf: ./Data/CV_CRGO300517_5/raw/sample1.txt
+Imagenes/tikzext/Tesis-figure12.pdf: ./Data/CV_CRGO300517_5/raw/sample2.txt
+Imagenes/tikzext/Tesis-figure12.pdf: ./Data/CV_CRGO300517_5/raw/sample3.txt
+Imagenes/tikzext/Tesis-figure12.pdf: ./Data/CV_CRGO300517_5/raw/sample4.txt
+Imagenes/tikzext/Tesis-figure12.pdf: ./Data/CV_CRGO300517_5/raw/sample5.txt
