@@ -1,0 +1,2 @@
+CV_NIckel_Foam_No_Material_2 
+ mass = 0.001 g

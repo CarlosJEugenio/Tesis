@@ -16,20 +16,38 @@
 
 \usepackage{pgfplots}
 
-
 \pgfplotsset{
-	colormap={parula}{
-		rgb255=(53,42,135)
-		rgb255=(15,92,221)
-		rgb255=(18,125,216)
-		rgb255=(7,156,207)
-		rgb255=(21,177,180)
-		rgb255=(89,189,140)
-		rgb255=(165,190,107)
-		rgb255=(225,185,82)
-		rgb255=(252,206,46)
-		rgb255=(249,251,14)},
-	compat=newest}
+	CVStyle/.style={
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltage [V]},
+		cycle list name=exotic,
+		no markers,
+	},
+	SCStyle/.style={
+		title=Capacidad Específica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		cycle list name=exotic,
+	},
+	EISStyle/.style={
+		title=Espectro de impedancia electroquímica,
+		domain=0:50,
+		ylabel={-Z imag [Ohm]},
+		xlabel={Z real [Ohm]},
+		cycle list name=exotic,	
+	},
+	CCDStyle/.style={
+		title=Carga y descarga cíclica,
+		ylabel={Voltaje [V]},
+		xlabel={Tiempo [s]},
+		cycle list name=exotic,
+		no markers,
+	},
+}
+
 	
 \usetikzlibrary{positioning}
 

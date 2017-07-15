@@ -1,2 +1,2 @@
-/home/carlos/Documents/Tesis/Data/CV_Steel_Disk_No_Material_2 
+CV_Steel_Disk_No_Material_2 
  mass = 0.001 g
