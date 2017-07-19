@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  15 JUL 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  18 JUL 2017 19:11
 entering extended mode
 **\def\tikzexternalrealjob{Tesis}\input{Tesis}
 (Tesis.tex (usachtesis.cls
@@ -3270,14 +3270,14 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 \openout6 = `Imagenes/tikzext/Tesis-figure1.dpth'.
 
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample1.txt}
 \tikzexternal@dep@file=\write7
 \openout7 = `Imagenes/tikzext/Tesis-figure1.dep'.
 
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample2.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample3.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample4.txt}
-PGFPlots: reading {./Data/CV_CRGO300517_2/raw/sample5.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample5.txt}
 [15
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -3549,10 +3549,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 47505 strings out of 493333
- 1054329 string characters out of 3136611
- 1467366 words of memory out of 3000000
- 50115 multiletter control sequences out of 15000+200000
+ 47576 strings out of 493333
+ 1055895 string characters out of 3136611
+ 1468300 words of memory out of 3000000
+ 50186 multiletter control sequences out of 15000+200000
  30178 words of font info for 144 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,23n,119p,10382b,2457s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3560,7 +3560,7 @@ Here is how much of TeX's memory you used:
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure1.pdf (1 page, 38468 bytes).
+Output written on Imagenes/tikzext/Tesis-figure1.pdf (1 page, 38662 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

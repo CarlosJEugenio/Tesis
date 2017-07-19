@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  15 JUL 2017 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  18 JUL 2017 19:51
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -3526,25 +3526,37 @@ Package babel Info: Redefining spanish shorthand "?
 [20 <./Imagenes/cell3.png>]
 ===== Image 'Imagenes/tikzext/Tesis-figure0' is up-to-date. ======
 
-Overfull \hbox (52.50044pt too wide) in paragraph at lines 51--60
+Overfull \hbox (52.4873pt too wide) in paragraph at lines 51--60
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure1' is up-to-date. ======
 
-Overfull \hbox (52.49632pt too wide) in paragraph at lines 62--71
+Overfull \hbox (52.49933pt too wide) in paragraph at lines 62--71
 [][] 
  []
 
-===== Image 'Imagenes/tikzext/Tesis-figure2' is up-to-date. ======
+\openout5 = `Imagenes/tikzext/Tesis-figure2.md5'.
 
-Overfull \hbox (52.5015pt too wide) in paragraph at lines 73--79
+===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure2" "\def\
+tikzexternalrealjob{Tesis}\input{Tesis}"' ========
+\openout5 = `Tesis.auxlock'.
+
+runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
+ "Imagenes/tikzext/Tesis-figure2" "\def\tikzexternalrealjob{Tesis}\input{Tesis}
+")...executed.
+
+\openout5 = `Tesis.auxlock'.
+
+
+Overfull \hbox (52.50049pt too wide) in paragraph at lines 73--79
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure3' is up-to-date. ======
 
-Overfull \hbox (52.49533pt too wide) in paragraph at lines 81--86
+Overfull \hbox (52.50229pt too wide) in paragraph at lines 81--86
 [][] 
  []
 
@@ -3556,7 +3568,7 @@ Overfull \hbox (52.50136pt too wide) in paragraph at lines 88--94
 
 ===== Image 'Imagenes/tikzext/Tesis-figure5' is up-to-date. ======
 
-Overfull \hbox (52.48929pt too wide) in paragraph at lines 96--105
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 96--105
 [][] 
  []
 
@@ -3716,19 +3728,7 @@ Overfull \hbox (52.49696pt too wide) in paragraph at lines 387--398
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure32.md5'.
-
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure32" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure32" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
+===== Image 'Imagenes/tikzext/Tesis-figure32' is up-to-date. ======
 
 Overfull \hbox (52.49544pt too wide) in paragraph at lines 401--407
 [][] 
@@ -4201,7 +4201,7 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on Tesis.pdf (48 pages, 23952817 bytes).
+Output written on Tesis.pdf (48 pages, 23964468 bytes).
 PDF statistics:
  1180 PDF objects out of 1200 (max. 8388607)
  155 named destinations out of 1000 (max. 500000)
