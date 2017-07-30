@@ -20,11 +20,20 @@ El óxido de grafeno lavado con \ce{H_{2}O_2} es de color marrón claro y una ve
 
 El óxido de grafeno es caracterizado por espectroscopía de rayos x (XRD), UV-Vis, y microscopia SEM.
 
+
 \begin{figure}
 	\centering
-	\fbox{
-		\includegraphics[width=1\textwidth]{../Data/Resumen.eps}
-	}
+	\begin{tikzpicture}[]
+		\begin{axis}[
+		cycle list name=exotic,
+		no markers,
+		legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
+			\pgfplotsset{cycle list shift=3}
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+		\end{axis}
+	\end{tikzpicture}
 	\caption{Espectro óxido de grafeno.}
 	\label{fig:xrd_GO}
 \end{figure}

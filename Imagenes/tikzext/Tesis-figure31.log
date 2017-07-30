@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  15 JUL 2017 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  28 JUL 2017 18:52
 entering extended mode
 **\def\tikzexternalrealjob{Tesis}\input{Tesis}
 (Tesis.tex (usachtesis.cls
@@ -3023,6 +3023,8 @@ Overfull \hbox (93.52412pt too wide) in paragraph at lines 27--28
  [][] 
  []
 
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
@@ -3326,18 +3328,16 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 \openout6 = `Imagenes/tikzext/Tesis-figure31.dpth'.
 
-PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_2/raw/sample1.txt}
+PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt}
 \tikzexternal@dep@file=\write7
 \openout7 = `Imagenes/tikzext/Tesis-figure31.dep'.
 
-PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_2/raw/sample2.txt}
-PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_2/raw/sample3.txt}
-PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_2/raw/sample4.txt}
-PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_2/raw/sample5.txt}
+PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_1/raw/sample2.txt}
+PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_1/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_1/raw/sample4.txt}
+PGFPlots: reading {./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt}
 [15
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -3356,6 +3356,8 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{C:/Users/H110/AppData/Local/MiKTeX/2.9/pdftex/config/p
 dftex.map}]
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -3549,20 +3551,20 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 46388 strings out of 493333
- 1029899 string characters out of 3136611
- 1461199 words of memory out of 3000000
- 48998 multiletter control sequences out of 15000+200000
+ 46403 strings out of 493333
+ 1030192 string characters out of 3136611
+ 1461442 words of memory out of 3000000
+ 49013 multiletter control sequences out of 15000+200000
  30178 words of font info for 144 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,23n,119p,10382b,2466s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,23n,119p,10382b,2468s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure31.pdf (1 page, 49475 bytes).
+Output written on Imagenes/tikzext/Tesis-figure31.pdf (1 page, 50088 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
