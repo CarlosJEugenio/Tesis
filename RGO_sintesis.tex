@@ -11,9 +11,43 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 
 \begin{figure}
 	\centering
-	\fbox{
-		\includegraphics[width=0.5\textwidth]{RGO_pic.png}
-		}
-	\caption{RGO}
-	\label{fig:RGO}
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{RGO_pic.png}
+		\caption{RGO}
+		\label{fig:RGO}
+	\end{subfigure}
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{GO_pic.png}
+		\caption{GO}
+		\label{fig:GO}
+	\end{subfigure}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}[]
+		\begin{axis}[
+			cycle list name=exotic,
+			no markers,
+			width = \textwidth,
+%			yticklabels={,,},
+			ylabel={Intensidad [u.a.]},
+			xlabel={2 $\theta$ [\degree]},
+			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
+			
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
+			\pgfplotsset{cycle list shift=1}
+			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+			\addplot +[mark=none, solid, black] coordinates {(10, 0) (10, 3)};
+			\addplot +[mark=none, solid, black] coordinates {(23, 0) (23, 3)};
+			\addplot +[mark=none, solid, black] coordinates {(26.5, 0) (26.5, 3)};
+			\node[black, left] at (10, 3){\small{10\degree}};
+			\node[black, left] at (23, 3){\small{23\degree}};
+			\node[black, right] at (26.5, 3){\small{26\degree}};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Espectro óxido de grafeno.}
+	\label{fig:xrd}
 \end{figure}
