@@ -79,8 +79,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_CRGO300517_11/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_11/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -144,8 +149,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\pgfplotstableread{./Data/CV_CRGO300517_13/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\pgfmathsetmacro{\N}{\pgfplotsretval}
 		\begin{axis}[EISStyle]
-		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_13/raw/eisgalv.txt};	
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -210,8 +220,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_CRGO300517_3/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_3/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -274,8 +289,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_CRGO300517_5/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_5/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=below:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -338,8 +358,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_CRGO300517_7/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_7/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -402,8 +427,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_CRGO300517_9/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_CRGO300517_9/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
@@ -473,8 +503,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=below:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 		\caption{asd}
@@ -548,8 +583,13 @@ Los supercondensadores son sometidos a pruebas electroquímicas para estudiar su
 	\end{subfigure}\hfill
 	\begin{subfigure}{\plotwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\pgfplotstableread{./Data/CV_Nickel_Foam_No_Material_1/raw/eisgalv.txt}{\eistable};
+			\pgfplotstablegetrowsof{\eistable}
+			\pgfmathsetmacro{\N}{\pgfplotsretval}
 			\begin{axis}[EISStyle]
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {./Data/CV_Nickel_Foam_No_Material_1/raw/eisgalv.txt};	
+			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+			node[pos=(\N-1)/(\N-1), pin=below:{0,1 Hz}]{};
 			\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}\\
