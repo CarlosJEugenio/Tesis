@@ -21,6 +21,7 @@ for i=1:nargin-1
         end
         Data(isnan(Data))=[];
         A.(varargin{i}).(['curve' num2str(j)]) = Data;
+        Data = []; %fixed bug for few points data
     end
 end
 
