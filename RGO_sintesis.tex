@@ -1,10 +1,10 @@
 El método de reducción también es adaptado del presentado por Abdolhosseinzadeh \citep{Abdolhosseinzadeh2015}. Éste es un método de reducción química, y se realiza en solución acuosa.
 
 \section{Materiales}
-Como precursor se usa el óxido de grafeno sintetizado con anterioridad mediante el método modificado de Hummers. Como agente reductor se utiliza en primera instancia ácido ascórbico (\ce{C_6H_8O_6}, Sigma-Aldrich $>$95\%).
+Como precursor se usa el óxido de grafeno sintetizado con anterioridad mediante el método modificado de Hummers. Como agente reductor se utiliza ácido ascórbico (\ce{C_6H_8O_6}, Sigma-Aldrich $>$95\%).
 
 \section{Procedimiento}
-En primer lugar, 30 g de ácido ascórbico se disuelven en 300 ml de agua destilada, para ser agregados a una de las parte de óxido de grafeno obtenido anteriormente bajo agitación (aproximadamente 300 ml de solución). Al añadir el ácido ascórbico ya en solución, la mezcla se vuelve negra gradualmente, esta es una señal de que la reducción se está llevando a cabo, además, la mezcla deja de ser heterogénea, signo de la hidrofobicidad del rGO. En una primera síntesis, la mezcla es llevada a 90 \degree C y se mantiene por 1 hr dentro del rango de temperatura 85-95 \degree C.
+En primer lugar, 30 g de ácido ascórbico se disuelven en 300 ml de agua destilada, para ser agregados a una de las parte de óxido de grafeno obtenido anteriormente bajo agitación (aproximadamente 300 ml de solución). Al añadir el ácido ascórbico ya en solución, la mezcla se vuelve negra gradualmente, esta es  señal de que la reducción se está llevando a cabo, además, la mezcla deja de ser heterogénea, signo de la hidrofobicidad del rGO. La mezcla es llevada a 90 \degree C y se mantiene por 1 hr dentro del rango de temperatura 85-95 \degree C.
 
 \section{Resultados}
 Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD), UV-Vis, y microcopia SEM.
@@ -16,7 +16,7 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 		\caption{RGO}
 		\label{fig:RGO}
 	\end{subfigure}
-	\begin{subfigure}{0.4\textwidth}
+	\begin{subfigure}{0.42\textwidth}
 		\includegraphics[width=\textwidth]{GO_pic.png}
 		\caption{GO}
 		\label{fig:GO}
@@ -33,13 +33,15 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 			width = \textwidth,
 %			yticklabels={,,},
 			ylabel={Intensidad [u.a.]},
-			xlabel={2 $\theta$ [\degree]},
+			xlabel={2 $\theta$ [grados]},
 			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
+			
 			
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
 			\pgfplotsset{cycle list shift=1}
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
 			\addplot +[mark=none, solid, black] coordinates {(10, 0) (10, 3)};
 			\addplot +[mark=none, solid, black] coordinates {(23, 0) (23, 3)};
 			\addplot +[mark=none, solid, black] coordinates {(26.5, 0) (26.5, 3)};
