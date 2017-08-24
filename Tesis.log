@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  24 AUG 2017 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  24 AUG 2017 16:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3502,325 +3502,253 @@ Overfull \hbox (52.49763pt too wide) in paragraph at lines 41--41
 
 ===== Image 'Imagenes/tikzext/Tesis-figure7' is up-to-date. ======
 
-Overfull \hbox (52.48915pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.4873pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure8' is up-to-date. ======
 
-Overfull \hbox (52.49261pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.49933pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure9' is up-to-date. ======
 
-Overfull \hbox (52.49947pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.50049pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure10' is up-to-date. ======
 
-Overfull \hbox (52.50127pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.50229pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure11' is up-to-date. ======
 
-Overfull \hbox (52.50102pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.50136pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure12' is up-to-date. ======
 
-Overfull \hbox (52.48915pt too wide) in paragraph at lines 42--42
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 42--42
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure13' is up-to-date. ======
 
-Overfull \hbox (52.4873pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure14' is up-to-date. ======
 
-Overfull \hbox (52.49933pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure15' is up-to-date. ======
 
-Overfull \hbox (52.50049pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.49799pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure16' is up-to-date. ======
 
-Overfull \hbox (52.50229pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.50385pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure17.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure17' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure17" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure17" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50136pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.50136pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure18' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 44--44
+Overfull \hbox (52.49731pt too wide) in paragraph at lines 43--43
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure19' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.4974pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure20' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.4934pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure21' is up-to-date. ======
 
-Overfull \hbox (52.49799pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.50247pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure22' is up-to-date. ======
 
-Overfull \hbox (52.50385pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.50217pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure23.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure23' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure23" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure23" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50136pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.50143pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure24' is up-to-date. ======
 
-Overfull \hbox (52.49731pt too wide) in paragraph at lines 45--45
+Overfull \hbox (52.4974pt too wide) in paragraph at lines 44--44
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure25' is up-to-date. ======
 
-Overfull \hbox (52.49341pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.49341pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure26' is up-to-date. ======
 
-Overfull \hbox (52.50343pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.50343pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure27' is up-to-date. ======
 
-Overfull \hbox (52.50049pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.50049pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure28' is up-to-date. ======
 
-Overfull \hbox (52.4969pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.4969pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure29.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure29' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure29" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure29" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50143pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.50143pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure30' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 46--46
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 45--45
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure31' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.48915pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure32' is up-to-date. ======
 
-Overfull \hbox (52.50343pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.49261pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure33' is up-to-date. ======
 
-Overfull \hbox (52.49847pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.49947pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure34' is up-to-date. ======
 
-Overfull \hbox (52.50027pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.50127pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure35.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure35' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure35" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure35" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50143pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.50102pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure36' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 47--47
+Overfull \hbox (52.48915pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure37' is up-to-date. ======
 
-Overfull \hbox (52.49942pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure38' is up-to-date. ======
 
-Overfull \hbox (52.49539pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.50343pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure39' is up-to-date. ======
 
-Overfull \hbox (52.49745pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.49847pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure40' is up-to-date. ======
 
-Overfull \hbox (52.49704pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.50027pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure41.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure41' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure41" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure41" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50146pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.50143pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure42' is up-to-date. ======
 
-Overfull \hbox (52.49341pt too wide) in paragraph at lines 48--48
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 48--48
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure43' is up-to-date. ======
 
-Overfull \hbox (52.4974pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.49942pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure44' is up-to-date. ======
 
-Overfull \hbox (52.4934pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.49539pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure45' is up-to-date. ======
 
-Overfull \hbox (52.50247pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.49745pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure46' is up-to-date. ======
 
-Overfull \hbox (52.50217pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.49704pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
-\openout5 = `Imagenes/tikzext/Tesis-figure47.md5'.
+===== Image 'Imagenes/tikzext/Tesis-figure47' is up-to-date. ======
 
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure47" "\def
-\tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure47" "\def\tikzexternalrealjob{Tesis}\input{Tesis
-}")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
-
-Overfull \hbox (52.50143pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.50146pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure48' is up-to-date. ======
 
-Overfull \hbox (52.4974pt too wide) in paragraph at lines 49--49
+Overfull \hbox (52.49341pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
@@ -4240,7 +4168,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
 Here is how much of TeX's memory you used:
  46701 strings out of 492990
  1034549 string characters out of 6132637
- 1326552 words of memory out of 5000000
+ 1326582 words of memory out of 5000000
  48978 multiletter control sequences out of 15000+600000
  574489 words of font info for 250 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4262,7 +4190,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (47 pages, 24909714 bytes).
+Output written on Tesis.pdf (47 pages, 24909726 bytes).
 PDF statistics:
  1906 PDF objects out of 2073 (max. 8388607)
  1708 compressed objects within 18 object streams
