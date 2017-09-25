@@ -24,54 +24,79 @@ La celda diseñada y construida (ver figura \ref{fig:celda_de_pruebas_SC}) const
 \end{figure}
 
 \section{Construcción de electrodos}
-Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero 316 de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro. Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado en etilenglicol por medio de ultrasonido, y depositado por goteo en sustrato de acero calentado a 150 \degree C hasta que se recubra el sustrato completamente. Para añadirle PMMA, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, se deposita el material en el sustrato de níquel.
-Los electrodos de rGO en forma de papel son fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtro de celulosa y luego recortada al tamaño apropiado para la celda de pruebas. El material dispersado en agua puede ser lyofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
+Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero 316 de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro. Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado en etilenglicol por medio de ultrasonido, y depositado por goteo en el sustrato de acero previamente calentado a 150 \degree C hasta recubrir el sustrato completamente. Para añadirle PMMA, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, se deposita el material en el sustrato de níquel.
+Los electrodos de rGO en forma de papel son fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtro de celulosa y luego recortada al tamaño apropiado para la celda de pruebas. El material dispersado en agua puede ser liofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
 La masa del material depositado se mide en una balanza analítica () masando los sustratos antes y después de depositado el material, teniendo la precaución que el solvente se haya evaporado totalmente. Para los electrodos en forma de papel, se masan 20 discos similares y se calcula la masa promedio de cada uno, mientras que el material liofilizado se masa directamente la cantidad a utilizar en la celda de pruebas.
 
 \begin{table}[htbp]
 	\centering
-	\caption{asd}
-	\begin{tabular}{ l l l l }
-		Sustrato & Forma & Binder & Masa [mg] \\ \hline
-		Acero    & Polvo & -      & 0,4 $\pm$ 0,2 \\
-		Acero    & Polvo & PMMA   & 2,8 $\pm$ 0,2 \\
-		Acero    & Papel & -      & 0,6 $\pm$ 0,2 \\
-		Acero    & Lyo   & -      & 0,6 $\pm$ 0,2 \\
-		Nickel   & Polvo & -      & 0,9 $\pm$ 0,2 \\
-		Nickel   & Polvo & PMMA   & 0,8 $\pm$ 0,2 \\
+	\caption{Muestras}
+	\begin{tabular}{ l l l l l }
+		Sustrato & Forma         & Binder & Masa [mg]     & Gráficos \\
+		\hline
+		Acero    &   -           & -      &  -            & Figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1} \\
+		Acero    & Polvo         & -      & 0,4 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_9}             \\
+		Acero    & Polvo         & PMMA   & 2,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_3}             \\
+		Acero    & Papel         & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_11}            \\
+		Acero    & Liofilizado   & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_13}            \\
+		Nickel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
+		Nickel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
+		Nickel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
 	\end{tabular}
-	\label{tab:Electrodos construidos}
+	\label{tab:electrodos_construidos}
 \end{table}
-
-\pgfplotstabletypeset[
-col sep=space,
-columns/E/.style={string type}
-]{./Data/CV_CRGO300517_11/raw/mass.txt}
 
 \begin{figure}
 	\centering
 	\fbox{
 		\includegraphics[width=1.0\textwidth]{rgo_electrodes.png}
 		}
-	\caption[Electrodos utilizados en la celda de pruebas de supercondensador.]{Electrodos utilizados en la celda de pruebas de supercondensador. De izquierda a derecha: Electro sin material depositado. Electrodo con material depositado mediante goteo (\emph{drop-casting}). Electrodo con material en forma de papel descentrado. Electrodo con material en forma de papel bien centrado soble el metal.}
+	\caption[Electrodos utilizados en la celda de pruebas de supercondensador.]{Electrodos utilizados en la celda de pruebas de supercondensador. De izquierda a derecha: Electro sin material depositado. Electrodo con material depositado mediante goteo (\emph{drop-casting}). Electrodo con material en forma de papel descentrado. Electrodo con material en forma de papel bien centrado sobre el metal.}
 	\label{fig:electrodes}
 \end{figure}
 
-\section{Resultados}
-Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato (Interface 5000E, Gamry). Además de los electrodos construidos con rGO, también se mide el comportamiento de los sustratos sin agregados.
+\section{Caracterización electroquímica}
+Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato (Interface 5000E, Gamry). Además de los electrodos construidos con rGO, también se mide el comportamiento de los sustratos sin agregados. La metodología de medición para cada muestra es como sigue: la celda de pruebas se limpia con etanol para eliminar cualquier residuo de mediciones anteriores, después que la masa del material depositado es medida, el supercondensador es armado al interior de la celda agregando una gota de electrolito al separador de papel (6M \ce{KOH}) y se cierra la celda cuidando que las juntas tóricas sellen bien el interior de la celda, inmediatamente se prosigue con las mediciones electroquímicas. Primero se realizan ciclos de voltametría a diferentes velocidades de barrido: 25, 50, 100, 200, y 400 mV/s, tres ciclos para cada una, y solo se tomará la última curva (esto para remover la carga acumulada en el dispositivo bajo prueba).  Luego de la voltametría cíclica, el espectro de impedancia es obtenido y se procede con los ciclos de carga y descarga a corriente constante. Una vez finalizados los ciclos de carga y descarga, se vuelve a realizar la voltametría cíclica finalizando las mediciones electroquímicas. Los parámetros utilizados para cada prueba se detallan en la tabla \ref{tab:elec_config}.
 
-%Resultados
+
+\begin{table}[htbp]
+	\caption{Parámetros de medición}
+	\begin{tabular}{ l r }
+		Voltametría cíclica &  \\
+		\hline
+		Voltaje inicial [V] & 0 \\
+		Límite inferior [V] & -0,8 \\
+		Límite superior [V] & 0,8  \\
+		Número de ciclos & 3 \\
+		Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400 \\
+		& \\
+		Carga y descarga cíclica & \\
+		\hline
+		Densidad de corriente [A/g] & 1 \\
+		Número de ciclos & 1000 \\
+		Límite inferior [V] & 0 \\
+		Límite superior [V] & 1 \\
+		& \\
+		Espectroscopía de impedancia electroqúimica & \\
+		\hline
+		asd & 123 \\
+	\end{tabular}
+	\label{tab:elec_config}
+\end{table}
+
+\section{Resultados}
+Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado. \ref{SCGraphs:CV_CRGO300517_9}
+
 \SCGraphsNoMass{CV_Steel_Disk_No_Material_1}{CV_Steel_Disk_No_Material_2}{0}{16}{1954.91833300000}{Disco de acero sin material.}
-\SCGraphs{CV_CRGO300517_9}{CV_CRGO300517_10}{0.0004}{10}{3101.89233300000}{Polvo en disco de acero. Masa = 0.4 mg.}
-\SCGraphs{CV_CRGO300517_3}{CV_CRGO300517_4}{0.0028}{20}{2105.33533300000}{Polvo + PMMA en disco de acero. Masa = 2.8 mg.}
-\SCGraphs{CV_CRGO300517_11}{CV_CRGO300517_12}{0.0006}{250}{45656.2866670000}{Papel en disco de acero. Masa = 0.6 mg.}
-\SCGraphs{CV_CRGO300517_13}{CV_CRGO300517_14}{0.0006}{465}{86333.0367000000}{Material liofilizado en disco de acero. Masa = 0.6 mg.}
+\SCGraphs{CV_CRGO300517_9}{CV_CRGO300517_10}{0.0004}{10}{3101.89233300000}{Polvo en disco de acero. Masa = 0.4 mg.}{0.0002}
+\SCGraphs{CV_CRGO300517_3}{CV_CRGO300517_4}{0.0028}{20}{2105.33533300000}{Polvo + PMMA en disco de acero. Masa = 2.8 mg.}{0.0002}
+\SCGraphs{CV_CRGO300517_11}{CV_CRGO300517_12}{0.0006}{250}{45656.2866670000}{Papel en disco de acero. Masa = 0.6 mg.}{0.0001}
+\SCGraphs{CV_CRGO300517_13}{CV_CRGO300517_14}{0.0006}{465}{86333.0367000000}{Material liofilizado en disco de acero. Masa = 0.6 mg.}{0.0001}
 
 
 \SCGraphsNoMass{CV_Nickel_Foam_No_Material_1}{CV_Nickel_Foam_No_Material_2}{0}{12}{2399.28233300000}{Espuma de níquel sin material.}
-\SCGraphs{CV_CRGO300517_5}{CV_CRGO300517_6}{0.0009}{12}{4328.46733300000}{Polvo en espuma de níquel. Masa = 0.9 mg.}
-\SCGraphs{CV_CRGO300517_7}{CV_CRGO300517_8}{0.0008}{5}{771.593133000000}{Polvo + PMMA en espuma de níquel. Masa = 0.8 mg.}
-
+\SCGraphs{CV_CRGO300517_5}{CV_CRGO300517_6}{0.0009}{12}{4328.46733300000}{Polvo en espuma de níquel. Masa = 0.9 mg.}{0-0002}
+\SCGraphs{CV_CRGO300517_7}{CV_CRGO300517_8}{0.0008}{5}{771.593133000000}{Polvo + PMMA en espuma de níquel. Masa = 0.8 mg.}{0.0002}
 
 
 %\input{graficosSC}

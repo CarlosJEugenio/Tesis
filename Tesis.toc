@@ -28,5 +28,6 @@
 \contentsline {chapter}{\numberline {5}Construcci\IeC {\'o}n de supercondensadores}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Celda de pruebas de supercondensador}{17}{section.5.1}
 \contentsline {section}{\numberline {5.2}Construcci\IeC {\'o}n de electrodos}{18}{section.5.2}
-\contentsline {section}{\numberline {5.3}Resultados}{19}{section.5.3}
-\contentsline {chapter}{Conclusiones}{29}{chapter*.33}
+\contentsline {section}{\numberline {5.3}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{19}{section.5.3}
+\contentsline {section}{\numberline {5.4}Resultados}{22}{section.5.4}
+\contentsline {chapter}{Conclusiones}{31}{chapter*.34}

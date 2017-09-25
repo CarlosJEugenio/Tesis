@@ -115,9 +115,9 @@
 	\tikz[baseline=-5]{\node[draw,circle,inner sep=1pt] {#1};}
 	}
 
-%#1:filename, #2:filename, #3:mass,#4:ccdDomain, #5ccdTime, #6 caption
-\newcommand{\SCGraphs}[6]{
-	\pgfmathsetmacro\SCError{1/#3*0.0002}
+%#1:filename, #2:filename, #3:mass,#4:ccdDomain, #5ccdTime, #6 caption, #7 mass abs err
+\newcommand{\SCGraphs}[7]{
+	\pgfmathsetmacro\SCError{1/#3*#7}
 	\begin{figure}
 		\centering
 		\begin{subfigure}{\plotwidth}
