@@ -10,14 +10,14 @@
 \contentsline {section}{\numberline {2.2}El condensador real}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Resistencia en serie equivalente (ESR)}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Corriente de fuga (\emph {leakage current})}{8}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Circuito equivalente}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Circuito equivalente}{9}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}\IeC {\textquestiondown }Qu\IeC {\'e} hace a un supercondensador s\IeC {\'u}per?}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Doble capa electrost\IeC {\'a}tica de Helmholtz}{10}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Pseudocapacitancia}{10}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Mediciones en supercondensadores}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Voltametr\IeC {\'\i }a c\IeC {\'\i }clica}{10}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.4}Mediciones en supercondensadores}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Voltametr\IeC {\'\i }a c\IeC {\'\i }clica}{11}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Espectroscop\IeC {\'\i }a de impedancia electroqu\IeC {\'\i }mica}{11}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Carga y descarga c\IeC {\'\i }clica}{11}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Carga y descarga c\IeC {\'\i }clica}{12}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}S\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Procedimiento experimental}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}Resultados}{14}{section.3.2}

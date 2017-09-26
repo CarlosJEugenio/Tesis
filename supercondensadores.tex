@@ -25,11 +25,102 @@ Esta magnitud, no depende del voltaje o corriente del condensador, si no, de su 
 \end{equation}
 
 Para corrientes constantes, el voltaje varía linealmente como en el gráfico de carga y descarga de la figura \ref{fig:plot:charge-discharge_ideal_cap}.
-\begin{figure}[h!]
-	\centering
-	\fbox{
-		\includegraphics[width=0.7\textwidth]{charge-discharge_ideal_cap.pdf}
-		}
+
+\begin{figure}
+	\begin{tikzpicture}
+	% let both axes use the same layers
+	\pgfplotsset{set layers, 	width=\textwidth, height = 0.5\textwidth}
+	
+	\begin{axis}[
+	scale only axis,
+	axis y line=left, % the ’*’ avoids arrow heads
+	axis x line*=bottom,
+	xlabel=Tiempo,
+	ylabel={\color{red} Voltaje},
+	no markers,
+	xmin=0,
+	xmax=6,
+	cycle list name=exotic,
+	ticks=none,
+	]
+		\addplot [red, thick] table {
+			A B
+			%charge
+			0 -1
+			1  1
+			
+			2 -1
+			3  1
+			
+			4 -1
+			5  1
+			
+			%discharge
+			1  1			
+			2 -1
+			
+			3  1
+			4 -1
+			
+			5  1
+			6 -1
+		};	
+	\end{axis}
+	\begin{axis}[
+	scale only axis,
+	axis y line=right,
+	axis x line=none,
+	ylabel={\color{green!60!black} Corriente},
+	ymin = -1.5,
+	ymax = 1.5,
+	xmin = 0,
+	xmax = 6,
+	no markers,
+	ticks=none,
+	]
+		\addplot [green!60!black, thick] table {
+			A B
+			0  1
+			1  1
+			
+			1 -1
+			2 -1
+			
+			2  1
+			3  1
+			
+			3 -1
+			4 -1
+			
+			4  1
+			5  1
+			
+			5 -1
+			6 -1	
+		};
+		\addplot [green!60!black, thick, dashed] table {
+			A B
+			1  1
+			1 -1
+
+			2  1
+			2 -1
+			
+			3  1
+			3 -1
+			
+			4  1
+			4 -1
+			
+			5  1
+			5 -1
+		};
+		\addplot [black] table {
+			0  0
+			6  0
+		};
+	\end{axis}
+	\end{tikzpicture}
 	\caption{Carga y descarga de un condensador ideal a corriente constante.}
 	\label{fig:plot:charge-discharge_ideal_cap}
 \end{figure}
@@ -41,14 +132,108 @@ El voltaje máximo de operación de un condensador convencional dieléctrico, es
 \subsection{Resistencia en serie equivalente (ESR)}
 Las imperfecciones en la construcción de los electrodos, y la naturaleza de los materiales utilizados (e.g. resistencia no cero), disipan energía durante la carga y descarga como si se tratase de una resistencia en serie al condensador, esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), y disminuye la eficiencia de éste.
 
-\begin{figure}[h!]
-	\centering
-	\fbox{
-		\includegraphics[width=0.7\textwidth]{charge-discharge_esr.pdf}
-	}
+\begin{figure}
+	\begin{tikzpicture}
+	% let both axes use the same layers
+	\pgfplotsset{set layers, 	width=\textwidth, height = 0.5\textwidth}
+	
+	\begin{axis}[
+	scale only axis,
+	axis y line=left, % the ’*’ avoids arrow heads
+	axis x line*=bottom,
+	xlabel=Tiempo,
+	ylabel={\color{red} Voltaje},
+	no markers,
+	xmin=0,
+	xmax=6,
+	cycle list name=exotic,
+	ticks=none,
+	]
+	\addplot [red, thick] table {
+		A B
+		%charge
+		0 -0.8
+		1  1.2
+		
+		2 -0.8
+		3  1.2
+		
+		4 -0.8
+		5  1.2
+		
+		%discharge
+		1  0.8			
+		2 -1.2
+		
+		3  0.8
+		4 -1.2
+		
+		5  0.8
+		6 -1.2
+	};	
+	\draw [arrows={|-|}] (axis cs:1.1,1.2) -- node[right]{$iR$} (axis cs:1.1,0.8);
+	\draw [arrows={|-|}] (axis cs:2.1,-1.2) -- node[right]{$iR$} (axis cs:2.1,-0.8);
+	\end{axis}
+	\begin{axis}[
+	scale only axis,
+	axis y line=right,
+	axis x line=none,
+	ylabel={\color{green!60!black} Corriente},
+	ymin = -1.5,
+	ymax = 1.5,
+	xmin = 0,
+	xmax = 6,
+	no markers,
+	ticks=none,
+	]
+	\addplot [green!60!black, thick] table {
+		A B
+		0  1
+		1  1
+		
+		1 -1
+		2 -1
+		
+		2  1
+		3  1
+		
+		3 -1
+		4 -1
+		
+		4  1
+		5  1
+		
+		5 -1
+		6 -1	
+	};
+	\addplot [green!60!black, thick, dashed] table {
+		A B
+		1  1
+		1 -1
+		
+		2  1
+		2 -1
+		
+		3  1
+		3 -1
+		
+		4  1
+		4 -1
+		
+		5  1
+		5 -1
+	};
+	\addplot [black] table {
+		0  0
+		6  0
+	};
+	\end{axis}
+	\end{tikzpicture}
 	\caption{Carga y descarga de un condensador evidenciando el efecto de una ESR.}
 	\label{fig:plot:charge-discharge_esr}
 \end{figure}
+
+
 
 \subsection{Corriente de fuga (\emph{leakage current})}
 Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos (cuando el condensador está cargado), esta corriente descarga al condensador incluso si está desconectado. Esta imperfección es modelada como una resistencia en paralelo al condensador.

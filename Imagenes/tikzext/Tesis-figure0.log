@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  29 AUG 2017 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  26 SEP 2017 16:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2709,196 +2709,227 @@ Package babel Info: Redefining spanish shorthand "?
 LaTeX Warning: Reference `fig:plot:charge-discharge_ideal_cap' on page 5 undefi
 ned on input line 27.
 
-The command '\includegraphics [width=0.7\textwidth ]{charge-discharge_ideal_cap
-.pdf}' has been optimized away. Use '/tikz/external/optimize=false' to disable 
-this.
+\openout6 = `Imagenes/tikzext/Tesis-figure0.dpth'.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 32--33
- [][] 
- []
+\pgf@layerbox@axis background=\box67
+\pgf@layerboxsaved@axis background=\box68
+\pgf@layerbox@axis grid=\box69
+\pgf@layerboxsaved@axis grid=\box70
+\pgf@layerbox@axis ticks=\box71
+\pgf@layerboxsaved@axis ticks=\box72
+\pgf@layerbox@axis lines=\box73
+\pgf@layerboxsaved@axis lines=\box74
+\pgf@layerbox@axis tick labels=\box75
+\pgf@layerboxsaved@axis tick labels=\box76
+\pgf@layerbox@pre main=\box77
+\pgf@layerboxsaved@pre main=\box78
+\pgf@layerbox@axis descriptions=\box79
+\pgf@layerboxsaved@axis descriptions=\box80
+\pgf@layerbox@axis foreground=\box81
+\pgf@layerboxsaved@axis foreground=\box82
+Package pgfplots info on input line 32: Setting layers 'axis background,axis gr
+id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
+foreground'...
+[5
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 128.
 
 Package natbib Warning: Citation `Yahalom1971' on page 5 undefined on input lin
-e 39.
+e 130.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 131.
 
 LaTeX Warning: Reference `fig:plot:charge-discharge_esr' on page 6 undefined on
- input line 42.
+ input line 133.
 
 The command '\includegraphics [width=0.7\textwidth ]{charge-discharge_esr.pdf}'
  has been optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 48--49
+Overfull \hbox (93.52412pt too wide) in paragraph at lines 139--140
  [][] 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 148.
 The command '\includegraphics [width=0.7\textwidth ]{equivalent_both.pdf}' has 
 been optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 64--65
+Overfull \hbox (93.52412pt too wide) in paragraph at lines 157--158
  [][] 
  []
 
 
 Package natbib Warning: Citation `Fletcher2014' on page 7 undefined on input li
-ne 65.
+ne 158.
 
 
 Package natbib Warning: Citation `Fletcher2014' on page 7 undefined on input li
-ne 65.
+ne 158.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 162.
 
 Package natbib Warning: Citation `Frackowiak2001' on page 7 undefined on input 
-line 73.
+line 166.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 167.
 The command '\includegraphics [width=0.7\textwidth ]{edlc_schem.pdf}' has been 
 optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 79--80
+Overfull \hbox (93.52412pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 181.
 
 LaTeX Warning: Reference `eq:cyclic_voltametry' on page 8 undefined on input li
-ne 93.
+ne 186.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 194.
 ))
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 344.
@@ -3086,32 +3117,9 @@ The command '\includegraphics [width=\textwidth ]{RGO_pic.png}' has been optimi
 zed away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [width=\textwidth ]{GO_pic.png}' has been optimiz
 ed away. Use '/tikz/external/optimize=false' to disable this.
-\openout6 = `Imagenes/tikzext/Tesis-figure0.dpth'.
-
-PGFPlots: reading {./Data/XRD/xrd.txt}
-\tikzexternal@dep@file=\write7
-\openout7 = `Imagenes/tikzext/Tesis-figure0.dep'.
-
-PGFPlots: reading {./Data/XRD/xrd.txt}
-PGFPlots: reading {./Data/XRD/xrd.txt}
-[12
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}])
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
@@ -3224,39 +3232,110 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 28.
-PGFPlots: reading {./Data/CV_CRGO300517_11/raw/mass.txt}
+(babel)             in language  on input line 30.
+
+LaTeX Warning: Reference `SCGraphs:CV_Steel_Disk_No_Material_1' on page 15 unde
+fined on input line 37.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_9' on page 15 undefined on inp
+ut line 38.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_3' on page 15 undefined on inp
+ut line 39.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_11' on page 15 undefined on in
+put line 40.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_13' on page 15 undefined on in
+put line 41.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_Nickel_Foam_No_Material_1' on page 15 und
+efined on input line 42.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_5' on page 15 undefined on inp
+ut line 43.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_7' on page 15 undefined on inp
+ut line 44.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 47.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 47.
 The command '\includegraphics [width=1.0\textwidth ]{rgo_electrodes.png}' has b
 een optimized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 55--56
+Overfull \hbox (93.52412pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 56.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 54.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 58.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 58.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 58.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 58.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 58.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 58.
+
+LaTeX Warning: Reference `tab:elec_config' on page 16 undefined on input line 5
+9.
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand >>
@@ -3270,29 +3349,37 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 87.
+
+LaTeX Warning: Reference `tab:electrodos_construidos' on page 17 undefined on i
+nput line 88.
+
+
+LaTeX Warning: Reference `SCGraphs:CV_CRGO300517_9' on page 17 undefined on inp
+ut line 88.
+
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -3305,6 +3392,30 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 90.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 90.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -3562,21 +3673,19 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
- 46981 strings out of 492990
- 1051146 string characters out of 6132637
- 1447215 words of memory out of 5000000
- 49615 multiletter control sequences out of 15000+600000
- 557016 words of font info for 155 fonts, out of 8000000 for 9000
+ 46656 strings out of 492990
+ 1040534 string characters out of 6132637
+ 1326969 words of memory out of 5000000
+ 49300 multiletter control sequences out of 15000+600000
+ 555786 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,21n,119p,10382b,2224s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,119p,10382b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure0.pdf (1 page, 31467 bytes).
+exlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Imagenes/tikzext/Tesis-figure0.pdf (1 page, 6556 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31757 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 29709 words of extra memory for PDF output out of 29859 (max. 10000000)
 

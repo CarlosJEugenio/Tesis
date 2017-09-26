@@ -1,2 +1,2 @@
-Imagenes/tikzext/Tesis-figure35.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/capacitance.txt
-Imagenes/tikzext/Tesis-figure35.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/capacitance.txt
+Imagenes/tikzext/Tesis-figure35.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure35.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/chargedischarge.txt

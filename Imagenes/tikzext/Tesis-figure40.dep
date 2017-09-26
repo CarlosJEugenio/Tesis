@@ -1,1 +1,5 @@
-Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_5/raw/eisgalv.txt
+Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_6/raw/sample1.txt
+Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_6/raw/sample2.txt
+Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_6/raw/sample3.txt
+Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_6/raw/sample4.txt
+Imagenes/tikzext/Tesis-figure40.pdf: ./Data/CV_CRGO300517_6/raw/sample5.txt

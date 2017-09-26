@@ -1,2 +1,2 @@
-Imagenes/tikzext/Tesis-figure11.pdf: ./Data/CV_CRGO300517_9/raw/capacitance.txt
-Imagenes/tikzext/Tesis-figure11.pdf: ./Data/CV_CRGO300517_10/raw/capacitance.txt
+Imagenes/tikzext/Tesis-figure11.pdf: ./Data/CV_CRGO300517_9/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure11.pdf: ./Data/CV_CRGO300517_9/raw/chargedischarge.txt
