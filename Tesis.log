@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  26 SEP 2017 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.8)  3 OCT 2017 16:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2732,13 +2732,13 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
  [2 <./Imagenes/graphene_lattice.pdf>]
-<Imagenes/GO_structure.pdf, id=995, pagebox=cropbox, 227.39354pt x 333.92056pt>
-
+<Imagenes/GO_structure.pdf, id=995, pagebox=cropbox, 1030.60031pt x 1513.15312p
+t>
 File: Imagenes/GO_structure.pdf Graphic file (type pdf)
 <use Imagenes/GO_structure.pdf>
 Package pdftex.def Info: Imagenes/GO_structure.pdf  used on input line 26. on i
 nput line 26.
-Package pdftex.def Info: Requested size: 172.5pt x 253.31349pt on input line 26
+Package pdftex.def Info: Requested size: 172.5pt x 253.26135pt on input line 26
 .
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 32.
@@ -2829,7 +2829,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 (./supercondensadores.tex
-<Imagenes/ragone.pdf, id=1070, pagebox=cropbox, 646.98236pt x 350.4908pt>
+<Imagenes/ragone.pdf, id=1054, pagebox=cropbox, 646.98236pt x 350.4908pt>
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
 Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 9. on input li
@@ -2948,20 +2948,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 131.
 [7 <./Imagenes/tikzext/Tesis-figure0.pdf>]
-\openout5 = `Imagenes/tikzext/Tesis-figure1.md5'.
-
-
-===== 'mode=convert with system call': Invoking 'pdflatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "Imagenes/tikzext/Tesis-figure1" "\def\
-tikzexternalrealjob{Tesis}\input{Tesis}"' ========
-\openout5 = `Tesis.auxlock'.
-
-runsystem(pdflatex -shell-escape -halt-on-error -interaction=batchmode -jobname
- "Imagenes/tikzext/Tesis-figure1" "\def\tikzexternalrealjob{Tesis}\input{Tesis}
-")...executed.
-
-\openout5 = `Tesis.auxlock'.
-
+===== Image 'Imagenes/tikzext/Tesis-figure1' is up-to-date. ======
 
 Overfull \hbox (30.57515pt too wide) in paragraph at lines 136--232
 [][] 
@@ -2992,7 +2979,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 244.
 [8 <./Imagenes/tikzext/Tesis-figure1.pdf>]
-<Imagenes/equivalent_both.pdf, id=1130, pagebox=cropbox, 580.35815pt x 279.1369
+<Imagenes/equivalent_both.pdf, id=1114, pagebox=cropbox, 580.35815pt x 279.1369
 6pt>
 File: Imagenes/equivalent_both.pdf Graphic file (type pdf)
 <use Imagenes/equivalent_both.pdf>
@@ -3037,7 +3024,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 259.
  [9 <./Imagenes/equivalent_both.pdf>]
-<Imagenes/edlc_schem.pdf, id=1150, pagebox=cropbox, 898.68922pt x 696.1916pt>
+<Imagenes/edlc_schem.pdf, id=1134, pagebox=cropbox, 898.68922pt x 696.1916pt>
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 <use Imagenes/edlc_schem.pdf>
 Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 264. on in
@@ -3277,14 +3264,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 9.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 9.
-<Imagenes/RGO_pic.png, id=1204, 1003.75pt x 1328.965pt>
+<Imagenes/RGO_pic.png, id=1188, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 <use Imagenes/RGO_pic.png>
 Package pdftex.def Info: Imagenes/RGO_pic.png  used on input line 15. on input 
 line 15.
 Package pdftex.def Info: Requested size: 137.9979pt x 182.7079pt on input line 
 15.
-<Imagenes/GO_pic.png, id=1206, 1003.75pt x 1229.59375pt>
+<Imagenes/GO_pic.png, id=1190, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 <use Imagenes/GO_pic.png>
 Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 20. on input l
@@ -3361,7 +3348,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 (./SC_construction.tex
-<Imagenes/SC_process.pdf, id=1236, pagebox=cropbox, 1628.56967pt x 578.96617pt>
+<Imagenes/SC_process.pdf, id=1220, pagebox=cropbox, 1628.56967pt x 578.96617pt>
 
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 <use Imagenes/SC_process.pdf>
@@ -3408,7 +3395,7 @@ Package babel Info: Redefining spanish shorthand "?
  [17
 
  <./Imagenes/SC_process.pdf>]
-<Imagenes/cell3.pdf, id=1250, pagebox=cropbox, 1055.56467pt x 449.45715pt>
+<Imagenes/cell3.pdf, id=1234, pagebox=cropbox, 1055.56467pt x 449.45715pt>
 File: Imagenes/cell3.pdf Graphic file (type pdf)
 <use Imagenes/cell3.pdf>
 Package pdftex.def Info: Imagenes/cell3.pdf  used on input line 21. on input li
@@ -3452,7 +3439,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 30.
  [18 <./Imagenes/cell3.pdf>]
-<Imagenes/rgo_electrodes.png, id=1273, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=1257, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 <use Imagenes/rgo_electrodes.png>
 Package pdftex.def Info: Imagenes/rgo_electrodes.png  used on input line 53. on
@@ -4292,10 +4279,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (50 pages, 24903720 bytes).
+Output written on Tesis.pdf (50 pages, 25040974 bytes).
 PDF statistics:
- 1941 PDF objects out of 2073 (max. 8388607)
- 1744 compressed objects within 18 object streams
+ 1925 PDF objects out of 2073 (max. 8388607)
+ 1734 compressed objects within 18 object streams
  160 named destinations out of 1000 (max. 500000)
  38423 words of extra memory for PDF output out of 42996 (max. 10000000)
 
