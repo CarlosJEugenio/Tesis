@@ -1,29 +1,28 @@
 \select@language {spanish}
-\contentsline {figure}{\numberline {1}{\ignorespaces Comparativa de \IeC {\'o}denes de magnitud desde metros hasta picometros}}{\es@scroman {xi}}{figure.caption.8}
-\contentsline {figure}{\numberline {2}{\ignorespaces Al\IeC {\'o}tropos del carbono mostrando las diferentes dimensionalidades de los nanomateriales}}{\es@scroman {xii}}{figure.caption.9}
-\contentsline {figure}{\numberline {3}{\ignorespaces Densidad de estados en diferentes dimensionalidades}}{\es@scroman {xii}}{figure.caption.10}
-\contentsline {figure}{\numberline {4}{\ignorespaces Subdivisiones de un cubo demostrando el aumento de \IeC {\'a}rea superficial total}}{\es@scroman {xiii}}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Izquierda: Red de grafeno en espacio real. Derecha: Red en espacio rec\IeC {\'\i }proco.\relax }}{2}{figure.caption.12}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Estructuras propuestas para el \IeC {\'o}xido de grafeno \citep {Dreyer2010}.\relax }}{3}{figure.caption.13}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Comparativa de \IeC {\'o}denes de magnitud desde metros hasta picometros}}{2}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Al\IeC {\'o}tropos del carbono mostrando las diferentes dimensionalidades de los nanomateriales}}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Densidad de estados en diferentes dimensionalidades}}{3}{figure.caption.9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Subdivisiones de un cubo demostrando el aumento de \IeC {\'a}rea superficial total}}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Izquierda: Red de grafeno en espacio real. Derecha: Red en espacio rec\IeC {\'\i }proco.\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Estructuras propuestas para el \IeC {\'o}xido de grafeno \citep {Dreyer2010}.\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Diagrama de Ragone}}{10}{figure.caption.13}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Carga y descarga de un condensador ideal a corriente constante.\relax }}{11}{figure.caption.14}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Carga y descarga de un condensador evidenciando el efecto de una ESR.\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep {Fletcher2014}.\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Esquema de un supercondensador mostrando una doble capa electr\IeC {\'o}nica de Helmholtz en cada electrodo y el perfil del potencial el\IeC {\'e}ctrico en \IeC {\'e}l.\relax }}{15}{figure.caption.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagrama de Ragone}}{6}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Carga y descarga de un condensador ideal a corriente constante.\relax }}{7}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Carga y descarga de un condensador evidenciando el efecto de una ESR.\relax }}{8}{figure.caption.16}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep {Fletcher2014}.\relax }}{9}{figure.caption.17}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Esquema de un supercondensador mostrando una doble capa electr\IeC {\'o}nica de Helmholtz en cada electrodo y el perfil del potencial el\IeC {\'e}ctrico en \IeC {\'e}l.\relax }}{10}{figure.caption.18}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Espectro \IeC {\'o}xido de grafeno.\relax }}{20}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Espectro \IeC {\'o}xido de grafeno.\relax }}{16}{figure.caption.20}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{17}{figure.caption.21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Celda de pruebas de supercondensador.}}{18}{figure.caption.22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Electrodos utilizados en la celda de pruebas de supercondensador.}}{20}{figure.caption.24}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Resultados: Disco de acero sin material.}}{23}{figure.caption.26}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Resultados: Polvo en disco de acero. Masa = 0.4 mg.}}{24}{figure.caption.27}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Resultados: Polvo + PMMA en disco de acero. Masa = 2.8 mg.}}{25}{figure.caption.28}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Resultados: Papel en disco de acero. Masa = 0.6 mg.}}{26}{figure.caption.29}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Resultados: Material liofilizado en disco de acero. Masa = 0.6 mg.}}{27}{figure.caption.30}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Resultados: Espuma de n\IeC {\'\i }quel sin material.}}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Resultados: Polvo en espuma de n\IeC {\'\i }quel. Masa = 0.9 mg.}}{29}{figure.caption.32}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Resultados: Polvo + PMMA en espuma de n\IeC {\'\i }quel. Masa = 0.8 mg.}}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Celda de pruebas de supercondensador.}}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Electrodos utilizados en la celda de pruebas de supercondensador.}}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultados: Disco de acero sin material.}}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resultados: Polvo en disco de acero. Masa = 0.4 mg.}}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resultados: Polvo + PMMA en disco de acero. Masa = 2.8 mg.}}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resultados: Papel en disco de acero. Masa = 0.6 mg.}}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Resultados: Material liofilizado en disco de acero. Masa = 0.6 mg.}}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Resultados: Espuma de n\IeC {\'\i }quel sin material.}}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Resultados: Polvo en espuma de n\IeC {\'\i }quel. Masa = 0.9 mg.}}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Resultados: Polvo + PMMA en espuma de n\IeC {\'\i }quel. Masa = 0.8 mg.}}{34}{figure.caption.32}

@@ -1,7 +1,8 @@
 %\chapter{Supercondensadores}
 %TODO add asymetric reference
-El almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos tanto móviles como estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es un \textit{trade-off} entre densidad de energía (cuánta energía se puede almacenar) y densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas, mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
-Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito donde se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, generalmente, cada electrodo es de un material diferente.
+%TODO complejidad de las celdas de combustible
+Almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos móviles o estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es una competencia entre la densidad de energía (cuánta energía se puede almacenar) y la densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas. Mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya sea como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
+La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios.
 
 
 \begin{figure}
@@ -13,20 +14,20 @@ Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a 
 	\label{fig:ragone}
 \end{figure}
 
-\section{El condensador ideal}
-Generalmente un condensador se modela como un par de placas paralelas separadas por un dieléctrico, éste es definido por su capacitancia, la que refleja a groso modo, su capacidad de almacenar energía. Del modelo de placas paralelas se desprende la definición de capacitancia $C$ como la razón entre la magnitud de carga en cada placa $Q$ y el voltaje entre los terminales $V$:
+\subsection{El condensador ideal}
+Generalmente un condensador se modela a través de dos placas paralelas separadas por un dieléctrico. Éste es definido por su capacitancia, la que refleja, \emph{grosso modo}, su capacidad de almacenar energía. Del modelo de placas paralelas se desprende la definición de capacitancia, $C$, como la razón entre la magnitud de carga en cada placa $Q$ y el voltaje entre los terminales $V$:
 
 \begin{equation}
 	C = \frac{Q}{V}
 \end{equation}
 
-Esta magnitud, no depende del voltaje o corriente del condensador, si no, de su construcción. Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente\footnote{En estricto rigor, no hay corriente en el condensador, pues los electrones no ``saltan'' de una placa a otra, sólo se acumulan en una de ellas. La corriente en el condensador, es más bien una corriente de desplazamiento.} con el voltaje en los terminales del dispositivo, considerando que $i = dq/dt$:
+La magnitud C es constante y depende de la construcción del condensador. Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente\footnote{En estricto rigor, no hay corriente en el condensador, pues los electrones no ``saltan'' de una placa a otra, sólo se acumulan en una y se remueven en la otra, aparentando una corriente a través del dispositivo. La corriente en el condensador, es más bien una corriente de desplazamiento.} con el voltaje entre los terminales del dispositivo. Considerando que $i = dq/dt$, entonces:
 
 \begin{equation}
-	i(t) = C \frac{dv(t)}{dt}
+	i(t) = C \frac{dv(t)}{dt}.
 \end{equation}
-
-Para corrientes constantes, el voltaje varía linealmente como en el gráfico de carga y descarga de la figura \ref{fig:plot:charge-discharge_ideal_cap}.
+Esto quiere decir que la corriente es proporcional a la variación del voltaje en el tiempo.
+En el caso de un proceso de carga y descarga a corriente constante, el voltaje variará linealmente, como lo muestra el gráfico de la figura \ref{fig:plot:charge-discharge_ideal_cap}.
 
 \begin{figure}
 	\centering
@@ -128,12 +129,13 @@ Para corrientes constantes, el voltaje varía linealmente como en el gráfico de
 	\label{fig:plot:charge-discharge_ideal_cap}
 \end{figure}
 
-\section{El condensador real}
-Un condensador ideal almacenaría energía al cargarse y la entregaría al descargarse sin ninguna disipación, es decir, su eficiencia sería del 100\%, podría soportar cualquier voltaje aplicado o cargarse y descargarse por una corriente cuan grande se desee.  En realidad, los condensadores sí disipan energía, poseen voltajes de operación y corrientes máximas de carga y descarga. Todo esto depende de como fue construido y qué materiales se utilizaron.\\
-El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje al cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En lo que respecta a los supercondensadores, el voltaje máximo de carga depende fundamentalmente de electrolíto empleado, principalmente por las reacciones que ocurren a ciertos potenciales, como la descomposición del agua a 1.23 V en electrolitos acuosos.\\
+\subsection{El condensador real}
+%TODO agregar electrolito no acuoso
+Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y la entregaría totalmente en la descarga sin ninguna disipación, es decir, tendría una eficiencia del 100\%. Éste podría soportar cualquier amplitud de voltaje aplicado, o cargarse y descargarse por una corriente cuan grande se desee.  Sin embargo, en la vida real, los condensadores sí disipan energía, poseen voltajes de operación acotados y corrientes máximas de carga y descarga. Todo esto depende del diseño de cosntrucción y de los materiales empleados.\\
+El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolíto empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo la descomposición del agua a 1.23 V en electrolitos acuosos.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
-Las imperfecciones en la construcción de los electrodos, y la naturaleza de los materiales utilizados (e.g. resistencia no cero), disipan energía durante la carga y descarga como si se tratase de una resistencia en serie al condensador, esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), y disminuye la eficiencia de éste.
+Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste.
 
 \begin{figure}
 	\begin{tikzpicture}
@@ -239,11 +241,12 @@ Las imperfecciones en la construcción de los electrodos, y la naturaleza de los
 
 
 \subsection{Corriente de fuga (\emph{leakage current})}
-Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial entre los electrodos (cuando el condensador está cargado), esta corriente descarga al condensador incluso si está desconectado. Esta imperfección es modelada como una resistencia en paralelo al condensador.
+%TODO agregar ejemplo
+Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial (cuando el condensador está cargado), esta corriente descarga al condensador incluso si está desconectado. Esta imperfección es modelada como una resistencia en paralelo al condensador.
 
 \subsection{Circuito equivalente}
-El comportamiento de los condensadores reales (convencionales o electroquímicos), son modeladas por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
-El modelo de circuito equivalente más sencillo para un supercondensador, es incluir una resistencia en paralelo al condensador, que represente la corriente de fuga, y una resistencia en serie.
+El comportamiento de los condensadores reales (convencionales o electroquímicos), son modelados por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
+Como lo muestra la figura \ref{fig:equiv_both}, el modelo de circuito equivalente más sencillo para un supercondensador, incluye una resistencia en paralelo al condensador, que represente la corriente de fuga, y una resistencia en serie que representa al resistencia intrínseca de los materiales.
 
 \begin{figure}
 	\centering
@@ -254,11 +257,12 @@ El modelo de circuito equivalente más sencillo para un supercondensador, es inc
 	\label{fig:equiv_both}
 \end{figure}
 
-\section{¿Qué hace a un supercondensador súper?}
-La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios. Esta característica le otorga el grado de súper a los supercondensadores.
+\subsection{Supercondensadores}
+Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito donde se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
 
 \subsection{Doble capa electrostática de Helmholtz}
-La gran densidad de energía de un supercondensador tiene que surgir de algún mecanismo de almacenamiento de cargas. A diferencia de las baterías, este mecanismo es puramente físico, pues no hay reacciones químicas en los electrodos, las cargas son separadas en lo que Helmholtz llamó \emph{Doble capa electrónica} \citep{Frackowiak2001}, así, los supercondensadores también son llamados EDLCs (del inglés \emph{Electric Double Layer Capacitor}).
+%TODO explicación doble capa
+La gran densidad de energía de un supercondensador tiene que surgir de algún mecanismo de almacenamiento de cargas. A diferencia de las baterías, este mecanismo es puramente físico, pues no hay reacciones químicas en los electrodos, las cargas son separadas en lo que H. Helmholtz llamó \emph{Doble capa electrónica} \citep{Frackowiak2001}, así, los supercondensadores también son llamados EDLCs (del inglés \emph{Electric Double Layer Capacitor}), la cual consiste en
 
 \begin{figure}[h!]
 	\centering
@@ -270,23 +274,27 @@ La gran densidad de energía de un supercondensador tiene que surgir de algún m
 \end{figure}
 
 \subsection{Pseudocapacitancia}
-Cuando en un supercondensador existe intercambio de electrones entre los electrodos y el electrolítico (reacciones farádicas), se habla de pseudocapacitancia. El intercambio de electrones 
+Cuando en un supercondensador existe intercambio de electrones entre los electrodos y el electrolito (reacciones redox), se habla de pseudocapacitancia. El intercambio de electrones 
 
 
-\section{Mediciones en supercondensadores}
+\subsection{Mediciones en supercondensadores}
 
 \subsection{Voltametría cíclica}
-En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal y se mide la corriente, típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
+%TODO explicar mejor
+En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal mientras se mide la corriente. Típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
 
-La capacitancia específica puede ser calculada de la voltametría cíclica según la ecuación \ref{eq:cyclic_voltametry}\footnote{Esta ecuación corresponde a la carga total ($\int i dv / \nu$), dividida por la ventana de potencial $\Delta V$, el factor $2$ surge de que la voltametría cíclica comprende tanto un ciclo de carga como uno de descarga.}.
+La capacitancia específica $C_s$, puede ser calculada de la voltametría cíclica según la ecuación \ref{eq:cyclic_voltametry},
 
 \begin{equation}\label{eq:cyclic_voltametry}
-	C_{s} = \frac{\int_{V_i}^{V_f}i(v) \; dv}{2 \; \Delta V \; m \; \nu }
+	C_{s} = \frac{\int_{V_1}^{V_2}i(v) \; dv}{2 \; \Delta V \; m \; \nu },
 \end{equation}
 
+donde $i$ y $v$ son la corriente y voltaje instantáneos, $V_1$ y $V_2$ los potenciales límite inferior y superior respectivamente, $\Delta V = V_2 - V_1 $, $m$ es la masa total del material activo en ambos electrodos, y $\nu$ la tasa de barrido. Esta ecuación corresponde a la carga total ($\int i\, dv / \nu$), dividida por la ventana de potencial $\Delta V$ y la masa, el factor $2$ surge de que la voltametría cíclica comprende tanto un ciclo de carga como uno de descarga.
+
 \subsection{Espectroscopía de impedancia electroquímica}
-Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, se aplica en los terminales del dispositivo midiendo la respuesta (voltaje o corriente según corresponda, junto con el desfase), así, se obtiene la impedancia del sistema a determinada frecuencia. Haciendo un barrido en frecuencia que puede ir desde los milihertz hasta los megahertz, se obtiene el espectro de impedancia del dispositivo. Una forma de representación de los datos obtenidos es el gráfico de Nyquist, un gráfico paramétrico con la frecuencia como parámetro de barrido, donde el eje de las abscisas representa la parte real de la impedancia y las coordenadas la parte imaginaria. Cualitativamente la forma de la curva obtenida puede servir para asignarle un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como la resistencia en serie equivalente.
+Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, es aplicada en los terminales del dispositivo midiendo la respuesta de fase y corriente o voltaje según corresponda. La impedancia del sistema es caracterizada en un espectro de frecuencia, la que comúnmente es estudiado entre los mHz y los MHz. Una representación de los datos obtenidos es el gráfico de Nyquist, el cual consiste en un gráfico paramétrico de la frecuencia como parámetro, donde el eje de las abscisas corresponde a la parte real de la impedancia y las ordenadas a la parte imaginaria. Cualitativamente la forma de la curva obtenida sirve para asignar un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como por ejemplo la resistencia en serie equivalente.
 
 \subsection{Carga y descarga cíclica}
-Aquí se aplica una corriente constante para cargar el condensador hasta un potencial preestablecido, cuando se alcanza dicho potencial, se comienza la descarga aplicando una corriente igual a la de carga pero en sentido contrario hasta alcanzar un potencial inferior predefinido. De las curvas obtenidas se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente (ESR). Al extender la medición a miles de ciclos (hasta 10.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
+%TODO explicar cantidad de ciclos
+En este proceso la corriente es aplicada de forma constante para cargar el condensador hasta un potencial preestablecido, cuando dicho potencial es alcanzado, se aplica una corriente en sentido contrario para descargar el condensador hasta un potencial inferior predefinido. De las curvas de carga y descarga se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente. Extendiendo la medición a miles de ciclos (hasta 10.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
 De esta medición se puede calcular la capacitancia y la resistencia en serie equivalente.
