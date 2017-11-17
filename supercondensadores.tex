@@ -135,12 +135,17 @@ Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y 
 El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolíto empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo la descomposición del agua a 1.23 V en electrolitos acuosos.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
-Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste.
+Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste, esta caida de voltaje es:
+
+\begin{equation}
+	v = iR_{ESR}
+\end{equation}
 
 \begin{figure}
+	\centering
 	\begin{tikzpicture}
 	% let both axes use the same layers
-	\pgfplotsset{set layers, 	width=\textwidth, height = 0.5\textwidth}
+	\pgfplotsset{set layers, 	width=0.7\textwidth, height = 0.35\textwidth}
 	
 	\begin{axis}[
 	scale only axis,
@@ -253,7 +258,7 @@ Como lo muestra la figura \ref{fig:equiv_both}, el modelo de circuito equivalent
 	\fbox{
 		\includegraphics[width=0.7\textwidth]{equivalent_both.pdf}
 		}
-	\caption{Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep{Fletcher2014}.}
+	\caption[Circuito equivalente]{Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep{Fletcher2014}.}
 	\label{fig:equiv_both}
 \end{figure}
 
@@ -269,7 +274,7 @@ La gran densidad de energía de un supercondensador tiene que surgir de algún m
 	\fbox{
 		\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}
 		}
-	\caption{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
+	\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
 	\label{fig:edlc}
 \end{figure}
 

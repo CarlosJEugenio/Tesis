@@ -32,11 +32,18 @@ Brodie, B.~C. (1859).
 \newblock {\em Philosophical Transactions of the Royal Society of London},
   149(9):249--259.
 
-\bibitem[Bunch et~al., 2008]{Bunch2007}
-Bunch, J.~S., van~der Zande, A.~M., Verbridge, S.~S., Parpia, J.~M., Craighead,
-  H.~G., and McEuen, P.~L. (2008).
+\bibitem[Bunch et~al., 2008]{Bunch2008}
+Bunch, J.~S., Verbridge, S.~S., Alden, J.~S., van~der Zande, A.~M., Parpia,
+  J.~M., Craighead, H.~G., McEuen, P.~L., Verbridge, S.~S., Parpia, J.~M.,
+  Craighead, H.~G., and McEuen, P.~L. (2008).
 \newblock {Impermeable Atomic Membranes from Graphene Sheets}.
 \newblock {\em Nano Letters}, 8(8):2458--2462.
+
+\bibitem[{Castro Neto} et~al., 2009]{CastroNeto2009}
+{Castro Neto}, A.~H., Guinea, F., Peres, N. M.~R., Novoselov, K.~S., and Geim,
+  A.~K. (2009).
+\newblock {The electronic properties of graphene}.
+\newblock {\em Reviews of Modern Physics}, 81(1):109--162.
 
 \bibitem[Chen, 2008]{Chen2008}
 Chen, C.~J. (2008).
@@ -77,6 +84,14 @@ El-Kady, M.~F. and Kaner, R.~B. (2013).
 Feng, X., Chen, W., and Yan, L. (2016).
 \newblock {Electrochemical reduction of bulk graphene oxide materials}.
 \newblock {\em RSC Adv.}, 6(83):80106--80113.
+
+\bibitem[Fern{\'{a}}ndez-Merino et~al., 2010]{Fernandez-Merino2010}
+Fern{\'{a}}ndez-Merino, M.~J., Guardia, L., Paredes, J.~I., Villar-Rodil, S.,
+  Sol{\'{i}}s-Fern{\'{a}}ndez, P., Mart{\'{i}}nez-Alonso, A., and Tasc{\'{o}}n,
+  J. M.~D. (2010).
+\newblock {Vitamin C is an ideal substitute for hydrazine in the reduction of
+  graphene oxide suspensions}.
+\newblock {\em Journal of Physical Chemistry C}, 114(14):6426--6432.
 
 \bibitem[Feynman, 1960]{Feynman1960}
 Feynman, R. (1960).
@@ -167,6 +182,11 @@ Novoselov, K.~S., Geim, A.~K., Morozov, S.~V., Jiang, D., Zhang, Y., Dubonos,
 \newblock {Electric Field Effect in Atomically Thin Carbon Films}.
 \newblock {\em Science}, 306(5696):666--669.
 
+\bibitem[Pei and Cheng, 2012]{Pei2012}
+Pei, S. and Cheng, H.~M. (2012).
+\newblock {The reduction of graphene oxide}.
+\newblock {\em Carbon}, 50(9):3210--3228.
+
 \bibitem[Peigney et~al., 2001]{Peigney2001}
 Peigney, A., Laurent, C., Flahaut, E., Bacsa, R.~R., and Rousset, A. (2001).
 \newblock {Specific surface area of carbon nanotubes and bundles of carbon
@@ -186,7 +206,9 @@ Thounthong, P., Ra{\"{e}}l, S., and Davat, B. (2009).
 \newblock {\em Journal of Power Sources}, 193(1):376--385.
 
 \bibitem[Toh et~al., 2014]{Toh2014}
-Toh, S.~Y., Loha, K.~S., Kamarudin, S.~K., and Dauda, W. R.~W. (2014).
+Toh, S.~Y., Loha, K.~S., Kamarudin, S.~K., Dauda, W. R.~W., Loh, K.~S.,
+  Kamarudin, S.~K., Daud, W. R.~W., Loha, K.~S., Kamarudin, S.~K., and Dauda,
+  W. R.~W. (2014).
 \newblock {Graphene production via electrochemical reduction of graphene oxide:
   Synthesis and characterisation}.
 \newblock {\em Chemical Engineering Journal}, 251:422--434.

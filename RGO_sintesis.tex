@@ -1,10 +1,6 @@
-El método de reducción también es adaptado del presentado por Abdolhosseinzadeh \citep{Abdolhosseinzadeh2015}. Éste es un método de reducción química, y se realiza en solución acuosa.
-
-\section{Materiales}
-Como precursor se usa el óxido de grafeno sintetizado con anterioridad mediante el método modificado de Hummers. Como agente reductor se utiliza ácido ascórbico (\ce{C_6H_8O_6}, Sigma-Aldrich $>$95\%).
-
-\section{Procedimiento}
-En primer lugar, 30 g de ácido ascórbico se disuelven en 300 ml de agua destilada, para ser agregados a una de las parte de óxido de grafeno obtenido anteriormente bajo agitación (aproximadamente 300 ml de solución). Al añadir el ácido ascórbico ya en solución, la mezcla se vuelve negra gradualmente, esta es  señal de que la reducción se está llevando a cabo, además, la mezcla deja de ser heterogénea, signo de la hidrofobicidad del rGO. La mezcla es llevada a 90 \degree C y se mantiene por 1 hr dentro del rango de temperatura 85-95 \degree C.
+El método de reducción aquí presentado, es una adaptación del pruepuesto por Abdolhosseinzadeh \citep{Abdolhosseinzadeh2015}. El cual consiste en reducir el óxido de grafeno incorporando una solución acuosa de ácido ascórbico.
+\\
+Como precursor se utiliza el óxido de grafeno previamento descrito y como agente reductor se emplea ácido ascórbico (\ce{C_6H_8O_6}, Sigma-Aldrich $>$95\%). Se disuelven 30 g de ácido ascórbico en 300 ml de agua destilada, que es agregado al óxido de grafeno obtenido bajo agitación (aproximadamente 300 ml en dispersión acuosa). En este procedimiento, la mezcla gradualmente se torna negra, siendo ésta una señal de que la reducción se está llevando a cabo. Además, la mezcla se vuelve una dispersión heterogénea, signo de la hidrofobicidad del óxido reducido de grafeno (rGO). La mezcla es llevada a 90 \degree C y se mantiene por 1 hr dentro del rango de temperatura entre 85 y 95 \degree C. Posteriormente, el compuesto se deja decantar y es lavado cinco veces con 1 l de agua destilada. De este modo se obtiene una dispersión de óxido reducido de grafeno.
 
 \section{Resultados}
 Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD), UV-Vis, y microcopia SEM.
@@ -21,6 +17,7 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 		\caption{GO}
 		\label{fig:GO}
 	\end{subfigure}
+	\caption{Muestras de rGO y GO en agua.}
 \end{figure}
 
 
@@ -31,7 +28,7 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 			cycle list name=exotic,
 			no markers,
 			width = \textwidth,
-%			yticklabels={,,},
+			yticklabels={,,},
 			ylabel={Intensidad [u.a.]},
 			xlabel={2 $\theta$ [grados]},
 			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
@@ -44,12 +41,12 @@ Los materiales obtenidos son caracterizados por espestroscopia de rayos x (XRD),
 %			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
 			\addplot +[mark=none, solid, black] coordinates {(10, 0) (10, 3)};
 			\addplot +[mark=none, solid, black] coordinates {(23, 0) (23, 3)};
-			\addplot +[mark=none, solid, black] coordinates {(26.5, 0) (26.5, 3)};
+			\addplot +[mark=none, solid, black] coordinates {(26, 0) (26, 3)};
 			\node[black, left] at (10, 3){\small{10\degree}};
 			\node[black, left] at (23, 3){\small{23\degree}};
-			\node[black, right] at (26.5, 3){\small{26\degree}};
+			\node[black, right] at (26, 3){\small{26\degree}};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Espectro óxido de grafeno.}
+	\caption{Espectro de difracción de rayos x.}
 	\label{fig:xrd}
 \end{figure}
