@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  16 NOV 2017 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  4 DEC 2017 10:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3231,500 +3231,516 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
 (./SC_construction.tex
-<Imagenes/SC_process.pdf, id=1426, pagebox=cropbox, 1628.56967pt x 578.96617pt>
+Overfull \hbox (14.93645pt too wide) in paragraph at lines 2--3
+[]\OT1/phv/m/n/10 (-20) Un su-per-con-den-sa-dor es cons-trui-do ha-cien-do un 
+s[]and-wich electrodo-separador-
+ []
+
+<Imagenes/SC_process.pdf, id=1428, pagebox=cropbox, 1628.56967pt x 578.96617pt>
 
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 <use Imagenes/SC_process.pdf>
-Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
-t line 8.
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 10. on inp
+ut line 10.
 Package pdftex.def Info: Requested size: 310.4979pt x 110.37575pt on input line
- 8.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 13.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 16.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 16.
- [23
+ 10.
 
- <./Imagenes/SC_process.pdf>]
-<Imagenes/cell3.pdf, id=1440, pagebox=cropbox, 1055.56467pt x 449.45715pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 15.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 17.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 17.
+[23
+
+]
+<Imagenes/cell3.pdf, id=1434, pagebox=cropbox, 1055.56467pt x 449.45715pt>
 File: Imagenes/cell3.pdf Graphic file (type pdf)
 <use Imagenes/cell3.pdf>
-Package pdftex.def Info: Imagenes/cell3.pdf  used on input line 21. on input li
-ne 21.
+Package pdftex.def Info: Imagenes/cell3.pdf  used on input line 24. on input li
+ne 24.
 Package pdftex.def Info: Requested size: 276.00105pt x 117.52133pt on input lin
-e 21.
+e 24.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 30.
- [24 <./Imagenes/cell3.pdf>]
-<Imagenes/rgo_electrodes.png, id=1463, 2409.12045pt x 642.4803pt>
+(babel)             in language  on input line 31.
+[24 <./Imagenes/SC_process.pdf>]
+Overfull \hbox (25.05624pt too wide) in paragraph at lines 37--50
+ [][] 
+ []
+
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 50.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 50.
+[25 <./Imagenes/cell3.pdf>]
+<Imagenes/rgo_electrodes.png, id=1469, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 <use Imagenes/rgo_electrodes.png>
-Package pdftex.def Info: Imagenes/rgo_electrodes.png  used on input line 53. on
- input line 53.
-Package pdftex.def Info: Requested size: 345.0pt x 92.00534pt on input line 53.
+Package pdftex.def Info: Imagenes/rgo_electrodes.png  used on input line 56. on
+ input line 56.
+Package pdftex.def Info: Requested size: 345.0pt x 92.00534pt on input line 56.
 
 
-Overfull \hbox (12.35977pt too wide) in paragraph at lines 53--54
+Overfull \hbox (12.35977pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 54.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 57.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 60.
-[25]
+(babel)             in language  on input line 64.
+[26 <./Imagenes/rgo_electrodes.png>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 94.
 
 ===== Image 'Imagenes/tikzext/Tesis-figure3' is up-to-date. ======
 
-Overfull \hbox (52.49696pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.49696pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure4' is up-to-date. ======
 
-Overfull \hbox (52.49696pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.49696pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure5' is up-to-date. ======
 
-Overfull \hbox (52.49854pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.49854pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure6' is up-to-date. ======
 
-Overfull \hbox (52.50116pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.50116pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure7' is up-to-date. ======
 
-Overfull \hbox (52.50102pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.50102pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure8' is up-to-date. ======
 
-Overfull \hbox (52.49763pt too wide) in paragraph at lines 90--90
+Overfull \hbox (52.49763pt too wide) in paragraph at lines 97--97
 [][] 
  []
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 90.
-[26 <./Imagenes/rgo_electrodes.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 90.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 90.
- [27]
 ===== Image 'Imagenes/tikzext/Tesis-figure9' is up-to-date. ======
 
-Overfull \hbox (52.4974pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.4974pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure10' is up-to-date. ======
 
-Overfull \hbox (52.4934pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.4934pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure11' is up-to-date. ======
 
-Overfull \hbox (52.50247pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.50247pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure12' is up-to-date. ======
 
-Overfull \hbox (52.50217pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.50217pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure13' is up-to-date. ======
 
-Overfull \hbox (52.50146pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.50146pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure14' is up-to-date. ======
 
-Overfull \hbox (52.4974pt too wide) in paragraph at lines 91--91
+Overfull \hbox (52.4974pt too wide) in paragraph at lines 98--98
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure15' is up-to-date. ======
 
-Overfull \hbox (52.49341pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.49341pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure16' is up-to-date. ======
 
-Overfull \hbox (52.50343pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.50343pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure17' is up-to-date. ======
 
-Overfull \hbox (52.50049pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.50049pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure18' is up-to-date. ======
 
-Overfull \hbox (52.4969pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.4969pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure19' is up-to-date. ======
 
-Overfull \hbox (52.50143pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.50143pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure20' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 92--92
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 99--99
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure21' is up-to-date. ======
 
-Overfull \hbox (52.4873pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.4873pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure22' is up-to-date. ======
 
-Overfull \hbox (52.49933pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.49933pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure23' is up-to-date. ======
 
-Overfull \hbox (52.50049pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.50049pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure24' is up-to-date. ======
 
-Overfull \hbox (52.50229pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.50229pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure25' is up-to-date. ======
 
-Overfull \hbox (52.50136pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.50136pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure26' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 93--93
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 100--100
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure27' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure28' is up-to-date. ======
 
-Overfull \hbox (52.4933pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.4933pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure29' is up-to-date. ======
 
-Overfull \hbox (52.49799pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.49799pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure30' is up-to-date. ======
 
-Overfull \hbox (52.50385pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.50385pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure31' is up-to-date. ======
 
-Overfull \hbox (52.50136pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.50136pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure32' is up-to-date. ======
 
-Overfull \hbox (52.49731pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.49731pt too wide) in paragraph at lines 101--101
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure33' is up-to-date. ======
 
-Overfull \hbox (52.48915pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.48915pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure34' is up-to-date. ======
 
-Overfull \hbox (52.49261pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.49261pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure35' is up-to-date. ======
 
-Overfull \hbox (52.49947pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.49947pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure36' is up-to-date. ======
 
-Overfull \hbox (52.50127pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.50127pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure37' is up-to-date. ======
 
-Overfull \hbox (52.50102pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.50102pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure38' is up-to-date. ======
 
-Overfull \hbox (52.48915pt too wide) in paragraph at lines 97--97
+Overfull \hbox (52.48915pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure39' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure40' is up-to-date. ======
 
-Overfull \hbox (52.50343pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.50343pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure41' is up-to-date. ======
 
-Overfull \hbox (52.49847pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.49847pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure42' is up-to-date. ======
 
-Overfull \hbox (52.50027pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.50027pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure43' is up-to-date. ======
 
-Overfull \hbox (52.50143pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.50143pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure44' is up-to-date. ======
 
-Overfull \hbox (52.49742pt too wide) in paragraph at lines 98--98
+Overfull \hbox (52.49742pt too wide) in paragraph at lines 105--105
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure45' is up-to-date. ======
 
-Overfull \hbox (52.49942pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.49942pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure46' is up-to-date. ======
 
-Overfull \hbox (52.49539pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.49539pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure47' is up-to-date. ======
 
-Overfull \hbox (52.49745pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.49745pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure48' is up-to-date. ======
 
-Overfull \hbox (52.49704pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.49704pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure49' is up-to-date. ======
 
-Overfull \hbox (52.50146pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.50146pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ===== Image 'Imagenes/tikzext/Tesis-figure50' is up-to-date. ======
 
-Overfull \hbox (52.49341pt too wide) in paragraph at lines 99--99
+Overfull \hbox (52.49341pt too wide) in paragraph at lines 106--106
 [][] 
  []
 
 ))
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 346.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 346.
+ [27]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 346.
 Package babel Info: Redefining spanish shorthand >>
@@ -4158,16 +4174,23 @@ LaTeX Info: Redefining \% on input line 23.
 (./Conclusiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
-Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1C73C020047600BE9B6D8F5868677C85;892.
+
+
+Package rerunfilecheck Warning: File `Tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Tesis.out':
+(rerunfilecheck)             Before: 1C73C020047600BE9B6D8F5868677C85;892
+(rerunfilecheck)             After:  B9BDF9A5B98CB1DDE822A402C10C301C;906.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 361.
  ) 
 Here is how much of TeX's memory you used:
- 46978 strings out of 492985
- 1039965 string characters out of 6132585
- 1331062 words of memory out of 5000000
+ 46981 strings out of 492985
+ 1039989 string characters out of 6132585
+ 1335062 words of memory out of 5000000
  49247 multiletter control sequences out of 15000+600000
- 573961 words of font info for 245 fonts, out of 8000000 for 9000
+ 574074 words of font info for 247 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,119p,10347b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -4187,10 +4210,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (51 pages, 25931392 bytes).
+Output written on Tesis.pdf (51 pages, 25933359 bytes).
 PDF statistics:
- 2134 PDF objects out of 2487 (max. 8388607)
- 1842 compressed objects within 19 object streams
+ 2136 PDF objects out of 2487 (max. 8388607)
+ 1844 compressed objects within 19 object streams
  167 named destinations out of 1000 (max. 500000)
  38358 words of extra memory for PDF output out of 42996 (max. 10000000)
 

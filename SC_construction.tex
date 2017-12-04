@@ -1,47 +1,50 @@
 %\chapter{Construcción de supercondensadores}
-Un supercondensador es construido simplemente haciendo un sándwich electrodo-separador-electrodo. El electrodo es una lámina del material activo, este puede estar depositado en un colector de corriente, o ser una lámina libre. Por otro lado, el separador es una membrana permeable al electrolito, como puede ser una membrana microporosa o papel filtro de celulosa. Como primera aproximación se procede como la secuencia de la figura \ref{fig:SC_process}. 
+Un supercondensador es construido haciendo un sándwich electrodo-separador-electrodo más la adición de un electrolito. Éste último, es una solución acuosa de hidróxido de potasio (\ce{KOH}) a una concentración 6M, la que es utilizada ampliamente en este tipo de \citep{Frackowiak2001}.  El material que servirá de electrodo debe estar depositado en un colector de corriente, o ser una lámina libre, en este trabajo los electrodos los conforman láminas de grafeno, mientras que los colectores son discos de acero inoxidable UNS316L, que presenta mayor resistencia a la corrosión del hidróxido de potasio. Por otro lado, el separador es una membrana permeable al electrolito, el cual puede ser una membrana microporosa o papel filtro de celulosa (empleado en esta tesis).
+
+El primer supercondensador fue construido como explica la secuencia de la figura \ref{fig:SC_process}. Primero se adhiereel colector de corriente metálico a un sustrato de vidrio. Segundo, se delimita el área a depositar mediante una cinta adhesiva. Tercero se deposita mediante goteo la solución de grafeno en el colector de corriente. Cuarto, se evapora el líquido dispersante . Quinto, se añaden gotas de electrolito. Sexto, se cierra el sistema con un segundo electrodo.
 
 \begin{figure}[h!]
 	\centering
 	\fbox{
 		\includegraphics[width = 0.9\textwidth]{SC_process.pdf}
 		}
-	\caption{}
+	\caption{Secuencia para la construicción de un supercondensador básico.}
 	\label{fig:SC_process}
 \end{figure}
 
 \section{Celda de pruebas de supercondensador}
-La construcción de supercondensadores como se detalla anteriormente, presenta varios inconvenientes: (1) la deposición de material en los colectores de corriente no es homogénea, (2) el agua del electrolito se evapora rápidamente, (3) el cierre del dispositivo no es estable, y por consiguiente (4) la conexión a los terminales no es segura. Por estas razones, se diseña una celda que de pruebas que solucione estos problemas.
-La celda diseñada y construida (ver figura \ref{fig:celda_de_pruebas_SC}) consta de dos colectores de corriente de acero inoxidable, entre los que se ubica el condensador como tal. Los colectores de corriente tienen sellos que impiden la fuga del electrolito o la evaporación del agua en él, permitiendo una operación estable en el tiempo. Los colectores de corriente se apoyan en bloques de acero que cierran la celda con pernos y permiten conectar los terminales del potenciostato a la celda de pruebas.
+La construcción de supercondensadores como se detalla anteriormente, presenta varios inconvenientes: (1) la deposición de material en los colectores de corriente no es homogénea, generando zonas donde el colector queda expuesto al electrolito. (2) el agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. (3) el cierre del dispositivo no es estable y no permite su reproducibilidad, y por consiguiente (4) la conexión a los terminales eléctricos no es estable. Por estas razones y conservando los principios básicos de la construicción de supercondensadores, se diseña una celda de pruebas para solucionar estos problemas.
+
+La celda diseñada y construida (figura \ref{fig:celda_de_pruebas_SC}) consta de dos colectores de corriente de acero inoxidable, entre los que se ubica el supercondensador. Los colectores de corriente tienen juntas tóricas que impiden la fuga del electrolito o la evaporación del agua en él, permitiendo una operación estable en el tiempo. Los colectores de corriente se apoyan en bloques de acero que aseguran la celda con cuatro pernos, permitiendo conectar los terminales del potenciostato a la celda de pruebas.
 
 \begin{figure}[h!]
 	\centering
 	\fbox{
 		\includegraphics[width=0.8\textwidth]{cell3.pdf}
 		}
-	\caption[Celda de pruebas de supercondensador.]{Izquierda: Vista longitudinal de la celda de pruebas, mostrando los componentes más importantes. Derecha: Fotografía de la celda armada y conectada al potenciostato.}
+	\caption[Celda de pruebas de supercondensador.]{Izquierda: Vista en corte longitudinal de la celda de pruebas mostrando los componentes más importantes. Derecha: Fotografía de la celda armada y conectada al potenciostato.}
 	\label{fig:celda_de_pruebas_SC}
 \end{figure}
 
 \section{Construcción de electrodos}
-Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero 316 de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro. Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado en etilenglicol por medio de ultrasonido, y depositado por goteo en el sustrato de acero previamente calentado a 150 \degree C hasta recubrir el sustrato completamente. Para añadirle PMMA, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, se deposita el material en el sustrato de níquel.
-Los electrodos de rGO en forma de papel son fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtro de celulosa y luego recortada al tamaño apropiado para la celda de pruebas. El material dispersado en agua puede ser liofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
-La masa del material depositado se mide en una balanza analítica () masando los sustratos antes y después de depositado el material, teniendo la precaución que el solvente se haya evaporado totalmente. Para los electrodos en forma de papel, se masan 20 discos similares y se calcula la masa promedio de cada uno, mientras que el material liofilizado se masa directamente la cantidad a utilizar en la celda de pruebas.
+Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro, que tiene mayor área superficial (EQ-bcnf-16m, MTI Corporation). Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado ultrasonicamente en etilenglicol, que mostró mayor homogeneidad que el agua para la deposición de grafeno, y depositado por goteo hasta cubrir completamente el sustrato de acero previamente calentado a 150 \degree C. Un segundo par se fabrica añadiendo polimetilmetacrilato (PMMA), a la solución a depositar, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, el tercer y cuarto par repiten los procesos anteriores pero cambiando el sustrato de acero por el de níquel. Manteniendo el sustrato de acero, el quinto par consiste en electrodos de papel fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtroy luego recortada al tamaño apropiado para la celda de pruebas. El material dispersado en agua también puede ser liofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
+
+La masa del material depositado se mide en una balanza analítica () conociendo previamente la masa de los sustratos, teniendo la precaución que el solvente se haya evaporado totalmente. Se masan 20 discos de papel de rGO y se calcula la masa promedio de cada uno. En el material liofilizado se masa directamente la cantidad a utilizar en la celda de pruebas.
 
 \begin{table}[htbp]
 	\centering
 	\caption{Muestras}
-	\begin{tabular}{ l l l l l }
-		Sustrato & Forma         & Binder & Masa [mg]     & Gráficos \\
+	\begin{tabular}{ l l l l c }
+		Sustrato & Formato       & Aglutinate & Masa [mg]     & Caracterización electroquímica \\
 		\hline
 		Acero    &   -           & -      &  -            & Figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1} \\
 		Acero    & Polvo         & -      & 0,4 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_9}             \\
 		Acero    & Polvo         & PMMA   & 2,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_3}             \\
 		Acero    & Papel         & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_11}            \\
 		Acero    & Liofilizado   & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_13}            \\
-		Nickel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
-		Nickel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
-		Nickel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
+		Níquel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
+		Nquel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
+		Nquel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
 	\end{tabular}
 	\label{tab:electrodos_construidos}
 \end{table}
@@ -56,7 +59,9 @@ La masa del material depositado se mide en una balanza analítica () masando los
 \end{figure}
 
 \section{Caracterización electroquímica}
-Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato (Interface 5000E, Gamry). Además de los electrodos construidos con rGO, también se mide el comportamiento de los sustratos sin agregados. La metodología de medición para cada muestra es como sigue: la celda de pruebas se limpia con etanol para eliminar cualquier residuo de mediciones anteriores, después que la masa del material depositado es medida, el supercondensador es armado al interior de la celda agregando una gota de electrolito al separador de papel (6M \ce{KOH}) y se cierra la celda cuidando que las juntas tóricas sellen bien el interior de la celda, inmediatamente se prosigue con las mediciones electroquímicas. Primero se realizan ciclos de voltametría a diferentes velocidades de barrido: 25, 50, 100, 200, y 400 mV/s, tres ciclos para cada una, y solo se tomará la última curva (esto para remover la carga acumulada en el dispositivo bajo prueba).  Luego de la voltametría cíclica, el espectro de impedancia es obtenido y se procede con los ciclos de carga y descarga a corriente constante. Una vez finalizados los ciclos de carga y descarga, se vuelve a realizar la voltametría cíclica finalizando las mediciones electroquímicas. Los parámetros utilizados para cada prueba se detallan en la tabla \ref{tab:elec_config}.
+Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato Gamry (Interface 5000E). Además de los electrodos construidos con rGO, también se mide el comportamiento de los sustratos de acero y níquel.
+
+La metodología de medición para cada muestra es la siguiente: inicialmente se mide la masa de material depositado. Luego, se limpia la celda de pruebas con etanol, para eliminar cualquier residuo de mediciones anteriores. Posteriormente se arma el supercondensador al interior de la celda, agregando una gota de electrolito al separador de papel y cerrándola con la precaución de que las juntas tóricas sellen correctamente el interior de la celda. Inmediatamente se prosigue con las mediciones electroquímicas. Primero se realizan ciclos de voltametría a diferentes velocidades de barrido: 25, 50, 100, 200, y 400 mV/s, tres ciclos para cada una, y solo se toma la última curva (esto para remover la carga acumulada en el dispositivo bajo prueba).  Luego de la voltametría cíclica, el espectro de impedancia es obtenido y se procede con los ciclos de carga y descarga a corriente constante. Una vez finalizados, se vuelve a realizar la voltametría cíclica, para conocer el efecto que tuvo el proceso de carga y descarga en el dispositivo, finalizando las mediciones electroquímicas. Los parámetros utilizados para cada prueba se detallan en la tabla \ref{tab:elec_config}.
 
 
 \begin{table}[htbp]
@@ -79,12 +84,14 @@ Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempe
 		& \\
 		Espectroscopía de impedancia electroqúimica & \\
 		\hline
-		asd & 123 \\
+		Frecuencia inicial	&	1 MHz \\
+		Frecuencia final	&	0.1 Hz \\
+		Corriente de exitación & 1 mA rms \\ 
 	\end{tabular}
 	\label{tab:elec_config}
 \end{table}
 
-\section{Resultados}
+\section{Resultados y análisis}
 Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado.
 
 \SCGraphsNoMass{CV_Steel_Disk_No_Material_1}{CV_Steel_Disk_No_Material_2}{0}{16}{1954.91833300000}{Disco de acero sin material.}
