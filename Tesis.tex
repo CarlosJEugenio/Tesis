@@ -186,8 +186,8 @@
 	\end{figure}	
 }
 
-%#1:filename, #2:filename, #3:mass,#4:ccdDomain, #5ccdTime, #6 caption
-\newcommand{\SCGraphsNoMass}[6]{
+%#1:filename, #2:filename, #3:mass,#4:ccdDomain, #5ccdTime, #6 caption, #7 eis point
+\newcommand{\SCGraphsNoMass}[7]{
 	\begin{figure}
 		\centering
 		\begin{subfigure}{\plotwidth}
@@ -233,13 +233,15 @@
 			\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
 			node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
 			node[pos=(\N-1)/(\N-1), pin=below:{0,1 Hz}]{};
+			node[pos=((#7)/(\N-1), pin=below:{f}]{};
 			\end{axis}
 			\end{tikzpicture}
 		\end{subfigure}\\
 		\begin{subfigure}{\plotwidth}
 			\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 			\begin{axis}[SCStyle,
-			ylabel = {Capacidad [F]}]
+			title=Capacidad,
+			ylabel = {Capacidad [mF]}]
 			\addplot+ [error bars/.cd, y dir=both, y fixed=0.1,] table [only marks] {./Data/#1/raw/capacitance.txt};
 			\addplot+ [error bars/.cd, y dir=both, y fixed=0.1,] table [only marks] {./Data/#2/raw/capacitance.txt};	
 			\end{axis}
