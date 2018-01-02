@@ -18,7 +18,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{cleveref}
 \RequirePackage{multirow}
-\RequirePackage[format=plain, font=small, labelfont=bf, margin=0cm]{caption}
+\RequirePackage[format=plain, font=small, labelfont=bf, justification=centering, margin=0cm]{caption}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax

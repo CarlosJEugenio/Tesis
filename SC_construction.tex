@@ -43,8 +43,8 @@ La masa del material depositado se mide en una balanza analítica () conociendo 
 		Acero    & Papel         & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_11}            \\
 		Acero    & Liofilizado   & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_13}            \\
 		Níquel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
-		Nquel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
-		Nquel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
+		Níquel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
+		Níquel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
 	\end{tabular}
 	\label{tab:electrodos_construidos}
 \end{table}
@@ -65,6 +65,7 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 
 
 \begin{table}[htbp]
+	\centering
 	\caption{Parámetros de medición}
 	\begin{tabular}{ l r }
 		Voltametría cíclica &  \\
@@ -92,20 +93,103 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 \end{table}
 
 \section{Resultados y análisis}
-Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado.
+Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado. 
 
-En la figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1}, se muestran los resultados de las pruebas electroquímicas para los sustratos de acero sin material.
-\SCGraphsNoMass{CV_Steel_Disk_No_Material_1}{CV_Steel_Disk_No_Material_2}{0}{16}{1954.91833300000}{Disco de acero sin material.}{200}
-\SCGraphs{CV_CRGO300517_9}{CV_CRGO300517_10}{0.0004}{10}{3101.89233300000}{Polvo en disco de acero. Masa = 0.4 mg.}{0.0002}
-\SCGraphs{CV_CRGO300517_3}{CV_CRGO300517_4}{0.0028}{20}{2105.33533300000}{Polvo + PMMA en disco de acero. Masa = 2.8 mg.}{0.0002}
-\SCGraphs{CV_CRGO300517_11}{CV_CRGO300517_12}{0.0006}{250}{45656.2866670000}{Papel en disco de acero. Masa = 0.6 mg.}{0.0001}
-\SCGraphs{CV_CRGO300517_13}{CV_CRGO300517_14}{0.0006}{465}{86333.0367000000}{Material liofilizado en disco de acero. Masa = 0.6 mg.}{0.0001}
+En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga a 1 A/g. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada, mostrando esta última una capacidad un poco mayor.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[CVStyle,
+		legend entries={polvo en acero, polvo pmma acero, oapel acero, lio acero, polvo niquel, polvo pmma niquel},]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_11/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_13/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+		\end{axis}
+		\end{tikzpicture}
+		\subcaption{Antes de 1000 ciclos de carga y descarga a 1 A/g.}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[CVStyle,
+		legend entries={polvo en acero, polvo pmma acero, oapel acero, lio acero, polvo niquel, polvo pmma niquel},]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};	
+		\end{axis}
+		\end{tikzpicture}
+		\subcaption{Después de 1000 ciclos de carga y descarga a 1 A/g.}
+	\end{subfigure}
+	\caption{Resumen voltametría cíclica a 100 mV/s.}
+	\label{fig:resumen_cv}
+\end{figure}
 
 
-\SCGraphsNoMass{CV_Nickel_Foam_No_Material_1}{CV_Nickel_Foam_No_Material_2}{0}{12}{2399.28233300000}{Espuma de níquel sin material.}{200}
-\SCGraphs{CV_CRGO300517_5}{CV_CRGO300517_6}{0.0009}{12}{4328.46733300000}{Polvo en espuma de níquel. Masa = 0.9 mg.}{0-0002}
-\SCGraphs{CV_CRGO300517_7}{CV_CRGO300517_8}{0.0008}{5}{771.593133000000}{Polvo + PMMA en espuma de níquel. Masa = 0.8 mg.}{0.0002}
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[CCDStyle,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.98)},
+			anchor=north east,
+		},
+		legend entries={Papel en acero, Lio en acero}]
+%		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+%		\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
+		\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
+		\addplot+[restrict x to domain=0:113.320033] table [ x expr=\thisrow{Time}-138.664967000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_13/raw/chargedischarge.txt};
+%		\addplot+[restrict x to domain=0:5.743334] table [ x expr=\thisrow{Time}-5.48000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
+%		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[CCDStyle,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.98)},
+			anchor=north east,
+		},
+		legend entries={Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel}]
+		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+		\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
+%		\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
+%		\addplot+[restrict x to domain=0:113.320033] table [ x expr=\thisrow{Time}-138.664967000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_13/raw/chargedischarge.txt};
+		\addplot+[restrict x to domain=0:5.743334] table [ x expr=\thisrow{Time}-5.48000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
+		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}	
+\end{figure}
 
+\begin{table}[htbp]
+	\centering
+	\caption{Resumen}
+	\begin{tabular}{ l l l l c c }
+		Sustrato & Formato       & Aglutinate & Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
+				 &               &            &               & a 100 [mV/s]		& a 100 [mV/s]               \\
+		\hline
+		Acero    &   -           & -          &  -            &			0.1			&	-				\\
+		Acero    & Polvo         & -          & 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	\\
+		Acero    & Polvo         & PMMA       & 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	\\
+		Acero    & Papel         & -          & 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	\\
+		Acero    & Liofilizado   & -          & 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	\\
+		Níquel   &  -            & -          &    -          &			0.1			&	- 				\\
+		Níquel   & Polvo         & -          & 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	\\
+		Níquel   & Polvo         & PMMA       & 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	\\
+	\end{tabular}                                                          
+	\label{tab:resumen_resultados}
+\end{table}
 
 %\input{graficosSC}
 

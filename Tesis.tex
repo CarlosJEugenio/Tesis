@@ -25,6 +25,24 @@
 \newcommand{\plotwidth}{0.3\textwidth}
 \newcommand{\plotscale}{0.8}
 
+\definecolor{RYB1}{RGB}{228,26,28}
+\definecolor{RYB2}{RGB}{55,126,184}
+\definecolor{RYB3}{RGB}{77,175,74}
+\definecolor{RYB4}{RGB}{152,78,163}
+\definecolor{RYB5}{RGB}{255,127,0}
+\definecolor{RYB6}{RGB}{255,255,51}
+\definecolor{RYB7}{RGB}{166,86,40}
+
+\pgfplotscreateplotcyclelist{colorbrewer-RYB}{
+	{RYB1},mark=*\\
+	{RYB2},mark=square*\\
+	{RYB3},mark=diamond*\\
+	{RYB4},mark=star\\
+	{RYB5},mark=*\\
+	{RYB6},mark=square*\\
+	{RYB7},mark=diamond*\\
+}
+
 \pgfplotsset{
 	compat=1.15,
 	CVStyle/.style={
@@ -40,7 +58,7 @@
 			anchor=south east,
 		},
 		legend entries={25mV/s,50mV/s,100mV/s,200mV/s,400mV/s},
-		cycle list name=exotic,
+		cycle list name=colorbrewer-RYB,
 		no markers,
 	},
 	SCStyle/.style={
@@ -54,21 +72,24 @@
 			anchor=north east,
 		},
 		legend entries={Antes, Después},
-		cycle list name=exotic,
+		cycle list name=colorbrewer-RYB,
+		every mark/.append style={
+			fill opacity=0.5,
+			draw opacity=0.5,}
 	},
 	EISStyle/.style={
 		title=Espectro de impedancia electroquímica,
 		domain=0:50,
 		ylabel={-Z imag [Ohm]},
 		xlabel={Z real [Ohm]},
-		cycle list name=exotic,	
+		cycle list name=colorbrewer-RYB,	
 	},
 	CCDStyle/.style={
 		title=Carga y descarga cíclica,
 		ylabel={Voltaje [V]},
 		xlabel={Tiempo [s]},
-		cycle list name=exotic,
-		mark size = 0.2pt,
+		cycle list name=colorbrewer-RYB,
+		mark size = 1pt,
 		line width = 0.1pt,
 %		only markers,
 		every axis legend/.append style={
@@ -347,7 +368,7 @@
 \include{Marco_teorico}
 \include{Cuerpo_tesis}
 \include{Conclusiones}
-%\include{Anexo}
+\include{Anexo}
 
 %%ÍNDICE ANALÍTICO
 %\newpage

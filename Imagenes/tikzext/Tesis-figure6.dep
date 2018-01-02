@@ -1,1 +1,4 @@
-Imagenes/tikzext/Tesis-figure6.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/eisgalv.txt
+Imagenes/tikzext/Tesis-figure6.pdf: ./Data/CV_CRGO300517_9/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure6.pdf: ./Data/CV_CRGO300517_3/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure6.pdf: ./Data/CV_CRGO300517_5/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure6.pdf: ./Data/CV_CRGO300517_7/raw/chargedischarge.txt
