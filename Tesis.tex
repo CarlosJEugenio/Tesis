@@ -32,6 +32,14 @@
 \definecolor{RYB5}{RGB}{255,127,0}
 \definecolor{RYB6}{RGB}{255,255,51}
 \definecolor{RYB7}{RGB}{166,86,40}
+\definecolor{ce4edc3}{RGB}{228,237,195}
+\definecolor{cfe9999}{RGB}{254,153,153}
+\definecolor{c575757}{RGB}{87,87,87}
+\definecolor{c43d8ff}{RGB}{67,216,255}
+\definecolor{c323232}{RGB}{50,50,50}
+\definecolor{c71d89a}{RGB}{113,216,154}
+\definecolor{cbfbfbf}{RGB}{191,191,191}
+\definecolor{c252525}{RGB}{37,37,37}
 
 \pgfplotscreateplotcyclelist{colorbrewer-RYB}{
 	{RYB1},mark=*\\
@@ -80,7 +88,7 @@
 	EISStyle/.style={
 		title=Espectro de impedancia electroquímica,
 		domain=0:50,
-		ylabel={-Z imag [Ohm]},
+		ylabel={-Z imag [$\Omega$]},
 		xlabel={Z real [Ohm]},
 		cycle list name=colorbrewer-RYB,	
 	},

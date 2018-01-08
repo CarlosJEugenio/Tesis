@@ -1,1 +1,4 @@
-Imagenes/tikzext/Tesis-figure46.pdf: ./Data/CV_CRGO300517_5/raw/eisgalv.txt
+Imagenes/tikzext/Tesis-figure46.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/sample1.txt
+Imagenes/tikzext/Tesis-figure46.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/sample1.txt
+Imagenes/tikzext/Tesis-figure46.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/sample5.txt
+Imagenes/tikzext/Tesis-figure46.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/sample5.txt

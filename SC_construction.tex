@@ -101,36 +101,125 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 	\centering
 	\begin{subfigure}[t!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, oapel acero, lio acero, polvo niquel, polvo pmma niquel},]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+		\begin{axis}
+		[
+		CVStyle,
+		legend entries={papel acero, lio acero}
+		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_11/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_13/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
 		\end{axis}
 		\end{tikzpicture}
-		\subcaption{Antes de 1000 ciclos de carga y descarga a 1 A/g.}
+		\subcaption{Antes de 1000 ciclos de carga y descarga.}
 	\end{subfigure}\hfill
 	\begin{subfigure}[t!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, oapel acero, lio acero, polvo niquel, polvo pmma niquel},]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+		\begin{axis}[
+		CVStyle,
+		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};	
 		\end{axis}
 		\end{tikzpicture}
-		\subcaption{Después de 1000 ciclos de carga y descarga a 1 A/g.}
+		\subcaption{Antes de 1000 ciclos de carga y descarga.}
 	\end{subfigure}
-	\caption{Resumen voltametría cíclica a 100 mV/s.}
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		CVStyle,
+		legend entries={papel acero, lio acero}
+		]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
+		\end{axis}
+		\end{tikzpicture}
+		\subcaption{Después de 1000 ciclos de carga y descarga.}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		CVStyle,
+		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+		\end{axis}
+		\end{tikzpicture}
+		\subcaption{Después de 1000 ciclos de carga y descarga.}
+	\end{subfigure}
+	\caption{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga.}
 	\label{fig:resumen_cv}
 \end{figure}
 
+\begin{figure}
+	\centering
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		EISStyle,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.02,0.98)},
+			anchor=north west,
+		},
+		legend entries = {papel acero, lio acero}
+		]
+		\pgfplotstableread{./Data/CV_CRGO300517_11/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\pgfmathsetmacro{\N}{\pgfplotsretval}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\pgfplotstableread{./Data/CV_CRGO300517_13/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		EISStyle,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.02)},
+			anchor=south east,
+		},
+		legend entries = {polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		]
+		\pgfplotstableread{./Data/CV_CRGO300517_9/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\pgfmathsetmacro{\N}{\pgfplotsretval}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\pgfplotstableread{./Data/CV_CRGO300517_3/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\pgfplotstableread{./Data/CV_CRGO300517_5/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\pgfplotstableread{./Data/CV_CRGO300517_7/raw/eisgalv.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\end{axis}
+		\end{tikzpicture}
+	\end{subfigure}
+	\caption{Espectro de impedancia electroquímica.}
+\end{figure}
 
 \begin{figure}
 	\centering
@@ -157,8 +246,8 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{axis}[CCDStyle,
 		every axis legend/.append style={
 			font=\tiny,
-			at={(0.98,0.98)},
-			anchor=north east,
+			at={(0.68,0.88)},
+			anchor=north west,
 		},
 		legend entries={Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel}]
 		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
@@ -169,8 +258,23 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
 		\end{axis}
 		\end{tikzpicture}
-	\end{subfigure}	
+	\end{subfigure}
+	\caption{Carga y descarga cíclica.}
 \end{figure}
+
+
+\begin{table}[h!]
+	\begin{tabular}{l c c c c}
+			Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia en serie equivalente [$\Omega$]	\\
+		\hline
+		Polvo + PMMA en disco de acero			&	1.000	&	596	&	-0,279	&	1.447	\\
+		Polvo en espuma de níquel				&	1.000	&	854	&	-0,088	&	1.656	\\
+		Polvo + PMMA en espuma de níquel		&	999		&	402	&	-0,799	&	748		\\
+		Polvo en disco de acero					&	1.000	&	719	&	-0,398	&	705		\\
+		Papel en disco de acero					&	996		&	911	&	-0,599	&	141		\\
+		Material liofilizado en disco de acero	&	1.000	&	909	&	-0,599	&	150		\\
+	\end{tabular}
+\end{table}
 
 \begin{table}[htbp]
 	\centering
