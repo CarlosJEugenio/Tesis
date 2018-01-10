@@ -30,5 +30,7 @@
 \contentsline {section}{\numberline {4.2}Construcci\IeC {\'o}n de electrodos}{24}{section.4.2}
 \contentsline {section}{\numberline {4.3}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{26}{section.4.3}
 \contentsline {section}{\numberline {4.4}Resultados y an\IeC {\'a}lisis}{27}{section.4.4}
-\contentsline {chapter}{Conclusiones}{32}{chapter*.33}
-\contentsline {chapter}{Anexo}{33}{chapter*.34}
+\contentsline {chapter}{\numberline {5}Conclusiones}{32}{chapter.5}
+\contentsline {chapter}{Anexo}{33}{appendix*.33}
+\contentsline {section}{\numberline {.1}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{33}{section.Alph0.1}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{42}{figure.caption.41}

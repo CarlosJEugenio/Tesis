@@ -95,9 +95,9 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 \section{Resultados y análisis}
 Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado. 
 
-En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga a 1 A/g. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada, mostrando esta última una capacidad un poco mayor.
+En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada
 
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}[t!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
@@ -116,7 +116,8 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[
 		CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		cycle list shift=2
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
@@ -142,7 +143,8 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[
 		CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		cycle list shift=2
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
@@ -156,7 +158,9 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 	\label{fig:resumen_cv}
 \end{figure}
 
-\begin{figure}
+En la figura \ref{fig:resumen_eis} se muestran espectros de impedancia para distintas muestras.  
+
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}[t!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
@@ -192,7 +196,8 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 			at={(0.98,0.02)},
 			anchor=south east,
 		},
-		legend entries = {polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel}
+		legend entries = {polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		cycle list shift=2
 		]
 		\pgfplotstableread{./Data/CV_CRGO300517_9/raw/eisgalv.txt}{\eistable};
 		\pgfplotstablegetrowsof{\eistable}
@@ -219,9 +224,11 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{Espectro de impedancia electroquímica.}
+	\label{fig:resumen_eis}
 \end{figure}
 
-\begin{figure}
+En la figura \ref{fig:resumen_ccd}.
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
@@ -249,7 +256,9 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 			at={(0.68,0.88)},
 			anchor=north west,
 		},
-		legend entries={Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel}]
+		legend entries={Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+		cycle list shift=2
+		]
 		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
 		\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
 %		\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
@@ -260,6 +269,7 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\end{tikzpicture}
 	\end{subfigure}
 	\caption{Carga y descarga cíclica.}
+	\label{fig:resumen_ccd}
 \end{figure}
 
 

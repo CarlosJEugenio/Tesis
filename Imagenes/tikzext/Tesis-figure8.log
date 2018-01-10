@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  7 JAN 2018 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  9 JAN 2018 23:07
 entering extended mode
 **\def\tikzexternalrealjob{Tesis}\input{Tesis}
 (Tesis.tex (usachtesis.cls
@@ -3391,48 +3391,52 @@ Underfull \hbox (badness 7081) in paragraph at lines 103--113
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 116--127
+Underfull \hbox (badness 5388) in paragraph at lines 116--128
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 116--127
+Underfull \hbox (badness 7081) in paragraph at lines 116--128
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 130--139
+Underfull \hbox (badness 5388) in paragraph at lines 131--140
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 130--139
+Underfull \hbox (badness 7081) in paragraph at lines 131--140
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 142--153
+Underfull \hbox (badness 5388) in paragraph at lines 143--155
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 142--153
+Underfull \hbox (badness 7081) in paragraph at lines 143--155
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
+
+
+LaTeX Warning: Reference `fig:resumen_eis' on page 24 undefined on input line 1
+61.
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 162--185
+Underfull \hbox (badness 5388) in paragraph at lines 166--189
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 162--185
+Underfull \hbox (badness 7081) in paragraph at lines 166--189
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
@@ -3470,29 +3474,37 @@ dftex.map}]
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 227--243
+Underfull \hbox (badness 5388) in paragraph at lines 233--249
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 227--243
+Underfull \hbox (badness 7081) in paragraph at lines 233--249
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 245--261
+Underfull \hbox (badness 5388) in paragraph at lines 251--269
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 245--261
+Underfull \hbox (badness 7081) in paragraph at lines 251--269
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
 
-Overfull \hbox (108.71535pt too wide) in paragraph at lines 267--281
+Overfull \hbox (169.29698pt too wide) in paragraph at lines 275--285
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (108.71535pt too wide) in paragraph at lines 290--304
  [][] 
  []
 
@@ -3827,17 +3839,17 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
  ) 
 Here is how much of TeX's memory you used:
- 47419 strings out of 493333
- 1060984 string characters out of 3136611
- 1398713 words of memory out of 3000000
- 50019 multiletter control sequences out of 15000+200000
- 30045 words of font info for 142 fonts, out of 3000000 for 9000
+ 47422 strings out of 493333
+ 1061019 string characters out of 3136611
+ 1398643 words of memory out of 3000000
+ 50020 multiletter control sequences out of 15000+200000
+ 30095 words of font info for 143 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,23n,119p,10382b,2546s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,23n,119p,10382b,2548s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure8.pdf (1 page, 34204 bytes).
+Output written on Imagenes/tikzext/Tesis-figure8.pdf (1 page, 34604 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
