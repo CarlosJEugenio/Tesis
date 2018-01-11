@@ -61,10 +61,10 @@ La masa del material depositado se mide en una balanza analítica () conociendo 
 \section{Caracterización electroquímica}
 Los electrodos son sometidos a pruebas electroquímicas para estudiar su desempeño, estás pruebas incluyen: voltametría cíclica (CV), ciclos de carga y descarga a corriente constante, espectroscopía de impedancia electroquímica (EIS). Todas las mediciones electroquímicas son hechas con un potenciostato/galvanostato Gamry (Interface 5000E). Además de los electrodos construidos con rGO, también se mide el comportamiento de los sustratos de acero y níquel.
 
-La metodología de medición para cada muestra es la siguiente: inicialmente se mide la masa de material depositado. Luego, se limpia la celda de pruebas con etanol, para eliminar cualquier residuo de mediciones anteriores. Posteriormente se arma el supercondensador al interior de la celda, agregando una gota de electrolito al separador de papel y cerrándola con la precaución de que las juntas tóricas sellen correctamente el interior de la celda. Inmediatamente se prosigue con las mediciones electroquímicas. Primero se realizan ciclos de voltametría a diferentes velocidades de barrido: 25, 50, 100, 200, y 400 mV/s, tres ciclos para cada una, y solo se toma la última curva (esto para remover la carga acumulada en el dispositivo bajo prueba).  Luego de la voltametría cíclica, el espectro de impedancia es obtenido y se procede con los ciclos de carga y descarga a corriente constante. Una vez finalizados, se vuelve a realizar la voltametría cíclica, para conocer el efecto que tuvo el proceso de carga y descarga en el dispositivo, finalizando las mediciones electroquímicas. Los parámetros utilizados para cada prueba se detallan en la tabla \ref{tab:elec_config}.
+La metodología de medición para cada muestra es la siguiente: inicialmente se mide la masa de material depositado. Luego, se limpia la celda de pruebas con etanol, para eliminar cualquier residuo de mediciones anteriores. Posteriormente se arma el supercondensador al interior de la celda, agregando una gota de electrolito al separador de papel y cerrándola con la precaución de que las juntas tóricas sellen correctamente el interior de la celda. Inmediatamente se prosigue con las mediciones electroquímicas. Primero se realizan ciclos de voltametría a diferentes velocidades de barrido: 25, 50, 100, 200, y 400 mV/s, tres ciclos para cada una, y solo se toma la última curva (esto para remover la carga acumulada en el dispositivo bajo prueba).  Luego de la voltametría cíclica, el espectro de impedancia es obtenido y se procede con los ciclos de carga y descarga a corriente constante a 1 A/g, exceptuando las muestras de polvo más pmma en disco de acero y polvo en espuma de níquel, donde la densidad de corriente se disminuyó 0,1 A/g debido a la alta resistencia en serie equivalente\footnote{La alta resistencia en serie equivalente produce una caída de potencial mayor al voltaje de trabajo entre los terminales del dispositivo, haciendo la medición irrealizable. }. Una vez finalizados, se vuelve a realizar la voltametría cíclica, para conocer el efecto que tuvo el proceso de carga y descarga en el dispositivo, finalizando las mediciones electroquímicas. Los parámetros utilizados para cada prueba se detallan en la tabla \ref{tab:elec_config}.
 
 
-\begin{table}[htbp]
+\begin{table}[h!]
 	\centering
 	\caption{Parámetros de medición}
 	\begin{tabular}{ l r }
@@ -78,7 +78,7 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 		& \\
 		Carga y descarga cíclica & \\
 		\hline
-		Densidad de corriente [A/g] & 1 \\
+		Densidad de corriente [A/g] & 1 ó 0,1 \\
 		Número de ciclos & 1000 \\
 		Límite inferior [V] & 0 \\
 		Límite superior [V] & 1 \\
@@ -93,9 +93,9 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 \end{table}
 
 \section{Resultados y análisis}
-Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} y para los sustratos sin material depositado. 
+Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} en el anexo \ref{sec:caracterizacion_electroquimica}. En esta sección se presentan resúmenes y comparaciones de cada medición.
 
-En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada
+En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada.
 
 \begin{figure}[h!]
 	\centering
@@ -227,7 +227,7 @@ En la figura \ref{fig:resumen_eis} se muestran espectros de impedancia para dist
 	\label{fig:resumen_eis}
 \end{figure}
 
-En la figura \ref{fig:resumen_ccd}.
+En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada carga y descarga cíclica.
 \begin{figure}[h!]
 	\centering
 	\begin{subfigure}{0.4\textwidth}
@@ -268,12 +268,13 @@ En la figura \ref{fig:resumen_ccd}.
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
-	\caption{Carga y descarga cíclica.}
+	\caption{Carga y descarga cíclica a 1 A/g, exceptuando las muestras de polvo más pmma en disco de acero y polvo en espuma de níquel donde la densidad de corriente es de 0,1 A/g.}
 	\label{fig:resumen_ccd}
 \end{figure}
 
 
 \begin{table}[h!]
+	\centering
 	\begin{tabular}{l c c c c}
 			Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia en serie equivalente [$\Omega$]	\\
 		\hline
@@ -288,7 +289,7 @@ En la figura \ref{fig:resumen_ccd}.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Resumen}
+	\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
 	\begin{tabular}{ l l l l c c }
 		Sustrato & Formato       & Aglutinate & Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
 				 &               &            &               & a 100 [mV/s]		& a 100 [mV/s]               \\
@@ -304,6 +305,62 @@ En la figura \ref{fig:resumen_ccd}.
 	\end{tabular}                                                          
 	\label{tab:resumen_resultados}
 \end{table}
+
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\begin{semilogxaxis}[
+			SCStyle,
+			only marks,
+			xtick = {25, 50, 100, 200, 400},
+			xticklabels = {25, 50, 100, 200, 400},
+			ylabel = {Capacidad específica [F/g]},
+			every axis legend/.append style={
+				font=\tiny,
+				at={(0.98,0.98)},
+				anchor=north east,
+			},
+			legend entries={Papel en acero, Lio en acero, Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+			]
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_11/raw/capacitance.txt};
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_13/raw/capacitance.txt};
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.5] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_9/raw/capacitance.txt};
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_3/raw/capacitance.txt};
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_5/raw/capacitance.txt};
+			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_7/raw/capacitance.txt};
+			
+			\end{semilogxaxis}
+		\end{tikzpicture}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{semilogxaxis}[
+		SCStyle,
+		only marks,
+		xtick = {25, 50, 100, 200, 400},
+		xticklabels = {25, 50, 100, 200, 400},
+		ylabel = {Capacidad específica [F/g]},
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.98)},
+			anchor=north east,
+		},
+		legend entries={Papel en acero, Lio en acero, Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+		]
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_12/raw/capacitance.txt};
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_14/raw/capacitance.txt};
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.50000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_10/raw/capacitance.txt};
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_4/raw/capacitance.txt};
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_6/raw/capacitance.txt};
+		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_8/raw/capacitance.txt};
+		
+		\end{semilogxaxis}
+		\end{tikzpicture}
+	\end{subfigure}
+		\caption{Capacidad específica}
+\end{figure}
 
 %\input{graficosSC}
 

@@ -1,5 +1,2 @@
-Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_CRGO300517_9/raw/sample1.txt
-Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_CRGO300517_9/raw/sample2.txt
-Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_CRGO300517_9/raw/sample3.txt
-Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_CRGO300517_9/raw/sample4.txt
-Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_CRGO300517_9/raw/sample5.txt
+Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/capacitance.txt
+Imagenes/tikzext/Tesis-figure17.pdf: ./Data/CV_Steel_Disk_No_Material_2/raw/capacitance.txt

@@ -11,7 +11,7 @@
 \usepackage{titlesec}
 
 \usepackage{gensymb}
-
+\usepackage{hyperref}
 \usepackage{subcaption}
 
 \usepackage{pgfplots}
@@ -42,13 +42,13 @@
 \definecolor{c252525}{RGB}{37,37,37}
 
 \pgfplotscreateplotcyclelist{colorbrewer-RYB}{
-	{RYB1},mark=*\\
-	{RYB2},mark=square*\\
-	{RYB3},mark=diamond*\\
-	{RYB4},mark=star\\
-	{RYB5},mark=*\\
-	{RYB6},mark=square*\\
-	{RYB7},mark=diamond*\\
+	{RYB1},every mark/.append style={fill=RYB1!80!black},mark=*\\
+	{RYB2},every mark/.append style={fill=RYB2!80!black},mark=square*\\
+	{RYB3},every mark/.append style={fill=RYB3!80!black},mark=diamond*\\
+	{RYB4},every mark/.append style={fill=RYB4!80!black},mark=star\\
+	{RYB5},every mark/.append style={fill=RYB5!80!black},mark=*\\
+	{RYB6},every mark/.append style={fill=RYB6!80!black},mark=square*\\
+	{RYB7},every mark/.append style={fill=RYB7!80!black},mark=diamond*\\
 }
 
 \pgfplotsset{
@@ -109,7 +109,18 @@
 	},
 }
 
-
+\pgfplotsset{
+	/pgfplots/bar  cycle  list/.style={/pgfplots/cycle  list={%
+			{RYB1,fill=RYB1!80!black,mark=*},
+			{RYB2,fill=RYB2!80!black,mark=square*},
+			{RYB3,fill=RYB3!80!black,mark=diamond*},
+			{RYB4,fill=RYB4!80!black,mark=star},
+			{RYB5,fill=RYB5!80!black,mark=*},
+			{RYB6,fill=RYB6!80!black,mark=square*},
+			{RYB7,fill=RYB7!80!black,mark=diamond*},
+		}
+	},
+}
 \fancypagestyle{plain}{%
 	\fancyhf{} % clear all header and footer fields
 	\fancyhead{} % clear all header fields
@@ -248,7 +259,7 @@
 		\begin{subfigure}{\plotwidth}
 			\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 			\begin{axis}[CCDStyle]
-			\addplot+[restrict x to domain=0:#4] table [ x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage} ] {./Data/#1/raw/chargedischarge.txt};	
+			\addplot+[restrict x to domain=0:#4] table [ x expr=\thisrow{Time}-0, y expr=\thisrow{Voltage} ] {./Data/#1/raw/chargedischarge.txt};
 			\addplot+[restrict x to domain=0:#4] table [ x expr=\thisrow{Time}-#5, y expr=\thisrow{Voltage} ] {./Data/#1/raw/chargedischarge.txt};
 			\end{axis}
 			\end{tikzpicture}
