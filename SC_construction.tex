@@ -95,7 +95,7 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 \section{Resultados y análisis}
 Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} en el anexo \ref{sec:caracterizacion_electroquimica}. En esta sección se presentan resúmenes y comparaciones de cada medición.
 
-En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, es proporcional a la capacidad específica del supercondensador. Estas corresponden a muestras en formato de papel y liofilizada.
+En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, esta es proporcional a la capacidad específica del supercondensador. Estas dos curvas corresponden a muestras en formato de papel y liofilizada, donde la densidad de corriente máxima es un orden de magnitud mayor al resto de las muestras, alcanzado aproximadamente 5 A/g, mientras el resto bordea los 0,5 A/g. Esto se ve reflejado al calcular la capacidad específica como se muestra en la tabla \ref{tab:resumen_capacitancia}.
 
 \begin{figure}[h!]
 	\centering
@@ -158,7 +158,26 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 	\label{fig:resumen_cv}
 \end{figure}
 
-En la figura \ref{fig:resumen_eis} se muestran espectros de impedancia para distintas muestras.  
+\begin{table}[h!]
+	\centering
+	\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
+	\begin{tabular}{ l l l l c c }
+		Sustrato & Formato       & Aglutinate & Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
+		&               &            &               & a 100 [mV/s]		& a 100 [mV/s]               \\
+		\hline
+		Acero    &   -           & -          &  -            &			0.1			&	-				\\
+		Acero    & Polvo         & -          & 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	\\
+		Acero    & Polvo         & PMMA       & 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	\\
+		Acero    & Papel         & -          & 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	\\
+		Acero    & Liofilizado   & -          & 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	\\
+		Níquel   &  -            & -          &    -          &			0.1			&	- 				\\
+		Níquel   & Polvo         & -          & 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	\\
+		Níquel   & Polvo         & PMMA       & 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	\\
+	\end{tabular}                                                          
+	\label{tab:resumen_capacitancia}
+\end{table}
+
+En la figura \ref{fig:resumen_eis} se muestran espectros de impedancia para distintas muestras, siguiendo el procedimiento experimental, este es tomado inmediatamente después de realizada primera voltametría cíclica. \citep{Wang2009}.
 
 \begin{figure}[h!]
 	\centering
@@ -287,29 +306,12 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 	\end{tabular}
 \end{table}
 
-\begin{table}[htbp]
-	\centering
-	\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
-	\begin{tabular}{ l l l l c c }
-		Sustrato & Formato       & Aglutinate & Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
-				 &               &            &               & a 100 [mV/s]		& a 100 [mV/s]               \\
-		\hline
-		Acero    &   -           & -          &  -            &			0.1			&	-				\\
-		Acero    & Polvo         & -          & 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	\\
-		Acero    & Polvo         & PMMA       & 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	\\
-		Acero    & Papel         & -          & 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	\\
-		Acero    & Liofilizado   & -          & 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	\\
-		Níquel   &  -            & -          &    -          &			0.1			&	- 				\\
-		Níquel   & Polvo         & -          & 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	\\
-		Níquel   & Polvo         & PMMA       & 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	\\
-	\end{tabular}                                                          
-	\label{tab:resumen_resultados}
-\end{table}
+
 
 
 \begin{figure}
 	\centering
-	\begin{subfigure}{0.4\textwidth}
+	\begin{subfigure}[b!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 			\begin{semilogxaxis}[
 			SCStyle,
@@ -333,8 +335,9 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 			
 			\end{semilogxaxis}
 		\end{tikzpicture}
+		\caption{Capacidad específica antes de 1000 ciclos de carga y descarga. }
 	\end{subfigure}\hfill
-	\begin{subfigure}{0.4\textwidth}
+	\begin{subfigure}[b!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{semilogxaxis}[
 		SCStyle,
@@ -345,7 +348,7 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 		every axis legend/.append style={
 			font=\tiny,
 			at={(0.98,0.98)},
-			anchor=north east,
+			anchor=north west,
 		},
 		legend entries={Papel en acero, Lio en acero, Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
 		]
@@ -358,11 +361,10 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 		
 		\end{semilogxaxis}
 		\end{tikzpicture}
+		\caption{Capacidad específica después de 1000 ciclos de carga y descarga. }
 	\end{subfigure}
-		\caption{Capacidad específica}
+		\caption{Resumen de la capacidad específica.}
 \end{figure}
-
-%\input{graficosSC}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  10 JAN 2018 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  11 JAN 2018 19:41
 entering extended mode
 **\def\tikzexternalrealjob{Tesis}\input{Tesis}
 (Tesis.tex (usachtesis.cls
@@ -3443,33 +3443,33 @@ Underfull \hbox (badness 7081) in paragraph at lines 252--270
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (169.29698pt too wide) in paragraph at lines 277--287
-[][] 
+Overfull \hbox (169.29698pt too wide) in paragraph at lines 278--288
+ [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (108.71535pt too wide) in paragraph at lines 292--306
+Overfull \hbox (108.71535pt too wide) in paragraph at lines 293--307
  [][] 
  []
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 
-Underfull \hbox (badness 5388) in paragraph at lines 312--335
+Underfull \hbox (badness 5388) in paragraph at lines 313--336
 [] \OT1/phv/m/n/10 (+20) [ \OT1/phv/m/sc/10 (+20) tikz-pic-tu-re op-ti-mi-zed
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 312--335
+Underfull \hbox (badness 7081) in paragraph at lines 313--336
 \OT1/phv/m/sc/10 (+20) con-tri-bu-te to ex-por-ted
  []
 
 \openout6 = `Imagenes/tikzext/Tesis-figure12.dpth'.
 
-Package pgfplots info on input line 350: Using 'lua backend=false' for axis: xm
+Package pgfplots info on input line 352: Using 'lua backend=false' for axis: xm
 ode=log unsupported (yet).
 PGFPlots: reading {./Data/CV_CRGO300517_12/raw/capacitance.txt}
 \tikzexternal@dep@file=\write7
@@ -3942,7 +3942,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
 Here is how much of TeX's memory you used:
  46993 strings out of 493333
  1049565 string characters out of 3136611
- 1373815 words of memory out of 3000000
+ 1373883 words of memory out of 3000000
  49587 multiletter control sequences out of 15000+200000
  30145 words of font info for 144 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3950,7 +3950,7 @@ Here is how much of TeX's memory you used:
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure12.pdf (1 page, 22152 bytes).
+Output written on Imagenes/tikzext/Tesis-figure12.pdf (1 page, 22156 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
