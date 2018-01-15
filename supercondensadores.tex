@@ -262,6 +262,47 @@ Como lo muestra la figura \ref{fig:equiv_both}, el modelo de circuito equivalent
 	\label{fig:equiv_both}
 \end{figure}
 
+\newcommand{\circuitscale}{0.7}
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.3\textwidth}
+		\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+			\draw (0,0)
+			to [R=$R_s$,  o-] (2,0)
+			to [short] (2,-1)
+			to [C=$C$] (4,-1)
+			to [short] (4,0)
+			(2,0) to [short] (2,1)
+			to [R=$R_{leak}$] (4,1)
+			to [short] (4,0)
+			to [short, -o] (5,0);
+		\end{circuitikz}
+		\caption{Circuito 1.}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.3\textwidth}
+			\begin{circuitikz}[scale =\circuitscale, transform shape]
+				\draw (0,0)
+				to[V,v=$U_q$] (0,2) % The voltage source
+				to[short] (2,2)
+				to[R=$R_1$] (2,0) % The resistor
+				to[short] (0,0);
+			\end{circuitikz}
+			\caption{Circuito 2.}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.3\textwidth}
+		\begin{circuitikz}[scale = \circuitscale, transform shape]
+			\draw (0,0)
+			to[V,v=$U_q$] (0,2) % The voltage source
+			to[short] (2,2)
+			to[R=$R_1$] (2,0) % The resistor
+			to[short] (0,0);
+		\end{circuitikz}
+		\caption{Circuito 3.}
+	\end{subfigure}
+	\label{fig:ciruitos_equivalente}
+	\caption{Circuitos equivalentes.}
+\end{figure}
+
 \subsection{Supercondensadores}
 Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito donde se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
 
