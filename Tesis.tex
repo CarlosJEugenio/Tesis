@@ -23,9 +23,21 @@
 \tikzexternalize[prefix=Imagenes/tikzext/]
 
 \usetikzlibrary{positioning}
+%\usetikzlibrary{pgfplots.clickable}
+%\usepgfplotslibrary{clickable}
 
 \newcommand{\plotwidth}{0.3\textwidth}
 \newcommand{\plotscale}{0.8}
+
+%nombre de muestras:
+\newcommand{\mSustratoAcero}{SusAc}
+\newcommand{\mPolvoAcero}{PolAc}
+\newcommand{\mPolvoAceroPMMA}{PolAc+pmma}
+\newcommand{\mPapelAcero}{PapAc}
+\newcommand{\mLiofilizadoAcero}{LioAc}
+\newcommand{\mSustratoNiquel}{SusNi}
+\newcommand{\mPolvoNiquel}{PolNi}
+\newcommand{\mPolvoNiquelPMMA}{PolNi+pmma}
 
 
 \definecolor{RYB1}{RGB}{228,26,28}
@@ -48,10 +60,10 @@
 	{RYB1},every mark/.append style={fill=RYB1!80!black},mark=*\\
 	{RYB2},every mark/.append style={fill=RYB2!80!black},mark=square*\\
 	{RYB3},every mark/.append style={fill=RYB3!80!black},mark=diamond*\\
-	{RYB4},every mark/.append style={fill=RYB4!80!black},mark=star\\
-	{RYB5},every mark/.append style={fill=RYB5!80!black},mark=*\\
-	{RYB6},every mark/.append style={fill=RYB6!80!black},mark=square*\\
-	{RYB7},every mark/.append style={fill=RYB7!80!black},mark=diamond*\\
+	{RYB4},every mark/.append style={fill=RYB4!80!black},mark=triangle*\\
+	{RYB5},every mark/.append style={fill=RYB5!80!black},mark=pentagon*\\
+	{RYB6},every mark/.append style={fill=RYB6!80!black},mark=o\\
+	{RYB7},every mark/.append style={fill=RYB7!80!black},mark=square\\
 }
 
 \pgfplotsset{
@@ -117,7 +129,7 @@
 			{RYB1,fill=RYB1!80!black,mark=*},
 			{RYB2,fill=RYB2!80!black,mark=square*},
 			{RYB3,fill=RYB3!80!black,mark=diamond*},
-			{RYB4,fill=RYB4!80!black,mark=star},
+			{RYB4,fill=RYB4!80!black,mark=triangle*},
 			{RYB5,fill=RYB5!80!black,mark=*},
 			{RYB6,fill=RYB6!80!black,mark=square*},
 			{RYB7,fill=RYB7!80!black,mark=diamond*},

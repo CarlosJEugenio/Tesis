@@ -10,9 +10,9 @@
 \contentsline {figure}{\numberline {1.8}{\ignorespaces Diagrama de Ragone}}{11}{figure.caption.14}
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Carga y descarga de un condensador ideal a corriente constante.\relax }}{12}{figure.caption.15}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Carga y descarga de un condensador evidenciando el efecto de una ESR.\relax }}{13}{figure.caption.16}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Circuito equivalente}}{14}{figure.caption.17}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Circuitos equivalentes.\relax }}{14}{figure.caption.18}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Esquema de un supercondensador}}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Circuitos equivalentes.\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Circuito 1.\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Esquema de un supercondensador}}{15}{figure.caption.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Muestras de rGO y GO en agua.\relax }}{21}{figure.caption.20}
@@ -21,19 +21,19 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Secuencia para la construicci\IeC {\'o}n de un supercondensador b\IeC {\'a}sico.\relax }}{23}{figure.caption.22}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Celda de pruebas de supercondensador.}}{24}{figure.caption.23}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Electrodos utilizados en la celda de pruebas de supercondensador.}}{25}{figure.caption.25}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Resumen voltametr\IeC {\'\i }a c\IeC {\'\i }clica a 100 mV/s antes y despu\IeC {\'e}s de 1000 ciclos de carga y descarga.\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Espectro de impedancia electroqu\IeC {\'\i }mica.\relax }}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Carga y descarga c\IeC {\'\i }clica a 1 A/g, exceptuando las muestras de polvo m\IeC {\'a}s pmma en disco de acero y polvo en espuma de n\IeC {\'\i }quel donde la densidad de corriente es de 0,1 A/g.\relax }}{30}{figure.caption.30}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Resumen de la capacidad espec\IeC {\'\i }fica.\relax }}{30}{figure.caption.32}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resumen voltametr\IeC {\'\i }a c\IeC {\'\i }clica a 100 mV/s antes y despu\IeC {\'e}s de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gr\IeC {\'a}ficos para mejorar su visualizaci\IeC {\'o}n.\relax }}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Espectro de impedancia electroqu\IeC {\'\i }mica. Las muestras son separadas en dos gr\IeC {\'a}ficos para mejorar su visualizaci\IeC {\'o}n.\relax }}{29}{figure.caption.29}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Carga y descarga c\IeC {\'\i }clica a 1 A/g, exceptuando las muestras de polvo m\IeC {\'a}s pmma en disco de acero y polvo en espuma de n\IeC {\'\i }quel donde la densidad de corriente es de 0,1 A/g. Las muestras son separadas en dos gr\IeC {\'a}ficos para mejorar su visualizaci\IeC {\'o}n.\relax }}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resumen de la capacidad espec\IeC {\'\i }fica.\relax }}{32}{figure.caption.32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Hibridizaci\IeC {\'o}n sp2}}{32}{figure.caption.33}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Formaci\IeC {\'o}n de un orbital $\pi $}}{33}{figure.caption.34}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Resultados: Disco de acero sin material.}}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Resultados: Polvo en disco de acero. Masa = 0.4 mg.}}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Resultados: Polvo + PMMA en disco de acero. Masa = 2.8 mg.}}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Resultados: Papel en disco de acero. Masa = 0.6 mg.}}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Resultados: Material liofilizado en disco de acero. Masa = 0.6 mg.}}{39}{figure.caption.39}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Resultados: Espuma de n\IeC {\'\i }quel sin material.}}{40}{figure.caption.40}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Resultados: Polvo en espuma de n\IeC {\'\i }quel. Masa = 0.9 mg.}}{41}{figure.caption.41}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Resultados: Polvo + PMMA en espuma de n\IeC {\'\i }quel. Masa = 0.8 mg.}}{42}{figure.caption.42}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Hibridizaci\IeC {\'o}n sp2}}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Formaci\IeC {\'o}n de un orbital $\pi $}}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Resultados: Disco de acero sin material.}}{37}{figure.caption.35}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Resultados: Polvo en disco de acero. Masa = 0.4 mg.}}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Resultados: Polvo + PMMA en disco de acero. Masa = 2.8 mg.}}{39}{figure.caption.37}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Resultados: Papel en disco de acero. Masa = 0.6 mg.}}{40}{figure.caption.38}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Resultados: Material liofilizado en disco de acero. Masa = 0.6 mg.}}{41}{figure.caption.39}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Resultados: Espuma de n\IeC {\'\i }quel sin material.}}{42}{figure.caption.40}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Resultados: Polvo en espuma de n\IeC {\'\i }quel. Masa = 0.9 mg.}}{43}{figure.caption.41}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Resultados: Polvo + PMMA en espuma de n\IeC {\'\i }quel. Masa = 0.8 mg.}}{44}{figure.caption.42}

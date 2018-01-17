@@ -34,17 +34,17 @@ La masa del material depositado se mide en una balanza analítica () conociendo 
 \begin{table}[htbp]
 	\centering
 	\caption{Muestras}
-	\begin{tabular}{ l l l l c }
-		Sustrato & Formato       & Aglutinate & Masa [mg]     & Caracterización electroquímica \\
+	\begin{tabular}{ l l l l l c }
+		Nombre	&	Sustrato & Formato       & Aglutinate & Masa [mg]     & Caracterización electroquímica \\
 		\hline
-		Acero    &   -           & -      &  -            & Figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1} \\
-		Acero    & Polvo         & -      & 0,4 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_9}             \\
-		Acero    & Polvo         & PMMA   & 2,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_3}             \\
-		Acero    & Papel         & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_11}            \\
-		Acero    & Liofilizado   & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_13}            \\
-		Níquel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
-		Níquel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
-		Níquel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
+		\mSustratoAcero		&	Acero    &   -           & -      &  -            & Figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1} \\
+		\mPolvoAcero			&	Acero    & Polvo         & -      & 0,4 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_9}             \\
+		\mPolvoAceroPMMA	&	Acero    & Polvo         & PMMA   & 2,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_3}             \\
+		\mPapelAcero		&	Acero    & Papel         & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_11}            \\
+		\mLiofilizadoAcero	&	Acero    & Liofilizado   & -      & 0,6 $\pm$ 0,1 & Figura \ref{SCGraphs:CV_CRGO300517_13}            \\
+		\mSustratoNiquel	&	Níquel   &  -            & -      &    -          & Figura \ref{SCGraphs:CV_Nickel_Foam_No_Material_1}\\
+		\mPolvoNiquel		&	Níquel   & Polvo         & -      & 0,9 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_5}             \\
+		\mPolvoNiquelPMMA	&	Níquel   & Polvo         & PMMA   & 0,8 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_7}             \\
 	\end{tabular}
 	\label{tab:electrodos_construidos}
 \end{table}
@@ -93,6 +93,7 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 \end{table}
 
 \section{Resultados y análisis}
+
 Los resultados son presentados en una serie de gráficos para cada muestra de la tabla \ref{tab:electrodos_construidos} en el anexo \ref{sec:caracterizacion_electroquimica}. En esta sección se presentan resúmenes y comparaciones de cada medición.
 
 En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de barrido de 100 mV/s, antes y después de 1000 ciclos de carga y descarga. De los gráficos resaltan dos curvas de mayor área, que de acuerdo a la ecuación \ref{eq:cyclic_voltametry}, esta es proporcional a la capacidad específica del supercondensador. Estas dos curvas corresponden a muestras en formato de papel y liofilizada, donde la densidad de corriente máxima es un orden de magnitud mayor al resto de las muestras, alcanzado aproximadamente 5 A/g, mientras el resto bordea los 0,5 A/g. Esto se ve reflejado al calcular la capacidad específica como se muestra en la tabla \ref{tab:resumen_capacitancia}.
@@ -104,7 +105,7 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{axis}
 		[
 		CVStyle,
-		legend entries={papel acero, lio acero}
+		legend entries={\mPapelAcero, \mLiofilizadoAcero}
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_11/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_13/raw/sample3.txt};
@@ -116,7 +117,7 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[
 		CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 		cycle list shift=2
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
@@ -131,7 +132,7 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[
 		CVStyle,
-		legend entries={papel acero, lio acero}
+		legend entries={\mPapelAcero, \mLiofilizadoAcero}
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
@@ -143,7 +144,7 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 		\begin{axis}[
 		CVStyle,
-		legend entries={polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 		cycle list shift=2
 		]
 		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
@@ -154,30 +155,30 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 		\end{tikzpicture}
 		\subcaption{Después de 1000 ciclos de carga y descarga.}
 	\end{subfigure}
-	\caption{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga.}
+	\caption{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
 	\label{fig:resumen_cv}
 \end{figure}
 
 \begin{table}[h!]
 	\centering
 	\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
-	\begin{tabular}{ l l l l c c }
-		Sustrato & Formato       & Aglutinate & Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
-		&               &            &               & a 100 [mV/s]		& a 100 [mV/s]               \\
+	\begin{tabular}{ l l c c }
+		Muestra				& Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g]\\
+							&               & a 100 [mV/s]		& a 100 [mV/s]               \\
 		\hline
-		Acero    &   -           & -          &  -            &			0.1			&	-				\\
-		Acero    & Polvo         & -          & 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	\\
-		Acero    & Polvo         & PMMA       & 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	\\
-		Acero    & Papel         & -          & 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	\\
-		Acero    & Liofilizado   & -          & 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	\\
-		Níquel   &  -            & -          &    -          &			0.1			&	- 				\\
-		Níquel   & Polvo         & -          & 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	\\
-		Níquel   & Polvo         & PMMA       & 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	\\
+		\mSustratoAcero		&  -            &			0.1			&	-				\\
+		\mPolvoAcero		& 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	\\
+		\mPolvoAceroPMMA	& 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	\\
+		\mPapelAcero		& 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	\\
+		\mLiofilizadoAcero	& 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	\\
+		\mSustratoNiquel	&    -          &			0.1			&	- 				\\
+		\mPolvoNiquel		& 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	\\
+		\mPolvoNiquelPMMA	& 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	\\
 	\end{tabular}                                                          
 	\label{tab:resumen_capacitancia}
 \end{table}
 
-En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de los espectros de impedancia para distintas muestras, siguiendo el procedimiento experimental, este es tomado inmediatamente después de realizada primera voltametría cíclica. \citep{Wang2009}.
+En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de los espectros de impedancia para distintas muestras, siguiendo el procedimiento experimental, este es tomado inmediatamente después de realizada primera voltametría cíclica. El semicírculo que se forma en alta frecuencia, da cuenta de que las muestras en formato de papel y liofilizada tienen menor resistencia en serie equivalente que el resto de las muestras \citep{Wang2009}, y el comportamiento lineal en bajas frecuencias indica un comportamiento puramente capacitivo, entre más vertical sea esta región, el supercondensador se acerca más a uno ideal \citep{Stoller2008}.
 
 \begin{figure}[h!]
 	\centering
@@ -190,7 +191,7 @@ En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de
 			at={(0.02,0.98)},
 			anchor=north west,
 		},
-		legend entries = {papel acero, lio acero}
+		legend entries = {\mPapelAcero, \mLiofilizadoAcero}
 		]
 		\pgfplotstableread{./Data/CV_CRGO300517_11/raw/eisgalv.txt}{\eistable};
 		\pgfplotstablegetrowsof{\eistable}
@@ -202,6 +203,7 @@ En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de
 		\pgfplotstablegetrowsof{\eistable}
 		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
 		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(40-1)/(\N-1), pin=right:{1 MHz}]{}
 		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 		\end{axis}
 		\end{tikzpicture}
@@ -215,7 +217,7 @@ En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de
 			at={(0.98,0.02)},
 			anchor=south east,
 		},
-		legend entries = {polvo en acero, polvo pmma acero, polvo niquel, polvo pmma niquel},
+		legend entries = {\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 		cycle list shift=2
 		]
 		\pgfplotstableread{./Data/CV_CRGO300517_9/raw/eisgalv.txt}{\eistable};
@@ -242,11 +244,21 @@ En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
-	\caption{Espectro de impedancia electroquímica.}
+	\caption{Espectro de impedancia electroquímica. Las muestras son separadas en dos gráficos para mejorar su visualización.}
 	\label{fig:resumen_eis}
 \end{figure}
 
-En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada carga y descarga cíclica.
+En la figura \ref{fig:resumen_ccd} se muestra el segundo ciclo de carga y descarga para cada muestra, pues en el primero el supercondensador tiene una carga residual y la carga comienza en un voltaje arbitrario que no refleja el comportamiento del supercondensador. El tiempo que toma en completar un ciclo es proporcional a la capacidad específica del dispositivo, ya que las mediciones son hechas a 1 A/g, exceptuando la muestra de polvo en espuma de níquel, donde la densidad de corriente es de 0,1 A/g.
+La muestra liofilizada en acero exhibe el mayor tiempo de carga y descarga, casi 120 segundos, casi el doble de la muestra de papel en acero y uno o dos órdenes de magnitud mayor al resto.
+Otro dato útil rescatable de esta medición, es la resistencia en serie equivalente del dispositivo. Esta se traduce en una caída de potencial al comenzar la descarga, o como un offset en proceso de carga. En la tabla \ref{tab:esr} se muestra la resistencia en serie equivalente calculada a partir de los voltajes $V_1$, $V_2$ y la corriente $I$ de acuerdo a la siguiente ecuación:
+
+\begin{equation}
+	R_{S}=\frac{\left(V_2-V_1\right)}{I},
+\end{equation}
+
+donde $V_1$ es el voltaje más alto durante la carga, y $V_2$ el más alto durante la descarga.
+
+Las muestras de papel en acero y liofilizada en acero, tienen la menor resistencia en serie equivalente, 141 y 150 [$\Omega$].
 \begin{figure}[h!]
 	\centering
 	\begin{subfigure}{0.4\textwidth}
@@ -257,7 +269,7 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 			at={(0.98,0.98)},
 			anchor=north east,
 		},
-		legend entries={Papel en acero, Lio en acero}]
+		legend entries={\mPapelAcero, \mLiofilizadoAcero}]
 %		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
 %		\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
 		\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
@@ -275,7 +287,7 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 			at={(0.68,0.88)},
 			anchor=north west,
 		},
-		legend entries={Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+		legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 		cycle list shift=2
 		]
 		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
@@ -287,29 +299,34 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 		\end{axis}
 		\end{tikzpicture}
 	\end{subfigure}
-	\caption{Carga y descarga cíclica a 1 A/g, exceptuando las muestras de polvo más pmma en disco de acero y polvo en espuma de níquel donde la densidad de corriente es de 0,1 A/g.}
+	\caption{Carga y descarga cíclica a 1 A/g, exceptuando las muestras de polvo más pmma en disco de acero y polvo en espuma de níquel donde la densidad de corriente es de 0,1 A/g. Las muestras son separadas en dos gráficos para mejorar su visualización.}
 	\label{fig:resumen_ccd}
 \end{figure}
 
 
 \begin{table}[h!]
 	\centering
+	\caption{Resistencia en serie equivalente calculada de los ciclos de carga y descarga.}
 	\begin{tabular}{l c c c c}
-			Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia en serie equivalente [$\Omega$]	\\
+			Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia [$\Omega$]	\\
 		\hline
-		Polvo + PMMA en disco de acero			&	1.000	&	596	&	-0,279	&	1.447	\\
-		Polvo en espuma de níquel				&	1.000	&	854	&	-0,088	&	1.656	\\
-		Polvo + PMMA en espuma de níquel		&	999		&	402	&	-0,799	&	748		\\
-		Polvo en disco de acero					&	1.000	&	719	&	-0,398	&	705		\\
-		Papel en disco de acero					&	996		&	911	&	-0,599	&	141		\\
-		Material liofilizado en disco de acero	&	1.000	&	909	&	-0,599	&	150		\\
+		\mPolvoAceroPMMA		&	1.000	&	596	&	-0,279	&	1.447	\\
+		\mPolvoNiquel			&	1.000	&	854	&	-0,088	&	1.656	\\
+		\mPolvoNiquelPMMA		&	999		&	402	&	-0,799	&	748		\\
+		\mPolvoAcero			&	1.000	&	719	&	-0,398	&	705		\\
+		\mPapelAcero			&	996		&	911	&	-0,599	&	141		\\
+		\mLiofilizadoAcero		&	1.000	&	909	&	-0,599	&	150		\\
 	\end{tabular}
+	\label{tab:esr}
 \end{table}
 
 
+En la figura \ref{fig:resumen_cs} se muestra un gráfico comparativo para las capacidades específicas calculadas a partir de las curvas de voltametría. Como es de esperarse, las muestra de papel en acero y liofilizada en acero exhiben la mayor capacitancia específica para todas las velocidades de barrido, tanto antes como después de los ciclos de carga y descarga. La muestra liofilizada aumenta su capacidad específica luego de los ciclos de carga y descarga, comportamiento que no se observa en la muestra de papel en acero.
 
 
-\begin{figure}
+
+
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}[b!]{0.4\textwidth}
 		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
@@ -319,12 +336,14 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 			xtick = {25, 50, 100, 200, 400},
 			xticklabels = {25, 50, 100, 200, 400},
 			ylabel = {Capacidad específica [F/g]},
+			ymin = 0,
+			ymax = 50,
 			every axis legend/.append style={
 				font=\tiny,
 				at={(0.98,0.98)},
 				anchor=north east,
 			},
-			legend entries={Papel en acero, Lio en acero, Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+			legend entries={\mPapelAcero, \mLiofilizadoAcero, \mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 			]
 			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_11/raw/capacitance.txt};
 			\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_13/raw/capacitance.txt};
@@ -345,12 +364,14 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 		xtick = {25, 50, 100, 200, 400},
 		xticklabels = {25, 50, 100, 200, 400},
 		ylabel = {Capacidad específica [F/g]},
+		ymin = 0,
+		ymax = 50,
 		every axis legend/.append style={
 			font=\tiny,
 			at={(0.98,0.98)},
 			anchor=north west,
 		},
-		legend entries={Papel en acero, Lio en acero, Polvo en acero, Polvo + PMMA en acero, Polvo en níquel, Polvo + PMMA en níquel},
+		legend entries={\mPapelAcero, \mLiofilizadoAcero, \mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 		]
 		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_12/raw/capacitance.txt};
 		\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_14/raw/capacitance.txt};
@@ -363,7 +384,8 @@ En la figura \ref{fig:resumen_ccd} se muestran los segundos ciclos para cada car
 		\end{tikzpicture}
 		\caption{Capacidad específica después de 1000 ciclos de carga y descarga. }
 	\end{subfigure}
-		\caption{Resumen de la capacidad específica.}
+	\caption{Resumen de la capacidad específica.}
+	\label{fig:resumen_cs}
 \end{figure}
 
 

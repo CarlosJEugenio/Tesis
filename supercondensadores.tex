@@ -251,21 +251,22 @@ Entre los electrodos del condensador fluye una corriente no deseada cuando exist
 
 \subsection{Circuito equivalente}
 El comportamiento de los condensadores reales (convencionales o electroquímicos), son modelados por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
-Como lo muestra la figura \ref{fig:equiv_both}, el modelo de circuito equivalente más sencillo para un supercondensador, incluye una resistencia en paralelo al condensador, que represente la corriente de fuga, y una resistencia en serie que representa al resistencia intrínseca de los materiales.
+En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:simple_randles} se denomina celda de Randles, y es el modelo más simple para un supercondensador. 
 
+Con un modelo para el supercondensador se pueden encontrar los valores para cada componente de circuito mediante espectroscopía de impedancia electroquímica (EIS).
+%\begin{figure}
+%	\centering
+%	\fbox{
+%		\includegraphics[width=0.7\textwidth]{equivalent_both.pdf}
+%		}
+%	\caption[Circuito equivalente]{Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep{Fletcher2014}.}
+%	\label{fig:equiv_both}
+%\end{figure}
+
+\newcommand{\circuitscale}{1}
 \begin{figure}
 	\centering
-	\fbox{
-		\includegraphics[width=0.7\textwidth]{equivalent_both.pdf}
-		}
-	\caption[Circuito equivalente]{Izquierda: Circuito equivalente sencillo. Derecha: Circuito equivalente complejizado \citep{Fletcher2014}.}
-	\label{fig:equiv_both}
-\end{figure}
-
-\newcommand{\circuitscale}{0.7}
-\begin{figure}
-	\centering
-	\begin{subfigure}{0.3\textwidth}
+	\begin{subfigure}{0.5\textwidth}
 		\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
 			\draw (0,0)
 			to [R=$R_s$,  o-] (2,0)
@@ -277,30 +278,61 @@ Como lo muestra la figura \ref{fig:equiv_both}, el modelo de circuito equivalent
 			to [short] (4,0)
 			to [short, -o] (5,0);
 		\end{circuitikz}
-		\caption{Circuito 1.}
+		\caption{Circuito equivalente randles cell}
+		\label{fig:simple_randles}
 	\end{subfigure}\hfill
-	\begin{subfigure}{0.3\textwidth}
-			\begin{circuitikz}[scale =\circuitscale, transform shape]
-				\draw (0,0)
-				to[V,v=$U_q$] (0,2) % The voltage source
-				to[short] (2,2)
-				to[R=$R_1$] (2,0) % The resistor
-				to[short] (0,0);
-			\end{circuitikz}
-			\caption{Circuito 2.}
-	\end{subfigure}\hfill
-	\begin{subfigure}{0.3\textwidth}
-		\begin{circuitikz}[scale = \circuitscale, transform shape]
+	\begin{subfigure}{0.5\textwidth}
+			\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
 			\draw (0,0)
-			to[V,v=$U_q$] (0,2) % The voltage source
-			to[short] (2,2)
-			to[R=$R_1$] (2,0) % The resistor
-			to[short] (0,0);
-		\end{circuitikz}
-		\caption{Circuito 3.}
+			to [R=$R_s$,  o-] (2,0)
+			to [short] (2,-1)
+			to [R=$R$] (4,-1)
+			to [twoport, t=$W$] (6,-1)
+			to [short] (6,0)
+			(2,0) to [short] (2,1)
+			to [C=$C_{dl}$] (6,1)
+			to [short] (6,0)
+			to [short, -o] (7,0);
+			\end{circuitikz}
+			\caption{celda Randles}
+			\label{fig:randles}
 	\end{subfigure}
-	\label{fig:ciruitos_equivalente}
 	\caption{Circuitos equivalentes.}
+	\label{fig:ciruitos_equivalente}
+\end{figure}
+
+\begin{figure}
+	\centering
+
+%	\begin{circuitikz}[scale =\circuitscale, transform shape]
+%		\draw (1,0)
+%		to [short,o-] (2,0)
+%		to [C=$C_2$] (4,0)
+%		to [R=$R_2$] (6,0)
+%		to [short] (7,0)
+%		(2,0)
+%		to [short] (2,-2)
+%		to [C=$C_1$] (4,-2)
+%		to [R=$R_1$] (6,-2)
+%		to [short] (6,0)
+%		(7,0)
+%		to [short] (7,1)
+%		to [R=$R$] (9,1)
+%		to [short] (9,0)
+%		(7,0)
+%		to [short] (7,-1)
+%		to [C=$C$] (9,-1)
+%		to [short] (9,0)
+%		to [short,-o] (10,0);
+%		\draw[dashed] (2,0)
+%		to [short] (2,3)
+%		(6,3)
+%		to [short] (6,0);
+%		\draw (2,3)
+%		to [C=$C_n$] (4,3)
+%		to [R=$R_n$] (6,3);
+%	\end{circuitikz}
+	\caption{Circuito 1.}
 \end{figure}
 
 \subsection{Supercondensadores}
@@ -338,7 +370,7 @@ La capacitancia específica $C_s$, puede ser calculada de la voltametría cícli
 donde $i$ y $v$ son la corriente y voltaje instantáneos, $V_1$ y $V_2$ los potenciales límite inferior y superior respectivamente, $\Delta V = V_2 - V_1 $, $m$ es la masa total del material activo en ambos electrodos, y $\nu$ la tasa de barrido. Esta ecuación corresponde a la carga total ($\int i\, dv / \nu$), dividida por la ventana de potencial $\Delta V$ y la masa, el factor $2$ surge de que la voltametría cíclica comprende tanto un ciclo de carga como uno de descarga.
 
 \subsection{Espectroscopía de impedancia electroquímica}
-Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, es aplicada en los terminales del dispositivo midiendo la respuesta de fase y corriente o voltaje según corresponda. La impedancia del sistema es caracterizada en un espectro de frecuencia, la que comúnmente es estudiado entre los mHz y los MHz. Una representación de los datos obtenidos es el gráfico de Nyquist, el cual consiste en un gráfico paramétrico de la frecuencia como parámetro, donde el eje de las abscisas corresponde a la parte real de la impedancia y las ordenadas a la parte imaginaria. Cualitativamente la forma de la curva obtenida sirve para asignar un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como por ejemplo la resistencia en serie equivalente.
+Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, es aplicada en los terminales del dispositivo midiendo la respuesta de fase y corriente o voltaje según corresponda. La impedancia del sistema es caracterizada en un espectro de frecuencia, la que comúnmente es estudiado entre los mHz y los MHz. Una representación de los datos obtenidos es el gráfico de Nyquist, el cual consiste en un gráfico paramétrico con la frecuencia como parámetro, donde el eje de las abscisas corresponde a la parte real de la impedancia y las ordenadas a la parte imaginaria. Cualitativamente la forma de la curva obtenida sirve para asignar un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como por ejemplo la resistencia en serie equivalente.
 
 \subsection{Carga y descarga cíclica}
 %TODO explicar cantidad de ciclos

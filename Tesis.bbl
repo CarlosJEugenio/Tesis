@@ -98,11 +98,6 @@ Feynman, R. (1960).
 \newblock {There's plenty of room at the bottom}.
 \newblock {\em Engeneering and Science}, pages 22--36.
 
-\bibitem[Fletcher et~al., 2014]{Fletcher2014}
-Fletcher, S., Black, V.~J., and Kirkpatrick, I. (2014).
-\newblock {A universal equivalent circuit for carbon-based supercapacitors}.
-\newblock {\em Journal of Solid State Electrochemistry}, 18(5):1377--1387.
-
 \bibitem[Frackowiak and B{\'{e}}guin, 2001]{Frackowiak2001}
 Frackowiak, E. and B{\'{e}}guin, F. (2001).
 \newblock {Carbon materials for the electrochemical storage of energy in
@@ -198,6 +193,11 @@ Staudenmaier, L. (1898).
 \newblock {Verfahren zur Darstellung der Graphits{\"{a}}ure}.
 \newblock {\em Berichte der deutschen chemischen Gesellschaft},
   31(2):1481--1487.
+
+\bibitem[Stoller et~al., 2008]{Stoller2008}
+Stoller, M.~D., Park, S., Yanwu, Z., An, J., and Ruoff, R.~S. (2008).
+\newblock {Graphene-Based ultracapacitors}.
+\newblock {\em Nano Letters}, 8(10):3498--3502.
 
 \bibitem[Thounthong et~al., 2009]{Thounthong2009}
 Thounthong, P., Ra{\"{e}}l, S., and Davat, B. (2009).
