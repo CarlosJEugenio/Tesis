@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  3 FEB 2018 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  7 FEB 2018 21:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2697,7 +2697,7 @@ l.16
 
 
 ]
-<Imagenes/carbon_alotropes.pdf, id=241, pagebox=cropbox, 1236.86812pt x 338.437
+<Imagenes/carbon_alotropes.pdf, id=240, pagebox=cropbox, 1236.86812pt x 338.437
 77pt>
 File: Imagenes/carbon_alotropes.pdf Graphic file (type pdf)
 <use Imagenes/carbon_alotropes.pdf>
@@ -2711,31 +2711,31 @@ Overfull \hbox (12.35977pt too wide) in paragraph at lines 22--23
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 33.
+(babel)             in language  on input line 26.
 [2 <./Imagenes/scale.pdf>]
-<Imagenes/DoE.pdf, id=289, pagebox=cropbox, 532.73033pt x 323.65038pt>
+<Imagenes/DoE.pdf, id=288, pagebox=cropbox, 532.73033pt x 323.65038pt>
 File: Imagenes/DoE.pdf Graphic file (type pdf)
 <use Imagenes/DoE.pdf>
 Package pdftex.def Info: Imagenes/DoE.pdf  used on input line 38. on input line
@@ -2746,7 +2746,7 @@ Package pdftex.def Info: Requested size: 207.0021pt x 125.75891pt on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/area_cubes.pdf, id=293, pagebox=cropbox, 712.11333pt x 185.4842pt>
+<Imagenes/area_cubes.pdf, id=292, pagebox=cropbox, 712.11333pt x 185.4842pt>
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 <use Imagenes/area_cubes.pdf>
 Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 51. on inp
@@ -2757,33 +2757,30 @@ Overfull \hbox (12.35977pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 [3 <./Imagenes/carbon_alotropes.pdf>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 59.
@@ -3658,7 +3655,7 @@ Overfull \hbox (18.00758pt too wide) in paragraph at lines 144--156
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (17.8864pt too wide) in paragraph at lines 165--179
+Overfull \hbox (52.10612pt too wide) in paragraph at lines 165--179
  [][] 
  []
 
@@ -4723,7 +4720,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
 Here is how much of TeX's memory you used:
  57011 strings out of 492985
  1333498 string characters out of 6132585
- 1694855 words of memory out of 5000000
+ 1694863 words of memory out of 5000000
  59174 multiletter control sequences out of 15000+600000
  576709 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4746,7 +4743,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (58 pages, 26127106 bytes).
+Output written on Tesis.pdf (58 pages, 26127788 bytes).
 PDF statistics:
  2305 PDF objects out of 2487 (max. 8388607)
  1999 compressed objects within 20 object streams
