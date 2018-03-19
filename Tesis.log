@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  13 MAR 2018 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  19 MAR 2018 00:07
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -1419,6 +1419,46 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
+(C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforechapskip=\skip58
+\cftchapindent=\skip59
+\cftchapnumwidth=\skip60
+\cftbeforesecskip=\skip61
+\cftsecindent=\skip62
+\cftsecnumwidth=\skip63
+\cftbeforesubsecskip=\skip64
+\cftsubsecindent=\skip65
+\cftsubsecnumwidth=\skip66
+\cftbeforesubsubsecskip=\skip67
+\cftsubsubsecindent=\skip68
+\cftsubsubsecnumwidth=\skip69
+\cftbeforeparaskip=\skip70
+\cftparaindent=\skip71
+\cftparanumwidth=\skip72
+\cftbeforesubparaskip=\skip73
+\cftsubparaindent=\skip74
+\cftsubparanumwidth=\skip75
+\cftbeforeloftitleskip=\skip76
+\cftafterloftitleskip=\skip77
+\cftbeforefigskip=\skip78
+\cftfigindent=\skip79
+\cftfignumwidth=\skip80
+\c@lofdepth=\count188
+\c@lotdepth=\count189
+\cftbeforelottitleskip=\skip81
+\cftafterlottitleskip=\skip82
+\cftbeforetabskip=\skip83
+\cfttabindent=\skip84
+\cfttabnumwidth=\skip85
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 ))
@@ -1489,10 +1529,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip52
-\bibsep=\skip53
+\bibhang=\skip86
+\bibsep=\skip87
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count188
+\c@NAT@ctr=\count190
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\mhchem\mhchem.sty
 Package: mhchem 2017/01/16 v4.06 for typesetting chemical formulae
@@ -1502,59 +1542,59 @@ Package: expl3 2017/04/01 L3 programming layer (loader)
 
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
 Package: expl3 2017/04/01 L3 programming layer (code)
-\c_max_int=\count189
-\l_tmpa_int=\count190
-\l_tmpb_int=\count191
-\g_tmpa_int=\count192
-\g_tmpb_int=\count193
-\g__prg_map_int=\count194
-\c_log_iow=\count195
-\l_iow_line_count_int=\count196
-\l__iow_line_target_int=\count197
-\l__iow_one_indent_int=\count198
-\l__iow_indent_int=\count199
+\c_max_int=\count191
+\l_tmpa_int=\count192
+\l_tmpb_int=\count193
+\g_tmpa_int=\count194
+\g_tmpb_int=\count195
+\g__prg_map_int=\count196
+\c_log_iow=\count197
+\l_iow_line_count_int=\count198
+\l__iow_line_target_int=\count199
+\l__iow_one_indent_int=\count266
+\l__iow_indent_int=\count267
 \c_zero_dim=\dimen305
 \c_max_dim=\dimen306
 \l_tmpa_dim=\dimen307
 \l_tmpb_dim=\dimen308
 \g_tmpa_dim=\dimen309
 \g_tmpb_dim=\dimen310
-\c_zero_skip=\skip54
-\c_max_skip=\skip55
-\l_tmpa_skip=\skip56
-\l_tmpb_skip=\skip57
-\g_tmpa_skip=\skip58
-\g_tmpb_skip=\skip59
+\c_zero_skip=\skip88
+\c_max_skip=\skip89
+\l_tmpa_skip=\skip90
+\l_tmpb_skip=\skip91
+\g_tmpa_skip=\skip92
+\g_tmpb_skip=\skip93
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count266
-\c__fp_leading_shift_int=\count267
-\c__fp_middle_shift_int=\count268
-\c__fp_trailing_shift_int=\count269
-\c__fp_big_leading_shift_int=\count270
-\c__fp_big_middle_shift_int=\count271
-\c__fp_big_trailing_shift_int=\count272
-\c__fp_Bigg_leading_shift_int=\count273
-\c__fp_Bigg_middle_shift_int=\count274
-\c__fp_Bigg_trailing_shift_int=\count275
-\c__fp_rand_size_int=\count276
-\c__fp_rand_four_int=\count277
-\c__fp_rand_eight_int=\count278
-\l__sort_length_int=\count279
-\l__sort_min_int=\count280
-\l__sort_top_int=\count281
-\l__sort_max_int=\count282
-\l__sort_true_max_int=\count283
-\l__sort_block_int=\count284
-\l__sort_begin_int=\count285
-\l__sort_end_int=\count286
-\l__sort_A_int=\count287
-\l__sort_B_int=\count288
-\l__sort_C_int=\count289
+\l_keys_choice_int=\count268
+\c__fp_leading_shift_int=\count269
+\c__fp_middle_shift_int=\count270
+\c__fp_trailing_shift_int=\count271
+\c__fp_big_leading_shift_int=\count272
+\c__fp_big_middle_shift_int=\count273
+\c__fp_big_trailing_shift_int=\count274
+\c__fp_Bigg_leading_shift_int=\count275
+\c__fp_Bigg_middle_shift_int=\count276
+\c__fp_Bigg_trailing_shift_int=\count277
+\c__fp_rand_size_int=\count278
+\c__fp_rand_four_int=\count279
+\c__fp_rand_eight_int=\count280
+\l__sort_length_int=\count281
+\l__sort_min_int=\count282
+\l__sort_top_int=\count283
+\l__sort_max_int=\count284
+\l__sort_true_max_int=\count285
+\l__sort_block_int=\count286
+\l__sort_begin_int=\count287
+\l__sort_end_int=\count288
+\l__sort_A_int=\count289
+\l__sort_B_int=\count290
+\l__sort_C_int=\count291
 \c_empty_box=\box47
 \l_tmpa_box=\box48
 \l_tmpb_box=\box49
@@ -1598,7 +1638,7 @@ Package: expl3 2017/04/01 L3 programming layer (code)
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count290
+\l__driver_color_stack_int=\count292
 \l__driver_tmp_box=\box62
 ))
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\l3keys2e\l3keys2
@@ -1612,89 +1652,89 @@ Package: l3regex 2017/04/01 L3 Experimental regular expressions
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str\l3tl-b
 uild.sty
 Package: l3tl-build 2017/04/01 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count291
-\l__tl_build_index_int=\count292
+\l__tl_build_start_index_int=\count293
+\l__tl_build_index_int=\count294
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str\l3tl-a
 nalysis.sty
 Package: l3tl-analysis 2017/04/01 L3 Experimental token list analysis
-\l__tl_analysis_normal_int=\count293
-\l__tl_analysis_index_int=\count294
-\l__tl_analysis_nesting_int=\count295
-\l__tl_analysis_type_int=\count296
+\l__tl_analysis_normal_int=\count295
+\l__tl_analysis_index_int=\count296
+\l__tl_analysis_nesting_int=\count297
+\l__tl_analysis_type_int=\count298
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3experimental\l3str\l3str-
 convert.sty
 Package: l3str-convert 2017/04/01 L3 Experimental string encoding conversions
-\l__str_internal_int=\count297
-\c__str_replacement_char_int=\count298
+\l__str_internal_int=\count299
+\c__str_replacement_char_int=\count300
 )
-\l__regex_internal_a_int=\count299
-\l__regex_internal_b_int=\count300
-\l__regex_internal_c_int=\count301
-\l__regex_balance_int=\count302
-\l__regex_group_level_int=\count303
-\l__regex_mode_int=\count304
-\c__regex_cs_in_class_mode_int=\count305
-\c__regex_cs_mode_int=\count306
-\l__regex_catcodes_int=\count307
-\l__regex_default_catcodes_int=\count308
-\c__regex_catcode_D_int=\count309
-\c__regex_catcode_S_int=\count310
-\c__regex_catcode_L_int=\count311
-\c__regex_catcode_O_int=\count312
-\c__regex_catcode_A_int=\count313
-\c__regex_all_catcodes_int=\count314
-\l__regex_show_lines_int=\count315
-\l__regex_min_state_int=\count316
-\l__regex_max_state_int=\count317
-\l__regex_left_state_int=\count318
-\l__regex_right_state_int=\count319
-\l__regex_capturing_group_int=\count320
-\l__regex_min_pos_int=\count321
-\l__regex_max_pos_int=\count322
-\l__regex_current_pos_int=\count323
-\l__regex_start_pos_int=\count324
-\l__regex_success_pos_int=\count325
-\l__regex_current_char_int=\count326
-\l__regex_current_catcode_int=\count327
-\l__regex_last_char_int=\count328
-\l__regex_case_changed_char_int=\count329
-\l__regex_current_state_int=\count330
-\l__regex_step_int=\count331
-\l__regex_min_active_int=\count332
-\l__regex_max_active_int=\count333
-\l__regex_replacement_csnames_int=\count334
-\l__regex_match_count_int=\count335
-\l__regex_submatch_int=\count336
-\l__regex_zeroth_submatch_int=\count337
+\l__regex_internal_a_int=\count301
+\l__regex_internal_b_int=\count302
+\l__regex_internal_c_int=\count303
+\l__regex_balance_int=\count304
+\l__regex_group_level_int=\count305
+\l__regex_mode_int=\count306
+\c__regex_cs_in_class_mode_int=\count307
+\c__regex_cs_mode_int=\count308
+\l__regex_catcodes_int=\count309
+\l__regex_default_catcodes_int=\count310
+\c__regex_catcode_D_int=\count311
+\c__regex_catcode_S_int=\count312
+\c__regex_catcode_L_int=\count313
+\c__regex_catcode_O_int=\count314
+\c__regex_catcode_A_int=\count315
+\c__regex_all_catcodes_int=\count316
+\l__regex_show_lines_int=\count317
+\l__regex_min_state_int=\count318
+\l__regex_max_state_int=\count319
+\l__regex_left_state_int=\count320
+\l__regex_right_state_int=\count321
+\l__regex_capturing_group_int=\count322
+\l__regex_min_pos_int=\count323
+\l__regex_max_pos_int=\count324
+\l__regex_current_pos_int=\count325
+\l__regex_start_pos_int=\count326
+\l__regex_success_pos_int=\count327
+\l__regex_current_char_int=\count328
+\l__regex_current_catcode_int=\count329
+\l__regex_last_char_int=\count330
+\l__regex_case_changed_char_int=\count331
+\l__regex_current_state_int=\count332
+\l__regex_step_int=\count333
+\l__regex_min_active_int=\count334
+\l__regex_max_active_int=\count335
+\l__regex_replacement_csnames_int=\count336
+\l__regex_match_count_int=\count337
+\l__regex_submatch_int=\count338
+\l__regex_zeroth_submatch_int=\count339
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count338
-\calc@Bcount=\count339
+\calc@Acount=\count340
+\calc@Bcount=\count341
 \calc@Adimen=\dimen336
 \calc@Bdimen=\dimen337
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Askip=\skip94
+\calc@Bskip=\skip95
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count340
-\calc@Cskip=\skip62
+\calc@Ccount=\count342
+\calc@Cskip=\skip96
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\chemgreek\chemgreek.sty
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.st
 y
 Package: xparse 2017/04/01 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count341
-\g__xparse_grabber_int=\count342
-\l__xparse_m_args_int=\count343
-\l__xparse_mandatory_args_int=\count344
-\l__xparse_v_nesting_int=\count345
+\l__xparse_current_arg_int=\count343
+\g__xparse_grabber_int=\count344
+\l__xparse_m_args_int=\count345
+\l__xparse_mandatory_args_int=\count346
+\l__xparse_v_nesting_int=\count347
 )
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count346
-\g__chemgreek_tmpa_int=\count347
+\l__chemgreek_tmpa_int=\count348
+\g__chemgreek_tmpa_int=\count349
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1746,38 +1786,38 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count348
-\__mhchem_arrow_extPgfLength_skip=\skip63
-\mhchem@minispace@tmp=\skip64
-\mhchem@minibackspace@tmp=\skip65
-\mhchem@bondwidth=\skip66
-\mhchem@bondheight=\skip67
-\mhchem@smallbondwidth@tmpA=\skip68
-\mhchem@smallbondwidth@tmpB=\skip69
-\mhchem@smallbondwidth=\skip70
-\mhchem@bondtmp@minussidebearingleft=\skip71
-\mhchem@bondtmp@minussidebearingright=\skip72
-\l__mhchem_option_version_int=\count349
+\l__mhchem_ce_distanceFromLastComma_int=\count350
+\__mhchem_arrow_extPgfLength_skip=\skip97
+\mhchem@minispace@tmp=\skip98
+\mhchem@minibackspace@tmp=\skip99
+\mhchem@bondwidth=\skip100
+\mhchem@bondheight=\skip101
+\mhchem@smallbondwidth@tmpA=\skip102
+\mhchem@smallbondwidth@tmpB=\skip103
+\mhchem@smallbondwidth=\skip104
+\mhchem@bondtmp@minussidebearingleft=\skip105
+\mhchem@bondtmp@minussidebearingright=\skip106
+\l__mhchem_option_version_int=\count351
 \mhchem@option@minusmathsidebearingleft=\dimen338
 \mhchem@option@minusmathsidebearingright=\dimen339
 \mhchem@option@minustextsidebearingleft=\dimen340
 \mhchem@option@minustextsidebearingright=\dimen341
 ) (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip73
-\f@ncyO@elh=\skip74
-\f@ncyO@erh=\skip75
-\f@ncyO@olh=\skip76
-\f@ncyO@orh=\skip77
-\f@ncyO@elf=\skip78
-\f@ncyO@erf=\skip79
-\f@ncyO@olf=\skip80
-\f@ncyO@orf=\skip81
+\fancy@headwidth=\skip107
+\f@ncyO@elh=\skip108
+\f@ncyO@erh=\skip109
+\f@ncyO@olh=\skip110
+\f@ncyO@orh=\skip111
+\f@ncyO@elf=\skip112
+\f@ncyO@erf=\skip113
+\f@ncyO@olf=\skip114
+\f@ncyO@orf=\skip115
 ) (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box63
-\beforetitleunit=\skip82
-\aftertitleunit=\skip83
+\beforetitleunit=\skip116
+\aftertitleunit=\skip117
 \ttl@plus=\dimen342
 \ttl@minus=\dimen343
 \ttl@toksa=\toks47
@@ -1790,8 +1830,8 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count350
-\c@subtable=\count351
+\c@subfigure=\count352
+\c@subtable=\count353
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
 Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
@@ -1843,8 +1883,8 @@ x)
 x) (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
 \@xs@message=\write6
-\integerpart=\count352
-\decimalpart=\count353
+\integerpart=\count354
+\decimalpart=\count355
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -1856,34 +1896,34 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen358
 \extrarowheight=\dimen359
 \NC@list=\toks48
-\extratabsurround=\skip84
-\backup@length=\skip85
+\extratabsurround=\skip118
+\backup@length=\skip119
 )
 \l__siunitx_tmp_box=\box64
 \l__siunitx_tmp_dim=\dimen360
-\l__siunitx_tmp_int=\count354
-\l__siunitx_number_mantissa_length_int=\count355
-\l__siunitx_number_uncert_length_int=\count356
-\l__siunitx_round_int=\count357
-\l__siunitx_process_decimal_int=\count358
-\l__siunitx_process_uncertainty_int=\count359
-\l__siunitx_process_fixed_int=\count360
-\l__siunitx_process_integer_min_int=\count361
-\l__siunitx_process_precision_int=\count362
-\l__siunitx_group_min_int=\count363
+\l__siunitx_tmp_int=\count356
+\l__siunitx_number_mantissa_length_int=\count357
+\l__siunitx_number_uncert_length_int=\count358
+\l__siunitx_round_int=\count359
+\l__siunitx_process_decimal_int=\count360
+\l__siunitx_process_uncertainty_int=\count361
+\l__siunitx_process_fixed_int=\count362
+\l__siunitx_process_integer_min_int=\count363
+\l__siunitx_process_precision_int=\count364
+\l__siunitx_group_min_int=\count365
 \l__siunitx_angle_marker_box=\box65
 \l__siunitx_angle_unit_box=\box66
 \l__siunitx_angle_marker_dim=\dimen361
 \l__siunitx_angle_unit_dim=\dimen362
-\l__siunitx_unit_int=\count364
-\l__siunitx_unit_denominator_int=\count365
-\l__siunitx_unit_numerator_int=\count366
-\l__siunitx_unit_prefix_int=\count367
-\l__siunitx_unit_prefix_base_int=\count368
-\l__siunitx_unit_prefix_gram_int=\count369
-\l__siunitx_number_product_int=\count370
-\c__siunitx_one_fill_skip=\skip86
-\l__siunitx_table_unit_align_skip=\skip87
+\l__siunitx_unit_int=\count366
+\l__siunitx_unit_denominator_int=\count367
+\l__siunitx_unit_numerator_int=\count368
+\l__siunitx_unit_prefix_int=\count369
+\l__siunitx_unit_prefix_base_int=\count370
+\l__siunitx_unit_prefix_gram_int=\count371
+\l__siunitx_number_product_int=\count372
+\c__siunitx_one_fill_skip=\skip120
+\l__siunitx_table_unit_align_skip=\skip121
 \l__siunitx_table_exponent_dim=\dimen363
 \l__siunitx_table_integer_dim=\dimen364
 \l__siunitx_table_mantissa_dim=\dimen365
@@ -1897,8 +1937,8 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \l__siunitx_table_post_box=\box68
 \l__siunitx_table_mantissa_box=\box69
 \l__siunitx_table_result_box=\box70
-\l__siunitx_table_number_align_skip=\skip88
-\l__siunitx_table_text_align_skip=\skip89
+\l__siunitx_table_number_align_skip=\skip122
+\l__siunitx_table_text_align_skip=\skip123
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2031,8 +2071,8 @@ e.tex
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
 \pgfplots@tmpa=\dimen372
-\c@pgfplots@coordindex=\count371
-\c@pgfplots@scanlineindex=\count372
+\c@pgfplots@coordindex=\count373
+\c@pgfplots@scanlineindex=\count374
 
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\pgfplotssysg
 eneric.code.tex))
@@ -2048,7 +2088,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfplotsoldpgfsupp_pgflibraryfpu.code.tex)
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldpgfcompatib\p
 gfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count373
+\c@pgfmathroundto@lastzeros=\count375
 ))
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsuti
 l.code.tex
@@ -2058,13 +2098,13 @@ fplotsliststructure.code.tex)
 fplotsliststructureext.code.tex)
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\pg
 fplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count374
+\c@pgfplotsarray@tmp=\count376
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\pg
 fplotsmatrix.code.tex)
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\numtable\pgfplot
 stableshared.code.tex
-\c@pgfplotstable@counta=\count375
+\c@pgfplotstable@counta=\count377
 \t@pgfplotstable@a=\toks52
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\pg
@@ -2077,7 +2117,7 @@ ary.data.code.tex))
 l.verb.code.tex)
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs\pgflibraryp
 gfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count376
+\c@pgfplotslibrarysurf@no=\count378
 
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\pgflibrarypg
 fplots.surfshading.pgfsys-pdftex.def)))
@@ -2114,7 +2154,7 @@ rations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen375
 \pgfdecoratedinputsegmentremainingdistance=\dimen376
 \pgf@decorate@distancetomove=\dimen377
-\pgf@decorate@repeatstate=\count377
+\pgf@decorate@repeatstate=\count379
 \pgfdecorationsegmentamplitude=\dimen378
 \pgfdecorationsegmentlength=\dimen379
 )
@@ -2128,7 +2168,7 @@ braries\tikzlibrarydecorations.pathmorphing.code.tex
 braries\tikzlibrarydecorations.pathreplacing.code.tex
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
 \pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count378
+\pgfplots@numplots=\count380
 \pgfplots@xmin@reg=\dimen380
 \pgfplots@xmax@reg=\dimen381
 \pgfplots@ymin@reg=\dimen382
@@ -2161,7 +2201,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen388
 \TX@target=\dimen389
 \TX@delta=\dimen390
-\TX@cols=\count379
+\TX@cols=\count381
 \TX@ftn=\toks53
 )
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\libraries
@@ -2220,16 +2260,16 @@ LaTeX Info: Redefining \% on input line 326.
 
 (C:\Users\H110\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count380
+\scratchcounter=\count382
 \scratchdimen=\dimen391
 \scratchbox=\box72
-\nofMPsegments=\count381
-\nofMParguments=\count382
+\nofMPsegments=\count383
+\nofMParguments=\count384
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count383
+\MPscratchCnt=\count385
 \MPscratchDim=\dimen392
-\MPnumerator=\count384
-\makeMPintoPDFobject=\count385
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
 \everyMPtoPDFconversion=\toks55
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2254,7 +2294,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count386
+\c@section@level=\count388
 )
 LaTeX Info: Redefining \ref on input line 326.
 LaTeX Info: Redefining \pageref on input line 326.
@@ -2308,7 +2348,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-\c__siunitx_mathsf_int=\count387
+\c__siunitx_mathsf_int=\count389
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2338,7 +2378,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count388
+\c__siunitx_mathtt_int=\count390
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -2593,12 +2633,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 25.
  [6
 
-]
-Overfull \hbox (0.34955pt too wide) detected at line 40
-\OT1/phv/m/n/10 A.10. 
- []
-
-)
+])
 \tf@lof=\write11
 \openout11 = `Tesis.lof'.
 
@@ -2787,7 +2822,7 @@ Package babel Info: Redefining spanish shorthand "?
 <Imagenes/DoE.pdf, id=288, 532.73033pt x 323.65038pt>
 File: Imagenes/DoE.pdf Graphic file (type pdf)
  <use Imagenes/DoE.pdf>
-Package pdftex.def Info: Imagenes/DoE.pdf used on input line 38.
+Package pdftex.def Info: Imagenes/DoE.pdf used on input line 34.
 (pdftex.def)             Requested size: 207.0021pt x 125.75891pt.
 
 
@@ -2797,62 +2832,62 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 
 <use Imagenes/area_cubes.pdf>
-Package pdftex.def Info: Imagenes/area_cubes.pdf used on input line 51.
+Package pdftex.def Info: Imagenes/area_cubes.pdf used on input line 47.
 (pdftex.def)             Requested size: 345.0pt x 89.8635pt.
 
-Overfull \hbox (12.35977pt too wide) in paragraph at lines 51--52
+Overfull \hbox (12.35977pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 51.
 [3 <./Imagenes/carbon_alotropes.pdf>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 55.
  [4 <./Imagenes/DoE.pdf> <./Imagenes/area_cubes.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Imagenes/area_cubes.pdf): PDF inclusion: m
@@ -2899,7 +2934,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
  (grafeno.tex
-<Imagenes/graphene_lattice.pdf, id=883, 1180.5982pt x 756.01796pt>
+<Imagenes/graphene_lattice.pdf, id=891, 1180.5982pt x 756.01796pt>
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 
 <use Imagenes/graphene_lattice.pdf>
@@ -2958,7 +2993,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
 
-[7] <Imagenes/GO_structure.pdf, id=983, 1030.60031pt x 1513.15312pt>
+[7] <Imagenes/GO_structure.pdf, id=987, 1030.60031pt x 1513.15312pt>
 File: Imagenes/GO_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/GO_structure.pdf>
@@ -2989,7 +3024,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 35.
  [8 <./Imagenes/GO_structure.pdf>]
-<Imagenes/graphiteToRGO.pdf, id=1027, 7905.11693pt x 1517.90918pt>
+<Imagenes/graphiteToRGO.pdf, id=1030, 7905.11693pt x 1517.90918pt>
 File: Imagenes/graphiteToRGO.pdf Graphic file (type pdf)
 
 <use Imagenes/graphiteToRGO.pdf>
@@ -3038,36 +3073,36 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
  (supercondensadores.tex
-<Imagenes/ragone.pdf, id=1050, 646.98236pt x 350.4908pt>
+<Imagenes/ragone.pdf, id=1053, 646.98236pt x 350.4908pt>
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 
 <use Imagenes/ragone.pdf>
 Package pdftex.def Info: Imagenes/ragone.pdf used on input line 12.
 (pdftex.def)             Requested size: 241.49895pt x 130.82939pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 22.
  [10]
 ===== Image 'Imagenes/tikzext/Tesis-figure0' is up-to-date. ======
 
@@ -3127,59 +3162,59 @@ Package babel Info: Redefining spanish shorthand "?
  [12 <./Imagenes/tikzext/Tesis-figure0.pdf>]
 ===== Image 'Imagenes/tikzext/Tesis-figure1' is up-to-date. ======
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 265.
 [13 <./Imagenes/tikzext/Tesis-figure1.pdf>]
 Overfull \hbox (30.25536pt too wide) in paragraph at lines 296--297
 [][] 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 340.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 340.
-[14] <Imagenes/edlc_schem.pdf, id=1123, 898.68922pt x 696.1916pt>
+(babel)             in language  on input line 344.
+[14] <Imagenes/edlc_schem.pdf, id=1127, 898.68922pt x 696.1916pt>
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 
 <use Imagenes/edlc_schem.pdf>
@@ -3347,45 +3382,45 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
 (RGO_sintesis.tex
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 6.
- <Imagenes/RGO_pic.png, id=1173, 1003.75pt x 1328.965pt>
+(babel)             in language  on input line 5.
+ <Imagenes/RGO_pic.png, id=1176, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 
 <use Imagenes/RGO_pic.png>
-Package pdftex.def Info: Imagenes/RGO_pic.png used on input line 12.
+Package pdftex.def Info: Imagenes/RGO_pic.png used on input line 11.
 (pdftex.def)             Requested size: 137.9979pt x 182.7079pt.
 
-<Imagenes/GO_pic.png, id=1175, 1003.75pt x 1229.59375pt>
+<Imagenes/GO_pic.png, id=1178, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 
 <use Imagenes/GO_pic.png>
-Package pdftex.def Info: Imagenes/GO_pic.png used on input line 17.
+Package pdftex.def Info: Imagenes/GO_pic.png used on input line 16.
 (pdftex.def)             Requested size: 144.89937pt x 177.48914pt.
 
 ===== Image 'Imagenes/tikzext/Tesis-figure2' is up-to-date. ======
-<Imagenes/CRGO300517_paper.png, id=1177, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper.png, id=1180, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper.png Graphic file (type png)
 
 <use Imagenes/CRGO300517_paper.png>
-Package pdftex.def Info: Imagenes/CRGO300517_paper.png used on input line 58.
+Package pdftex.def Info: Imagenes/CRGO300517_paper.png used on input line 57.
 (pdftex.def)             Requested size: 345.0pt x 258.75514pt.
 
-<Imagenes/CRGO300517_paper_measures.png, id=1178, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper_measures.png, id=1181, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper_measures.png Graphic file (type png)
 
 <use Imagenes/CRGO300517_paper_measures.png>
 Package pdftex.def Info: Imagenes/CRGO300517_paper_measures.png used on input l
-ine 61.
+ine 60.
 (pdftex.def)             Requested size: 345.0pt x 258.75514pt.
 )
 Package babel Info: Redefining spanish shorthand <<
@@ -3486,7 +3521,7 @@ Overfull \hbox (14.93645pt too wide) in paragraph at lines 2--3
 s[]and-wich electrodo-separador-
  []
 
-<Imagenes/SC_process.pdf, id=1213, 1628.56967pt x 578.96617pt>
+<Imagenes/SC_process.pdf, id=1216, 1628.56967pt x 578.96617pt>
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 
 <use Imagenes/SC_process.pdf>
@@ -3534,7 +3569,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
 [23
 
-] <Imagenes/cell3.pdf, id=1219, 1055.56467pt x 449.45715pt>
+] <Imagenes/cell3.pdf, id=1222, 1055.56467pt x 449.45715pt>
 File: Imagenes/cell3.pdf Graphic file (type pdf)
 
 <use Imagenes/cell3.pdf>
@@ -3610,7 +3645,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 50.
 [25 <./Imagenes/cell3.pdf>]
-<Imagenes/rgo_electrodes.png, id=1254, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=1257, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 
 <use Imagenes/rgo_electrodes.png>
@@ -4010,14 +4045,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-<Imagenes/hybrid.pdf, id=1411, 1980.56624pt x 939.37154pt>
+<Imagenes/hybrid.pdf, id=1414, 1980.56624pt x 939.37154pt>
 File: Imagenes/hybrid.pdf Graphic file (type pdf)
 
 <use Imagenes/hybrid.pdf>
 Package pdftex.def Info: Imagenes/hybrid.pdf used on input line 13.
 (pdftex.def)             Requested size: 258.75pt x 122.7246pt.
 
-<Imagenes/piorbitals.pdf, id=1412, 1872.0734pt x 940.12436pt>
+<Imagenes/piorbitals.pdf, id=1415, 1872.0734pt x 940.12436pt>
 File: Imagenes/piorbitals.pdf Graphic file (type pdf)
 
 <use Imagenes/piorbitals.pdf>
@@ -4677,79 +4712,79 @@ Package babel Info: Redefining spanish shorthand "?
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 121.
  [47]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 174.
  [48]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 236.
+(babel)             in language  on input line 230.
  [49])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 418.
@@ -4790,10 +4825,10 @@ Package rerunfilecheck Info: File `Tesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
  ) 
 Here is how much of TeX's memory you used:
- 57160 strings out of 493333
- 1338309 string characters out of 3136611
- 1698863 words of memory out of 3000000
- 59280 multiletter control sequences out of 15000+200000
+ 57420 strings out of 493333
+ 1342229 string characters out of 3136611
+ 1705802 words of memory out of 3000000
+ 59537 multiletter control sequences out of 15000+200000
  49964 words of font info for 243 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,119p,10349b,1074s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4815,9 +4850,9 @@ e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helv
 etic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on Tesis.pdf (59 pages, 27625864 bytes).
+Output written on Tesis.pdf (59 pages, 27625907 bytes).
 PDF statistics:
- 2293 PDF objects out of 2487 (max. 8388607)
- 190 named destinations out of 1000 (max. 500000)
+ 2296 PDF objects out of 2487 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
  43565 words of extra memory for PDF output out of 51595 (max. 10000000)
 

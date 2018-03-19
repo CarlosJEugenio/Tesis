@@ -19,6 +19,9 @@
 \RequirePackage{cleveref}
 \RequirePackage{multirow}
 \RequirePackage[format=plain, font=small, labelfont=bf, justification=centering, margin=0cm]{caption}
+\RequirePackage[titles]{tocloft}
+\cftsetindents{figure}{0em}{3.5em}
+\cftsetindents{table}{0em}{3.5em}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
@@ -105,9 +108,11 @@
 	\end{center}
 	
 	}
-	
-\renewcommand{\contentsname}{Tabla de contenidos}
-\renewcommand{\listfigurename}{Índice de Ilustraciones}
-\renewcommand{\indexname}{Índice analítico}
-\renewcommand{\listtablename}{Índice de tablas}
-\renewcommand{\tablename}{Tabla}
+
+\addto\captionsspanish{
+	\renewcommand{\contentsname}{Tabla de contenidos}
+	\renewcommand{\listfigurename}{Índice de Ilustraciones}
+	\renewcommand{\indexname}{Índice analítico}
+	\renewcommand{\listtablename}{Índice de tablas}
+	\renewcommand{\tablename}{Tabla}
+}
