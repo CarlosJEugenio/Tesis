@@ -1,8 +1,8 @@
 %\chapter{Supercondensadores}
 %TODO add asymetric reference
 %TODO complejidad de las celdas de combustible
-Almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos móviles o estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es una competencia entre la densidad de energía (cuánta energía se puede almacenar) y la densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}).Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas. Mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya sea como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
-La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de cientos de Faradios.
+Almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos móviles o estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es una competencia entre la densidad de energía (cuánta energía se puede almacenar) y la densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas. Mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya sea como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
+La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de decenas o centenas de Faradios.
 
 
 \begin{figure}
@@ -21,7 +21,7 @@ Generalmente un condensador se modela a través de dos placas paralelas separada
 	C = \frac{Q}{V}
 \end{equation}
 
-La magnitud C es constante y depende de la construcción del condensador. Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente\footnote{En estricto rigor, no hay corriente en el condensador, pues los electrones no ``saltan'' de una placa a otra, sólo se acumulan en una y se remueven en la otra, aparentando una corriente a través del dispositivo. La corriente en el condensador, es más bien una corriente de desplazamiento.} con el voltaje entre los terminales del dispositivo. Considerando que $i = dq/dt$, entonces:
+La magnitud C es constante y depende de la construcción del condensador. Para fines prácticos, el condensador ideal como componente electrónico es modelado por la ecuación que relaciona la corriente\footnote{En estricto rigor, no hay corriente en el condensador, pues los electrones no ``saltan'' de una placa a otra, sólo se acumulan en una y se remueven en la otra, aparentando una corriente a través del dispositivo. La corriente en el condensador, es más bien una corriente de desplazamiento, pues es el campo eléctrico el que varía en el condensador.} con el voltaje entre los terminales del dispositivo. Considerando que $i = dq/dt$, entonces:
 
 \begin{equation}
 	i(t) = C \frac{dv(t)}{dt}.
@@ -132,7 +132,7 @@ En el caso de un proceso de carga y descarga a corriente constante, el voltaje v
 \subsection{El condensador real}
 %TODO agregar electrolito no acuoso
 Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y la entregaría totalmente en la descarga sin ninguna disipación, es decir, tendría una eficiencia del 100\%. Éste podría soportar cualquier amplitud de voltaje aplicado, o cargarse y descargarse por una corriente cuan grande se desee.  Sin embargo, en la vida real, los condensadores sí disipan energía, poseen voltajes de operación acotados y corrientes máximas de carga y descarga. Todo esto depende del diseño de cosntrucción y de los materiales empleados.\\
-El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolíto empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo la descomposición del agua a 1.23 V en electrolitos acuosos.\\
+El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolíto empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo la descomposición del agua a 1.23 V para electrolitos acuosos.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
 Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste, esta caida de voltaje es:
@@ -278,7 +278,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			to [short] (4,0)
 			to [short, -o] (5,0);
 		\end{circuitikz}
-		\caption{Circuito equivalente randles cell}
+		\caption{Circuito equivalente clásico.}
 		\label{fig:simple_randles}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.5\textwidth}
@@ -294,46 +294,46 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			to [short] (6,0)
 			to [short, -o] (7,0);
 			\end{circuitikz}
-			\caption{celda Randles}
+			\caption{Circuito equivalente Randles.}
 			\label{fig:randles}
 	\end{subfigure}
 	\caption{Circuitos equivalentes.}
 	\label{fig:ciruitos_equivalente}
 \end{figure}
 
-\begin{figure}
-	\centering
-
-%	\begin{circuitikz}[scale =\circuitscale, transform shape]
-%		\draw (1,0)
-%		to [short,o-] (2,0)
-%		to [C=$C_2$] (4,0)
-%		to [R=$R_2$] (6,0)
-%		to [short] (7,0)
-%		(2,0)
-%		to [short] (2,-2)
-%		to [C=$C_1$] (4,-2)
-%		to [R=$R_1$] (6,-2)
-%		to [short] (6,0)
-%		(7,0)
-%		to [short] (7,1)
-%		to [R=$R$] (9,1)
-%		to [short] (9,0)
-%		(7,0)
-%		to [short] (7,-1)
-%		to [C=$C$] (9,-1)
-%		to [short] (9,0)
-%		to [short,-o] (10,0);
-%		\draw[dashed] (2,0)
-%		to [short] (2,3)
-%		(6,3)
-%		to [short] (6,0);
-%		\draw (2,3)
-%		to [C=$C_n$] (4,3)
-%		to [R=$R_n$] (6,3);
-%	\end{circuitikz}
-	\caption{Circuito 1.}
-\end{figure}
+%%\begin{figure}
+%	\centering
+%
+%%	\begin{circuitikz}[scale =\circuitscale, transform shape]
+%%		\draw (1,0)
+%%		to [short,o-] (2,0)
+%%		to [C=$C_2$] (4,0)
+%%		to [R=$R_2$] (6,0)
+%%		to [short] (7,0)
+%%		(2,0)
+%%		to [short] (2,-2)
+%%		to [C=$C_1$] (4,-2)
+%%		to [R=$R_1$] (6,-2)
+%%		to [short] (6,0)
+%%		(7,0)
+%%		to [short] (7,1)
+%%		to [R=$R$] (9,1)
+%%		to [short] (9,0)
+%%		(7,0)
+%%		to [short] (7,-1)
+%%		to [C=$C$] (9,-1)
+%%		to [short] (9,0)
+%%		to [short,-o] (10,0);
+%%		\draw[dashed] (2,0)
+%%		to [short] (2,3)
+%%		(6,3)
+%%		to [short] (6,0);
+%%		\draw (2,3)
+%%		to [C=$C_n$] (4,3)
+%%		to [R=$R_n$] (6,3);
+%%	\end{circuitikz}
+%	\caption{Circuito 1.}
+%\end{figure}
 
 \subsection{Supercondensadores}
 Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito donde se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
