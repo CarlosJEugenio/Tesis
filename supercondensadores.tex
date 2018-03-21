@@ -246,12 +246,11 @@ Las imperfecciones en la construcción de los electrodos, y la resistencia intr�
 
 
 \subsection{Corriente de fuga (\emph{leakage current})}
-%TODO agregar ejemplo
 Entre los electrodos del condensador fluye una corriente no deseada cuando existe una diferencia de potencial (cuando el condensador está cargado), esta corriente descarga al condensador incluso si está desconectado. Esta imperfección es modelada como una resistencia en paralelo al condensador.
 
 \subsection{Circuito equivalente}
 El comportamiento de los condensadores reales (convencionales o electroquímicos), son modelados por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
-En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:simple_randles} se denomina celda de Randles, y es el modelo más simple para un supercondensador. 
+En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:eq_classic} es un circuito clásico para modelar un supercondensador \citep{Spyker2000}, el de la figura \ref{fig:eq_randles} se denomina celda de Randles. 
 
 Con un modelo para el supercondensador se pueden encontrar los valores para cada componente de circuito mediante espectroscopía de impedancia electroquímica (EIS).
 %\begin{figure}
@@ -279,7 +278,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			to [short, -o] (5,0);
 		\end{circuitikz}
 		\caption{Circuito equivalente clásico.}
-		\label{fig:simple_randles}
+		\label{fig:eq_classic}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.5\textwidth}
 			\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
@@ -295,7 +294,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			to [short, -o] (7,0);
 			\end{circuitikz}
 			\caption{Circuito equivalente Randles.}
-			\label{fig:randles}
+			\label{fig:eq_randles}
 	\end{subfigure}
 	\caption{Circuitos equivalentes.}
 	\label{fig:ciruitos_equivalente}
@@ -336,7 +335,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 %\end{figure}
 
 \subsection{Supercondensadores}
-Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito donde se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
+Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito en cuya interfaz con los electrodos, se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
 
 \subsection{Doble capa electrostática de Helmholtz}
 %TODO explicación doble capa
@@ -352,12 +351,13 @@ La gran densidad de energía de un supercondensador tiene que surgir de algún m
 \end{figure}
 
 \subsection{Pseudocapacitancia}
+%TODO
 Cuando en un supercondensador existe intercambio de electrones entre los electrodos y el electrolito (reacciones redox), se habla de pseudocapacitancia. El intercambio de electrones 
 
 
 \subsection{Mediciones en supercondensadores}
 
-\subsection{Voltametría cíclica}
+\subsubsection{Voltametría cíclica}
 %TODO explicar mejor
 En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal mientras se mide la corriente. Típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
 
@@ -369,10 +369,8 @@ La capacitancia específica $C_s$, puede ser calculada de la voltametría cícli
 
 donde $i$ y $v$ son la corriente y voltaje instantáneos, $V_1$ y $V_2$ los potenciales límite inferior y superior respectivamente, $\Delta V = V_2 - V_1 $, $m$ es la masa total del material activo en ambos electrodos, y $\nu$ la tasa de barrido. Esta ecuación corresponde a la carga total ($\int i\, dv / \nu$), dividida por la ventana de potencial $\Delta V$ y la masa, el factor $2$ surge de que la voltametría cíclica comprende tanto un ciclo de carga como uno de descarga.
 
-\subsection{Espectroscopía de impedancia electroquímica}
-Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, es aplicada en los terminales del dispositivo midiendo la respuesta de fase y corriente o voltaje según corresponda. La impedancia del sistema es caracterizada en un espectro de frecuencia, la que comúnmente es estudiado entre los mHz y los MHz. Una representación de los datos obtenidos es el gráfico de Nyquist, el cual consiste en un gráfico paramétrico con la frecuencia como parámetro, donde el eje de las abscisas corresponde a la parte real de la impedancia y las ordenadas a la parte imaginaria. Cualitativamente la forma de la curva obtenida sirve para asignar un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como por ejemplo la resistencia en serie equivalente.
+\subsubsection{Espectroscopía de impedancia electroquímica}
+Una señal sinusoidal (corriente o voltaje), de determinada amplitud y frecuencia, es aplicada en los terminales del dispositivo midiendo la respuesta de fase y corriente o voltaje según corresponda. La impedancia del sistema es caracterizada en un espectro de frecuencia, el que comúnmente es estudiado entre los mHz y los MHz. Una posible representación de los datos obtenidos es a través del gráfico de Nyquist, el cual consiste en un gráfico paramétrico con la frecuencia como parámetro, donde el eje de las abscisas corresponde a la parte real de la impedancia y las ordenadas a la parte imaginaria. Cualitativamente la forma de la curva obtenida sirve para asignar un circuito equivalente al dispositivo estudiado, sin embargo, también es posible calcular algunas cantidades, como por ejemplo la resistencia en serie equivalente.
 
-\subsection{Carga y descarga cíclica}
-%TODO explicar cantidad de ciclos
-En este proceso la corriente es aplicada de forma constante para cargar el condensador hasta un potencial preestablecido, cuando dicho potencial es alcanzado, se aplica una corriente en sentido contrario para descargar el condensador hasta un potencial inferior predefinido. De las curvas de carga y descarga se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente. Extendiendo la medición a miles de ciclos (hasta 10.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
-De esta medición se puede calcular la capacitancia y la resistencia en serie equivalente.
+\subsubsection{Carga y descarga cíclica}
+En este proceso la corriente es aplicada de forma constante para cargar el condensador hasta un potencial preestablecido, cuando dicho potencial es alcanzado, se aplica una corriente en sentido contrario para descargar el condensador hasta un potencial inferior predefinido. Generalmente, la corriente de carga y descarga son de igual magnitud. De las curvas de carga y descarga se puede determinar la capacitancia del condensador, y la resistencia en serie equivalente. Extendiendo la medición a miles de ciclos (hasta 10.000 ciclos), se puede determinar cómo será el comportamiento del dispositivo al pasar el tiempo.
