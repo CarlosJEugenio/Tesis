@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  20 MAR 2018 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  21 MAR 2018 22:02
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -3622,29 +3622,29 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 29.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 33.
 [25 <./Imagenes/SC_process.pdf>]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 33.
@@ -3671,11 +3671,11 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 33.
  [26 <./Imagenes/cell3.pdf>]
-Overfull \hbox (96.29575pt too wide) in paragraph at lines 37--50
+Overfull \hbox (106.60568pt too wide) in paragraph at lines 37--50
  [][] 
  []
 
-<Imagenes/rgo_electrodes.png, id=1774, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=1775, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 
 <use Imagenes/rgo_electrodes.png>
@@ -3815,7 +3815,7 @@ Overfull \hbox (18.00758pt too wide) in paragraph at lines 144--156
  []
 
 
-Overfull \hbox (52.10612pt too wide) in paragraph at lines 165--179
+Overfull \hbox (62.41606pt too wide) in paragraph at lines 165--179
  [][] 
  []
 
@@ -4075,14 +4075,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-<Imagenes/hybrid.pdf, id=1930, 1980.56624pt x 939.37154pt>
+<Imagenes/hybrid.pdf, id=1931, 1980.56624pt x 939.37154pt>
 File: Imagenes/hybrid.pdf Graphic file (type pdf)
 
 <use Imagenes/hybrid.pdf>
 Package pdftex.def Info: Imagenes/hybrid.pdf used on input line 13.
 (pdftex.def)             Requested size: 258.75pt x 122.7246pt.
 
-<Imagenes/piorbitals.pdf, id=1931, 1872.0734pt x 940.12436pt>
+<Imagenes/piorbitals.pdf, id=1932, 1872.0734pt x 940.12436pt>
 File: Imagenes/piorbitals.pdf Graphic file (type pdf)
 
 <use Imagenes/piorbitals.pdf>
@@ -4857,7 +4857,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
 Here is how much of TeX's memory you used:
  57446 strings out of 493333
  1342625 string characters out of 3136611
- 1704804 words of memory out of 3000000
+ 1704814 words of memory out of 3000000
  59556 multiletter control sequences out of 15000+200000
  50316 words of font info for 247 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4880,9 +4880,9 @@ e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helv
 etic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on Tesis.pdf (60 pages, 29115440 bytes).
+Output written on Tesis.pdf (60 pages, 29115723 bytes).
 PDF statistics:
- 2812 PDF objects out of 2984 (max. 8388607)
+ 2813 PDF objects out of 2984 (max. 8388607)
  190 named destinations out of 1000 (max. 500000)
  43565 words of extra memory for PDF output out of 51595 (max. 10000000)
 
