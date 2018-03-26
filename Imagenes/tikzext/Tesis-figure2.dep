@@ -1,0 +1,2 @@
+Imagenes/tikzext/Tesis-figure2.pdf: ./Data/eisgalv_sim_simple.txt
+Imagenes/tikzext/Tesis-figure2.pdf: ./Data/eisgalv_sim_warburg.txt

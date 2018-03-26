@@ -132,7 +132,7 @@ En el caso de un proceso de carga y descarga a corriente constante, el voltaje v
 \subsection{El condensador real}
 %TODO agregar electrolito no acuoso
 Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y la entregaría totalmente en la descarga sin ninguna disipación, es decir, tendría una eficiencia del 100\%. Éste podría soportar cualquier amplitud de voltaje aplicado, o cargarse y descargarse por una corriente cuan grande se desee.  Sin embargo, en la vida real, los condensadores sí disipan energía, poseen voltajes de operación acotados y corrientes máximas de carga y descarga. Todo esto depende del diseño de cosntrucción y de los materiales empleados.\\
-El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolíto empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo la descomposición del agua a 1.23 V para electrolitos acuosos.\\
+El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolito empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo, la descomposición del agua a 1.23 V para electrolitos acuosos.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
 Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste, esta caida de voltaje es:
@@ -250,7 +250,7 @@ Entre los electrodos del condensador fluye una corriente no deseada cuando exist
 
 \subsection{Circuito equivalente}
 El comportamiento de los condensadores reales (convencionales o electroquímicos), son modelados por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
-En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:eq_classic} es un circuito clásico para modelar un supercondensador \citep{Spyker2000}, el de la figura \ref{fig:eq_randles} se denomina celda de Randles. 
+En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:eq_classic} es un circuito clásico para modelar un supercondensador \citep{Spyker2000}, el de la figura \ref{fig:eq_randles} se denomina circuito Randles, donde el componente adicional marcado con una  letra W, corresponde a la impedancia de Warburg, un elemento que modela la difusión de iones del electrolito \citep{Wang2009}
 
 Con un modelo para el supercondensador se pueden encontrar los valores para cada componente de circuito mediante espectroscopía de impedancia electroquímica (EIS).
 %\begin{figure}
@@ -263,14 +263,14 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 %\end{figure}
 
 \newcommand{\circuitscale}{1}
-\begin{figure}
+\begin{figure}[h!]
 	\centering
 	\begin{subfigure}{0.5\textwidth}
 		\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
 			\draw (0,0)
 			to [R=$R_s$,  o-] (2,0)
 			to [short] (2,-1)
-			to [C=$C$] (4,-1)
+			to [C=$C_{dl}$] (4,-1)
 			to [short] (4,0)
 			(2,0) to [short] (2,1)
 			to [R=$R_{leak}$] (4,1)
@@ -295,10 +295,41 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			\end{circuitikz}
 			\caption{Circuito equivalente Randles.}
 			\label{fig:eq_randles}
+	\end{subfigure}\\
+	\begin{subfigure}{\textwidth}
+		\centering
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		EISStyle,
+		every axis legend/.append style={
+			font=\small,
+			at={(0.02,0.98)},
+			anchor=north west,
+		},
+		legend entries = {Circuito clásico, Circuito Randles}
+		]
+		\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\pgfmathsetmacro{\N}{\pgfplotsretval}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+		\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+		\pgfplotstablegetrowsof{\eistable}
+		\pgfmathsetmacro{\N}{\pgfplotsretval}
+		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+		node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+		\end{axis}
+		\end{tikzpicture}
+		\label{fig:eis_equivalent}
+		\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes \subref{fig:eq_classic} y \subref{fig:eq_randles}. Obtenido de EIS Spectrum Analyser\footnotemark.}
 	\end{subfigure}
 	\caption{Circuitos equivalentes.}
 	\label{fig:ciruitos_equivalente}
 \end{figure}
+\footnotetext{Bondarenko A. S., Ragoisha G. A. In Progress in Chemometrics Research, Pomerantsev A. L., Ed.; Nova Science Publishers: New York, 2005, pp. 89–102 (the program is available online at \url{http://www.abc.chemistry.bsu.by/vi/analyser/})}
+
 
 %%\begin{figure}
 %	\centering

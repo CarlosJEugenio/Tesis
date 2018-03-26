@@ -203,7 +203,7 @@ En la figura \ref{fig:resumen_eis} se muestran gráficos de Nyquist obtenidos de
 		\pgfplotstablegetrowsof{\eistable}
 		\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
 		node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-		node[pos=(40-1)/(\N-1), pin=right:{1 MHz}]{}
+		node[pos=(40-1)/(\N-1), ]{}
 		node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 		\end{axis}
 		\end{tikzpicture}

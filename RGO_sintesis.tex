@@ -4,7 +4,7 @@ Como precursor se utiliza el óxido de grafeno producto del método previamente 
 
 \section{Resultados}
 En la figura \ref{fig:RGOyGO} se muestran dispersiones en medio acuoso de los productos de la síntesis antes descrita.
-Los materiales obtenidos son caracterizados por espectroscopia de rayos x (XRD) y microcopia SEM.
+Los materiales obtenidos son caracterizados por espectroscopia de rayos x (XRD), Raman y microcopia SEM.
 
 \begin{figure}[h]
 	\centering
@@ -22,33 +22,55 @@ Los materiales obtenidos son caracterizados por espectroscopia de rayos x (XRD) 
 	\label{fig:RGOyGO}
 \end{figure}
 
-En la figura \ref{fig:xrd} se presenta un gráfico de difracción de rayos x para las muestras sintetizadas de rGO y GO, además, el espectro del grafito usado como precursor en la síntesis de óxido de grafeno.
+En la figura \ref{fig:xrd} se presenta un gráfico de difracción de rayos x para las muestras sintetizadas de rGO y GO, además, el espectro del grafito en hojuelas usado como precursor en la síntesis de óxido de grafeno, obtenido en un difractómetro de rayos X Shimazdu XRD 6000, con radiación Cu $K\alpha_1$ y $K\alpha_2$ ($\lambda$ = 1,5418 \AA{} ). El pico principal en el espectro del grafito se encuentra en 26,2\degree, lo que corresponde a una distancia interplanar de 0,34 nm. El óxido de grafeno presenta un pico principal en 10,2\degree, que corresponde a una distancia interplanar de 0,87 nm. El óxido reducido de grafeno tienen un pico principal en 22,6\degree, correspondiente a una distancia interplanar de 0,39 nm. Esto indica que el grafito al oxidarse, efectivamente aumenta su distancia interplanar considerablemente debido a la incorporación de grupos oxigenados. Al reducir el óxido de grafeno y remover estos grupos funcionales, la distancia interplanar disminuye, acercándose a la del grafito, pero sin alcanzar el valor original del grafito, pues la reducción no es completa\citep{Guo2009, Marcano2010, Park2011, Li2014, Stobinski2014, Xu2014a, Yang2014, Abdolhosseinzadeh2015}.
 
+%\begin{figure}[h]
+%	\centering
+%	\begin{tikzpicture}[]
+%		\begin{axis}[
+%			cycle list name=colorbrewer-RYB,
+%			no markers,
+%			width = \textwidth,
+%			yticklabels={,,},
+%			ylabel={Intensidad [u.a.]},
+%			xlabel={2 $\theta$ [grados]},
+%			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
+%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
+%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
+%			\pgfplotsset{cycle list shift=1}
+%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+%%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
+%			\addplot +[mark=none, solid, black] coordinates {(10, 0) (10, 3)};
+%			\addplot +[mark=none, solid, black] coordinates {(23, 0) (23, 3)};
+%			\addplot +[mark=none, solid, black] coordinates {(26, 0) (26, 3)};
+%			\node[black, left] at (10, 3){\small{10\degree}};
+%			\node[black, left] at (23, 3){\small{23\degree}};
+%			\node[black, right] at (26, 3){\small{26\degree}};
+%		\end{axis}
+%	\end{tikzpicture}
+%	\caption{Espectro de difracción de rayos x.}
+%	\label{fig:xrd}
+%\end{figure}
 \begin{figure}[h]
 	\centering
 	\begin{tikzpicture}[]
-		\begin{axis}[
-			cycle list name=colorbrewer-RYB,
-			no markers,
-			width = \textwidth,
-			yticklabels={,,},
-			ylabel={Intensidad [u.a.]},
-			xlabel={2 $\theta$ [grados]},
-			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
-			
-			
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
-			\pgfplotsset{cycle list shift=1}
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
-%			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
-			\addplot +[mark=none, solid, black] coordinates {(10, 0) (10, 3)};
-			\addplot +[mark=none, solid, black] coordinates {(23, 0) (23, 3)};
-			\addplot +[mark=none, solid, black] coordinates {(26, 0) (26, 3)};
-			\node[black, left] at (10, 3){\small{10\degree}};
-			\node[black, left] at (23, 3){\small{23\degree}};
-			\node[black, right] at (26, 3){\small{26\degree}};
-		\end{axis}
+	\begin{axis}[
+	cycle list name=colorbrewer-RYB,
+	no markers,
+	width = \textwidth,
+	yticklabels={,,},
+	ylabel={Intensidad [u.a.]},
+	xlabel={2 $\theta$ [grados]},
+	legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido}]
+	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
+	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
+	\pgfplotsset{cycle list shift=1}
+	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
+	\node[black, rotate=90] at (24, 0.3){\small{(002)}};
+%	\node[black, rotate=90] at (7, 1.5){\small{10,2\degree}};
+%	\node[black, rotate=90] at (26, 3){\small{22,6\degree}};
+	\end{axis}
 	\end{tikzpicture}
 	\caption{Espectro de difracción de rayos x.}
 	\label{fig:xrd}
