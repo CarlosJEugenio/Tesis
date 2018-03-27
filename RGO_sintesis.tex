@@ -22,7 +22,7 @@ Los materiales obtenidos son caracterizados por espectroscopia de rayos x (XRD),
 	\label{fig:RGOyGO}
 \end{figure}
 
-En la figura \ref{fig:xrd} se presenta un gráfico de difracción de rayos x para las muestras sintetizadas de rGO y GO, además, el espectro del grafito en hojuelas usado como precursor en la síntesis de óxido de grafeno, obtenido en un difractómetro de rayos X Shimazdu XRD 6000, con radiación Cu $K\alpha_1$ y $K\alpha_2$ ($\lambda$ = 1,5418 \AA{} ). El pico principal en el espectro del grafito se encuentra en 26,2\degree, lo que corresponde a una distancia interplanar de 0,34 nm. El óxido de grafeno presenta un pico principal en 10,2\degree, que corresponde a una distancia interplanar de 0,87 nm. El óxido reducido de grafeno tienen un pico principal en 22,6\degree, correspondiente a una distancia interplanar de 0,39 nm. Esto indica que el grafito al oxidarse, efectivamente aumenta su distancia interplanar considerablemente debido a la incorporación de grupos oxigenados. Al reducir el óxido de grafeno y remover estos grupos funcionales, la distancia interplanar disminuye, acercándose a la del grafito, pero sin alcanzar el valor original del grafito, pues la reducción no es completa\citep{Guo2009, Marcano2010, Park2011, Li2014, Stobinski2014, Xu2014a, Yang2014, Abdolhosseinzadeh2015}.
+En la figura \ref{fig:xrd} se presenta un gráfico del espectro de difracción de rayos x para las muestras sintetizadas de grafito, GO y rGO, obtenido en un difractómetro de rayos X Shimazdu XRD 6000, con radiación Cu $K\alpha_1$ y $K\alpha_2$ ($\lambda$ = 1,5418 \AA{} ). El pico principal en el espectro del grafito se encuentra en 26,2\degree, lo que corresponde a una distancia interplanar de 0,34 nm. El óxido de grafeno presenta un pico principal en 10,2\degree, que corresponde a una distancia interplanar de 0,87 nm. El óxido reducido de grafeno tienen un pico principal en 22,6\degree, correspondiente a una distancia interplanar de 0,39 nm. Esto indica que el grafito al oxidarse, efectivamente aumenta su distancia interplanar considerablemente debido a la incorporación de grupos oxigenados. Al reducir el óxido de grafeno y remover estos grupos funcionales, la distancia interplanar disminuye, acercándose a la del grafito, pero sin alcanzar el valor original del grafito, pues la reducción no es completa\citep{Guo2009, Marcano2010, Park2011, Li2014, Stobinski2014, Xu2014a, Yang2014, Abdolhosseinzadeh2015}.
 
 %\begin{figure}[h]
 %	\centering
@@ -74,6 +74,29 @@ En la figura \ref{fig:xrd} se presenta un gráfico de difracción de rayos x par
 	\end{tikzpicture}
 	\caption{Espectro de difracción de rayos x.}
 	\label{fig:xrd}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}[]
+		\begin{axis}[
+		cycle list name=colorbrewer-RYB,
+		no markers,
+		width = \textwidth,
+		ylabel={Intensidad [u.a.]},
+		xlabel={$\mathrm{cm^{-1}}$},
+		legend entries={Óxido de grafeno, Óxido de grafeno reducido}]
+		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{CRGO090615_1}] {./Data/RAMAN/raman.txt};
+%		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{GO090615_1} + 10] {./Data/RAMAN/raman.txt};
+		\pgfplotsset{cycle list shift=1}
+		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{GO090615_2} + 20] {./Data/RAMAN/raman.txt};
+		%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
+		%	\node[black, rotate=90] at (7, 1.5){\small{10,2\degree}};
+		%	\node[black, rotate=90] at (26, 3){\small{22,6\degree}};
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Raman.}
+	\label{fig:raman}
 \end{figure}
 
 La imagen de la figura \ref{fig:rgo_paper_sem}, es una microscopia de barrido de un electrodo de rGO en forma de papel.

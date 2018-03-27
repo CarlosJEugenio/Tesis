@@ -1,4 +1,2 @@
-Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_7/raw/sample1.txt
-Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_8/raw/sample1.txt
-Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_7/raw/sample5.txt
-Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_8/raw/sample5.txt
+Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_7/raw/capacitance.txt
+Imagenes/tikzext/Tesis-figure61.pdf: ./Data/CV_CRGO300517_8/raw/capacitance.txt
