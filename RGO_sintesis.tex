@@ -76,15 +76,17 @@ En la figura \ref{fig:xrd} se presenta un gráfico del espectro de difracción d
 	\label{fig:xrd}
 \end{figure}
 
+En la figura \ref{fig:raman} se muestra el espectro Raman del óxido de grafeno y óxido reducido de grafeno sintetizados \citep{Abdolhosseinzadeh2015,}
 \begin{figure}
 	\centering
 	\begin{tikzpicture}[]
 		\begin{axis}[
 		cycle list name=colorbrewer-RYB,
 		no markers,
+		yticklabels={,,},
 		width = \textwidth,
 		ylabel={Intensidad [u.a.]},
-		xlabel={$\mathrm{cm^{-1}}$},
+		xlabel={Número de onda$\mathrm{cm^{-1}}$},
 		legend entries={Óxido de grafeno, Óxido de grafeno reducido}]
 		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{CRGO090615_1}] {./Data/RAMAN/raman.txt};
 %		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{GO090615_1} + 10] {./Data/RAMAN/raman.txt};
