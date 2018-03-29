@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  28 MAR 2018 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  28 MAR 2018 23:18
 entering extended mode
 **\def\tikzexternalrealjob{Tesis}\input{Tesis}
 (Tesis.tex (usachtesis.cls
@@ -3037,42 +3037,44 @@ LaTeX Warning: Reference `fig:area_cubes' on page 4 undefined on input line 80.
 The command '\includegraphics [width=\textwidth ]{area_cubes.pdf}' has been opt
 imized away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \hbox (93.52412pt too wide) in paragraph at lines 86--87
- [][] 
+Overfull \hbox (93.52412pt too wide) in paragraph at lines 87--88
+[][] 
  []
 
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
 
 Package natbib Warning: Citation `Novoselov2004' on page 4 undefined on input l
-ine 93.
+ine 110.
 
 
 Package natbib Warning: Citation `Daniel2004' on page 4 undefined on input line
- 93.
+ 110.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 111.
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 404.
@@ -3527,8 +3529,33 @@ Overfull \hbox (30.25536pt too wide) in paragraph at lines 295--296
 [][] 
  []
 
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
+\openout7 = `Imagenes/tikzext/Tesis-figure3.dpth'.
+
+PGFPlots: reading {./Data/eisgalv_sim_simple.txt}
+\tikzexternal@dep@file=\write8
+\openout8 = `Imagenes/tikzext/Tesis-figure3.dep'.
+
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
+Missing character: There is no ; in font nullfont!
+[12
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{C:/Users/H110/AppData/Local/MiKTeX/2.9/pdftex/config/p
+dftex.map}]
 
 LaTeX Warning: Hyper reference `fig:eq_classic' on page 12 undefined on input l
 ine 328.
@@ -3792,106 +3819,106 @@ ed away. Use '/tikz/external/optimize=false' to disable this.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:xrd' on page 18 undefined on input line 25.
+LaTeX Warning: Reference `fig:xrd' on page 18 undefined on input line 27.
 
 
 Package natbib Warning: Citation `Guo2009' on page 18 undefined on input line 2
-5.
+7.
 
 
 Package natbib Warning: Citation `Marcano2010' on page 18 undefined on input li
-ne 25.
+ne 27.
 
 
 Package natbib Warning: Citation `Park2011' on page 18 undefined on input line 
-25.
+27.
 
 
-Package natbib Warning: Citation `Li2014' on page 18 undefined on input line 25
+Package natbib Warning: Citation `Li2014' on page 18 undefined on input line 27
 .
 
 
 Package natbib Warning: Citation `Stobinski2014' on page 18 undefined on input 
-line 25.
+line 27.
 
 
 Package natbib Warning: Citation `Xu2014a' on page 18 undefined on input line 2
-5.
+7.
 
 
 Package natbib Warning: Citation `Yang2014' on page 18 undefined on input line 
-25.
+27.
 
 
 Package natbib Warning: Citation `Abdolhosseinzadeh2015' on page 18 undefined o
-n input line 25.
+n input line 27.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 26.
-\openout7 = `Imagenes/tikzext/Tesis-figure3.dpth'.
+(babel)             in language  on input line 28.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
 
-PGFPlots: reading {./Data/XRD/xrd.txt}
-\tikzexternal@dep@file=\write8
-\openout8 = `Imagenes/tikzext/Tesis-figure3.dep'.
-
-PGFPlots: reading {./Data/XRD/xrd.txt}
-PGFPlots: reading {./Data/XRD/xrd.txt}
-[19
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!
-Non-PDF special ignored!{C:/Users/H110/AppData/Local/MiKTeX/2.9/pdftex/config/p
-dftex.map}]
-
-LaTeX Warning: Reference `fig:raman' on page 19 undefined on input line 81.
+LaTeX Warning: Reference `fig:raman' on page 19 undefined on input line 83.
 
 
 Package natbib Warning: Citation `Abdolhosseinzadeh2015' on page 19 undefined o
-n input line 81.
+n input line 83.
 
 
-Package natbib Warning: Citation `Li2014' on page 19 undefined on input line 81
+Package natbib Warning: Citation `Li2014' on page 19 undefined on input line 83
 .
 
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 110.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 110.
 
-LaTeX Warning: Reference `fig:rgo_paper_sem' on page 19 undefined on input line
- 109.
+LaTeX Warning: Reference `fig:rgo_paper_sem' on page 20 undefined on input line
+ 111.
 
 The command '\includegraphics [width=\textwidth ]{CRGO300517_paper.png}' has be
 en optimized away. Use '/tikz/external/optimize=false' to disable this.
@@ -3899,30 +3926,6 @@ The command '\includegraphics [width=\textwidth ]{CRGO300517_paper_measures.png
 }' has been optimized away. Use '/tikz/external/optimize=false' to disable this
 .
 )
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 5.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand >>
@@ -4886,20 +4889,19 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 421.
  ) 
 Here is how much of TeX's memory you used:
- 57695 strings out of 493333
- 1360928 string characters out of 3136611
- 1820626 words of memory out of 3000000
- 60203 multiletter control sequences out of 15000+200000
+ 57527 strings out of 493333
+ 1355074 string characters out of 3136611
+ 1776897 words of memory out of 3000000
+ 60033 multiletter control sequences out of 15000+200000
  33803 words of font info for 163 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,21n,119p,10382b,2233s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,23n,119p,10382b,2568s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Imagenes/tikzext/Tesis-figure3.pdf (1 page, 34010 bytes).
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Imagenes/tikzext/Tesis-figure3.pdf (1 page, 29246 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36877 words of extra memory for PDF output out of 42996 (max. 10000000)
 

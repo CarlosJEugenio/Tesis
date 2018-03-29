@@ -1,2 +1,2 @@
-Imagenes/tikzext/Tesis-figure5.pdf: ./Data/CV_CRGO300517_11/raw/sample3.txt
-Imagenes/tikzext/Tesis-figure5.pdf: ./Data/CV_CRGO300517_13/raw/sample3.txt
+Imagenes/tikzext/Tesis-figure5.pdf: ./Data/RAMAN/raman.txt
+Imagenes/tikzext/Tesis-figure5.pdf: ./Data/RAMAN/raman.txt

@@ -75,18 +75,41 @@ Al reducir las dimensiones a escalas nanométricas, surgen efectos de confinamie
 	\label{fig:DoE}
 \end{figure}
 
-Por otra parte, si un determinado volumen es dividido en partículas más pequeñas, el área superficial aumenta. Por ejemplo, como se muestra en la secuencia de la figura \ref{fig:area_cubes}, el volumen total, o cantidad de material en cada división no cambia, pero el área superficial se duplica \footnotemark, siguiendo está lógica, al fragmentar un cubo de lado 1 cm a cubos de lado 100 nm, el área total habrá aumentado 100.000 veces. El aumento del área superficial aumenta la reactividad del material, ya que hay más lugar para reacciones químicas. Otra forma de verlo, es considerar la proporción de átomos en la superficie, con la cantidad de átomos del interior (proporción de área superficial al volumen), esta proporción aumenta al disminuir el tamaño de las partículas.
+Por otra parte, si un determinado volumen es dividido en partículas más pequeñas, el área superficial aumenta. Por ejemplo, como se muestra en la secuencia de la figura \ref{fig:area_cubes}, el volumen total, o cantidad de material en cada división no cambia, pero el área superficial se duplica \footnotemark, siguiendo está lógica, al fragmentar un cubo de lado 1 cm a cubos de lado 100 nm, el área total habrá aumentado 100.000 veces. El aumento del área superficial aumenta la reactividad del material, ya que hay más lugar para reacciones químicas. Otra forma de verlo, es considerar la proporción de átomos en la superficie, con la cantidad de átomos al interior de una partícula, en la figura \ref{fig:graph_nanocube} se muestra como aumenta esta proporción al disminuir el tamaño de una nanopartícula.
 
 \footnotetext{Si en la secuencia de la figura \ref{fig:area_cubes} el cubo más grande tiene lado $l$, su área superficial es $6 \times l^2$, en la primera división, el lado de cada cubo es $l/2$ y el área de cada uno es $6\left( l/2\right)^2$, que en total hacen $6\left(l/2\right)^2\times 8$, en la segunda división el área total es $6\left(l/4\right)^2\times 8 \times 8$, así, en la n-ésima división el área es $6l^2 \left(1/2^n\right)^2\times 8^n$ o $6l^2 \times 2^n$. Así, el área superficial se dobla con cada división.}
 
 \begin{figure}[h!]
 	\centering
-	\fbox{
-		\includegraphics[width=\textwidth]{area_cubes.pdf}
-		}
-	
-	\caption[Subdivisiones de un cubo demostrando el aumento de área superficial total]{Secuencia de divisiones de un cubo conservando el volumen total. Si se comienza con un cubo de 1 cm de lado y se subdivide hasta tener cubos de 100 nm de lado, el área superficial total pasaría de 6 $\mathrm{cm^2}$ a 60 $\mathrm{m^2}$. En este caso, el lado de un cubo disminuye 100.000 veces, aumentando el área superficial total por el mismo factor.}
-	\label{fig:area_cubes}
+	\begin{subfigure}{\textwidth}
+		\fbox{
+			\includegraphics[width=\textwidth]{area_cubes.pdf}
+			}
+		\caption[Subdivisiones de un cubo demostrando el aumento de área superficial total]{Subdivisiones de un cubo demostrando el aumento de área superficial total.}
+		\label{fig:area_cubes}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+			\begin{tikzpicture}[]
+				\begin{axis}[
+				width=\textwidth,
+				height=\axisdefaultheight,
+				change x base,
+				cycle list name=colorbrewer-RYB,
+				width = \textwidth,
+				ylabel={Proporción de átomos},
+				yticklabel=\pgfmathparse{100*\tick}\pgfmathprintnumber{\pgfmathresult}\,\%,
+				xlabel={Tamaño de partícula},
+				x unit=m,
+				x SI prefix=nano,
+				legend entries={En la superficie, Dentro de la partícula}]	
+				\addplot table [x expr = \thisrow{l}, y expr=\thisrow{surf}] {./Data/nanocube.txt};
+				\addplot table [x expr = \thisrow{l}, y expr=\thisrow{bulk}] {./Data/nanocube.txt};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Proporción de átomos en la superficie y dentro de cada nanopartícula en relación a su tamaño.}
+			\label{fig:graph_nanocube}
+	\end{subfigure}
+	\caption[Aumento de área superficial y proporcion de átomos en superficie al disminuir el tamaño de las nanopartículas]{\subref{fig:area_cubes}Si se subdivide un cubo de 1 cm de lado hasta tener cubos de 100 nm de lado, el área superficial total pasaría de 6 $\mathrm{cm^2}$ a 60 $\mathrm{m^2}$. En este caso, el lado de cada cubo disminuye 100.000 veces, aumentando el área superficial total por el mismo factor. \subref{fig:graph_nanocube} surface energy.}
 \end{figure}
 
 \subsection{Síntesis de nanomateriales}

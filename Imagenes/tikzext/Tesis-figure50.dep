@@ -1,4 +1,2 @@
-Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/sample1.txt
-Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/sample1.txt
-Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/sample5.txt
-Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/sample5.txt
+Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_1/raw/capacitance.txt
+Imagenes/tikzext/Tesis-figure50.pdf: ./Data/CV_Nickel_Foam_No_Material_2/raw/capacitance.txt

@@ -1,3 +1,2 @@
-Imagenes/tikzext/Tesis-figure3.pdf: ./Data/XRD/xrd.txt
-Imagenes/tikzext/Tesis-figure3.pdf: ./Data/XRD/xrd.txt
-Imagenes/tikzext/Tesis-figure3.pdf: ./Data/XRD/xrd.txt
+Imagenes/tikzext/Tesis-figure3.pdf: ./Data/eisgalv_sim_simple.txt
+Imagenes/tikzext/Tesis-figure3.pdf: ./Data/eisgalv_sim_warburg.txt

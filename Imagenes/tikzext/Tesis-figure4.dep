@@ -1,2 +1,3 @@
-Imagenes/tikzext/Tesis-figure4.pdf: ./Data/RAMAN/raman.txt
-Imagenes/tikzext/Tesis-figure4.pdf: ./Data/RAMAN/raman.txt
+Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
+Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
+Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
