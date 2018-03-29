@@ -1,7 +1,7 @@
 \begin{thebibliography}{}
 
 \bibitem[Abdolhosseinzadeh et~al., 2015]{Abdolhosseinzadeh2015}
-Abdolhosseinzadeh, S., Asgharzadeh, H., y {Seop Kim}, H. (2015).
+Abdolhosseinzadeh, S., Asgharzadeh, H., and {Seop Kim}, H. (2015).
 \newblock {Fast and fully-scalable synthesis of reduced graphene oxide}.
 \newblock {\em Scientific Reports}, 5:10160.
 
@@ -10,26 +10,26 @@ Balandin, A.~A. (2011).
 \newblock {Thermal properties of graphene and nanostructured carbon materials}.
 \newblock {\em Nature Materials}, 10(8):569--581.
 
-\bibitem[Binnig y Rohrer, 1982]{Binnig1982}
-Binnig, G. y Rohrer, H. (1982).
+\bibitem[Binnig and Rohrer, 1982]{Binnig1982}
+Binnig, G. and Rohrer, H. (1982).
 \newblock {Scanning tunneling microscopy}.
 \newblock {\em Surface Science}, 126(126):236--244.
 
 \bibitem[Blake et~al., 2008]{Blake2008}
 Blake, P., Brimicombe, P.~D., Nair, R.~R., Booth, T.~J., Jiang, D., Schedin,
   F., Ponomarenko, L.~A., Morozov, S.~V., Gleeson, H.~F., Hill, E.~W., Geim,
-  A.~K., y Novoselov, K.~S. (2008).
+  A.~K., and Novoselov, K.~S. (2008).
 \newblock {Graphene Based Liquid Crystal Device}.
 \newblock {\em Nano letters}, 8:1704.
 
 \bibitem[Boehm et~al., 1986]{Boehm1986}
-Boehm, H.~P., Setton, R., y Stumpp, E. (1986).
+Boehm, H.~P., Setton, R., and Stumpp, E. (1986).
 \newblock {Nomenclature and terminology of graphite intercalation compounds}.
 \newblock {\em Carbon}, 24(2):241--245.
 
 \bibitem[Bolotin et~al., 2008]{Bolotin2008}
 Bolotin, K.~I., Sikes, K.~J., Jiang, Z., Klima, M., Fudenberg, G., Hone, J.,
-  Kim, P., y Stormer, H.~L. (2008).
+  Kim, P., and Stormer, H.~L. (2008).
 \newblock {Ultrahigh electron mobility in suspended graphene}.
 \newblock {\em Solid State Communications}, 146(9-10):351--355.
 
@@ -42,12 +42,12 @@ Brodie, B.~C. (1859).
 \bibitem[Bunch et~al., 2008]{Bunch2008}
 Bunch, J.~S., Verbridge, S.~S., Alden, J.~S., van~der Zande, A.~M., Parpia,
   J.~M., Craighead, H.~G., McEuen, P.~L., Verbridge, S.~S., Parpia, J.~M.,
-  Craighead, H.~G., y McEuen, P.~L. (2008).
+  Craighead, H.~G., and McEuen, P.~L. (2008).
 \newblock {Impermeable Atomic Membranes from Graphene Sheets}.
 \newblock {\em Nano Letters}, 8(8):2458--2462.
 
 \bibitem[{Castro Neto} et~al., 2009]{CastroNeto2009}
-{Castro Neto}, A.~H., Guinea, F., Peres, N. M.~R., Novoselov, K.~S., y Geim,
+{Castro Neto}, A.~H., Guinea, F., Peres, N. M.~R., Novoselov, K.~S., and Geim,
   A.~K. (2009).
 \newblock {The electronic properties of graphene}.
 \newblock {\em Reviews of Modern Physics}, 81(1):109--162.
@@ -57,14 +57,14 @@ Chen, C.~J. (2008).
 \newblock {\em {Introduction to Scanning Tunneling Microscopy Second Edition}}.
 \newblock Oxford.
 
-\bibitem[Chua y Pumera, 2015]{Chua2015}
-Chua, C.~K. y Pumera, M. (2015).
+\bibitem[Chua and Pumera, 2015]{Chua2015}
+Chua, C.~K. and Pumera, M. (2015).
 \newblock {Monothiolation and Reduction of Graphene Oxide via One-Pot
   Synthesis: Hybrid Catalyst for Oxygen Reduction}.
 \newblock {\em ACS Nano}, 9(4):4193--4199.
 
-\bibitem[Daniel y Astruc, 2004]{Daniel2004}
-Daniel, M. C.~M. y Astruc, D. (2004).
+\bibitem[Daniel and Astruc, 2004]{Daniel2004}
+Daniel, M. C.~M. and Astruc, D. (2004).
 \newblock {Gold Nanoparticles: Assembly, Supramolecular Chemistry, Quantum-Size
   Related Properties and Applications toward Biology, Catalysis and
   Nanotechnology,}.
@@ -72,31 +72,31 @@ Daniel, M. C.~M. y Astruc, D. (2004).
 
 \bibitem[de~Heer et~al., 2011]{DeHeer2011a}
 de~Heer, W.~A., Berger, C., Ruan, M., Sprinkle, M., Li, X., Hu, Y., Zhang, B.,
-  Hankinson, J., y Conrad, E. (2011).
+  Hankinson, J., and Conrad, E. (2011).
 \newblock {Large area and structured epitaxial graphene produced by confinement
   controlled sublimation of silicon carbide}.
 \newblock {\em Proceedings of the National Academy of Sciences},
   108(41):16900--16905.
 
 \bibitem[Dreyer et~al., 2010]{Dreyer2010}
-Dreyer, D., Park, S., Bielawski, C., y Ruoff, R. (2010).
+Dreyer, D., Park, S., Bielawski, C., and Ruoff, R. (2010).
 \newblock {The chemistry of graphene oxide}.
 \newblock {\em Chemical Society Reviews}, 39:228--240.
 
-\bibitem[El-Kady y Kaner, 2013]{El-Kady2013}
-El-Kady, M.~F. y Kaner, R.~B. (2013).
+\bibitem[El-Kady and Kaner, 2013]{El-Kady2013}
+El-Kady, M.~F. and Kaner, R.~B. (2013).
 \newblock {Scalable fabrication of high-power graphene micro-supercapacitors
   for flexible and on-chip energy storage.}
 \newblock {\em Nature communications}, 4:1475.
 
 \bibitem[Feng et~al., 2016]{Feng2016}
-Feng, X., Chen, W., y Yan, L. (2016).
+Feng, X., Chen, W., and Yan, L. (2016).
 \newblock {Electrochemical reduction of bulk graphene oxide materials}.
 \newblock {\em RSC Adv.}, 6(83):80106--80113.
 
 \bibitem[Fern{\'{a}}ndez-Merino et~al., 2010]{Fernandez-Merino2010}
 Fern{\'{a}}ndez-Merino, M.~J., Guardia, L., Paredes, J.~I., Villar-Rodil, S.,
-  Sol{\'{i}}s-Fern{\'{a}}ndez, P., Mart{\'{i}}nez-Alonso, A., y Tasc{\'{o}}n,
+  Sol{\'{i}}s-Fern{\'{a}}ndez, P., Mart{\'{i}}nez-Alonso, A., and Tasc{\'{o}}n,
   J. M.~D. (2010).
 \newblock {Vitamin C is an ideal substitute for hydrazine in the reduction of
   graphene oxide suspensions}.
@@ -107,8 +107,8 @@ Feynman, R. (1960).
 \newblock {There's plenty of room at the bottom}.
 \newblock {\em Engeneering and Science}, pages 22--36.
 
-\bibitem[Frackowiak y B{\'{e}}guin, 2001]{Frackowiak2001}
-Frackowiak, E. y B{\'{e}}guin, F. (2001).
+\bibitem[Frackowiak and B{\'{e}}guin, 2001]{Frackowiak2001}
+Frackowiak, E. and B{\'{e}}guin, F. (2001).
 \newblock {Carbon materials for the electrochemical storage of energy in
   capacitors}.
 \newblock {\em Carbon}, 39(6):937--950.
@@ -119,18 +119,18 @@ Geim, A.~K. (2012).
 \newblock {\em Physica Scripta}, T146:014003.
 
 \bibitem[Gimenez-lopez et~al., 2011]{Gimenez2011}
-Gimenez-lopez, M.~C., Chuvilin, A., Kaiser, U., y Khlobystov, A.~N. (2011).
+Gimenez-lopez, M.~C., Chuvilin, A., Kaiser, U., and Khlobystov, A.~N. (2011).
 \newblock {Functionalised endohedral fullerenes in single-walled carbon
   nanotubes}.
 \newblock {\em Chem. C ommun}, 47:2116--2118.
 
-\bibitem[Gre{\ss}ler y Gazs{\'{o}}, 2013]{Gressler2013}
-Gre{\ss}ler, S. y Gazs{\'{o}}, A. (2013).
+\bibitem[Gre{\ss}ler and Gazs{\'{o}}, 2013]{Gressler2013}
+Gre{\ss}ler, S. and Gazs{\'{o}}, A. (2013).
 \newblock {Definition of the term “nanomaterial”}.
 \newblock {\em ITA Nanotrust Dossiers}.
 
 \bibitem[Guo et~al., 2009]{Guo2009}
-Guo, H.-l., Wang, X.-F., Qian, Q.-y., Wang, F.-b., y Xia, X.-h. (2009).
+Guo, H.-l., Wang, X.-F., Qian, Q.-y., Wang, F.-b., and Xia, X.-h. (2009).
 \newblock {A Green Approach to the Synthesis of Graphene Nanosheets}.
 \newblock {\em ACS Nano}, 3(9):2653--2659.
 
@@ -141,34 +141,34 @@ Haick, H. (2013).
 
 \bibitem[Harima et~al., 2011]{Harima2011}
 Harima, Y., Setodoi, S., Imae, I., Komaguchi, K., Ooyama, Y., Ohshita, J.,
-  Mizota, H., y Yano, J. (2011).
+  Mizota, H., and Yano, J. (2011).
 \newblock {Electrochemical reduction of graphene oxide in organic solvents}.
 \newblock {\em Electrochimica Acta}, 56(15):5363--5368.
 
-\bibitem[Hummers y Offeman, 1958]{Hummers1958}
-Hummers, W.~S. y Offeman, R.~E. (1958).
+\bibitem[Hummers and Offeman, 1958]{Hummers1958}
+Hummers, W.~S. and Offeman, R.~E. (1958).
 \newblock {Preparation of Graphitic Oxide}.
 \newblock {\em Journal of the American Chemical Society}, 80(6):1339--1339.
 
 \bibitem[Lee et~al., 2008]{Lee2008}
-Lee, C., Wei, X., Kysar, J.~W., y Hone, J. (2008).
+Lee, C., Wei, X., Kysar, J.~W., and Hone, J. (2008).
 \newblock {Measurement of the Elastic Properties and Intrinsic Strength of
   Monolayer Graphene}.
 \newblock {\em Science}, 321(18 July 2008):385--388.
 
 \bibitem[Lee et~al., 2013]{Park2011}
-Lee, S., Eom, S.~H., Chung, J.~S., y Hur, S.~H. (2013).
+Lee, S., Eom, S.~H., Chung, J.~S., and Hur, S.~H. (2013).
 \newblock {Large-scale production of high-quality reduced graphene oxide}.
 \newblock {\em Chemical Engineering Journal}, 233(9):297--304.
 
 \bibitem[Lee et~al., 2012]{Lee2012}
-Lee, S.~W., Mattevi, C., Chhowalla, M., y Sankaran, R.~M. (2012).
+Lee, S.~W., Mattevi, C., Chhowalla, M., and Sankaran, R.~M. (2012).
 \newblock {Plasma-assisted reduction of graphene oxide at low temperature and
   atmospheric pressure for flexible conductor applications}.
 \newblock {\em Journal of Physical Chemistry Letters}, 3(6):772--777.
 
 \bibitem[Li et~al., 2014]{Li2014}
-Li, L., Zhang, B., Yu, M., Ma, H., Zhang, J., Zhang, C., Li, J., y Li, J.
+Li, L., Zhang, B., Yu, M., Ma, H., Zhang, J., Zhang, C., Li, J., and Li, J.
   (2014).
 \newblock {Synthesis of few-layer reduced graphene oxide for lithium-ion
   battery electrode materials}.
@@ -176,65 +176,65 @@ Li, L., Zhang, B., Yu, M., Ma, H., Zhang, J., Zhang, C., Li, J., y Li, J.
   53(34):13348--13355.
 
 \bibitem[Liu et~al., 2011]{Liu2011}
-Liu, C., Wang, K., Luo, S., Tang, Y., y Chen, L. (2011).
+Liu, C., Wang, K., Luo, S., Tang, Y., and Chen, L. (2011).
 \newblock {Direct electrodeposition of graphene enabling the one-step synthesis
   of graphene-metal nanocomposite films}.
 \newblock {\em Small}, 7(9):1203--1206.
 
 \bibitem[Marcano et~al., 2010]{Marcano2010}
 Marcano, D.~C., Kosynkin, D.~V., Berlin, J.~M., Sinitskii, A., Sun, Z.,
-  Slesarev, A., Alemany, L.~B., Lu, W., y Tour, J.~M. (2010).
+  Slesarev, A., Alemany, L.~B., Lu, W., and Tour, J.~M. (2010).
 \newblock {Improved synthesis of graphene oxide}.
 \newblock {\em ACS Nano}, 4(8):4806--4814.
 
 \bibitem[Mohandoss et~al., 2017]{Mohandoss2017}
-Mohandoss, M., Gupta, S.~S., Nelleri, A., Pradeep, T., y Maliyekkal, S.~M.
+Mohandoss, M., Gupta, S.~S., Nelleri, A., Pradeep, T., and Maliyekkal, S.~M.
   (2017).
 \newblock {Solar mediated reduction of graphene oxide}.
 \newblock {\em RSC Adv.}, 7(2):957--963.
 
 \bibitem[Moser et~al., 2007]{Moser2007}
-Moser, J., Barreiro, A., y Bachtold, A. (2007).
+Moser, J., Barreiro, A., and Bachtold, A. (2007).
 \newblock {Current-induced cleaning of graphene}.
 \newblock {\em Applied Physics Letters}, 91(163513).
 
 \bibitem[Nair et~al., 2008]{Nair2008}
 Nair, R.~R., Blake, P., Grigorenko, A.~N., Novoselov, K.~S., Booth, T.~J.,
-  Stauber, T., Peres, N. M.~R., y Geim, A.~K. (2008).
+  Stauber, T., Peres, N. M.~R., and Geim, A.~K. (2008).
 \newblock {Fine Structure Constant Defines Visual Transparency of Graphene}.
 \newblock {\em Science}, 320(5881):1308--1308.
 
 \bibitem[Novoselov et~al., 2012]{Novoselov2012}
-Novoselov, K.~S., Fal'ko, V.~I., Colombo, L., Gellert, P.~R., Schwab, M.~G., y
-  Kim, K. (2012).
+Novoselov, K.~S., Fal'ko, V.~I., Colombo, L., Gellert, P.~R., Schwab, M.~G.,
+  and Kim, K. (2012).
 \newblock {A roadmap for graphene}.
 \newblock {\em Nature}, 490(7419):192--200.
 
 \bibitem[Novoselov et~al., 2004]{Novoselov2004}
 Novoselov, K.~S., Geim, A.~K., Morozov, S.~V., Jiang, D., Zhang, Y., Dubonos,
-  S.~V., Grigorieva, I.~V., y Firsov, A.~A. (2004).
+  S.~V., Grigorieva, I.~V., and Firsov, A.~A. (2004).
 \newblock {Electric Field Effect in Atomically Thin Carbon Films}.
 \newblock {\em Science}, 306(5696):666--669.
 
-\bibitem[Pei y Cheng, 2012]{Pei2012}
-Pei, S. y Cheng, H.~M. (2012).
+\bibitem[Pei and Cheng, 2012]{Pei2012}
+Pei, S. and Cheng, H.~M. (2012).
 \newblock {The reduction of graphene oxide}.
 \newblock {\em Carbon}, 50(9):3210--3228.
 
 \bibitem[Peigney et~al., 2001]{Peigney2001}
-Peigney, A., Laurent, C., Flahaut, E., Bacsa, R.~R., y Rousset, A. (2001).
+Peigney, A., Laurent, C., Flahaut, E., Bacsa, R.~R., and Rousset, A. (2001).
 \newblock {Specific surface area of carbon nanotubes and bundles of carbon
   nanotubes}.
 \newblock {\em Carbon}, 39(4):507--514.
 
-\bibitem[Roy-Mayhew y Aksay, 2014]{Roy-mayhew2014}
-Roy-Mayhew, J.~D. y Aksay, I.~A. (2014).
+\bibitem[Roy-Mayhew and Aksay, 2014]{Roy-mayhew2014}
+Roy-Mayhew, J.~D. and Aksay, I.~A. (2014).
 \newblock {Graphene materials and their use in dye-sensitized solar cells}.
 \newblock {\em Chemical Reviews}, 114(12):6323--6348.
 
 \bibitem[Schedin et~al., 2007]{Schedin2007}
 Schedin, F., Geim, A., Morozov, S.~V., Hill, E.~W., Blake, P., Katsnelson,
-  M.~I., y Novoselov, K.~S. (2007).
+  M.~I., and Novoselov, K.~S. (2007).
 \newblock {Detection of individual gas molecules adsorbed on graphene.}
 \newblock {\em Nature materials}, 6(9):652--5.
 
@@ -253,27 +253,27 @@ Staudenmaier, L. (1898).
 
 \bibitem[Stobinski et~al., 2014]{Stobinski2014}
 Stobinski, L., Lesiak, B., Malolepszy, A., Mazurkiewicz, M., Mierzwa, B.,
-  Zemek, J., Jiricek, P., y Bieloshapka, I. (2014).
+  Zemek, J., Jiricek, P., and Bieloshapka, I. (2014).
 \newblock {Graphene oxide and reduced graphene oxide studied by the XRD, TEM
   and electron spectroscopy methods}.
 \newblock {\em Journal of Electron Spectroscopy and Related Phenomena},
   195:145--154.
 
 \bibitem[Stoller et~al., 2008]{Stoller2008}
-Stoller, M.~D., Park, S., Yanwu, Z., An, J., y Ruoff, R.~S. (2008).
+Stoller, M.~D., Park, S., Yanwu, Z., An, J., and Ruoff, R.~S. (2008).
 \newblock {Graphene-Based ultracapacitors}.
 \newblock {\em Nano Letters}, 8(10):3498--3502.
 
 \bibitem[Thounthong et~al., 2009]{Thounthong2009}
-Thounthong, P., Ra{\"{e}}l, S., y Davat, B. (2009).
+Thounthong, P., Ra{\"{e}}l, S., and Davat, B. (2009).
 \newblock {Energy management of fuel cell/battery/supercapacitor hybrid power
   source for vehicle applications}.
 \newblock {\em Journal of Power Sources}, 193(1):376--385.
 
 \bibitem[Toh et~al., 2014]{Toh2014}
 Toh, S.~Y., Loha, K.~S., Kamarudin, S.~K., Dauda, W. R.~W., Loh, K.~S.,
-  Kamarudin, S.~K., Daud, W. R.~W., Loha, K.~S., Kamarudin, S.~K., y Dauda, W.
-  R.~W. (2014).
+  Kamarudin, S.~K., Daud, W. R.~W., Loha, K.~S., Kamarudin, S.~K., and Dauda,
+  W. R.~W. (2014).
 \newblock {Graphene production via electrochemical reduction of graphene oxide:
   Synthesis and characterisation}.
 \newblock {\em Chemical Engineering Journal}, 251:422--434.
@@ -284,36 +284,36 @@ Wallace, P.~R. (1947).
 \newblock {\em Physical Review}, 71(9):622--634.
 
 \bibitem[Wang et~al., 2009]{Wang2009}
-Wang, Y., Shi, Z., Huang, Y., Ma, Y., Wang, C., Chen, M., y Chen, Y. (2009).
+Wang, Y., Shi, Z., Huang, Y., Ma, Y., Wang, C., Chen, M., and Chen, Y. (2009).
 \newblock {Supercapacitor Devices Based on Graphene Materials}.
 \newblock {\em J. Phys. Chem. C}, 113:13103--13107.
 
 \bibitem[Xie et~al., 2014]{Xie2014}
-Xie, G., Forslund, M., y Pan, J. (2014).
+Xie, G., Forslund, M., and Pan, J. (2014).
 \newblock {Direct electrochemical synthesis of reduced graphene oxide
   (rGO)/copper composite films and their electrical/electroactive properties}.
 \newblock {\em ACS Applied Materials and Interfaces}, 6(10):7444--7455.
 
 \bibitem[Xu et~al., 2014]{Xu2014a}
-Xu, Z., Zheng, B., Chen, J., y Gao, C. (2014).
+Xu, Z., Zheng, B., Chen, J., and Gao, C. (2014).
 \newblock {Highly efficient synthesis of neat graphene nanoscrolls from
   graphene oxide by well-controlled lyophilization}.
 \newblock {\em Chemistry of Materials}, 26(23):6811--6818.
 
-\bibitem[Yahalom y Zahavi, 1971]{Yahalom1971}
-Yahalom, J. y Zahavi, J. (1971).
+\bibitem[Yahalom and Zahavi, 1971]{Yahalom1971}
+Yahalom, J. and Zahavi, J. (1971).
 \newblock {Experimental evaluation of some electrolytic breakdown hypotheses}.
 \newblock {\em Electrochimica Acta}, 16(5):603--607.
 
 \bibitem[Yang et~al., 2014]{Yang2014}
-Yang, H., Li, H., Zhai, J., Sun, L., y Yu, H. (2014).
+Yang, H., Li, H., Zhai, J., Sun, L., and Yu, H. (2014).
 \newblock {Simple Synthesis of Graphene Oxide Using Ultrasonic Cleaner from
   Expanded Graphite}.
 \newblock {\em Industrial {\&} Engineering Chemistry Research},
   53(46):17878--17883.
 
 \bibitem[Zhu et~al., 2010]{Zhu2010a}
-Zhu, Y., Murali, S., Stoller, M.~D., Velamakanni, A., Piner, R.~D., y Ruoff,
+Zhu, Y., Murali, S., Stoller, M.~D., Velamakanni, A., Piner, R.~D., and Ruoff,
   R.~S. (2010).
 \newblock {Microwave assisted exfoliation and reduction of graphite oxide for
   ultracapacitors}.

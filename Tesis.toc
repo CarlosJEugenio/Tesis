@@ -25,13 +25,13 @@
 \contentsline {chapter}{\numberline {2}Ruta de s\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{19}{chapter.2}
 \contentsline {chapter}{\numberline {3}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Resultados}{21}{section.3.1}
-\contentsline {chapter}{\numberline {4}Construcci\IeC {\'o}n de supercondensadores}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Celda de pruebas de supercondensador}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Construcci\IeC {\'o}n de electrodos}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados y an\IeC {\'a}lisis}{31}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}
-\contentsline {chapter}{\numberline {A}Anexo}{38}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Hibridaci\IeC {\'o}n sp2}{38}{section.Alph1.1}
-\contentsline {section}{\numberline {A.2}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{40}{section.Alph1.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{49}{figure.caption.43}
+\contentsline {chapter}{\numberline {4}Construcci\IeC {\'o}n de supercondensadores}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Celda de pruebas de supercondensador}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Construcci\IeC {\'o}n de electrodos}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados y an\IeC {\'a}lisis}{32}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones}{38}{chapter.5}
+\contentsline {chapter}{\numberline {A}Anexo}{39}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Hibridaci\IeC {\'o}n sp2}{39}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{41}{section.Alph1.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{50}{figure.caption.43}
