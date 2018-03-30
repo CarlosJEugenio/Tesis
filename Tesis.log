@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  29 MAR 2018 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2017.4.25)  29 MAR 2018 17:18
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -2610,29 +2610,29 @@ Package babel Info: Redefining spanish shorthand "?
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 25.
+(babel)             in language  on input line 24.
  [6
 
 ])
@@ -2736,7 +2736,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
-<Imagenes/scale.pdf, id=222, 1235.9864pt x 459.98044pt>
+<Imagenes/scale.pdf, id=224, 1235.9864pt x 459.98044pt>
 File: Imagenes/scale.pdf Graphic file (type pdf)
 
 <use Imagenes/scale.pdf>
@@ -2785,7 +2785,7 @@ l.16
 
 
 
-] <Imagenes/graphite_structure.pdf, id=240, 298.52367pt x 295.3857pt>
+] <Imagenes/graphite_structure.pdf, id=242, 298.52367pt x 295.3857pt>
 File: Imagenes/graphite_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/graphite_structure.pdf>
@@ -2793,14 +2793,14 @@ Package pdftex.def Info: Imagenes/graphite_structure.pdf used on input line 22.
 
 (pdftex.def)             Requested size: 68.99895pt x 68.27531pt.
 
-<Imagenes/graphite_image.jpg, id=241, 401.5pt x 366.36874pt>
+<Imagenes/graphite_image.jpg, id=243, 401.5pt x 366.36874pt>
 File: Imagenes/graphite_image.jpg Graphic file (type jpg)
 
 <use Imagenes/graphite_image.jpg>
 Package pdftex.def Info: Imagenes/graphite_image.jpg used on input line 27.
 (pdftex.def)             Requested size: 68.99895pt x 62.95828pt.
 
-<Imagenes/graphene_structure.pdf, id=242, 318.00186pt x 154.49284pt>
+<Imagenes/graphene_structure.pdf, id=244, 318.00186pt x 154.49284pt>
 File: Imagenes/graphene_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/graphene_structure.pdf>
@@ -2808,28 +2808,28 @@ Package pdftex.def Info: Imagenes/graphene_structure.pdf used on input line 32.
 
 (pdftex.def)             Requested size: 68.99895pt x 33.51941pt.
 
-<Imagenes/graphene_image.jpg, id=243, 110.0913pt x 85.0377pt>
+<Imagenes/graphene_image.jpg, id=245, 110.0913pt x 85.0377pt>
 File: Imagenes/graphene_image.jpg Graphic file (type jpg)
 
 <use Imagenes/graphene_image.jpg>
 Package pdftex.def Info: Imagenes/graphene_image.jpg used on input line 37.
 (pdftex.def)             Requested size: 68.99895pt x 53.29893pt.
 
-<Imagenes/cnt_structure.pdf, id=244, 343.43239pt x 245.251pt>
+<Imagenes/cnt_structure.pdf, id=246, 343.43239pt x 245.251pt>
 File: Imagenes/cnt_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/cnt_structure.pdf>
 Package pdftex.def Info: Imagenes/cnt_structure.pdf used on input line 43.
 (pdftex.def)             Requested size: 68.99895pt x 49.27011pt.
 
-<Imagenes/cnt_image.png, id=245, 314.1336pt x 303.0522pt>
+<Imagenes/cnt_image.png, id=247, 314.1336pt x 303.0522pt>
 File: Imagenes/cnt_image.png Graphic file (type png)
 
 <use Imagenes/cnt_image.png>
 Package pdftex.def Info: Imagenes/cnt_image.png used on input line 48.
 (pdftex.def)             Requested size: 68.99895pt x 66.5607pt.
 
-<Imagenes/fullerene_structure.pdf, id=247, 143.9515pt x 148.31792pt>
+<Imagenes/fullerene_structure.pdf, id=249, 143.9515pt x 148.31792pt>
 File: Imagenes/fullerene_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/fullerene_structure.pdf>
@@ -2837,7 +2837,7 @@ Package pdftex.def Info: Imagenes/fullerene_structure.pdf used on input line 53
 .
 (pdftex.def)             Requested size: 68.99895pt x 71.09447pt.
 
-<Imagenes/fullerene_image.jpg, id=248, 511.9125pt x 445.665pt>
+<Imagenes/fullerene_image.jpg, id=250, 511.9125pt x 445.665pt>
 File: Imagenes/fullerene_image.jpg Graphic file (type jpg)
 
 <use Imagenes/fullerene_image.jpg>
@@ -2906,13 +2906,13 @@ pdfTeX warning: pdflatex.exe (file ./Imagenes/cnt_structure.pdf): PDF inclusion
 pdfTeX warning: pdflatex.exe (file ./Imagenes/fullerene_structure.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 > <./Imagenes/fullerene_image.jpg>]
-<Imagenes/DoE.pdf, id=877, 532.73033pt x 323.65038pt>
+<Imagenes/DoE.pdf, id=879, 532.73033pt x 323.65038pt>
 File: Imagenes/DoE.pdf Graphic file (type pdf)
  <use Imagenes/DoE.pdf>
 Package pdftex.def Info: Imagenes/DoE.pdf used on input line 73.
 (pdftex.def)             Requested size: 207.0021pt x 125.75891pt.
 
-<Imagenes/area_cubes.pdf, id=882, 712.11333pt x 185.4842pt>
+<Imagenes/area_cubes.pdf, id=884, 712.11333pt x 185.4842pt>
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 
 <use Imagenes/area_cubes.pdf>
@@ -3020,7 +3020,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
  (grafeno.tex
-<Imagenes/graphene_lattice.pdf, id=946, 1180.5982pt x 756.01796pt>
+<Imagenes/graphene_lattice.pdf, id=948, 1180.5982pt x 756.01796pt>
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 
 <use Imagenes/graphene_lattice.pdf>
@@ -3079,7 +3079,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 21.
 
-[8] <Imagenes/GO_structure.pdf, id=1049, 1030.60031pt x 1513.15312pt>
+[8] <Imagenes/GO_structure.pdf, id=1051, 1030.60031pt x 1513.15312pt>
 File: Imagenes/GO_structure.pdf Graphic file (type pdf)
 
 <use Imagenes/GO_structure.pdf>
@@ -3110,7 +3110,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 35.
  [9 <./Imagenes/GO_structure.pdf>]
-<Imagenes/graphiteToRGO.pdf, id=1093, 9616.99933pt x 1786.79556pt>
+<Imagenes/graphiteToRGO.pdf, id=1095, 9616.99933pt x 1786.79556pt>
 File: Imagenes/graphiteToRGO.pdf Graphic file (type pdf)
 
 <use Imagenes/graphiteToRGO.pdf>
@@ -3159,7 +3159,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
  (supercondensadores.tex
-<Imagenes/ragone.pdf, id=1621, 646.98236pt x 350.4908pt>
+<Imagenes/ragone.pdf, id=1623, 646.98236pt x 350.4908pt>
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 
 <use Imagenes/ragone.pdf>
@@ -3281,88 +3281,88 @@ Overfull \hbox (30.25536pt too wide) in paragraph at lines 295--296
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 375.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 376.
-[15] <Imagenes/edlc_schem.pdf, id=1713, 898.68892pt x 696.1916pt>
+(babel)             in language  on input line 375.
+[15] <Imagenes/edlc_schem.pdf, id=1712, 898.68892pt x 696.1916pt>
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 
 <use Imagenes/edlc_schem.pdf>
-Package pdftex.def Info: Imagenes/edlc_schem.pdf used on input line 381.
+Package pdftex.def Info: Imagenes/edlc_schem.pdf used on input line 380.
 (pdftex.def)             Requested size: 241.49895pt x 187.08191pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 389.
+(babel)             in language  on input line 388.
 [16 <./Imagenes/tikzext/Tesis-figure3.pdf>]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 401.
+(babel)             in language  on input line 400.
  [17 <./Imagenes/edlc_schem.pdf>]))
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 405.
@@ -3460,7 +3460,20 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 
-])
+]
+<Imagenes/experimental_method_GO.pdf, id=1766, 2567.51776pt x 428.82465pt>
+File: Imagenes/experimental_method_GO.pdf Graphic file (type pdf)
+
+<use Imagenes/experimental_method_GO.pdf>
+Package pdftex.def Info: Imagenes/experimental_method_GO.pdf used on input line
+ 10.
+(pdftex.def)             Requested size: 482.9979pt x 80.66615pt.
+
+Overfull \hbox (150.35767pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand >>
@@ -3485,7 +3498,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 3.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 3.
- [21]
+ [21 <./Imagenes/experimental_method_GO.pdf>]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 3.
@@ -3512,14 +3525,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
- <Imagenes/RGO_pic.png, id=1773, 1003.75pt x 1328.965pt>
+ <Imagenes/RGO_pic.png, id=1840, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 
 <use Imagenes/RGO_pic.png>
 Package pdftex.def Info: Imagenes/RGO_pic.png used on input line 22.
 (pdftex.def)             Requested size: 137.9979pt x 182.7079pt.
 
-<Imagenes/GO_pic.png, id=1774, 1003.75pt x 1229.59375pt>
+<Imagenes/GO_pic.png, id=1841, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 
 <use Imagenes/GO_pic.png>
@@ -3636,14 +3649,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 112.
  [25 <./Imagenes/tikzext/Tesis-figure5.pdf>]
-<Imagenes/CRGO300517_paper.png, id=1860, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper.png, id=1927, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper.png Graphic file (type png)
 
 <use Imagenes/CRGO300517_paper.png>
 Package pdftex.def Info: Imagenes/CRGO300517_paper.png used on input line 116.
 (pdftex.def)             Requested size: 345.0pt x 258.75514pt.
 
-<Imagenes/CRGO300517_paper_measures.png, id=1861, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper_measures.png, id=1928, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper_measures.png Graphic file (type png)
 
 <use Imagenes/CRGO300517_paper_measures.png>
@@ -3721,7 +3734,7 @@ Overfull \hbox (11.66328pt too wide) in paragraph at lines 2--3
 s[]and-wich electrodo-separador-
  []
 
-<Imagenes/SC_process.pdf, id=1875, 1628.56967pt x 578.96617pt>
+<Imagenes/SC_process.pdf, id=1942, 1628.56967pt x 578.96617pt>
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 
 <use Imagenes/SC_process.pdf>
@@ -3769,7 +3782,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 17.
 [28
 
-] <Imagenes/cell3.pdf, id=1882, 1055.56467pt x 449.45715pt>
+] <Imagenes/cell3.pdf, id=1949, 1055.56467pt x 449.45715pt>
 File: Imagenes/cell3.pdf Graphic file (type pdf)
 
 <use Imagenes/cell3.pdf>
@@ -3845,7 +3858,7 @@ Overfull \hbox (106.60568pt too wide) in paragraph at lines 37--50
  [][] 
  []
 
-<Imagenes/rgo_electrodes.png, id=1918, 2409.12045pt x 642.4803pt>
+<Imagenes/rgo_electrodes.png, id=1985, 2409.12045pt x 642.4803pt>
 File: Imagenes/rgo_electrodes.png Graphic file (type png)
 
 <use Imagenes/rgo_electrodes.png>
@@ -4245,14 +4258,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-<Imagenes/hybrid.pdf, id=2072, 1980.56624pt x 939.37154pt>
+<Imagenes/hybrid.pdf, id=2139, 1980.56624pt x 939.37154pt>
 File: Imagenes/hybrid.pdf Graphic file (type pdf)
 
 <use Imagenes/hybrid.pdf>
 Package pdftex.def Info: Imagenes/hybrid.pdf used on input line 13.
 (pdftex.def)             Requested size: 258.75pt x 122.7246pt.
 
-<Imagenes/piorbitals.pdf, id=2073, 1872.0734pt x 940.12436pt>
+<Imagenes/piorbitals.pdf, id=2140, 1872.0734pt x 940.12436pt>
 File: Imagenes/piorbitals.pdf Graphic file (type pdf)
 
 <use Imagenes/piorbitals.pdf>
@@ -5047,15 +5060,15 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `Tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2F2BDC2AFF4A39A21C67412A658EF13A;1193.
+(rerunfilecheck)             Checksum: 1650E023C0C49843156B7ED25E12E7FC;1193.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 421.
  ) 
 Here is how much of TeX's memory you used:
- 57775 strings out of 493333
- 1352664 string characters out of 3136611
- 1716087 words of memory out of 3000000
- 59843 multiletter control sequences out of 15000+200000
- 51020 words of font info for 255 fonts, out of 3000000 for 9000
+ 57777 strings out of 493333
+ 1352828 string characters out of 3136611
+ 1717089 words of memory out of 3000000
+ 59847 multiletter control sequences out of 15000+200000
+ 50907 words of font info for 253 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,13n,119p,10349b,1075s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Fi
@@ -5073,13 +5086,13 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+public/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
 /helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helveti
 c/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
-Output written on Tesis.pdf (65 pages, 29450029 bytes).
+Output written on Tesis.pdf (65 pages, 29784892 bytes).
 PDF statistics:
- 2960 PDF objects out of 2984 (max. 8388607)
+ 3027 PDF objects out of 3580 (max. 8388607)
  206 named destinations out of 1000 (max. 500000)
- 43615 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43620 words of extra memory for PDF output out of 51595 (max. 10000000)
 
