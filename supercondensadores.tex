@@ -1,7 +1,5 @@
 %\chapter{Supercondensadores}
-%TODO add asymetric reference
-%TODO complejidad de las celdas de combustible
-Almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos móviles o estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es una competencia entre la densidad de energía (cuánta energía se puede almacenar) y la densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}). Las celdas de combustible (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas. Mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya sea como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
+Almacenar energía eléctrica es uno de los mayores problemas a la hora de diseñar sistemas electrónicos móviles o estacionarios, los requerimientos varían de acuerdo a las necesidades de cada uno, en general es una competencia entre la densidad de energía (cuánta energía se puede almacenar) y la densidad de potencia (que tan rápido puede ser entregada la energía almacenada). Para poner en perspectiva las tecnologías de almacenamiento de energía, existe el diagrama de Ragone (ver figura \ref{fig:ragone}). Las celdas de combustible de hidrógeno (\textit{Fuel Cells}), entregan la mayor densidad de energía, pero son complicadas debido a las dificultades que presenta el almacenar hidrógeno \citep{Hadjipaschalis2009}. Mientras que las baterías poseen mayor densidad de potencia, pierden capacidad con los ciclos de carga y descarga rápidamente. Los supercondensadores van un paso más allá, aumentado la densidad de potencia y aportando mayor vida útil, entregando una nueva posibilidad a la hora de diseñar sistemas eléctricos, ya sea como fuente de energía por sí mismo, o en sistemas híbridos combinados con otras tecnologías \citep{Thounthong2009}.\\
 La densidad de energía de un supercondensador comparada a la de un condensador convencional es varios órdenes de magnitud superior, a modo de comparación, generalmente se utilizan microfaradios (10$^{-6}$ Faradios), para medir la capacidad de un condensador convencional, mientras que en un supercondensador es común ver capacidades de decenas o centenas de Faradios.
 
 
@@ -10,7 +8,7 @@ La densidad de energía de un supercondensador comparada a la de un condensador 
 	\fbox{
 		\includegraphics[width = 0.7\textwidth]{ragone.pdf}
 	}
-	\caption[Diagrama de Ragone]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía.}
+	\caption[Diagrama de Ragone, diferentes tecnologías de almacenamiento de energía]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía.}
 	\label{fig:ragone}
 \end{figure}
 
@@ -131,15 +129,17 @@ En el caso de un proceso de carga y descarga a corriente constante, el voltaje v
 
 \subsection{El condensador real}
 %TODO agregar electrolito no acuoso
-Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y la entregaría totalmente en la descarga sin ninguna disipación, es decir, tendría una eficiencia del 100\%. Éste podría soportar cualquier amplitud de voltaje aplicado, o cargarse y descargarse por una corriente cuan grande se desee.  Sin embargo, en la vida real, los condensadores sí disipan energía, poseen voltajes de operación acotados y corrientes máximas de carga y descarga. Todo esto depende del diseño de cosntrucción y de los materiales empleados.\\
-El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}. En el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolito empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo, la descomposición del agua a 1.23 V para electrolitos acuosos.\\
+Un condensador ideal almacenaría una cierta cantidad de energía al cargarse y la entregaría totalmente en la descarga sin ninguna disipación, es decir, tendría una eficiencia del 100\%. Éste podría soportar cualquier amplitud de voltaje aplicado, o cargarse y descargarse por una corriente cuan grande se desee.  Sin embargo, en la vida real, los condensadores sí disipan energía, poseen voltajes de operación acotados y corrientes máximas de carga y descarga. Todo esto depende del diseño, su construcción y de los materiales empleados.\\
+El voltaje máximo de operación de un condensador convencional dieléctrico, es determinado por la tensión de ruptura del material\footnote{Voltaje en el cual se pierden las propiedades dieléctricas del material, provocando cortocircuito al interior del dispositivo. Este está determinado por la fuerza dieléctrica y el espesor del material. En condensadores electrolíticos, la tensión de ruptura está determinada por otros mecanismos \citep{Yahalom1971}.}; en el caso de los supercondensadores, el voltaje máximo de carga depende fundamentalmente del electrolito empleado, el que está limitado por potenciales límites de descomposición, como por ejemplo, la descomposición del agua a 1.23 V para electrolitos acuosos.\\
 
 \subsection{Resistencia en serie equivalente (ESR)}
-Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado como una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste, esta caida de voltaje es:
+Las imperfecciones en la construcción de los electrodos, y la resistencia intrínseca de los materiales utilizados, disipan energía durante la carga y descarga que se modela como una resistencia en serie con el condensador. Esto se ve reflejado en una caída de voltaje en los terminales del dispositivo (figura \ref{fig:plot:charge-discharge_esr}), disminuyendo la eficiencia de éste, esta caida de voltaje es:
 
 \begin{equation}
 	v = iR_{ESR}
 \end{equation}
+
+En supercondensadores, la resistencia del electrolito empleado aumenta esta resistencia en serie equivalente.
 
 \begin{figure}
 	\centering
@@ -252,7 +252,7 @@ Entre los electrodos del condensador fluye una corriente no deseada cuando exist
 El comportamiento de los condensadores reales (convencionales o electroquímicos), son modelados por un circuito equivalente, donde se introducen componentes que representan las imperfecciones del funcionamiento del condensador real.\\
 En la figura \ref{fig:ciruitos_equivalente} se muestran dos circuitos equivalentes empleados para modelar un supercondensador. El de la figura \ref{fig:eq_classic} es un circuito clásico para modelar un supercondensador \citep{Spyker2000}, el de la figura \ref{fig:eq_randles} se denomina circuito Randles, donde el componente adicional marcado con una  letra W, corresponde a la impedancia de Warburg, un elemento que modela la difusión de iones del electrolito \citep{Wang2009}
 
-Con un modelo para el supercondensador se pueden encontrar los valores para cada componente de circuito mediante espectroscopía de impedancia electroquímica (EIS).
+Con un modelo para el supercondensador, se pueden encontrar los valores para cada componente del circuito equivalente mediante espectroscopia de impedancia electroquímica (EIS).
 %\begin{figure}
 %	\centering
 %	\fbox{
@@ -265,7 +265,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 \newcommand{\circuitscale}{1}
 \begin{figure}[h!]
 	\centering
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}[b]{0.5\textwidth}
 		\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
 			\draw (0,0)
 			to [R=$R_s$,  o-] (2,0)
@@ -280,7 +280,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 		\caption{Circuito equivalente clásico.}
 		\label{fig:eq_classic}
 	\end{subfigure}\hfill
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}[b]{0.5\textwidth}
 			\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
 			\draw (0,0)
 			to [R=$R_s$,  o-] (2,0)
@@ -308,7 +308,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 			at={(0.02,0.98)},
 			anchor=north west,
 		},
-		legend entries = {Circuito clásico, Circuito Randles}
+		legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
 		]
 		\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
 		\pgfplotstablegetrowsof{\eistable}
@@ -325,7 +325,7 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 		\end{axis}
 		\end{tikzpicture}
 		\label{fig:eis_equivalent}
-		\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes \subref{fig:eq_classic} y \subref{fig:eq_randles}. Obtenido en EIS Spectrum Analyser (Bondarenko A. S., Ragoisha G. A. In Progress in Chemometrics Research, Pomerantsev A. L., Ed.; Nova Science Publishers: New York, 2005, pp. 89–102 (the program is available online at \url{http://www.abc.chemistry.bsu.by/vi/analyser/}).}
+		\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes \subref{fig:eq_classic} y \subref{fig:eq_randles}. Obtenido en EIS Spectrum Analyser \footnotemark.}
 	\end{subfigure}
 	\caption[Circuitos equivalentes]{Circuitos equivalentes.}
 	\label{fig:ciruitos_equivalente}
@@ -367,31 +367,33 @@ Con un modelo para el supercondensador se pueden encontrar los valores para cada
 %\end{figure}
 
 \subsection{Supercondensadores}
-Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito en cuya interfaz con los electrodos, se forma una doble capa electrostática. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolíto (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa electrostática de Helmholtz, se habla de condensadores de doble capa. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se tienen supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente.
+Un supercondensador es un condensador que exhibe una capacitancia mucho mayor a la de un condensador normal (fácilmente 1000 veces mayor). No utilizan un material dieléctrico, si no un electrolito en cuya interfaz con los electrodos, se forma una doble capa eléctrica. Estos dispositivos están compuestos por dos electrodos de un material de gran área superficial específica, separados por una membrana permeable empapada en electrolito (ver figura \ref{fig:edlc}). Si la capacidad del dispositivo surge de la separación de cargas en una doble capa eléctrica de Helmholtz, se habla de condensadores de doble capa o simplemente supercondensadores. Por otro lado, si la capacitancia surge de reacciones redox en los electrodos, se denominan pseudocondensadores, más aún, si la capacitancia surge de una doble capa y de reacciones redox, se  les llama supercondensadores híbridos, donde generalmente, cada electrodo es de un material diferente y cada uno pensado para un mecanismo distinto de almacenamiento de carga.
 
 \subsection{Doble capa electrostática de Helmholtz}
 %TODO explicación doble capa
-La gran densidad de energía de un supercondensador tiene que surgir de algún mecanismo de almacenamiento de cargas. A diferencia de las baterías, este mecanismo es puramente físico, pues no hay reacciones químicas en los electrodos, las cargas son separadas en lo que H. Helmholtz llamó \emph{Doble capa electrónica} \citep{Frackowiak2001}, así, los supercondensadores también son llamados EDLCs (del inglés \emph{Electric Double Layer Capacitor}), la cual consiste en
+La gran densidad de energía de un supercondensador tiene que surgir de algún mecanismo de almacenamiento de cargas. A diferencia de las baterías, este mecanismo es puramente físico, pues no hay reacciones químicas en los electrodos, las cargas son separadas en lo que H. Helmholtz llamó \emph{Doble capa electrónica}, (los supercondensadores también son llamados EDLCs, del inglés \emph{Electric Double Layer Capacitors}), la cual consiste en una capa de especies cargadas separadas, a lo largo de la interfaz electrodo-solución\citep{Frackowiak2001}. 
+ \footnotetext{Bondarenko A. S., Ragoisha G. A. In Progress in Chemometrics Research, Pomerantsev A. L., Ed.; Nova Science Publishers: New York, 2005, pp. 89–102 (the program is available online at \url{http://www.abc.chemistry.bsu.by/vi/analyser/}}
+
 
 \begin{figure}[h!]
 	\centering
 	\fbox{
 		\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}
 		}
-	\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa electrónica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
+	\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa eléctrica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
 	\label{fig:edlc}
 \end{figure}
 
 \subsection{Pseudocapacitancia}
 %TODO
-Cuando en un supercondensador existe intercambio de electrones entre los electrodos y el electrolito (reacciones redox), se habla de pseudocapacitancia. El intercambio de electrones 
+Si, en supercondensador existe intercambio de electrones entre los electrodos y el electrolito (reacciones redox), su densidad de energía aumenta, y por consiguiente surge una capacitancia aparente, que no ha de confundirse con la de un supercondensador de doble capa. El cambio de fase debido a estas reacciones redox, limitan la vida útil y su densidad de energía\citep{Frackowiak2001}. Dicha capacitancia aparente se conoce como pseudocapacitancia y se hace evidente en el gráfico corriente-voltaje en una voltametría cíclica, en forma de picos en potenciales bien definidos.
 
 
 \subsection{Mediciones en supercondensadores}
-
+Existen varios métodos de caracterización para supercondensadores y dispositivos electroquímicos en general, en este trabajo se utilizarán los tres siguientes: voltametría cíclica, espectroscopia de impedancia electroquímica y ciclos de carga y descarga cíclica.
 \subsubsection{Voltametría cíclica}
 %TODO explicar mejor
-En una voltametría cíclica convencional, se varía el potencia entre los electrodos de manera lineal mientras se mide la corriente. Típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, velocidad de barrido.
+En una voltametría cíclica convencional, se varía el potencial entre los electrodos de manera lineal mientras se mide la corriente. Típicamente el barrido de voltaje se realiza entre dos voltajes fijos, y el recorrido se hace de ida y vuelta. Los parámetros importantes en la voltametría cíclica son: voltajes límite inferior y superior, y velocidad de barrido.
 
 La capacitancia específica $C_s$, puede ser calculada de la voltametría cíclica según la ecuación \ref{eq:cyclic_voltametry},
 

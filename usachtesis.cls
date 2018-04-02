@@ -56,8 +56,21 @@
 \newcommand\profesorguia[1]{\renewcommand\@profesorguia{#1}}
 \newcommand\@profesorguia{}
 
-\newcommand\anolol[1]{\renewcommand\@anolol{#1}}
-\newcommand\@anolol{}
+\newcommand\anno[1]{\renewcommand\@anno{#1}}
+\newcommand\@anno{}
+
+\newcommand\jefecarrera[1]{\renewcommand\@jefecarrera{#1}}
+\newcommand\@jefecarrera{}
+
+\newcommand\comision[3]{
+	\renewcommand\@commisionFirst{#1}
+	\renewcommand\@commisionSecond{#2}
+	\renewcommand\@commisionThird{#3}}
+\newcommand\@commisionFirst{}
+\newcommand\@commisionSecond{}
+\newcommand\@commisionThird{}
+
+\newcommand{\@largoLinea}{4cm}
 
 \renewcommand{\maketitle}{
 	\makebox[\textwidth]{
@@ -95,19 +108,45 @@
 	\vfill
 	
 	\begin{center}
-		\textbf{Santiago -  Chile\\\@anolol}
+		\textbf{Santiago -  Chile\\\@anno}
 	\end{center}
 	}
 	
 \newcommand{\derechosdeautor}{
 	\vfill
 	\begin{center}
-		\textbf{© \@author, \@anolol\\
+		\textbf{© \@author, \@anno\\
 			Licencia Creative Commons Atribución-NoComercial Chile 3.0}
 		\\
 	\end{center}
 	
 	}
+
+\newcommand{\hojacalificacion}{
+	\vfill
+	\begin{center}
+		\large{\textbf{\@title}}\\ %\vspace*{2cm}
+	\end{center}
+	\begin{center}
+		\textbf{\@author}
+	\end{center}
+	\vfill
+	Este trabajo de tesis fue elaborado bajo la supervisión del profesor Dr. \@profesorguia, que ha sido aprobado por la Comisión Calificadora:
+	\vfill
+	\begin{flushright}
+		\@commisionFirst\quad\rule{\@largoLinea}{0.4pt}\\
+		\vspace{1cm}
+		\@commisionSecond\quad\rule{\@largoLinea}{0.4pt}\\
+		\vspace{1cm}
+		\@commisionThird\quad\rule{\@largoLinea}{0.4pt}\\
+	\end{flushright}
+	\vfill
+	\begin{flushleft}
+		\rule{\@largoLinea}{0.4pt}\\
+		\@jefecarrera\\
+		Jefe de Carrera
+	\end{flushleft}
+}
 
 \addto\captionsspanish{
 	\renewcommand{\contentsname}{Tabla de contenidos}

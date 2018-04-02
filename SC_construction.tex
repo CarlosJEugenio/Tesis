@@ -1,7 +1,7 @@
 %\chapter{Construcción de supercondensadores}
-Un supercondensador es construido haciendo el sándwich electrodo-separador-electrodo más la adición de un electrolito. Éste último, es una solución acuosa de hidróxido de potasio (\ce{KOH}) a una concentración 6M, la que es utilizada ampliamente en este tipo de estudios \citep{Frackowiak2001}.  El material que servirá de electrodo debe estar depositado en un colector de corriente, o ser una lámina libre, en este trabajo los electrodos los conforman láminas de grafeno, mientras que los colectores son discos de acero inoxidable UNS316L, que presenta mayor resistencia a la corrosión por hidróxido de potasio. Por otro lado, el separador es una membrana permeable al electrolito, el cual puede ser una membrana microporosa o papel filtro de celulosa, este último es el empleado en esta tesis.
+Un supercondensador es construido haciendo el sándwich electrodo-separador-electrodo, más la adición de un electrolito. Este último, es una solución acuosa de hidróxido de potasio (\ce{KOH}), a una concentración 6M; esta es utilizada ampliamente en este tipo de estudios \citep{Frackowiak2001}.  El material que servirá de electrodo debe estar depositado en un colector de corriente, o bien ser una lámina libre. Por otro lado, el separador es una membrana permeable al electrolito, el cual puede ser una membrana microporosa o papel filtro de celulosa, este último es el empleado en esta tesis.
 
-La primera aproximación a la construcción del supercondensador se explica en la secuencia de la figura \ref{fig:SC_process}. Primero se adhiere el colector de corriente metálico a un sustrato de vidrio. Segundo, se delimita el área a depositar mediante una cinta adhesiva. Tercero se deposita mediante goteo la solución de grafeno en el colector de corriente. Cuarto, se evapora el líquido dispersante . Quinto, se añaden gotas de electrolito. Sexto, se cierra el sistema con un segundo electrodo.
+La primera aproximación a la construcción del supercondensador se explica en la secuencia de la figura \ref{fig:SC_process}. Primero se adhiere el colector de corriente metálico a un sustrato de vidrio. Segundo, se delimita el área a depositar mediante una cinta adhesiva. Tercero se deposita mediante goteo la dispersión de óxido de grafeno reducido en el colector de corriente. Cuarto, se evapora el líquido dispersante. Quinto, se añaden gotas de electrolito. Sexto, se cierra el sistema con un segundo electrodo.
 
 \begin{figure}[h!]
 	\centering
@@ -13,29 +13,39 @@ La primera aproximación a la construcción del supercondensador se explica en l
 \end{figure}
 
 \section{Celda de pruebas de supercondensador}
-La construcción de supercondensadores como se detalla anteriormente, presenta varios inconvenientes: (1) los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente al exponerse al electrolito (KOH). (2) la deposición de material en los colectores de corriente no es homogénea, generando zonas donde el colector queda expuesto al electrolito. (3) el agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. (4) el cierre del dispositivo no es estable y no permite su reproducibilidad, y por consiguiente (5) la conexión a los terminales eléctricos no es estable. Por estas razones y conservando los principios básicos de la construicción de supercondensadores, se diseña una celda de pruebas para solucionar estos problemas.
+La construcción de supercondensadores como se detalla anteriormente, presenta varios inconvenientes: (1) los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente al exponerse al electrolito (KOH), y son propensos a reacciones redox. (2) la deposición de material en los colectores de corriente no es homogénea, generando zonas donde el colector queda expuesto al electrolito. (3) el agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. (4) el cierre del dispositivo no es estable y no permite su reproducibilidad, y por consiguiente (5) la conexión a los terminales eléctricos no es estable. Por estas razones y conservando los principios básicos de la construicción de supercondensadores, se diseña una celda de pruebas para solucionar estos problemas.
 
 La celda diseñada y construida (figura \ref{fig:celda_de_pruebas_SC}), consta de dos colectores de corriente de acero inoxidable, entre los que se ubica el supercondensador. Los colectores de corriente tienen juntas tóricas que impiden la fuga del electrolito o la evaporación del agua en él, permitiendo una operación estable en el tiempo. Los colectores de corriente se apoyan en bloques de acero que aseguran la celda con cuatro pernos, permitiendo conectar los terminales del potenciostato a la celda de pruebas.
 
 \begin{figure}[h!]
 	\centering
 	\fbox{
-		\includegraphics[width=0.8\textwidth]{cell3.pdf}
-		}
-	\caption[Celda de pruebas de supercondensador]{Izquierda: Vista en corte longitudinal de la celda de pruebas mostrando los componentes más importantes. Derecha: Fotografía de la celda armada y conectada al potenciostato.}
+	\begin{subfigure}[b]{0.5\textwidth}
+		\includegraphics[width=\textwidth]{cell_scheme.pdf}
+		\caption{}
+		\label{fig:cell_scheme}
+	\end{subfigure}\hspace{1cm}
+	\begin{subfigure}[b]{0.25\textwidth}
+		\includegraphics[width=\textwidth]{cell_image.pdf}
+		\caption{}
+		\label{fig:cell_image}
+	\end{subfigure}
+	}
+	\caption[Celda de pruebas de supercondensador]{\subref{fig:cell_scheme} vista en corte longitudinal de la celda de pruebas mostrando los componentes más importantes. \subref{fig:cell_image} fotografía de la celda armada y conectada al potenciostato.}
 	\label{fig:celda_de_pruebas_SC}
 \end{figure}
 
 \section{Construcción de electrodos}
-Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro, que tiene mayor área superficial (EQ-bcnf-16m, MTI Corporation). Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado ultrasonicamente en etilenglicol, que mostró mayor homogeneidad que el agua para la deposición de rGO, y depositado por goteo hasta cubrir completamente el sustrato de acero previamente calentado a 150 \degree C. Un segundo par se fabrica añadiendo polimetilmetacrilato (PMMA), a la solución a depositar, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, el tercer y cuarto par repiten los procesos anteriores pero cambiando el sustrato de acero por el de níquel. Manteniendo el sustrato de acero, el quinto par consiste en electrodos de papel fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtro y luego recortada al tamaño apropiado para la celda de pruebas (7 mm). El material dispersado en agua también puede ser liofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
+Se fabrican seis pares de electrodos utilizando el mismo material sintetizado, pero diferentes sustratos y diferentes métodos de deposisión. Se utilizan dos tipos de sustratos, el primero es un disco de acero UNS316L de 7 mm de díametro, el segundo es un disco de espuma de níquel también de 7 mm de diámetro, que tiene mayor área superficial (EQ-bcnf-16m, MTI Corporation). Para fabricar el primer par de electrodos, el material en forma de polvo es dispersado ultrasonicamente en etilenglicol, que mostró mayor homogeneidad que el agua para la deposición de rGO, y depositado por goteo hasta cubrir completamente el sustrato de acero previamente calentado a 150 \degree C. Un segundo par se fabrica añadiendo polimetilmetacrilato (PMMA), a la solución a depositar, este se disuelve en acetona a una concentración de 10 mg/ml, solución donde se dispersa el óxido reducido de grafeno por medio de ultrasonido y luego es depositada por goteo en el sustrato de acero a 50 \degree C. De forma análoga, el tercer y cuarto par repiten los procesos anteriores pero cambiando el sustrato de acero por el de níquel. Manteniendo el sustrato de acero, el quinto par consiste en electrodos de papel fabricados mediante filtración por vacío. En este método, se dispersa el rGO en agua, la que se pasa por un filtro de celulosa en un embudo Büchner conectado a un kitasato y una bomba de vacío, el filtro con el material atrapado se deja secar a temperatura ambiente formando una lámina, la que es desprendida con facilidad del filtro y luego recortada al tamaño apropiado para la celda de pruebas (7 mm). El material dispersado en agua también puede ser liofilizado, obteniendo una espuma de rGO que es utilizada como electrodo en la celda.
 %TODO balanza
-La masa del material depositado se mide en una balanza analítica (), conociendo previamente la masa de los sustratos y teniendo la precaución que el solvente se haya evaporado totalmente. Para los discos de papel de rGO, se masan 20 de ellos y se calcula la masa promedio de cada uno. En el caso del material liofilizado, se masa directamente la cantidad a utilizar en la celda de pruebas. En la tabla \ref{tab:electrodos_construidos} se resumen los electrodos fabricados, detallando la masa de material activo.
+La masa del material depositado se mide en una balanza analítica (), conociendo previamente la masa de los sustratos y teniendo la precaución que el solvente se haya evaporado totalmente. Para los discos de papel de rGO, se masan 20 de ellos y se calcula la masa promedio de cada uno. En el caso del material liofilizado, se masa directamente la cantidad a utilizar en la celda de pruebas. En la tabla \ref{tab:electrodos_construidos} se resumen los electrodos fabricados, detallando la masa de material activo y en la figura \ref{fig:electrodes} se muestran algunos de estos.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Muestras}
+	\caption{Electrodos fabricados para supercondensadores.}
 	\begin{tabular}{ l l l l l c }
-		Nombre	&	Sustrato & Formato       & Aglutinate & Masa [mg]     & Caracterización electroquímica \\
+		\multirow{2}{*}{Nombre}	&\multirow{2}{*}{Sustrato} & \multirow{2}{*}{Formato}& \multirow{2}{*}{Aglutinante} & \multirow{2}{*}{Masa [mg]}& Caracterización\\
+				&			&				&				&				&  electroquímica \\
 		\hline
 		\mSustratoAcero		&	Acero    &   -           & -      &  -            & Figura \ref{SCGraphs:CV_Steel_Disk_No_Material_1} \\
 		\mPolvoAcero			&	Acero    & Polvo         & -      & 0,4 $\pm$ 0,2 & Figura \ref{SCGraphs:CV_CRGO300517_9}             \\
@@ -49,12 +59,53 @@ La masa del material depositado se mide en una balanza analítica (), conociendo
 	\label{tab:electrodos_construidos}
 \end{table}
 
+\newcommand{\electrodesWidth}{0.22\textwidth}
 \begin{figure}
 	\centering
-	\fbox{
-		\includegraphics[width=1.0\textwidth]{rgo_electrodes.png}
-		}
-	\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador. De izquierda a derecha: Electro sin material depositado. Electrodo con material depositado mediante goteo (\emph{drop-casting}). Electrodo con material en forma de papel descentrado. Electrodo con material en forma de papel bien centrado sobre el metal.}
+	\begin{adjustbox}{minipage=\linewidth,frame}
+	\centering
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_steel.png}
+			\caption{\mSustratoAcero}
+			\label{fig:substrate_steel}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
+			\caption{\mPolvoAcero}
+			\label{fig:electrode_powder_ac}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
+			\caption{\mPolvoAceroPMMA}
+			\label{fig:electrode_powder_pmma_ac}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_paper.png}
+			\caption{\mPapelAcero}
+			\label{fig:electrode_paper}
+		\end{subfigure}\linebreak
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_lio.png}
+			\caption{\mLiofilizadoAcero}
+			\label{fig:electrode_lio}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_ni.png}
+			\caption{\mSustratoNiquel}
+			\label{fig:substrate_nickel}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
+			\caption{\mPolvoNiquel}
+			\label{fig:electrode_powder_ni}
+		\end{subfigure}
+		\begin{subfigure}[b]{\electrodesWidth}
+			\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
+			\caption{\mPolvoNiquelPMMA}
+			\label{fig:electrode_powder_pmma_ni}
+		\end{subfigure}
+	\end{adjustbox}
+	\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador, nombrados por sus alias de la tabla \ref{tab:electrodos_construidos}. El electrodo \mLiofilizadoAcero de la figura \subref{fig:electrode_lio}, se introduce en la celda tal cual se muestra, procurando cubrir todo el sustrato de acero.}
 	\label{fig:electrodes}
 \end{figure}
 
@@ -66,7 +117,7 @@ La metodología de medición para cada muestra es la siguiente: inicialmente se 
 
 \begin{table}[h!]
 	\centering
-	\caption{Parámetros de medición}
+	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
 	\begin{tabular}{ l r }
 		Voltametría cíclica &  \\
 		\hline
@@ -163,8 +214,8 @@ En la figura \ref{fig:resumen_cv} se comparan voltametrías a una velocidad de b
 	\centering
 	\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
 	\begin{tabular}{ l l c c c }
-		Muestra				& Masa [mg]     & Capacitancia [mF]	& Capacitancia específica [F/g] &	Error	\\
-							&               & a 100 [mV/s]		& a 100 [mV/s]               	&			\\
+		\multirow{2}{*}{Muestra}& \multirow{2}{*}{Masa [mg]}& \multirow{2}{*}{Capacitancia [mF]}	& Capacitancia & \multirow{2}{*}{Error}\\
+								&         			      & 										& específica [F/g]     &			\\
 		\hline
 		\mSustratoAcero		&  -            &			0.1			&	-				&	-		\\
 		\mPolvoAcero		& 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	&	50\%	\\
