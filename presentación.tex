@@ -6,17 +6,23 @@
 %%package para bibliografía
 \usepackage{natbib}
 \usepackage[american,siunitx]{circuitikz}
-
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage{caption}
+\captionsetup{font=scriptsize,labelfont=scriptsize}
+\captionsetup[subfigure]{font=scriptsize,labelfont=scriptsize}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable,tabularx,booktabs}
 \usepgfplotslibrary{units}
-
+\usepackage{multirow}
+\usepackage{xcolor,colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
 
 \let\clipbox\relax
 \usepackage{adjustbox}
 
-\newcommand{\plotwidth}{0.3\textwidth}
-\newcommand{\plotscale}{0.8}
+\newcommand{\plotwidth}{0.2\textwidth}
+\newcommand{\plotscale}{0.4}
 
 \captionsetup{subrefformat=parens}
 
@@ -33,6 +39,16 @@
 		\alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
 	},
 }
+
+%nombre de muestras:
+\newcommand{\mSustratoAcero}{SusAc }
+\newcommand{\mPolvoAcero}{PolvoAc }
+\newcommand{\mPolvoAceroPMMA}{PolvoAc+pmma }
+\newcommand{\mPapelAcero}{PapelAc }
+\newcommand{\mLiofilizadoAcero}{LioAc }
+\newcommand{\mSustratoNiquel}{SusNi }
+\newcommand{\mPolvoNiquel}{PolvoNi }
+\newcommand{\mPolvoNiquelPMMA}{PolvoNi+pmma }
 
 \definecolor{RYB1}{RGB}{228,26,28}
 \definecolor{RYB2}{RGB}{55,126,184}
@@ -60,12 +76,86 @@
 	{RYB7},every mark/.append style={fill=RYB7!80!black},mark=square\\
 }
 
+
+\pgfplotsset{
+	compat=1.15,
+	CVStyle/.style={
+		title=Voltametría Cíclica,
+		domain=-0.8:0.8,
+		xtick distance=0.4,
+		minor tick num=1,
+		ylabel={Densidad de corriente [A/g]},
+		xlabel={Voltaje [V]},
+		every axis legend/.append style={
+			font=\normalsize,
+			at={(0.98,0.02)},
+			anchor=south east,
+		},
+		legend entries={25mV/s,50mV/s,100mV/s,200mV/s,400mV/s},
+		cycle list name=colorbrewer-RYB,
+		no markers,
+	},
+	SCStyle/.style={
+		title=Capacidad Específica,
+		domain=25:400,
+		ylabel={Capacidad específica [F/g]},
+		xlabel={Velocidad de barrido [mV/s]},
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.98)},
+			anchor=north east,
+		},
+		legend entries={Antes, Después},
+		cycle list name=colorbrewer-RYB,
+		every mark/.append style={
+			fill opacity=0.5,
+			draw opacity=0.5,}
+	},
+	EISStyle/.style={
+		title=Espectro de impedancia electroquímica,
+		domain=0:50,
+		ylabel={-Z imag [$\Omega$]},
+		xlabel={Z real [Ohm]},
+		cycle list name=colorbrewer-RYB,	
+	},
+	CCDStyle/.style={
+		title=Carga y descarga cíclica,
+		ylabel={Voltaje [V]},
+		xlabel={Tiempo [s]},
+		cycle list name=colorbrewer-RYB,
+		mark size = 1pt,
+		line width = 0.1pt,
+		%		only markers,
+		every axis legend/.append style={
+			font=\tiny,
+			at={(0.98,0.02)},
+			anchor=south east,
+		},
+		legend entries={Primeros ciclos, Últimos ciclos},
+	},
+}
+
+\pgfplotsset{
+	/pgfplots/bar  cycle  list/.style={/pgfplots/cycle  list={%
+			{RYB1,fill=RYB1!80!black,mark=*},
+			{RYB2,fill=RYB2!80!black,mark=square*},
+			{RYB3,fill=RYB3!80!black,mark=diamond*},
+			{RYB4,fill=RYB4!80!black,mark=triangle*},
+			{RYB5,fill=RYB5!80!black,mark=*},
+			{RYB6,fill=RYB6!80!black,mark=square*},
+			{RYB7,fill=RYB7!80!black,mark=diamond*},
+		}
+	},
+}
 \title{Síntesis de grafeno por medios químicos}
 \subtitle{y supercondensadores basados en grafeno}
 \date{\today}
-\author{Carlos Eugenio}
 \institute{Universidad de Santiago de Chile\\ Laboratorio de Nanosíntesis}
 \begin{document}
+	\author[Carlos Eugenio]{\begin{tabular}{r@{ }l} 
+			Autor:      & Carlos Eugenio \\[1ex] 
+			Profesor guía: & Dinesh Pratap Singh
+	\end{tabular}}
 	\maketitle
 	\begin{frame}
 		\frametitle{Table of Contents}
@@ -79,6 +169,7 @@
 		\begin{itemize}
 			\item Sintetizar óxido de grafeno reducido, para su utilización en electrodos de supercondensadores.
 		\end{itemize}
+	
 	\end{frame}
 
 	\subsection{Objetivos específicos}
@@ -108,48 +199,48 @@
 	\begin{frame}{Introducción}
 		\begin{figure}
 			\centering
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphite_structure.pdf}
 				\caption{}
 				\label{fig:graphite_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphite_image.jpg}
 				\caption{}
 				\label{fig:graphite_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphene_structure.pdf}
 				\caption{}
 				\label{fig:graphene_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphene_image.jpg}
 				\caption{}
 				\label{fig:graphene_image}
 			\end{subfigure}
 			\\
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{cnt_structure.pdf}
 				\caption{}
 				\label{fig:cnt_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{cnt_image.png}
 				\caption{}
 				\label{fig:cnt_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_structure.pdf}
 				\caption{}
 				\label{fig:fullerene_structure}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_image.jpg}
 				\caption{}
 				\label{fig:fullerene_image}
 			\end{subfigure}
-			\caption[Alótropos del carbono mostrando las diferentes dimensionalidades de los nanomateriales]{Estructuras e imágenes de varios alótropos del carbono como ejemplos de la dimensionalidad de los nanomateriales:  \subref{fig:graphite_struct} y \subref{fig:graphite_image} grafito natural, un material 3D. \subref{fig:graphene_struct} y \subref{fig:graphene_image} grafeno, imagen de microscopia de efecto túnel (Frank Trixler, LMU/CeNS: Organic Semiconductor Group), un material 2D. \subref{fig:cnt_struct} y \subref{fig:cnt_image} nanotubo de carbono, imagen SEM de un dispositivo para medir diferentes propiedades del nanotubo (Pavlos Apostolidis, London Centre for Nanotechnology, Department of Physics \& Astronomy), un material 1D. \subref{fig:fullerene_structure} y \subref{fig:fullerene_image} fullereno, imagen TEM de fullerenos C80 funcionalizados dentro de un nanotubo de carbono \citep{Gimenez2011}, un material 0D.}
+			\caption[Alótropos del carbono mostrando las diferentes dimensionalidades de los nanomateriales]{\subref{fig:graphite_struct} y \subref{fig:graphite_image} grafito natural. \subref{fig:graphene_struct} y \subref{fig:graphene_image} grafeno(Frank Trixler, LMU/CeNS: Organic Semiconductor Group). \subref{fig:cnt_struct} y \subref{fig:cnt_image} nanotubo de carbono, (Pavlos Apostolidis, London Centre for Nanotechnology, Department of Physics \& Astronomy). \subref{fig:fullerene_structure} y \subref{fig:fullerene_image} fullereno\citep{Gimenez2011}.}
 			\label{fig:carbon_allotropes}
 		\end{figure}
 	\end{frame}
@@ -177,7 +268,7 @@
 			\label{fig:ragone}
 		\end{figure}
 	\end{frame}
-
+\newcommand{\clipradius}{2cm}
 	\section{Ruta de síntesis}
 	\begin{frame}{Ruta de síntesis}
 %		\begin{figure}
@@ -187,11 +278,65 @@
 %			}
 %			\caption[Método experimental simplicado para la síntesis de óxido de grafeno y óxido reduxido de grafeno]{Método experimental simplificado para la síntesis de óxido de grafeno y óxido reducido de grafeno.}
 %		\end{figure}
-		\begin{tikzpicture}[]
-		\clip(0,0)circle[x radius=1cm, y radius=1cm];
-		\clip(0,0)circle[x radius=2cm, y radius=2cm];
-		\node{\includegraphics[width=\textwidth]{experimental_method.pdf}};
-		\end{tikzpicture}
+		\begin{figure}
+			\begin{tikzpicture}[]
+			\path[ use as bounding box] (-5,-5) rectangle(5,3);
+				\only<1->{\begin{scope}
+					\clip[] (-3.5, 1.5)	circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+				\end{scope}}
+				\only<2->{\begin{scope}
+					\clip[] (0, 1.5)	circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+				\only<3->{\begin{scope}
+					\node[draw] at (5,1.5) {\ce{Mn2O7}};
+					\node[scale=0.5] at (5,1) {\chemfig{Mn-[:120.7]O-[:200]Mn}};
+					\clip[] (3.5, 1.5)	circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+				\only<4->{\begin{scope}
+					\clip[] (3.5, -1) circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+				\only<5->{\begin{scope}
+					\clip[] ( 0, -1) circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+				\end{scope}}
+				\only<6->{\begin{scope}
+					\clip[] (-3.5, -1) circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+				\only<7->{\begin{scope}
+					\clip[] (0, -3.5) circle(\clipradius);
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+				\only<8->{\begin{scope}
+					\clip[] ( 3.5, -3.5) circle(\clipradius) ;
+					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\end{scope}}
+			\end{tikzpicture}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}{Resultados de la síntesis}
+		\begin{figure}[h]
+			\centering
+			\fbox{
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{RGO_pic.png}
+					\caption{rGO}
+					\label{fig:RGO}
+				\end{subfigure}
+				\begin{subfigure}{0.42\textwidth}
+					\includegraphics[width=\textwidth]{GO_pic.png}
+					\caption{GO}
+					\label{fig:GO}
+				\end{subfigure}
+			}
+			\caption[Dispersiones de rGO y GO en agua]{Dispersiones de rGO y GO en agua.}
+			\label{fig:RGOyGO}
+		\end{figure}
 	\end{frame}
 	
 	\begin{frame}{XRD}
@@ -225,8 +370,404 @@
 		\end{figure}
 	\end{frame}
 
+	\section{Supercondensadores}
+	\begin{frame}{Construcción de supercondensadores}
+		\begin{figure}[h!]
+			\centering
+			\fbox{
+				\includegraphics[width = 0.9\textwidth]{SC_process.pdf}
+			}
+			\caption[Principio de contrucción de un supercondensador]{Secuencia para la construcción de un supercondensador básico.}
+			\label{fig:SC_process}
+		\end{figure}
+	\end{frame}
 
+	\begin{frame}{Celda de pruebas}
+		\begin{figure}[h!]
+			\centering
+			\fbox{
+				\begin{subfigure}[b]{0.5\textwidth}
+					\includegraphics[width=\textwidth]{cell_scheme.pdf}
+					\caption{}
+					\label{fig:cell_scheme}
+				\end{subfigure}\hspace{1cm}
+				\begin{subfigure}[b]{0.25\textwidth}
+					\includegraphics[width=\textwidth]{cell_image.pdf}
+					\caption{}
+					\label{fig:cell_image}
+				\end{subfigure}
+			}
+			\caption[Celda de pruebas de supercondensador]{\subref{fig:cell_scheme} vista en corte longitudinal de la celda de pruebas mostrando los componentes más importantes. \subref{fig:cell_image} fotografía de la celda armada y conectada al potenciostato.}
+			\label{fig:celda_de_pruebas_SC}
+		\end{figure}
+	\end{frame}
 	
+	\newcommand{\electrodesWidth}{0.22\textwidth}
+	\begin{frame}{Construcción de electrodos}
+		\begin{figure}
+			\centering
+			\begin{adjustbox}{minipage=0.7\linewidth,frame}
+				\centering
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_steel.png}
+					\caption{\mSustratoAcero}
+					\label{fig:substrate_steel}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
+					\caption{\mPolvoAcero}
+					\label{fig:electrode_powder_ac}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
+					\caption{\mPolvoAceroPMMA}
+					\label{fig:electrode_powder_pmma_ac}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_paper.png}
+					\caption{\mPapelAcero}
+					\label{fig:electrode_paper}
+				\end{subfigure}\linebreak
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_lio.png}
+					\caption{\mLiofilizadoAcero}
+					\label{fig:electrode_lio}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_ni.png}
+					\caption{\mSustratoNiquel}
+					\label{fig:substrate_nickel}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
+					\caption{\mPolvoNiquel}
+					\label{fig:electrode_powder_ni}
+				\end{subfigure}
+				\begin{subfigure}[b]{\electrodesWidth}
+					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
+					\caption{\mPolvoNiquelPMMA}
+					\label{fig:electrode_powder_pmma_ni}
+				\end{subfigure}
+			\end{adjustbox}
+			\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador.}
+			\label{fig:electrodes}
+		\end{figure}
+	\end{frame}
+	
+	\begin{frame}{Caracterización electroquímica}
+		\begin{table}[h!]
+			\centering
+			
+			\begin{tabular}{ l r }
+				Voltametría cíclica &  \\
+				\hline
+				Voltaje inicial [V] & 0 \\
+				Límite inferior [V] & -0,8 \\
+				Límite superior [V] & 0,8  \\
+				Número de ciclos & 3 \\
+				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400 \\
+				& \\
+				Carga y descarga cíclica & \\
+				\hline
+				Densidad de corriente [A/g] & 0,1 ó 	1 \\
+				Número de ciclos & 1000 \\
+				Límite inferior [V] & 0 \\
+				Límite superior [V] & 1 \\
+				& \\
+				Espectroscopía de impedancia electroqúimica & \\
+				\hline
+				Frecuencia inicial	&	1 MHz \\
+				Frecuencia final	&	0.1 Hz \\
+				Corriente de exitación & 1 mA rms \\ 
+			\end{tabular}
+			\label{tab:elec_config}
+			\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}{Resultados}
+		\begin{figure}[h!]
+			\centering
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}
+				[
+				CVStyle,
+				legend entries={\mPapelAcero, \mLiofilizadoAcero}
+				]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_11/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_13/raw/sample3.txt};
+				\end{axis}
+				\end{tikzpicture}
+%				\subcaption{Antes de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_9/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_3/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_5/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};	
+				\end{axis}
+				\end{tikzpicture}
+%				\subcaption{Antes de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPapelAcero, \mLiofilizadoAcero}
+				]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
+				\end{axis}
+				\end{tikzpicture}
+%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				] 
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+				\end{axis}
+				\end{tikzpicture}
+%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+			\label{fig:resumen_cv}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}{Resumen Capacitancia}
+		\begin{table}[h!]
+			\centering
+			\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
+			\begin{tabular}{ l l c c c }
+				\multirow{2}{*}{Muestra}& \multirow{2}{*}{Masa [mg]}& \multirow{2}{*}{Capacitancia [mF]}	& Capacitancia & \multirow{2}{*}{Error}\\
+				&         			      & 										& específica [F/g]     &			\\
+				\hline
+				\mSustratoAcero		&  -            &			0.1			&	-				&	-		\\
+				\mPolvoAcero		& 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	&	50\%	\\
+				\mPolvoAceroPMMA	& 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	&	7\%		\\
+				\rowcolor{RYB3}
+				\mPapelAcero		& 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	&	17\%	\\
+				\rowcolor{RYB3}
+				\mLiofilizadoAcero	& 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	&	17\%	\\
+				\mSustratoNiquel	&    -          &			0.1			&	- 				&	-		\\
+				\mPolvoNiquel		& 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	&	20\%	\\
+				\mPolvoNiquelPMMA	& 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	&	27\%	\\
+			\end{tabular}                                                          
+			\label{tab:resumen_capacitancia}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}{EIS}
+		\begin{figure}[h!]
+			\centering
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				EISStyle,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.02,0.98)},
+					anchor=north west,
+				},
+				legend entries = {\mPapelAcero, \mLiofilizadoAcero}
+				]
+				\pgfplotstableread{./Data/CV_CRGO300517_11/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\pgfmathsetmacro{\N}{\pgfplotsretval}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\pgfplotstableread{./Data/CV_CRGO300517_13/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(40-1)/(\N-1), ]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\end{axis}
+				\end{tikzpicture}
+			\end{subfigure}\hfill
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				EISStyle,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.98,0.02)},
+					anchor=south east,
+				},
+				legend entries = {\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				]
+				\pgfplotstableread{./Data/CV_CRGO300517_9/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\pgfmathsetmacro{\N}{\pgfplotsretval}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\pgfplotstableread{./Data/CV_CRGO300517_3/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\pgfplotstableread{./Data/CV_CRGO300517_5/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\pgfplotstableread{./Data/CV_CRGO300517_7/raw/eisgalv.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}*-1] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\end{axis}
+				\end{tikzpicture}
+			\end{subfigure}
+			\caption[Resumen del espectro de impedancia electroquímica]{Resumen del espectro de impedancia electroquímica. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+			\label{fig:resumen_eis}
+		\end{figure}
+	\end{frame}
+	
+	\begin{frame}{Carga y descarga}
+		\begin{figure}[h!]
+			\centering
+			\begin{subfigure}{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[CCDStyle,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.98,0.98)},
+					anchor=north east,
+				},
+				legend entries={\mPapelAcero, \mLiofilizadoAcero}]
+				%		\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+				%		\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
+				\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
+				\addplot+[restrict x to domain=0:113.320033] table [ x expr=\thisrow{Time}-138.664967000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_13/raw/chargedischarge.txt};
+				%		\addplot+[restrict x to domain=0:5.743334] table [ x expr=\thisrow{Time}-5.48000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
+				%		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
+				\end{axis}
+				\end{tikzpicture}
+			\end{subfigure}\hfill
+			\begin{subfigure}{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[CCDStyle,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.68,0.88)},
+					anchor=north west,
+				},
+				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				]
+				\addplot+[restrict x to domain=0:4.146667] table [ x expr=\thisrow{Time}-5.22166600000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_9/raw/chargedischarge.txt};
+				\addplot+[restrict x to domain=0:5.748327] table [ x expr=\thisrow{Time}-12.7000030000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_3/raw/chargedischarge.txt};
+				%		\addplot+[restrict x to domain=0:62.000063] table [ x expr=\thisrow{Time}-63.3333370000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_11/raw/chargedischarge.txt};
+				%		\addplot+[restrict x to domain=0:113.320033] table [ x expr=\thisrow{Time}-138.664967000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_13/raw/chargedischarge.txt};
+				\addplot+[restrict x to domain=0:5.743334] table [ x expr=\thisrow{Time}-5.48000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_5/raw/chargedischarge.txt};
+				\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
+				\end{axis}
+				\end{tikzpicture}
+			\end{subfigure}
+			\caption[Resumen de carga y descarga cíclica]{Resumen de carga y descarga cíclica a 1 A/g, exceptuando las muestras de polvo más pmma en disco de acero y polvo en espuma de níquel donde la densidad de corriente es de 0,1 A/g. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+			\label{fig:resumen_ccd}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\begin{table}[h!]
+			\centering
+			\caption{Resistencia en serie equivalente calculada de los ciclos de carga y descarga.}
+			\begin{tabular}{l c c c c}
+				Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia [$\Omega$]	\\
+				\hline
+				\mPolvoAceroPMMA		&	1.000	&	596	&	-0,279	&	1.447	\\
+				\mPolvoNiquel			&	1.000	&	854	&	-0,088	&	1.656	\\
+				\mPolvoNiquelPMMA		&	999		&	402	&	-0,799	&	748		\\
+				\mPolvoAcero			&	1.000	&	719	&	-0,398	&	705		\\
+				\mPapelAcero			&	996		&	911	&	-0,599	&	141		\\
+				\mLiofilizadoAcero		&	1.000	&	909	&	-0,599	&	150		\\
+			\end{tabular}
+			\label{tab:esr}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}
+		\begin{figure}[h]
+			\centering
+			\begin{subfigure}[t]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{semilogxaxis}[
+				SCStyle,
+				only marks,
+				xtick = {25, 50, 100, 200, 400},
+				xticklabels = {25, 50, 100, 200, 400},
+				ylabel = {Capacidad específica [F/g]},
+				ymin = 0,
+				ymax = 50,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.98,0.98)},
+					anchor=north east,
+				},
+				legend entries={\mPapelAcero, \mLiofilizadoAcero, \mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				]
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_11/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_13/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.5] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_9/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_3/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_5/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_7/raw/capacitance.txt};
+				
+				\end{semilogxaxis}
+				\end{tikzpicture}
+				\caption{Capacidad específica antes de 1000 ciclos de carga y descarga. }
+			\end{subfigure}\hfill
+			\begin{subfigure}[t]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{semilogxaxis}[
+				SCStyle,
+				only marks,
+				xtick = {25, 50, 100, 200, 400},
+				xticklabels = {25, 50, 100, 200, 400},
+				ylabel = {Capacidad específica [F/g]},
+				ymin = 0,
+				ymax = 50,
+				every axis legend/.append style={
+					font=\tiny,
+					at={(0.98,0.98)},
+					anchor=north west,
+				},
+				legend entries={\mPapelAcero, \mLiofilizadoAcero, \mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				]
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_12/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_14/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.50000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_10/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_4/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_6/raw/capacitance.txt};
+				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_8/raw/capacitance.txt};
+				
+				\end{semilogxaxis}
+				\end{tikzpicture}
+				\caption{Capacidad específica después de 1000 ciclos de carga y descarga. }
+			\end{subfigure}
+			\caption[Resumen de la capacidad específica]{Resumen de la capacidad específica.}
+			\label{fig:resumen_cs}
+		\end{figure}x
+	\end{frame}
 
 	\section{Bibliografía}
 	\begin{frame}{Bibliografía}
@@ -234,5 +775,7 @@
 		\bibliographystyle{apalike}
 		
 	\end{frame}
+
+	\maketitle
 
 \end{document}
