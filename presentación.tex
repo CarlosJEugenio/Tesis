@@ -7,7 +7,6 @@
 \usepackage{natbib}
 \usepackage[american,siunitx]{circuitikz}
 \usepackage[version=4]{mhchem}
-\usepackage{chemfig}
 \usepackage{caption}
 \captionsetup{font=scriptsize,labelfont=scriptsize}
 \captionsetup[subfigure]{font=scriptsize,labelfont=scriptsize}
@@ -291,7 +290,7 @@
 					\end{scope}}
 				\only<3->{\begin{scope}
 					\node[draw] at (5,1.5) {\ce{Mn2O7}};
-					\node[scale=0.5] at (5,1) {\chemfig{Mn-[:120.7]O-[:200]Mn}};
+					\node[scale=1] at (5,1) {\includegraphics[width=1cm]{Mn2O7.pdf}};
 					\clip[] (3.5, 1.5)	circle(\clipradius);
 					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
 					\end{scope}}
