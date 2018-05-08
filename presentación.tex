@@ -198,43 +198,49 @@
 	\begin{frame}{Introducción}
 		\begin{figure}
 			\centering
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{graphite_structure.pdf}
 				\caption{}
 				\label{fig:graphite_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{graphite_image.jpg}
 				\caption{}
 				\label{fig:graphite_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
-				\includegraphics[width=\textwidth]{graphene_structure.pdf}
+			\begin{subfigure}[b]{0.2\textwidth}
+				\begin{tikzpicture}
+				\node (image) {\includegraphics[width=\textwidth]{graphene_structure.pdf}};
+				\only<2>{\draw[red, ultra thick, rounded corners] (-1,-1) rectangle (1,1);}
+				\end{tikzpicture}
 				\caption{}
 				\label{fig:graphene_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
+%				\begin{tikzpicture}
+%					\node (image) {\includegraphics[width=\textwidth]{graphene_image.jpg}};
+%				\end{tikzpicture}
 				\includegraphics[width=\textwidth]{graphene_image.jpg}
 				\caption{}
 				\label{fig:graphene_image}
 			\end{subfigure}
 			\\
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{cnt_structure.pdf}
 				\caption{}
 				\label{fig:cnt_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{cnt_image.png}
 				\caption{}
 				\label{fig:cnt_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_structure.pdf}
 				\caption{}
 				\label{fig:fullerene_structure}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.15\textwidth}
+			\begin{subfigure}[b]{0.2\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_image.jpg}
 				\caption{}
 				\label{fig:fullerene_image}
@@ -255,6 +261,24 @@
 			\label{fig_graphene_lattice}
 		\end{figure}
 	\end{frame}
+
+
+	\begin{frame}
+		\begin{table}[h!]
+			\centering
+			\begin{tabular}{ l r r }
+				Propiedades del grafeno & & \\
+				\hline
+				 \uncover<1,7>{Movilidad electrónica & 200.000 $\mathrm{cm^2 V^{-1} s^{-1} }$ & \citep{Bolotin2008}}\\
+				 \uncover<2,7>{Tensión de ruptura & 130 GPa & \citep{Lee2008}}\\
+				 \uncover<3,7>{Módulo de Young & 1.0 TPa & \citep{Lee2008}}\\
+				 \uncover<4,7>{Conductividad térmica & 600 a 5000 $\mathrm{W mK^{-1}}$ & \citep{Balandin2011}}\\
+				 \uncover<5,7>{Opacidad & 2,3\% &\citep{Nair2008}}\\
+				 \uncover<6,7>{Reflectacia & $>$0,1\% & \citep{Nair2008}}\\
+			\end{tabular}
+			\caption{Propiedades del grafeno}
+		\end{table}
+	\end{frame}
 	
 	\subsection{Supercondensadores}
 	\begin{frame}{Supercondensadores}
@@ -267,7 +291,34 @@
 			\label{fig:ragone}
 		\end{figure}
 	\end{frame}
-\newcommand{\clipradius}{2cm}
+
+	\begin{frame}
+		\begin{figure}[h!]
+			\centering
+			\fbox{
+				\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}
+			}
+			\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa eléctrica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
+			\label{fig:edlc}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}{EL condensador ideal}
+		\uncover<1>{Ecuación que define un condensador ideal:
+		\begin{equation}
+			C = \frac{Q}{V}
+		\end{equation}}
+		\uncover<2>{Relación corriente y voltage:
+		\begin{equation}
+			i(t) = C \frac{dv(t)}{dt}.
+		\end{equation}}
+	\end{frame}
+
+	\begin{frame}{El condensador real}
+		
+	\end{frame}
+
+	\newcommand{\clipradius}{2cm}
 	\section{Ruta de síntesis}
 	\begin{frame}{Ruta de síntesis}
 %		\begin{figure}
@@ -289,8 +340,8 @@
 					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<3->{\begin{scope}
-					\node[draw] at (5,1.5) {\ce{Mn2O7}};
-					\node[scale=1] at (5,1) {\includegraphics[width=1cm]{Mn2O7.pdf}};
+					\node[] at (5,1.5) {\ce{Mn2O7}};
+					\node[scale=1] at (5,2.5) {\includegraphics[width=2.5cm]{Mn2O7.pdf}};
 					\clip[] (3.5, 1.5)	circle(\clipradius);
 					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
 					\end{scope}}
@@ -359,7 +410,7 @@
 			\pgfplotsset{cycle list shift=1}
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
 			%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
-			\node[black, rotate=90] at (24, 0.3){\Tiny{(002)}};
+%			\node[black, rotate=90] at (24, 0.3){\Tiny{(002)}};
 			%	\node[black, rotate=90] at (7, 1.5){\small{10,2\degree}};
 			%	\node[black, rotate=90] at (26, 3){\small{22,6\degree}};
 			\end{axis}
@@ -379,6 +430,16 @@
 			\caption[Principio de contrucción de un supercondensador]{Secuencia para la construcción de un supercondensador básico.}
 			\label{fig:SC_process}
 		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\begin{itemize}
+			\item<1,6> los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente.
+			\item<2,6> la deposición de material en los colectores de corriente no es homogénea.
+			\item<3,6> el agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. 
+			\item<4,6>  el cierre del dispositivo no es estable y no permite su reproducibilidad.
+			\item<5,6> la conexión a los terminales eléctricos no es estable.
+		\end{itemize}
 	\end{frame}
 
 	\begin{frame}{Celda de pruebas}
@@ -456,7 +517,6 @@
 	\begin{frame}{Caracterización electroquímica}
 		\begin{table}[h!]
 			\centering
-			
 			\begin{tabular}{ l r }
 				Voltametría cíclica &  \\
 				\hline
@@ -464,25 +524,43 @@
 				Límite inferior [V] & -0,8 \\
 				Límite superior [V] & 0,8  \\
 				Número de ciclos & 3 \\
-				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400 \\
-				& \\
-				Carga y descarga cíclica & \\
-				\hline
-				Densidad de corriente [A/g] & 0,1 ó 	1 \\
-				Número de ciclos & 1000 \\
-				Límite inferior [V] & 0 \\
-				Límite superior [V] & 1 \\
-				& \\
-				Espectroscopía de impedancia electroqúimica & \\
-				\hline
-				Frecuencia inicial	&	1 MHz \\
-				Frecuencia final	&	0.1 Hz \\
-				Corriente de exitación & 1 mA rms \\ 
+				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400
 			\end{tabular}
 			\label{tab:elec_config}
 			\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
 		\end{table}
 	\end{frame}
+
+	\begin{frame}{Caracterización electroquímica}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ l r }
+		Carga y descarga cíclica & \\
+		\hline
+		Densidad de corriente [A/g] & 0,1 ó 	1 \\
+		Número de ciclos & 1000 \\
+		Límite inferior [V] & 0 \\
+		Límite superior [V] & 1 \\
+	\end{tabular}
+	\label{tab:elec_config}
+	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
+\end{table}
+\end{frame}
+
+	\begin{frame}{Caracterización electroquímica}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ l r }
+		Espectroscopía de impedancia electroqúimica & \\
+		\hline
+		Frecuencia inicial	&	1 MHz \\
+		Frecuencia final	&	0.1 Hz \\
+		Corriente de exitación & 1 mA rms \\ 
+	\end{tabular}
+	\label{tab:elec_config}
+	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
+\end{table}
+\end{frame}
 
 	\begin{frame}{Resultados}
 		\begin{figure}[h!]
@@ -515,37 +593,46 @@
 				\end{tikzpicture}
 %				\subcaption{Antes de 1000 ciclos de carga y descarga.}
 			\end{subfigure}
-			\begin{subfigure}[t!]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-				\begin{axis}[
-				CVStyle,
-				legend entries={\mPapelAcero, \mLiofilizadoAcero}
-				]
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
-				\end{axis}
-				\end{tikzpicture}
-%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-			\end{subfigure}
-			\begin{subfigure}[t!]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-				\begin{axis}[
-				CVStyle,
-				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
-				cycle list shift=2
-				] 
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
-				\end{axis}
-				\end{tikzpicture}
-%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-			\end{subfigure}
 			\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
 			\label{fig:resumen_cv}
 		\end{figure}
 	\end{frame}
+
+
+\begin{frame}{Resultados}
+\begin{figure}[h!]
+	\centering
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		CVStyle,
+		legend entries={\mPapelAcero, \mLiofilizadoAcero}
+		]
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
+		\end{axis}
+		\end{tikzpicture}
+		%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+	\end{subfigure}
+	\begin{subfigure}[t!]{0.4\textwidth}
+		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+		\begin{axis}[
+		CVStyle,
+		legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+		cycle list shift=2
+		] 
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+		\end{axis}
+		\end{tikzpicture}
+		%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+	\end{subfigure}
+	\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+	\label{fig:resumen_cv}
+\end{figure}
+\end{frame}
 
 	\begin{frame}{Resumen Capacitancia}
 		\begin{table}[h!]
@@ -769,7 +856,7 @@
 	\end{frame}
 
 	\section{Bibliografía}
-	\begin{frame}{Bibliografía}
+	\begin{frame}[allowframebreaks]{Bibliografía}
 		\bibliography{Nanosintesis}
 		\bibliographystyle{apalike}
 		

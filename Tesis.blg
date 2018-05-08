@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Tesis.aux
 A level-1 auxiliary file: Resumen.aux
 A level-1 auxiliary file: Introduccion.aux
 A level-1 auxiliary file: Marco_teorico.aux
@@ -7,3 +9,44 @@ A level-1 auxiliary file: Conclusiones.aux
 A level-1 auxiliary file: Anexo.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
+You've used 55 entries,
+            1935 wiz_defined-function locations,
+            876 strings with 14758 characters,
+and the built_in function-call counts, 26000 in all, are:
+= -- 2505
+> -- 1361
+< -- 20
++ -- 482
+- -- 482
+* -- 2498
+:= -- 4536
+add.period$ -- 165
+call.type$ -- 55
+change.case$ -- 514
+chr.to.int$ -- 55
+cite$ -- 55
+duplicate$ -- 775
+empty$ -- 1656
+format.name$ -- 557
+if$ -- 4922
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 57
+newline$ -- 278
+num.names$ -- 165
+pop$ -- 401
+preamble$ -- 1
+purify$ -- 516
+quote$ -- 0
+skip$ -- 578
+stack$ -- 0
+substring$ -- 2053
+swap$ -- 62
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 326
+warning$ -- 0
+while$ -- 209
+width$ -- 0
+write$ -- 714
