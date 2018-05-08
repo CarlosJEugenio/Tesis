@@ -1,99 +1,27 @@
-\frametitle{El condensador ideal}
+\frametitle{Caracterización electroquímica}
 \begin{figure}
-			\centering
 			\begin{tikzpicture}
-			% let both axes use the same layers
-			\pgfplotsset{set layers, 	width=0.7\textwidth, height = 0.35\textwidth}
-			\begin{axis}[
-			scale only axis,
-			axis y line=left, % the ’*’ avoids arrow heads
-			axis x line*=bottom,
-			xlabel=Tiempo,
-			ylabel={\color{red} Voltaje},
-			no markers,
-			xmin=0,
-			xmax=6,
-			cycle list name=exotic,
-			ticks=none,
-			]
-			\addplot [red, thick] table {
+				[scale=1,trim axis right,trim axis left]
+				\begin{axis}
+				[
+				CVStyle
+				]
+				\addplot[green!60!black, thick, dashed] table {
 				A B
-				%charge
-				0 -1
-				1  1
+				-1 -1
+				-1  1
 
-				2 -1
-				3  1
+				 1  1
+			 	 1 -1
+		 		 };
+	 		 	\addplot[green!60!black, thick] table {
+ 		 		A B
+ 		 		-1  1
+ 		 		 1  1
 
-				4 -1
-				5  1
-
-				%discharge
-				1  1
-				2 -1
-
-				3  1
-				4 -1
-
-				5  1
-				6 -1
-			};
-			\end{axis}
-			\begin{axis}[
-			scale only axis,
-			axis y line=right,
-			axis x line=none,
-			ylabel={\color{green!60!black} Corriente},
-			ymin = -1.5,
-			ymax = 1.5,
-			xmin = 0,
-			xmax = 6,
-			no markers,
-			ticks=none,
-			]
-			\addplot [green!60!black, thick] table {
-				A B
-				0  1
-				1  1
-
-				1 -1
-				2 -1
-
-				2  1
-				3  1
-
-				3 -1
-				4 -1
-
-				4  1
-				5  1
-
-				5 -1
-				6 -1
-			};
-			\addplot [green!60!black, thick, dashed] table {
-				A B
-				1  1
-				1 -1
-
-				2  1
-				2 -1
-
-				3  1
-				3 -1
-
-				4  1
-				4 -1
-
-				5  1
-				5 -1
-			};
-			\addplot [black] table {
-				0  0
-				6  0
-			};
-			\end{axis}
+ 		 		 1 -1
+ 		 		-1 -1
+	 		 	};
+ 		 		\end{axis}
 			\end{tikzpicture}
-%			\caption[Carga y descarga de un condensador ideal a corriente constante]{Carga y descarga de un condensador ideal a corriente constante.}
-%			\label{fig:plot:charge-discharge_ideal_cap}
 		\end{figure}
