@@ -12,6 +12,10 @@
 \captionsetup[subfigure]{font=scriptsize,labelfont=scriptsize}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable,tabularx,booktabs}
+
+\usetikzlibrary{positioning}
+%\usetikzlibrary{pgfplots.clickable}
+%\usepgfplotslibrary{clickable}
 \usepgfplotslibrary{units}
 \usepackage{multirow}
 \usepackage{xcolor,colortbl}
@@ -295,15 +299,16 @@
 	\begin{frame}
 		\begin{figure}[h!]
 			\centering
-			\fbox{
-				\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}
-			}
+			\begin{tikzpicture}
+				\node (image) {\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}};
+				\draw (-1.5, 0) circle(1cm);
+			\end{tikzpicture}s
 			\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa eléctrica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
 			\label{fig:edlc}
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}{EL condensador ideal}
+	\begin{frame}{El condensador ideal}
 		\uncover<1>{Ecuación que define un condensador ideal:
 		\begin{equation}
 			C = \frac{Q}{V}
@@ -314,9 +319,185 @@
 		\end{equation}}
 	\end{frame}
 
-	\begin{frame}{El condensador real}
-		
+	\begin{frame}[fragile]{El condensador ideal}
+		\begin{figure}
+			\centering
+			\begin{tikzpicture}
+			% let both axes use the same layers
+			\pgfplotsset{set layers, 	width=0.7\textwidth, height = 0.35\textwidth}
+			\begin{axis}[
+			scale only axis,
+			axis y line=left, % the ’*’ avoids arrow heads
+			axis x line*=bottom,
+			xlabel=Tiempo,
+			ylabel={\color{red} Voltaje},
+			no markers,
+			xmin=0,
+			xmax=6,
+			cycle list name=exotic,
+			ticks=none,
+			]
+			\addplot [red, thick] table {
+				A B
+				%charge
+				0 -1
+				1  1
+				
+				2 -1
+				3  1
+				
+				4 -1
+				5  1
+				
+				%discharge
+				1  1			
+				2 -1
+				
+				3  1
+				4 -1
+				
+				5  1
+				6 -1
+			};
+			\end{axis}
+			\begin{axis}[
+			scale only axis,
+			axis y line=right,
+			axis x line=none,
+			ylabel={\color{green!60!black} Corriente},
+			ymin = -1.5,
+			ymax = 1.5,
+			xmin = 0,
+			xmax = 6,
+			no markers,
+			ticks=none,
+			]
+			\addplot [green!60!black, thick] table {
+				A B
+				0  1
+				1  1
+				
+				1 -1
+				2 -1
+				
+				2  1
+				3  1
+				
+				3 -1
+				4 -1
+				
+				4  1
+				5  1
+				
+				5 -1
+				6 -1	
+			};
+			\addplot [green!60!black, thick, dashed] table {
+				A B
+				1  1
+				1 -1
+				
+				2  1
+				2 -1
+				
+				3  1
+				3 -1
+				
+				4  1
+				4 -1
+				
+				5  1
+				5 -1
+			};
+			\addplot [black] table {
+				0  0
+				6  0
+			};
+			\end{axis}
+			\end{tikzpicture}
+%			\caption[Carga y descarga de un condensador ideal a corriente constante]{Carga y descarga de un condensador ideal a corriente constante.}
+%			\label{fig:plot:charge-discharge_ideal_cap}
+		\end{figure}
 	\end{frame}
+
+	\newcommand{\circuitscale}{0.5}	
+	\begin{frame}{El condensador real}
+		\begin{itemize}
+			\item Resistencia en serie equivalene ($R_s$).
+			\item Corriente de fuga ($R_p$).
+			\item Circuito equivalente.
+		\end{itemize}
+
+		\only<2>{\begin{figure}[h!]
+			\centering
+			\begin{subfigure}[b]{0.3\textwidth}
+				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+					\draw (0,0)
+					to [R=$R_s$,  o-] (2,0)
+					to [short] (2,-1)
+					to [C=$C_{dl}$] (4,-1)
+					to [short] (4,0)
+					(2,0) to [short] (2,1)
+					to [R=$R_{leak}$] (4,1)
+					to [short] (4,0)
+					to [short, -o] (5,0);
+				\end{circuitikz}
+				\caption{Circuito equivalente clásico.}
+				\label{fig:eq_classic}
+			\end{subfigure}
+			\begin{subfigure}[b]{0.3\textwidth}
+				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+					\draw (0,0)
+					to [R=$R_s$,  o-] (2,0)
+					to [short] (2,-1)
+					to [R=$R$] (4,-1)
+					to [twoport, t=$W$] (6,-1)
+					to [short] (6,0)
+					(2,0) to [short] (2,1)
+					to [C=$C_{dl}$] (6,1)
+					to [short] (6,0)
+					to [short, -o] (7,0);
+				\end{circuitikz}
+				\caption{Circuito equivalente Randles.}
+				\label{fig:eq_randles}
+			\end{subfigure}
+		\end{figure}}
+		\only<3>{\begin{figure}
+			\begin{subfigure}[b]{\textwidth}
+				\centering
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				width=\textwidth,
+				height=\axisdefaultheight,
+				EISStyle,
+				every axis legend/.append style={
+					font=\small,
+					at={(0.02,0.98)},
+					anchor=north west,
+				},
+				legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
+				]
+				\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\pgfmathsetmacro{\N}{\pgfplotsretval}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+				\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+				\pgfplotstablegetrowsof{\eistable}
+				\pgfmathsetmacro{\N}{\pgfplotsretval}
+				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+				node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+				\end{axis}
+				\end{tikzpicture}
+				\label{fig:eis_equivalent}
+				\caption{EIS simulado.}
+			\end{subfigure}
+		\end{figure}}
+	\end{frame}
+
+	
 
 	\newcommand{\clipradius}{2cm}
 	\section{Ruta de síntesis}
@@ -434,11 +615,11 @@
 
 	\begin{frame}
 		\begin{itemize}
-			\item<1,6> los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente.
-			\item<2,6> la deposición de material en los colectores de corriente no es homogénea.
-			\item<3,6> el agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. 
-			\item<4,6>  el cierre del dispositivo no es estable y no permite su reproducibilidad.
-			\item<5,6> la conexión a los terminales eléctricos no es estable.
+			\item<1,6> Los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente.
+			\item<2,6> La deposición de material en los colectores de corriente no es homogénea.
+			\item<3,6> El agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. 
+			\item<4,6> El cierre del dispositivo no es estable y no permite su reproducibilidad.
+			\item<5,6> La conexión a los terminales eléctricos no es estable.
 		\end{itemize}
 	\end{frame}
 
@@ -446,7 +627,7 @@
 		\begin{figure}[h!]
 			\centering
 			\fbox{
-				\begin{subfigure}[b]{0.5\textwidth}
+				\begin{subfigure}[b]{0.6\textwidth}
 					\includegraphics[width=\textwidth]{cell_scheme.pdf}
 					\caption{}
 					\label{fig:cell_scheme}
@@ -466,48 +647,48 @@
 	\begin{frame}{Construcción de electrodos}
 		\begin{figure}
 			\centering
-			\begin{adjustbox}{minipage=0.7\linewidth,frame}
+			\begin{adjustbox}{minipage=\linewidth,frame}
 				\centering
-				\begin{subfigure}[b]{\electrodesWidth}
+				\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_steel.png}
 					\caption{\mSustratoAcero}
 					\label{fig:substrate_steel}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<2->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
 					\caption{\mPolvoAcero}
 					\label{fig:electrode_powder_ac}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
 					\caption{\mPolvoAceroPMMA}
 					\label{fig:electrode_powder_pmma_ac}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<4->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_paper.png}
 					\caption{\mPapelAcero}
 					\label{fig:electrode_paper}
-				\end{subfigure}\linebreak
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}\linebreak}
+				\uncover<5->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_lio.png}
 					\caption{\mLiofilizadoAcero}
 					\label{fig:electrode_lio}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<6->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_ni.png}
 					\caption{\mSustratoNiquel}
 					\label{fig:substrate_nickel}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<7->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
 					\caption{\mPolvoNiquel}
 					\label{fig:electrode_powder_ni}
-				\end{subfigure}
-				\begin{subfigure}[b]{\electrodesWidth}
+				\end{subfigure}}
+				\uncover<8->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
 					\caption{\mPolvoNiquelPMMA}
 					\label{fig:electrode_powder_pmma_ni}
-				\end{subfigure}
+				\end{subfigure}}
 			\end{adjustbox}
 			\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador.}
 			\label{fig:electrodes}
@@ -598,46 +779,45 @@
 		\end{figure}
 	\end{frame}
 
-
-\begin{frame}{Resultados}
-\begin{figure}[h!]
-	\centering
-	\begin{subfigure}[t!]{0.4\textwidth}
-		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[
-		CVStyle,
-		legend entries={\mPapelAcero, \mLiofilizadoAcero}
-		]
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
-		\end{axis}
-		\end{tikzpicture}
-		%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-	\end{subfigure}
-	\begin{subfigure}[t!]{0.4\textwidth}
-		\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-		\begin{axis}[
-		CVStyle,
-		legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
-		cycle list shift=2
-		] 
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
-		\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
-		\end{axis}
-		\end{tikzpicture}
-		%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-	\end{subfigure}
-	\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
-	\label{fig:resumen_cv}
-\end{figure}
-\end{frame}
+	
+	\begin{frame}{Resultados}
+		\begin{figure}[h!]
+			\centering
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPapelAcero, \mLiofilizadoAcero}
+				]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
+				\end{axis}
+				\end{tikzpicture}
+				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\begin{subfigure}[t!]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				] 
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+				\end{axis}
+				\end{tikzpicture}
+				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+			\label{fig:resumen_cv}
+		\end{figure}
+	\end{frame}
 
 	\begin{frame}{Resumen Capacitancia}
 		\begin{table}[h!]
 			\centering
-			\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
 			\begin{tabular}{ l l c c c }
 				\multirow{2}{*}{Muestra}& \multirow{2}{*}{Masa [mg]}& \multirow{2}{*}{Capacitancia [mF]}	& Capacitancia & \multirow{2}{*}{Error}\\
 				&         			      & 										& específica [F/g]     &			\\
@@ -654,6 +834,7 @@
 				\mPolvoNiquelPMMA	& 0,8 $\pm$ 0,2 &			1.2			&	1.5	$\pm$ 0.4	&	27\%	\\
 			\end{tabular}                                                          
 			\label{tab:resumen_capacitancia}
+			\caption{Resumen de capacitancia y capacitancia específica a 100 mV/s.}
 		\end{table}
 	\end{frame}
 
@@ -685,7 +866,7 @@
 				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 				\end{axis}
 				\end{tikzpicture}
-			\end{subfigure}\hfill
+			\end{subfigure}
 			\begin{subfigure}[t!]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[
@@ -747,7 +928,7 @@
 				%		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
 				\end{axis}
 				\end{tikzpicture}
-			\end{subfigure}\hfill
+			\end{subfigure}
 			\begin{subfigure}{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[CCDStyle,
@@ -821,7 +1002,7 @@
 				\end{semilogxaxis}
 				\end{tikzpicture}
 				\caption{Capacidad específica antes de 1000 ciclos de carga y descarga. }
-			\end{subfigure}\hfill
+			\end{subfigure}
 			\begin{subfigure}[t]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{semilogxaxis}[

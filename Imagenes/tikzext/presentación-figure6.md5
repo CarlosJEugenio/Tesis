@@ -1,1 +1,1 @@
-\begingroup \toks 0={macro:-> \fill [bg] (0,0) rectangle (\textwidth , \metropolis@progressonsectionpage@linewidth ); \fill [fg] (0,0) rectangle (\metropolis@progressonsectionpage , \metropolis@progressonsectionpage@linewidth ); }\xdef \tikzexternallastkey {\the \toks 0 }\endgroup %
+\def \tikzexternallastkey {10F385D5EBC8311B178DC8A008DF2F57}%
