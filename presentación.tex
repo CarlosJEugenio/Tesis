@@ -25,7 +25,7 @@
 \usepackage{adjustbox}
 
 \newcommand{\plotwidth}{0.2\textwidth}
-\newcommand{\plotscale}{0.4}
+\newcommand{\plotscale}{0.5}
 
 \captionsetup{subrefformat=parens}
 
@@ -701,25 +701,28 @@
 				[scale=1,trim axis right,trim axis left]
 				\begin{axis}
 				[
-				CVStyle
+				CVStyle,
+				domain=-1:1,
+				legend entries={Ideal, Real},				
 				]
-				\addplot[green!60!black, thick, dashed] table {
-				A B
-				-1 -1
-				-1  1
-				
-				 1  1
-			 	 1 -1
-		 		 };
 	 		 	\addplot[green!60!black, thick] table {
- 		 		A B
- 		 		-1  1
- 		 		 1  1
- 		 		
- 		 		 1 -1
- 		 		-1 -1
+	 		 		A B
+	 		 		-1  1
+	 		 		 1  1
+	 		 		
+	 		 		 1 -1
+	 		 		-1 -1
 	 		 	};
- 		 		\addplot
+ 		 		\addplot[green!60!black, thick, dashed, forget plot] table {
+ 		 			A B
+ 		 			-1 -1
+ 		 			-1  1
+ 		 			
+ 		 			1  1
+ 		 			1 -1
+ 		 		};
+ 	 			\addplot[red, thick] {((x+1)*(2^(6-1)))^(1/6)-1};
+ 	 			\addplot[red, thick] {(1/2^(6-1))*(x+1)^6-1};
  		 		\end{axis}
 			\end{tikzpicture}
 		\end{figure}
@@ -737,9 +740,35 @@
 				Número de ciclos & 3 \\
 				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400
 			\end{tabular}
-			\label{tab:elec_config}
-			\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
 		\end{table}
+	\end{frame}
+
+	\begin{frame}[fragile]{Caracterización electroquímica}
+		\begin{figure}
+			\begin{tikzpicture}
+			[scale=1,trim axis right,trim axis left]
+			\begin{axis}
+			[
+			CCDStyle,
+			legend entries={Ideal, Real}			
+			]
+			\addplot[green!60!black, thick] table {
+				A B
+				0 0
+				1 1
+				2 0
+			};
+			\addplot[red, thick] table {
+			A B
+			0 0.2
+			1 1
+			
+			1 0.8
+			2 0
+			};
+			\end{axis}
+			\end{tikzpicture}
+		\end{figure}
 	\end{frame}
 
 	\begin{frame}{Caracterización electroquímica}
@@ -768,8 +797,6 @@
 		Frecuencia final	&	0.1 Hz \\
 		Corriente de exitación & 1 mA rms \\ 
 	\end{tabular}
-	\label{tab:elec_config}
-	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
 \end{table}
 \end{frame}
 

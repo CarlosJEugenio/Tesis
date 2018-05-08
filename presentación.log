@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  8 MAY 2018 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  8 MAY 2018 17:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1887,12 +1887,6 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 
 
-LaTeX Warning: Label `tab:elec_config' multiply defined.
-
-
-LaTeX Warning: Label `tab:elec_config' multiply defined.
-
-
 LaTeX Warning: Label `fig:resumen_cv' multiply defined.
 
 )
@@ -3405,26 +3399,25 @@ Overfull \vbox (23.76733pt too high) detected at line 696
 \openout4 = `presentación.vrb'.
 
  (./presentación.vrb)
-Overfull \vbox (18.61208pt too high) detected at line 725
+Overfull \vbox (18.61208pt too high) detected at line 729
  []
 
 [57
 
 ] [58
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:elec_con
-fig}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.758 \end{frame}
-                  [59
+]
+\openout4 = `presentación.vrb'.
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab:elec_con
-fig}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.773 \end{frame}
-                  [60
+ (./presentación.vrb)
+Overfull \vbox (20.29124pt too high) detected at line 772
+ []
+
+[59
+
+] [60
+
+] [61
 
 ]
 PGFPlots: reading {./Data/CV_CRGO300517_11/raw/sample3.txt}
@@ -3433,7 +3426,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_9/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
- [61
+ [62
 
 ]
 PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample3.txt}
@@ -3446,15 +3439,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{fig:resumen_c
 v}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.845 	\end{frame}
-                   [62
+l.873 	\end{frame}
+                   [63
 
 ]
-Overfull \hbox (52.13231pt too wide) in paragraph at lines 868--868
+Overfull \hbox (52.13231pt too wide) in paragraph at lines 896--896
  [] 
  []
 
-[63
+[64
 
 ]
 PGFPlots: reading {./Data/CV_CRGO300517_11/raw/eisgalv.txt}
@@ -3469,7 +3462,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_5/raw/eisgalv.txt}
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/eisgalv.txt}
 Missing character: There is no ; in font nullfont!
- [64
+ [65
 
 ]
 PGFPlots: reading {./Data/CV_CRGO300517_11/raw/chargedischarge.txt}
@@ -3478,14 +3471,14 @@ PGFPlots: reading {./Data/CV_CRGO300517_9/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_3/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/chargedischarge.txt}
- [65
+ [66
 
 ]
-Overfull \hbox (40.5383pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (40.5383pt too wide) in paragraph at lines 1030--1030
  [] 
  []
 
-[66
+[67
 
 ]
 PGFPlots: reading {./Data/CV_CRGO300517_11/raw/capacitance.txt}
@@ -3500,20 +3493,20 @@ PGFPlots: reading {./Data/CV_CRGO300517_10/raw/capacitance.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_4/raw/capacitance.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_6/raw/capacitance.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_8/raw/capacitance.txt}
- [67
+ [68
 
-] [68
+] [69
 
-] (./presentación.bbl) [69
+] (./presentación.bbl) [70
 
-] [70
+] [71
 
 
 ]
-Overfull \vbox (15.63992pt too high) detected at line 1075
+Overfull \vbox (15.63992pt too high) detected at line 1103
  []
 
-[71
+[72
 
 ]
 \tf@nav=\write9
@@ -3525,14 +3518,14 @@ Overfull \vbox (15.63992pt too high) detected at line 1075
 \tf@snm=\write11
 \openout11 = `presentación.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1077.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1077.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1105.
  (./presentación.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1077.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1077.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1105.
 
 Package rerunfilecheck Info: File `presentación.out' has not changed.
 (rerunfilecheck)             Checksum: 1F8486CD93E2AF80155E4F690297A490;576.
@@ -3545,10 +3538,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 72756 strings out of 492985
- 1860525 string characters out of 6132585
- 2245939 words of memory out of 5000000
- 75201 multiletter control sequences out of 15000+600000
+ 72817 strings out of 492985
+ 1861743 string characters out of 6132585
+ 2246546 words of memory out of 5000000
+ 75258 multiletter control sequences out of 15000+600000
  545792 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,20n,119p,10398b,2790s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3565,10 +3558,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on presentación.pdf (71 pages, 11263713 bytes).
+Output written on presentación.pdf (72 pages, 11265813 bytes).
 PDF statistics:
- 1659 PDF objects out of 1728 (max. 8388607)
- 1360 compressed objects within 14 object streams
- 216 named destinations out of 1000 (max. 500000)
+ 1668 PDF objects out of 1728 (max. 8388607)
+ 1368 compressed objects within 14 object streams
+ 218 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
