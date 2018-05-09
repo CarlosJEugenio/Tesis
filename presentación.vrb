@@ -13,13 +13,15 @@
 				1 1
 				2 0
 			};
-			\addplot[red, thick] table {
-			A B
-			0 0.2
-			1 1
+			\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
+			\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
+			\addplot[red, thick, dashed] table {
+				A B
+				0 0
+				0 0.2
 
-			1 0.8
-			2 0
+				1 1
+				1 0.8
 			};
 			\end{axis}
 			\end{tikzpicture}
