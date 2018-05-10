@@ -162,7 +162,7 @@
 	\maketitle
 	\begin{frame}
 		\frametitle{Table of Contents}
-		\tableofcontents[currentsection]
+		\tableofcontents
 	\end{frame}
 
 	\section{Objetivos}
@@ -202,25 +202,25 @@
 	\begin{frame}{Introducción}
 		\begin{figure}
 			\centering
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphite_structure.pdf}
 				\caption{}
 				\label{fig:graphite_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{graphite_image.jpg}
 				\caption{}
 				\label{fig:graphite_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\begin{tikzpicture}
-				\node (image) {\includegraphics[width=\textwidth]{graphene_structure.pdf}};
-				\only<2>{\draw[red, ultra thick, rounded corners] (-1,-1) rectangle (1,1);}
+				\node at (0,0) {\includegraphics[width=\textwidth]{graphene_structure.pdf}};
+%				\only<2>{\draw[red, ultra thick, rounded corners] (-1,-1) rectangle (1,1);}
 				\end{tikzpicture}
 				\caption{}
 				\label{fig:graphene_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 %				\begin{tikzpicture}
 %					\node (image) {\includegraphics[width=\textwidth]{graphene_image.jpg}};
 %				\end{tikzpicture}
@@ -229,22 +229,22 @@
 				\label{fig:graphene_image}
 			\end{subfigure}
 			\\
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{cnt_structure.pdf}
 				\caption{}
 				\label{fig:cnt_struct}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{cnt_image.png}
 				\caption{}
 				\label{fig:cnt_image}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_structure.pdf}
 				\caption{}
 				\label{fig:fullerene_structure}
 			\end{subfigure}
-			\begin{subfigure}[b]{0.2\textwidth}
+			\begin{subfigure}[b]{0.15\textwidth}
 				\includegraphics[width=\textwidth]{fullerene_image.jpg}
 				\caption{}
 				\label{fig:fullerene_image}
@@ -258,16 +258,20 @@
 	\begin{frame}{Grafeno}
 		\begin{figure}
 			\centering
-			\fbox{
-				\includegraphics[width=0.75\textwidth]{graphene_lattice.pdf}
-			}
-			\caption[Estructura cristalina del grafeno]{Izquierda: Red de grafeno en espacio real. Derecha: Red en espacio recíproco.}
+			\begin{subfigure}{0.4\textwidth}
+				\only<1,2>{\includegraphics[width=\textwidth]{graphene_lattice.pdf}}
+			\end{subfigure}
+			\begin{subfigure}{0.4\textwidth}
+				\only<1>{\includegraphics[width=\textwidth]{hybrid.pdf}}
+				\only<2>{\includegraphics[width=\textwidth]{piorbitals.pdf}}
+			\end{subfigure}
+			\caption{}
 			\label{fig_graphene_lattice}
 		\end{figure}
 	\end{frame}
 
 
-	\begin{frame}
+	\begin{frame}{Grafeno}
 		\begin{table}[h!]
 			\centering
 			\begin{tabular}{ l r r }
@@ -296,11 +300,11 @@
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}
+	\begin{frame}{Supercondensadores}
 		\begin{figure}[h!]
 			\centering
 			\begin{tikzpicture}
-				\node (image) {\includegraphics[width=0.7\textwidth]{edlc_schem.pdf}};
+				\node (image) {\includegraphics[width=0.6\textwidth]{edlc_schem.pdf}};
 				\draw (-1.5, 0) circle(1cm);
 			\end{tikzpicture}s
 			\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa eléctrica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
@@ -499,7 +503,7 @@
 
 	
 
-	\newcommand{\clipradius}{2cm}
+	\newcommand{\clipradius}{1.7cm}
 	\section{Ruta de síntesis}
 	\begin{frame}{Ruta de síntesis}
 %		\begin{figure}
@@ -511,40 +515,40 @@
 %		\end{figure}
 		\begin{figure}
 			\begin{tikzpicture}[]
-			\path[ use as bounding box] (-5,-5) rectangle(5,3);
+			\path[ use as bounding box] (-4,-2) rectangle(4,2);
 				\only<1->{\begin{scope}
-					\clip[] (-3.5, 1.5)	circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (-3, 2)	circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<2->{\begin{scope}
-					\clip[] (0, 1.5)	circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (0, 2)	circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<3->{\begin{scope}
-					\node[] at (5,1.5) {\ce{Mn2O7}};
+					\node[] at (5,2) {\ce{Mn2O7}};
 					\node[scale=1] at (5,2.5) {\includegraphics[width=2.5cm]{Mn2O7.pdf}};
-					\clip[] (3.5, 1.5)	circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (3, 2)	circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<4->{\begin{scope}
-					\clip[] (3.5, -1) circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (3, 0) circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<5->{\begin{scope}
-					\clip[] ( 0, -1) circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] ( 0, 0) circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<6->{\begin{scope}
-					\clip[] (-3.5, -1) circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (-3, 0) circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<7->{\begin{scope}
-					\clip[] (0, -3.5) circle(\clipradius);
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] (0, -3) circle(\clipradius);
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<8->{\begin{scope}
-					\clip[] ( 3.5, -3.5) circle(\clipradius) ;
-					\node at (0, -1) {\includegraphics[width=\textwidth]{experimental_method.pdf}};
+					\clip[] ( 3, -3) circle(\clipradius) ;
+					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 			\end{tikzpicture}
 		\end{figure}
@@ -554,12 +558,12 @@
 		\begin{figure}[h]
 			\centering
 			\fbox{
-				\begin{subfigure}{0.4\textwidth}
+				\begin{subfigure}{0.3\textwidth}
 					\includegraphics[width=\textwidth]{RGO_pic.png}
 					\caption{rGO}
 					\label{fig:RGO}
 				\end{subfigure}
-				\begin{subfigure}{0.42\textwidth}
+				\begin{subfigure}{0.31\textwidth}
 					\includegraphics[width=\textwidth]{GO_pic.png}
 					\caption{GO}
 					\label{fig:GO}
@@ -577,7 +581,7 @@
 			\begin{axis}[
 			cycle list name=colorbrewer-RYB,
 			no markers,
-			width = 0.8\textwidth,
+			width = 0.6\textwidth,
 			yticklabels={,,},
 			ylabel={Intensidad},
 			y unit=u.a.,
@@ -602,18 +606,41 @@
 	\end{frame}
 
 	\section{Supercondensadores}
-	\begin{frame}{Construcción de supercondensadores}
+	\begin{frame}[fragile]{Construcción de supercondensadores}
 		\begin{figure}[h!]
-			\centering
-			\fbox{
-				\includegraphics[width = 0.9\textwidth]{SC_process.pdf}
-			}
+			\begin{tikzpicture}[]
+			\path[ use as bounding box] (-4,-2) rectangle(4,2);
+				\only<1->{\begin{scope}
+					\clip[] (-6.5, 0) rectangle (-2.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<2->{\begin{scope}
+					\clip[] (-2.5, 0) rectangle (1.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<3->{\begin{scope}
+					\clip[] (1.5, 0) rectangle (5.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<4->{\begin{scope}
+					\clip[] (-6.5, 0) rectangle (-2.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<5->{\begin{scope}
+					\clip[] (-2.5, 0) rectangle (1.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<6->{\begin{scope}
+					\clip[] (1.5, 0) rectangle (6.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+			\end{tikzpicture}
 			\caption[Principio de contrucción de un supercondensador]{Secuencia para la construcción de un supercondensador básico.}
 			\label{fig:SC_process}
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}
+	\begin{frame}{Construcción de supercondensadores}
 		\begin{itemize}
 			\item<1,6> Los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente.
 			\item<2,6> La deposición de material en los colectores de corriente no es homogénea.
@@ -647,7 +674,7 @@
 	\begin{frame}{Construcción de electrodos}
 		\begin{figure}
 			\centering
-			\begin{adjustbox}{minipage=\linewidth,frame}
+			\begin{adjustbox}{minipage=0.8\linewidth,frame}
 				\centering
 				\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
 					\includegraphics[width=\textwidth]{electrode_steel.png}
@@ -1020,7 +1047,7 @@
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}
+	\begin{frame}{Carga y descarga}
 		\begin{table}[h!]
 			\centering
 			\caption{Resistencia en serie equivalente calculada de los ciclos de carga y descarga.}
@@ -1038,7 +1065,7 @@
 		\end{table}
 	\end{frame}
 
-	\begin{frame}
+	\begin{frame}{Capacidad específica}
 		\begin{figure}[h]
 			\centering
 			\begin{subfigure}[t]{0.4\textwidth}
@@ -1099,7 +1126,7 @@
 			\end{subfigure}
 			\caption[Resumen de la capacidad específica]{Resumen de la capacidad específica.}
 			\label{fig:resumen_cs}
-		\end{figure}x
+		\end{figure}
 	\end{frame}
 
 	\section{Bibliografía}
