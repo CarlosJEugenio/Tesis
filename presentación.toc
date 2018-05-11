@@ -1,12 +1,10 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Objetivos}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Objetivo general}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Objetivos espec\IeC {\'\i }ficos}{5}{0}{1}
 \beamer@sectionintoc {2}{Introducci\IeC {\'o}n}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{Nanociencia}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Grafeno}{12}{0}{2}
-\beamer@subsectionintoc {2}{3}{Supercondensadores}{21}{0}{2}
-\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{33}{0}{3}
-\beamer@sectionintoc {4}{Supercondensadores}{44}{0}{4}
-\beamer@sectionintoc {5}{Conclusiones}{85}{0}{5}
-\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{91}{0}{6}
+\beamer@subsectionintoc {2}{1}{\IeC {\textquestiondown }Por qu\IeC {\'e} supercondensadores?}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nanociencia}{18}{0}{2}
+\beamer@subsectionintoc {2}{3}{Grafeno}{20}{0}{2}
+\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{32}{0}{3}
+\beamer@sectionintoc {4}{Supercondensadores}{43}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{84}{0}{5}
+\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{90}{0}{6}

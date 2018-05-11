@@ -30,8 +30,8 @@
 \captionsetup{subrefformat=parens}
 
 \setbeamercovered{invisible}
-\setbeamercovered{%
-	again covered={\opaqueness<1->{10}}}
+%\setbeamercovered{%
+%	again covered={\opaqueness<1->{10}}}
 \usepackage[skins]{tcolorbox}
 \graphicspath{{Imagenes/}}
 
@@ -153,8 +153,7 @@
 		}
 	},
 }
-\title{Síntesis de grafeno por medios químicos}
-\subtitle{y supercondensadores basados en grafeno}
+\title{Síntesis de grafeno por medios químicos\\y supercondensadores basados en grafeno}
 \date{\today}
 \institute{Universidad de Santiago de Chile\\ Laboratorio de Nanosíntesis}
 \begin{document}
@@ -169,29 +168,103 @@
 	\end{frame}
 
 	\section{Objetivos}
-	\subsection{Objetivo general}
 	\begin{frame}{Objetivos}
-	Objetivo general
+		Objetivo general
 		\begin{itemize}
 			\item Sintetizar óxido de grafeno reducido, para su utilización en electrodos de supercondensadores.
 		\end{itemize}
-	
 	\end{frame}
 
-	\subsection{Objetivos específicos}
 	\begin{frame}{Objetivos}
-	Objetivos específicos
-		\begin{itemize}[<+>]
-			\item Sintetizar óxido de grafeno (GO), a partir de grafito natural mediante un proceso químico; para su posterior reducción y obtención de óxido reducido de grafeno (rGO).
-			\item Fabricar electrodos de óxido de grafeno reducido con diferentes métodos, para su posterior caracterización electroquímica.
-			\item Diseñar y construir una celda de pruebas de supercondensadores para estudiar el desempeño de diferentes electrodos fabricados.
-			\item Elaborar una metodología de medición electroquímica para cuantificar y comparar el desempeño de los diferentes electrodos fabricados. 
+		Objetivos específicos
+		\begin{itemize}
+			\item<+-> Sintetizar óxido de grafeno (GO), a partir de grafito natural mediante un proceso químico; para su posterior reducción y obtención de óxido reducido de grafeno (rGO).
+			\item<+-> Fabricar electrodos de óxido de grafeno reducido con diferentes métodos, para su posterior caracterización electroquímica.
+			\item<+-> Diseñar y construir una celda de pruebas de supercondensadores para estudiar el desempeño de diferentes electrodos fabricados.
+			\item<+-> Elaborar una metodología de medición electroquímica para cuantificar y comparar el desempeño de los diferentes electrodos fabricados. 
 		\end{itemize}
 	\end{frame}
 
 	\section{Introducción}
+	\subsection{¿Por qué supercondensadores?}
+	\begin{frame}{¿Por qué supercondensadores?}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{itemize}
+					\item<1-> En términos energéticos están ente baterías y condensadores convencionales.
+					\item<2-> Pueden entregar y almacenar energía más rápido que las baterías.
+					\item<3-> Mucha mayor eficiencia
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{onlyenv}<1-3>
+					\begin{figure}
+						\centering
+						{
+							\includegraphics[width = \textwidth]{ragone.pdf}
+						}
+						\caption{Diagrama de Ragone}
+					\end{figure}
+				\end{onlyenv}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+%	\begin{frame}
+%		\begin{columns}
+%			\begin{column}{0.5\textwidth}
+%
+%			\end{column}
+%			\begin{column}{0.5\textwidth}
+%
+%			\end{column}
+%		\end{columns}
+%	\end{frame}
+
+	\begin{frame}{El supercondensador}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{itemize}
+					\item<1-> El supercondensador es un dispositivo electroquímico.
+					\item<2-> Almacena energía mediante separación de cargas en una doble capa eléctrica.
+					\item<3-> Esta doble capa tiene pocos nanómetros de espesor.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}[h!]
+					\centering
+					\begin{tikzpicture}
+					\node at (0,0) {\includegraphics[width=\textwidth]{edlc_schem.pdf}};
+					\only<3>{\begin{scope}
+						\clip (-1.6, 0.2) circle(2cm);
+						\node at (-1.5,0.5) {\includegraphics[width=0.7\textwidth]{edlc_zoom.pdf}};
+					\end{scope}}
+					\end{tikzpicture}
+					\caption{Esquema de un supercondensador.}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}{}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\begin{itemize}
+					\item<1->{Un condensador ideal se define por su capacitancia:\\
+						$C = \frac{Q}{V}$}
+					\item<2->{Relación corriente voltage:\\
+						$i(t) = C \frac{dv(t)}{dt}$}
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	
+		
+	\subsection{Nanociencia}
 	\begin{frame}{Introducción}
-		\subsection{Nanociencia}
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=0.9\textwidth]{scale.pdf}
@@ -270,47 +343,6 @@
 		\end{figure}
 	\end{frame}
 
-
-	\begin{frame}{Grafeno}
-		\begin{table}[h!]
-			\centering
-			\begin{tabular}{ l r r }
-				Propiedades del grafeno & & \\
-				\hline
-				 \uncover<1,7>{Movilidad electrónica & 200.000 $\mathrm{cm^2 V^{-1} s^{-1} }$ & \citep{Bolotin2008}}\\
-				 \uncover<2,7>{Tensión de ruptura & 130 GPa & \citep{Lee2008}}\\
-				 \uncover<3,7>{Módulo de Young & 1.0 TPa & \citep{Lee2008}}\\
-				 \uncover<4,7>{Conductividad térmica & 600 a 5000 $\mathrm{W mK^{-1}}$ & \citep{Balandin2011}}\\
-				 \uncover<5,7>{Opacidad & 2,3\% &\citep{Nair2008}}\\
-				 \uncover<6,7>{Reflectacia & $>$0,1\% & \citep{Nair2008}}\\
-			\end{tabular}
-			\caption{Propiedades del grafeno}
-		\end{table}
-	\end{frame}
-	
-	\subsection{Supercondensadores}
-	\begin{frame}{Supercondensadores}
-		\begin{figure}
-			\centering
-			{
-				\includegraphics[width = 0.7\textwidth]{ragone.pdf}
-			}
-			\caption[Diagrama de Ragone, diferentes tecnologías de almacenamiento de energía]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía.}
-			\label{fig:ragone}
-		\end{figure}
-	\end{frame}
-
-	\begin{frame}{Supercondensadores}
-		\begin{figure}[h!]
-			\centering
-			\begin{tikzpicture}
-				\node (image) {\includegraphics[width=0.6\textwidth]{edlc_schem.pdf}};
-				\draw (-1.5, 0) circle(1cm);
-			\end{tikzpicture}s
-			\caption[Esquema de un supercondensador]{Esquema de un supercondensador mostrando una doble capa eléctrica de Helmholtz en cada electrodo y el perfil del potencial eléctrico en él.}
-			\label{fig:edlc}
-		\end{figure}
-	\end{frame}
 
 	\begin{frame}{El condensador ideal}
 		\uncover<1>{Ecuación que define un condensador ideal:
@@ -1462,9 +1494,9 @@
 
 
 	\section{Conclusiones}
-	\begin{frame}{Conclusiones}o
-		\begin{itemize}[<+>]
-			\item Se sintetizó un material de carbono para ser utilizado en como electrodo en supercondensadores.
+	\begin{frame}{Conclusiones}
+		\begin{itemize}[<+->]
+			\item Se sintetizó óxido reducido de carbono para ser utilizado en electrodos de supercondensadores.
 			\item Se diseñó y construyó una celda de pruebas que resultó ser apropiada para	estudiar diferencias en la preparación de electrodos.
 			\item Los electrodos en formato papel y liofilizazdo mostraron mejor desempeño.
 			\item El alto costo del proceso de liofilización hace más atractio el electrodo en formato papel.
@@ -1482,5 +1514,22 @@
 	\end{frame}
 
 	\maketitle
+	
+	\begin{frame}{Anexo}
+		\begin{table}[h!]
+			\centering
+			\begin{tabular}{ l r r }
+				Propiedades del grafeno & & \\
+				\hline
+				Movilidad electrónica & 200.000 $\mathrm{cm^2 V^{-1} s^{-1} }$ & \citep{Bolotin2008}\\
+				Tensión de ruptura & 130 GPa & \citep{Lee2008}\\
+				Módulo de Young & 1.0 TPa & \citep{Lee2008}\\
+				Conductividad térmica & 600 a 5000 $\mathrm{W mK^{-1}}$ & \citep{Balandin2011}\\
+				Opacidad & 2,3\% &\citep{Nair2008}\\
+				Reflectacia & $>$0,1\% & \citep{Nair2008}\\
+			\end{tabular}
+			\caption{Propiedades del grafeno}
+		\end{table}
+	\end{frame}
 
 \end{document}
