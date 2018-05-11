@@ -25,7 +25,7 @@
 \usepackage{adjustbox}
 
 \newcommand{\plotwidth}{0.2\textwidth}
-\newcommand{\plotscale}{0.5}
+\newcommand{\plotscale}{0.8}
 
 \captionsetup{subrefformat=parens}
 
@@ -69,6 +69,8 @@
 \definecolor{cbfbfbf}{RGB}{191,191,191}
 \definecolor{c252525}{RGB}{37,37,37}
 
+\definecolor{samplegreen}{RGB}{150,250,150}
+
 \pgfplotscreateplotcyclelist{colorbrewer-RYB}{
 	{RYB1},every mark/.append style={fill=RYB1!80!black},mark=*\\
 	{RYB2},every mark/.append style={fill=RYB2!80!black},mark=square*\\
@@ -97,6 +99,7 @@
 		legend entries={25mV/s,50mV/s,100mV/s,200mV/s,400mV/s},
 		cycle list name=colorbrewer-RYB,
 		no markers,
+		thick,
 	},
 	SCStyle/.style={
 		title=Capacidad Específica,
@@ -104,7 +107,7 @@
 		ylabel={Capacidad específica [F/g]},
 		xlabel={Velocidad de barrido [mV/s]},
 		every axis legend/.append style={
-			font=\tiny,
+			font=\normalsize,
 			at={(0.98,0.98)},
 			anchor=north east,
 		},
@@ -130,7 +133,7 @@
 		line width = 0.1pt,
 		%		only markers,
 		every axis legend/.append style={
-			font=\tiny,
+			font=\normalsize,
 			at={(0.98,0.02)},
 			anchor=south east,
 		},
@@ -191,9 +194,7 @@
 		\subsection{Nanociencia}
 		\begin{figure}[h!]
 			\centering
-			\fbox{
-				\includegraphics[width=0.9\textwidth]{scale.pdf}
-			}
+			\includegraphics[width=0.9\textwidth]{scale.pdf}
 			\caption[Comparativa de ódenes de magnitud desde metros hasta picometros]{Comparativa de órdenes de magnitud. De izquierda a derecha: Escala humana, 1-2 m. Insectos, 10 cm - 1 mm. Glóbulos rojos, 6 $\mathrm{\mu}$m. Longitud de onda de luz visible, 780-380 nm. Transistores en un microprocesador, 100 - 10 nm. Doble hélice de ADN, 2 nm. Radio atómico de un átomo de helio, 31 pm.}
 			\label{fig:scale}
 		\end{figure}
@@ -257,16 +258,15 @@
 	\subsection{Grafeno}
 	\begin{frame}{Grafeno}
 		\begin{figure}
-			\centering
-			\begin{subfigure}{0.4\textwidth}
-				\only<1,2>{\includegraphics[width=\textwidth]{graphene_lattice.pdf}}
+			\begin{subfigure}[b]{0.4\textwidth}
+				\only<1,2>{{\includegraphics[width=\textwidth]{graphene_lattice.pdf}}}
+				\caption{Red de grafeno.}
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.5\textwidth}
+				\only<1>{{\includegraphics[width=\textwidth]{hybrid.pdf}}}
+				\only<2>{{\includegraphics[width=\textwidth]{piorbitals.pdf}}}
+				\caption{Orbitales moleculares e hibridización sp2.}
 			\end{subfigure}
-			\begin{subfigure}{0.4\textwidth}
-				\only<1>{\includegraphics[width=\textwidth]{hybrid.pdf}}
-				\only<2>{\includegraphics[width=\textwidth]{piorbitals.pdf}}
-			\end{subfigure}
-			\caption{}
-			\label{fig_graphene_lattice}
 		\end{figure}
 	\end{frame}
 
@@ -292,7 +292,7 @@
 	\begin{frame}{Supercondensadores}
 		\begin{figure}
 			\centering
-			\fbox{
+			{
 				\includegraphics[width = 0.7\textwidth]{ragone.pdf}
 			}
 			\caption[Diagrama de Ragone, diferentes tecnologías de almacenamiento de energía]{El diagrama de Ragone compara diferentes tecnologías de almacenamiento de energía de acuerdo a su densidad de potencia y densidad de energía.}
@@ -424,81 +424,218 @@
 		\end{figure}
 	\end{frame}
 
-	\newcommand{\circuitscale}{0.5}	
-	\begin{frame}{El condensador real}
-		\begin{itemize}
-			\item Resistencia en serie equivalene ($R_s$).
-			\item Corriente de fuga ($R_p$).
-			\item Circuito equivalente.
-		\end{itemize}
+%	\newcommand{\circuitscale}{0.5}	
+%	\begin{frame}{El condensador real}
+%		\begin{itemize}
+%			\item Resistencia en serie equivalene ($R_s$).
+%			\item Corriente de fuga ($R_p$).
+%			\item Circuito equivalente.
+%		\end{itemize}
+%
+%		\only<2>{\begin{figure}[h!]
+%			\centering
+%			\begin{subfigure}[b]{0.3\textwidth}
+%				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+%					\draw (0,0)
+%					to [R=$R_s$,  o-] (2,0)
+%					to [short] (2,-1)
+%					to [C=$C_{dl}$] (4,-1)
+%					to [short] (4,0)
+%					(2,0) to [short] (2,1)
+%					to [R=$R_{leak}$] (4,1)
+%					to [short] (4,0)
+%					to [short, -o] (5,0);
+%				\end{circuitikz}
+%				\caption{Circuito equivalente clásico.}
+%				\label{fig:eq_classic}
+%			\end{subfigure}
+%			\begin{subfigure}[b]{0.3\textwidth}
+%				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+%					\draw (0,0)
+%					to [R=$R_s$,  o-] (2,0)
+%					to [short] (2,-1)
+%					to [R=$R$] (4,-1)
+%					to [twoport, t=$W$] (6,-1)
+%					to [short] (6,0)
+%					(2,0) to [short] (2,1)
+%					to [C=$C_{dl}$] (6,1)
+%					to [short] (6,0)
+%					to [short, -o] (7,0);
+%				\end{circuitikz}
+%				\caption{Circuito equivalente Randles.}
+%				\label{fig:eq_randles}
+%			\end{subfigure}
+%		\end{figure}}
+%		\only<3>{\begin{figure}
+%			\begin{subfigure}[b]{\textwidth}
+%				\centering
+%				\begin{tikzpicture}[trim axis right,trim axis left]
+%				\begin{axis}[
+%				width=0.5\textwidth,
+%%				height=0.7\textwidth,
+%				EISStyle,
+%				every axis legend/.append style={
+%					font={\normalsize}, 
+%					at={(0.02,0.98)},
+%					anchor=north west,
+%				},
+%				label style={font=\normalsize},
+%				legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
+%				]
+%				\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+%				\pgfplotstablegetrowsof{\eistable}
+%				\pgfmathsetmacro{\N}{\pgfplotsretval}
+%				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+%				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+%				node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+%				\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+%				\pgfplotstablegetrowsof{\eistable}
+%				\pgfmathsetmacro{\N}{\pgfplotsretval}
+%				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+%				node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+%				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+%				\end{axis}
+%				\end{tikzpicture}
+%				\label{fig:eis_equivalent}
+%				\caption{EIS simulado.}
+%			\end{subfigure}
+%		\end{figure}}
+%	\end{frame}
 
-		\only<2>{\begin{figure}[h!]
-			\centering
-			\begin{subfigure}[b]{0.3\textwidth}
-				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-					\draw (0,0)
-					to [R=$R_s$,  o-] (2,0)
-					to [short] (2,-1)
-					to [C=$C_{dl}$] (4,-1)
-					to [short] (4,0)
-					(2,0) to [short] (2,1)
-					to [R=$R_{leak}$] (4,1)
-					to [short] (4,0)
-					to [short, -o] (5,0);
-				\end{circuitikz}
-				\caption{Circuito equivalente clásico.}
-				\label{fig:eq_classic}
-			\end{subfigure}
-			\begin{subfigure}[b]{0.3\textwidth}
-				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-					\draw (0,0)
-					to [R=$R_s$,  o-] (2,0)
-					to [short] (2,-1)
-					to [R=$R$] (4,-1)
-					to [twoport, t=$W$] (6,-1)
-					to [short] (6,0)
-					(2,0) to [short] (2,1)
-					to [C=$C_{dl}$] (6,1)
-					to [short] (6,0)
-					to [short, -o] (7,0);
-				\end{circuitikz}
-				\caption{Circuito equivalente Randles.}
-				\label{fig:eq_randles}
-			\end{subfigure}
-		\end{figure}}
-		\only<3>{\begin{figure}
-			\begin{subfigure}[b]{\textwidth}
-				\centering
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-				\begin{axis}[
-				width=\textwidth,
-				height=\axisdefaultheight,
-				EISStyle,
-				every axis legend/.append style={
-					font=\small,
-					at={(0.02,0.98)},
-					anchor=north west,
-				},
-				legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
-				]
-				\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
-				\pgfplotstablegetrowsof{\eistable}
-				\pgfmathsetmacro{\N}{\pgfplotsretval}
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-				node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
-				\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
-				\pgfplotstablegetrowsof{\eistable}
-				\pgfmathsetmacro{\N}{\pgfplotsretval}
-				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-				node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
-				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
-				\end{axis}
-				\end{tikzpicture}
-				\label{fig:eis_equivalent}
-				\caption{EIS simulado.}
-			\end{subfigure}
-		\end{figure}}
+	\newcommand{\circuitscale}{0.8}	
+	\begin{frame}{El condensador real}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1-3>{\begin{itemize}
+					\item<1-3> Resistencia en serie equivalene ($R_s$).
+					\item<2-3> Corriente de fuga ($R_p$).
+					\item<3> Circuito equivalente.
+				\end{itemize}}
+			\only<4>{\begin{figure}
+					\centering
+					\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+					\begin{axis}[
+					width=1.3\textwidth,
+					height=\axisdefaultheight,
+					EISStyle,
+					every axis legend/.append style={
+						font=\normalsize,
+						at={(0.02,0.98)},
+						anchor=north west,
+					},
+					legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
+					]
+					\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+					\pgfplotstablegetrowsof{\eistable}
+					\pgfmathsetmacro{\N}{\pgfplotsretval}
+					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+					node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+					node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+					\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+					\pgfplotstablegetrowsof{\eistable}
+					\pgfmathsetmacro{\N}{\pgfplotsretval}
+					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+					node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+					node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+					\end{axis}
+					\end{tikzpicture}
+					\label{fig:eis_equivalent}
+					\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes. Obtenido en EIS Spectrum Analyser \footnotemark.}
+				\end{figure}}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\uncover<3->{\begin{figure}[h!]
+					\centering
+					\begin{subfigure}[b]{\textwidth}
+						\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+							\draw (0,0)
+							to [R=$R_s$,  o-] (2,0)
+							to [short] (2,-1)
+							to [C=$C_{dl}$] (4,-1)
+							to [short] (4,0)
+							(2,0) to [short] (2,1)
+							to [R=$R_{leak}$] (4,1)
+							to [short] (4,0)
+							to [short, -o] (5,0);
+						\end{circuitikz}
+						\caption{Circuito equivalente clásico.}
+					\end{subfigure}\\
+					\begin{subfigure}[b]{\textwidth}
+						\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+							\draw (0,0)
+							to [R=$R_s$,  o-] (2,0)
+							to [short] (2,-1)
+							to [R=$R$] (4,-1)
+							to [twoport, t=$W$] (6,-1)
+							to [short] (6,0)
+							(2,0) to [short] (2,1)
+							to [C=$C_{dl}$] (6,1)
+							to [short] (6,0)
+							to [short, -o] (7,0);
+						\end{circuitikz}
+						\caption{Circuito equivalente Randles.}
+					\end{subfigure}
+				\end{figure}}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}[fragile]{Caracterización electroquímica}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1>{Voltametría cíclica:
+				\begin{itemize}
+					\item Barrido de voltage.
+				\end{itemize}}
+				\only<2>{Espectro electroquímico de impedancia:
+				\begin{itemize}
+					\item Barrido en frecuencia.
+				\end{itemize}}
+				\only<3>{Carga y descarga cíclica:
+				\begin{itemize}
+					\item Barrido en algo.
+				\end{itemize}}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+						\begin{tikzpicture}
+						[scale=1,trim axis right,trim axis left]
+						\begin{axis}
+						[
+						CVStyle,
+						domain=-1:1,
+						legend entries={Ideal, Real},				
+						]
+						\addplot[green!60!black, thick] table {
+							A B
+							-1  1
+							1  1
+							
+							1 -1
+							-1 -1
+						};
+						\addplot[green!60!black, thick, dashed, forget plot] table {
+							A B
+							-1 -1
+							-1  1
+							
+							1  1
+							1 -1
+						};
+						\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+						
+						\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+						\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+						\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+						\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+						\end{axis}
+						\end{tikzpicture}
+				\end{figure}
+			\end{column}
+		\end{columns}
 	\end{frame}
 
 	
@@ -557,7 +694,7 @@
 	\begin{frame}{Resultados de la síntesis}
 		\begin{figure}[h]
 			\centering
-			\fbox{
+			{
 				\begin{subfigure}{0.3\textwidth}
 					\includegraphics[width=\textwidth]{RGO_pic.png}
 					\caption{rGO}
@@ -587,8 +724,12 @@
 			y unit=u.a.,
 			xlabel={2$\mathrm{\theta}$},
 			x unit=grados,
+			every axis legend/.append style={
+				font={\normalsize}, 
+				at={(0.5,1)},
+				anchor=north west,
+			},
 			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido},
-			legend style={font=\fontsize{4}{5}\selectfont},
 			]
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
 			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
@@ -653,12 +794,12 @@
 	\begin{frame}{Celda de pruebas}
 		\begin{figure}[h!]
 			\centering
-			\fbox{
+			{
 				\begin{subfigure}[b]{0.6\textwidth}
 					\includegraphics[width=\textwidth]{cell_scheme.pdf}
 					\caption{}
 					\label{fig:cell_scheme}
-				\end{subfigure}\hspace{1cm}
+				\end{subfigure}\hfill
 				\begin{subfigure}[b]{0.25\textwidth}
 					\includegraphics[width=\textwidth]{cell_image.pdf}
 					\caption{}
@@ -670,56 +811,159 @@
 		\end{figure}
 	\end{frame}
 	
-	\newcommand{\electrodesWidth}{0.22\textwidth}
+	\newcommand{\electrodesWidth}{0.5\textwidth}
+%	\begin{frame}{Construcción de electrodos}
+%		\begin{figure}
+%			\centering
+%			\begin{adjustbox}{minipage=0.8\linewidth,frame}
+%				\centering
+%				\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_steel.png}
+%					\caption{\mSustratoAcero}
+%					\label{fig:substrate_steel}
+%				\end{subfigure}}
+%				\uncover<2->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
+%					\caption{\mPolvoAcero}
+%					\label{fig:electrode_powder_ac}
+%				\end{subfigure}}
+%				\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
+%					\caption{PolAc+pmma}
+%					\label{fig:electrode_powder_pmma_z}
+%				\end{subfigure}}
+%				\uncover<4->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_paper.png}
+%					\caption{\mPapelAcero}
+%					\label{fig:electrode_paper}
+%				\end{subfigure}\linebreak}
+%				\uncover<5->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_lio.png}
+%					\caption{\mLiofilizadoAcero}
+%					\label{fig:electrode_lio}
+%				\end{subfigure}}
+%				\uncover<6->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_ni.png}
+%					\caption{\mSustratoNiquel}
+%					\label{fig:substrate_nickel}
+%				\end{subfigure}}
+%				\uncover<7->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
+%					\caption{\mPolvoNiquel}
+%					\label{fig:electrode_powder_ni}
+%				\end{subfigure}}
+%				\uncover<8->{\begin{subfigure}[b]{\electrodesWidth}
+%					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
+%					\caption{PolNi+pmma}
+%					\label{fig:electrode_powder_pmma_ni}
+%				\end{subfigure}}
+%			\end{adjustbox}
+%			\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador.}
+%			\label{fig:electrodes}
+%		\end{figure}
+%	\end{frame}
+
 	\begin{frame}{Construcción de electrodos}
-		\begin{figure}
-			\centering
-			\begin{adjustbox}{minipage=0.8\linewidth,frame}
-				\centering
-				\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_steel.png}
-					\caption{\mSustratoAcero}
-					\label{fig:substrate_steel}
-				\end{subfigure}}
-				\uncover<2->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
-					\caption{\mPolvoAcero}
-					\label{fig:electrode_powder_ac}
-				\end{subfigure}}
-				\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
-					\caption{PolAc+pmma}
-					\label{fig:electrode_powder_pmma_z}
-				\end{subfigure}}
-				\uncover<4->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_paper.png}
-					\caption{\mPapelAcero}
-					\label{fig:electrode_paper}
-				\end{subfigure}\linebreak}
-				\uncover<5->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_lio.png}
-					\caption{\mLiofilizadoAcero}
-					\label{fig:electrode_lio}
-				\end{subfigure}}
-				\uncover<6->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_ni.png}
-					\caption{\mSustratoNiquel}
-					\label{fig:substrate_nickel}
-				\end{subfigure}}
-				\uncover<7->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
-					\caption{\mPolvoNiquel}
-					\label{fig:electrode_powder_ni}
-				\end{subfigure}}
-				\uncover<8->{\begin{subfigure}[b]{\electrodesWidth}
-					\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
-					\caption{PolNi+pmma}
-					\label{fig:electrode_powder_pmma_ni}
-				\end{subfigure}}
-			\end{adjustbox}
-			\caption[Electrodos utilizados en la celda de pruebas de supercondensador]{Electrodos utilizados en la celda de pruebas de supercondensador.}
-			\label{fig:electrodes}
-		\end{figure}
+	\captionsetup[subfigure]{labelformat=empty}
+		\begin{columns}
+			\begin{column}{0.3\textwidth}
+				\begin{figure}
+					\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_steel.png}
+						\caption{\mSustratoAcero}
+					\end{subfigure}}\\
+					\uncover<2->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_ni.png}
+						\caption{\mSustratoNiquel}
+					\end{subfigure}}
+				\end{figure}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+				\begin{itemize}
+					\item<1> Sustrado de acero 316.
+					\item<2> Sustrato de espuma de níquel.
+					\item<3> Diámetro de 7mm.
+				\end{itemize}
+			\end{column}
+		\end{columns}		
+	\end{frame}
+
+	\begin{frame}{Construcción de electrodos}
+	\captionsetup[subfigure]{labelformat=empty}
+		\begin{columns}
+			\begin{column}{0.3\textwidth}
+				\begin{figure}
+					\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_polvo_ac.png}
+						\caption{\mPolvoAcero}
+					\end{subfigure}}
+					\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_polvo_pmma_ac.png}
+						\caption{PolAc+pmma}
+					\end{subfigure}}
+				\end{figure}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+				\begin{itemize}
+					\item<1-2> Dispersión en etilengrlicol, depositada por goteo, y evaporación del dispersante.
+					\item[!]<2> La deposición no es homogénea.
+					\item<3-4> Dispersión en solución de pmma en acetona, depositada por goteo, y evaporación del solvente.
+					\item[!]<4> Mucho aglutinante.
+				\end{itemize}
+			\end{column}
+		\end{columns}		
+	\end{frame}
+
+	\begin{frame}{Construcción de electrodos}
+	\captionsetup[subfigure]{labelformat=empty}
+		\begin{columns}
+			\begin{column}{0.3\textwidth}
+				\begin{figure}
+					\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_paper.png}
+						\caption{\mPapelAcero}
+					\end{subfigure}\linebreak}
+					\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_lio.png}
+						\caption{\mLiofilizadoAcero}
+					\end{subfigure}}
+				\end{figure}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+				\begin{itemize}
+					\item<1-2> Lámina parecida al papel.
+					\item[!]<2> Bordes irregulares.
+					\item<3-4> Material liofilizado.
+					\item[!]<4> Desconocimiento del resultado.
+				\end{itemize}
+			\end{column}
+		\end{columns}		
+	\end{frame}
+
+	\begin{frame}{Construcción de electrodos}
+	\captionsetup[subfigure]{labelformat=empty}
+		\begin{columns}
+			\begin{column}{0.3\textwidth}
+				\begin{figure}
+					\uncover<1->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_polvo_ni.png}
+						\caption{\mPolvoNiquel}
+					\end{subfigure}}
+					\uncover<3->{\begin{subfigure}[b]{\electrodesWidth}
+						\includegraphics[width=\textwidth]{electrode_polvo_pmma_ni.png}
+						\caption{PolNi+pmma}
+					\end{subfigure}}
+				\end{figure}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+				\begin{itemize}
+					\item<1-2> Dispersión en etilenglicol, deposición por goteo, y evaporación del dispersante.
+					\item[!]<2> ?.
+					\item<3-4> Dispersión en solución de ppma en acetona, deposición por goteo, y evaporación del solvente.
+					\item[!]<4> ?.
+				\end{itemize}
+			\end{column}
+		\end{columns}		
 	\end{frame}
 	
 	\begin{frame}[fragile]{Caracterización electroquímica}
@@ -839,8 +1083,9 @@
 	\begin{frame}{Resultados}
 		\begin{figure}[h!]
 			\centering
-			\begin{subfigure}[t!]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale, trim axis right,trim axis left]
 				\begin{axis}
 				[
 				CVStyle,
@@ -851,9 +1096,9 @@
 				\end{axis}
 				\end{tikzpicture}
 %				\subcaption{Antes de 1000 ciclos de carga y descarga.}
-			\end{subfigure}
-			\begin{subfigure}[t!]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale, trim axis right,trim axis left]
 				\begin{axis}[
 				CVStyle,
 				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
@@ -876,7 +1121,8 @@
 	\begin{frame}{Resultados}
 		\begin{figure}[h!]
 			\centering
-			\begin{subfigure}[t!]{0.4\textwidth}
+			\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[
 				CVStyle,
@@ -887,8 +1133,8 @@
 				\end{axis}
 				\end{tikzpicture}
 				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-			\end{subfigure}
-			\begin{subfigure}[t!]{0.4\textwidth}
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[
 				CVStyle,
@@ -918,9 +1164,9 @@
 				\mSustratoAcero		&  -            &			0.1			&	-				&	-		\\
 				\mPolvoAcero		& 0,4 $\pm$ 0,2 &			1.2			&	3.0	$\pm$ 1.5	&	50\%	\\
 				\mPolvoAceroPMMA	& 2,8 $\pm$ 0,2 &			0.78		&	0.28 $\pm$ 0.02	&	7\%		\\
-				\rowcolor{RYB3}
+				\rowcolor{samplegreen}
 				\mPapelAcero		& 0,6 $\pm$ 0,1 &			16.8		&	28.0 $\pm$ 4.7	&	17\%	\\
-				\rowcolor{RYB3}
+				\rowcolor{samplegreen}
 				\mLiofilizadoAcero	& 0,6 $\pm$ 0,1 &			19.9		&	33.2 $\pm$ 5.5	&	17\%	\\
 				\mSustratoNiquel	&    -          &			0.1			&	- 				&	-		\\
 				\mPolvoNiquel		& 0,9 $\pm$ 0,2 &			0.3			&	0.35 $\pm$ 0.07	&	20\%	\\
@@ -934,12 +1180,13 @@
 	\begin{frame}{EIS}
 		\begin{figure}[h!]
 			\centering
-			\begin{subfigure}[t!]{0.4\textwidth}
+			\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[
 				EISStyle,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.02,0.98)},
 					anchor=north west,
 				},
@@ -959,13 +1206,13 @@
 				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
 				\end{axis}
 				\end{tikzpicture}
-			\end{subfigure}
-			\begin{subfigure}[t!]{0.4\textwidth}
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[
 				EISStyle,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.98,0.02)},
 					anchor=south east,
 				},
@@ -1004,11 +1251,12 @@
 	\begin{frame}{Carga y descarga}
 		\begin{figure}[h!]
 			\centering
-			\begin{subfigure}{0.4\textwidth}
+			\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[CCDStyle,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.98,0.98)},
 					anchor=north east,
 				},
@@ -1021,12 +1269,12 @@
 				%		\addplot+[restrict x to domain=0:1.088334] table [ x expr=\thisrow{Time}-2.29000000000000, y expr=\thisrow{Voltage} ] {./Data/CV_CRGO300517_7/raw/chargedischarge.txt};
 				\end{axis}
 				\end{tikzpicture}
-			\end{subfigure}
-			\begin{subfigure}{0.4\textwidth}
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{axis}[CCDStyle,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.68,0.88)},
 					anchor=north west,
 				},
@@ -1068,6 +1316,7 @@
 	\begin{frame}{Capacidad específica}
 		\begin{figure}[h]
 			\centering
+			\hfill
 			\begin{subfigure}[t]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{semilogxaxis}[
@@ -1079,7 +1328,7 @@
 				ymin = 0,
 				ymax = 50,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.98,0.98)},
 					anchor=north east,
 				},
@@ -1087,15 +1336,15 @@
 				]
 				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_11/raw/capacitance.txt};
 				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_13/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.5] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_9/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_3/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_5/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_7/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.5] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_9/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_3/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_5/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_7/raw/capacitance.txt};
 				
 				\end{semilogxaxis}
 				\end{tikzpicture}
 				\caption{Capacidad específica antes de 1000 ciclos de carga y descarga. }
-			\end{subfigure}
+			\end{subfigure}\hfill
 			\begin{subfigure}[t]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{semilogxaxis}[
@@ -1107,18 +1356,18 @@
 				ymin = 0,
 				ymax = 50,
 				every axis legend/.append style={
-					font=\tiny,
+					font=\normalsize,
 					at={(0.98,0.98)},
-					anchor=north west,
+					anchor=north east,
 				},
 				legend entries={\mPapelAcero, \mLiofilizadoAcero, \mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
 				]
 				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_12/raw/capacitance.txt};
 				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.16666666666] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_14/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.50000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_10/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_4/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_6/raw/capacitance.txt};
-				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_8/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.50000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_10/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.07142857142] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_4/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.22222222222] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_6/raw/capacitance.txt};
+%				\addplot+ [error bars/.cd, y dir=both, y fixed relative=0.25000000000] table [y expr=\thisrow{Capacitancia}] {./Data/CV_CRGO300517_8/raw/capacitance.txt};
 				
 				\end{semilogxaxis}
 				\end{tikzpicture}
@@ -1128,6 +1377,19 @@
 			\label{fig:resumen_cs}
 		\end{figure}
 	\end{frame}
+
+
+	\section{Conclusiones}
+	\begin{frame}{Conclusiones}
+		\begin{itemize}[<+>]
+			\item Se sintetizó un material de carbono para ser utilizado en como electrodo en supercondensadores.
+			\item Se diseñó y construyó una celda de pruebas que resultó ser apropiada para	estudiar diferencias en la preparación de electrodos.
+			\item 
+			\item 4.
+		\end{itemize}
+	\end{frame}
+
+	
 
 	\section{Bibliografía}
 	\begin{frame}[allowframebreaks]{Bibliografía}

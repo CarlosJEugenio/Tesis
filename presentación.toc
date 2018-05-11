@@ -6,6 +6,7 @@
 \beamer@subsectionintoc {2}{1}{Nanociencia}{10}{0}{2}
 \beamer@subsectionintoc {2}{2}{Grafeno}{12}{0}{2}
 \beamer@subsectionintoc {2}{3}{Supercondensadores}{21}{0}{2}
-\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{29}{0}{3}
-\beamer@sectionintoc {4}{Supercondensadores}{40}{0}{4}
-\beamer@sectionintoc {5}{Bibliograf\IeC {\'\i }a}{74}{0}{5}
+\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{33}{0}{3}
+\beamer@sectionintoc {4}{Supercondensadores}{44}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{85}{0}{5}
+\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{90}{0}{6}

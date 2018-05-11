@@ -1,28 +1,56 @@
 \frametitle{Caracterización electroquímica}
-\begin{figure}
-			\begin{tikzpicture}
-			[scale=1,trim axis right,trim axis left]
-			\begin{axis}
-			[
-			CCDStyle,
-			legend entries={Ideal, Real}
-			]
-			\addplot[green!60!black, thick] table {
-				A B
-				0 0
-				1 1
-				2 0
-			};
-			\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
-			\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
-			\addplot[red, thick, dashed] table {
-				A B
-				0 0
-				0 0.2
+\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1>{Voltametría cíclica:
+				\begin{itemize}
+					\item Barrido de voltage.
+				\end{itemize}}
+				\only<2>{Espectro electroquímico de impedancia:
+				\begin{itemize}
+					\item Barrido en frecuencia.
+				\end{itemize}}
+				\only<3>{Carga y descarga cíclica:
+				\begin{itemize}
+					\item Barrido en algo.
+				\end{itemize}}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\only<1>{\begin{figure}
+						\begin{tikzpicture}
+						[scale=1,trim axis right,trim axis left]
+						\begin{axis}
+						[
+						CVStyle,
+						domain=-1:1,
+						legend entries={Ideal, Real},
+						]
+						\addplot[green!60!black, thick] table {
+							A B
+							-1  1
+							1  1
 
-				1 1
-				1 0.8
-			};
-			\end{axis}
-			\end{tikzpicture}
-		\end{figure}
+							1 -1
+							-1 -1
+						};
+						\addplot[green!60!black, thick, dashed, forget plot] table {
+							A B
+							-1 -1
+							-1  1
+
+							1  1
+							1 -1
+						};
+						\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+						\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+
+						\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+						\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+						\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+						\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+						\end{axis}
+						\end{tikzpicture}
+				\end{figure}}
+			\end{column}
+		\end{columns}
