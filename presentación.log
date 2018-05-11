@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  10 MAY 2018 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  11 MAY 2018 11:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2465,1806 +2465,1123 @@ Overfull \vbox (34.31532pt too high) detected at line 581
 \openout4 = `presentación.vrb'.
 
  (./presentación.vrb
-Runaway argument?
-{ A B -1 1 1 1 
-! Paragraph ended before \pgfplots@addplotimpl@table@startprocessing was comple
-te.
-<to be read again> 
-                   \par 
-l.54 				\end{figure}}
-                      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Overfull \hbox (52.40845pt too wide) in paragraph at lines 14--34
+[] 
+ []
 
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Extra }, or forgotten \endgroup.
-\pgfplots@addplotimpl@table@fromfile ...1}{#2}{#3}
-                                                  {#4}
-l.54 				\end{figure}}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Runaway argument?
-{ A B -1 -1 -1 1 
-! Paragraph ended before \pgfplots@addplotimpl@table@startprocessing was comple
-te.
-<to be read again> 
-                   \par 
-l.54 				\end{figure}}
-                      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Extra }, or forgotten \endgroup.
-\pgfplots@addplotimpl@table@fromfile ...1}{#2}{#3}
-                                                  {#4}
-l.54 				\end{figure}}
-                      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
 \openout3 = `presentación.pgf-plot.gnuplot'.
 
 runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
+PGFPlots: reading {./Data/eisgalv_sim_simple.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
+Missing character: There is no ; in font nullfont!
+)
+Overfull \vbox (31.80888pt too high) detected at line 721
+ []
 
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-100.0'. The unreadable part was n
-ear '-100.0'..
+[30
 
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+] (./presentación.vrb
+\openout3 = `presentación.pgf-plot.gnuplot'.
 
-! Illegal unit of measure (pt inserted).
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+PGFPlots: reading {./Data/eisgalv_sim_simple.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
+Missing character: There is no ; in font nullfont!
+)
+Overfull \vbox (34.31532pt too high) detected at line 721
+ []
+
+[31
+
+] (./presentación.vrb
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+PGFPlots: reading {./Data/eisgalv_sim_simple.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
+Missing character: There is no ; in font nullfont!
+)
+Overfull \vbox (32.88806pt too high) detected at line 721
+ []
+
+[32
+
+] [33
+
+]
+<Imagenes/experimental_method.pdf, id=1315, pagebox=cropbox, 2485.867pt x 1881.
+2973pt>
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [34
+
+ <./Imagenes/experimental_method.pdf>]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [35
+
+]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+<Imagenes/Mn2O7.pdf, id=1493, pagebox=cropbox, 496.85625pt x 268.30237pt>
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [36
+
+ <./Imagenes/Mn2O7.pdf>]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [37
+
+]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [38
+
+]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [39
+
+]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [40
+
+]
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
+<use Imagenes/Mn2O7.pdf>
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 774. on input l
+ine 774.
+Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
+774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+File: Imagenes/experimental_method.pdf Graphic file (type pdf)
+<use Imagenes/experimental_method.pdf>
+Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 7
+74. on input line 774.
+Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
+e 774.
+ [41
+
+]
+<Imagenes/RGO_pic.png, id=1532, 1003.75pt x 1328.965pt>
+File: Imagenes/RGO_pic.png Graphic file (type png)
+<use Imagenes/RGO_pic.png>
+Package pdftex.def Info: Imagenes/RGO_pic.png  used on input line 794. on input
+ line 794.
+Package pdftex.def Info: Requested size: 119.50279pt x 158.21165pt on input lin
+e 794.
+<Imagenes/GO_pic.png, id=1533, 1003.75pt x 1229.59375pt>
+File: Imagenes/GO_pic.png Graphic file (type png)
+<use Imagenes/GO_pic.png>
+Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 794. on input 
+line 794.
+Package pdftex.def Info: Requested size: 123.48398pt x 151.25977pt on input lin
+e 794.
+
+Overfull \vbox (24.38742pt too high) detected at line 794
+ []
+
+[42
+
+ <./Imagenes/RGO_pic.png> <./Imagenes/GO_pic.png>]
+PGFPlots: reading {./Data/XRD/xrd.txt}
+PGFPlots: reading {./Data/XRD/xrd.txt}
+PGFPlots: reading {./Data/XRD/xrd.txt}
+
+Overfull \vbox (36.72145pt too high) detected at line 829
+ []
+
+[43
+
+] [44
+
+]
+\openout4 = `presentación.vrb'.
+
+ (./presentación.vrb
+<Imagenes/SC_process.pdf, id=1558, pagebox=cropbox, 1628.56967pt x 578.96617pt>
+
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+) [45
+
+ <./Imagenes/SC_process.pdf>]
+(./presentación.vrb
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 12. on inp
+ut line 12.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 12.
+) [46
+
+] (./presentación.vrb
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 12. on inp
+ut line 12.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 12.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 16. on inp
+ut line 16.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 16.
+) [47
+
+] (./presentación.vrb
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 12. on inp
+ut line 12.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 12.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 16. on inp
+ut line 16.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 16.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 20. on inp
+ut line 20.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 20.
+)
+[48
+
+] (./presentación.vrb
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 12. on inp
+ut line 12.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 12.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 16. on inp
+ut line 16.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 16.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 20. on inp
+ut line 20.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 20.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 24. on inp
+ut line 24.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 24.
+) [49
+
+] (./presentación.vrb
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 8. on inpu
+t line 8.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 8.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 12. on inp
+ut line 12.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 12.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 16. on inp
+ut line 16.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 16.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 20. on inp
+ut line 20.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 20.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 24. on inp
+ut line 24.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 24.
+File: Imagenes/SC_process.pdf Graphic file (type pdf)
+<use Imagenes/SC_process.pdf>
+Package pdftex.def Info: Imagenes/SC_process.pdf  used on input line 28. on inp
+ut line 28.
+Package pdftex.def Info: Requested size: 358.50229pt x 127.44362pt on input lin
+e 28.
+) [50
+
+] [51
+
+] [52
+
+] [53
+
+]
+[54
+
+] [55
+
+] [56
+
+]
+<Imagenes/cell_scheme.pdf, id=1631, pagebox=cropbox, 688.86975pt x 437.29802pt>
+
+File: Imagenes/cell_scheme.pdf Graphic file (type pdf)
+<use Imagenes/cell_scheme.pdf>
+Package pdftex.def Info: Imagenes/cell_scheme.pdf  used on input line 894. on i
+nput line 894.
+Package pdftex.def Info: Requested size: 239.00558pt x 151.72206pt on input lin
+e 894.
+<Imagenes/cell_image.pdf, id=1632, pagebox=cropbox, 320.3717pt x 422.618pt>
+File: Imagenes/cell_image.pdf Graphic file (type pdf)
+<use Imagenes/cell_image.pdf>
+Package pdftex.def Info: Imagenes/cell_image.pdf  used on input line 894. on in
+put line 894.
+Package pdftex.def Info: Requested size: 99.58464pt x 131.3649pt on input line 
+894.
+
+Overfull \vbox (28.82277pt too high) detected at line 894
+ []
+
+[57
+
+ <./Imagenes/cell_scheme.pdf> <./Imagenes/cell_image.pdf
+
+pdfTeX warning: /usr/local/texlive/2017/bin/x86_64-linux/pdflatex (file ./Image
+nes/cell_image.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>]
+<Imagenes/electrode_steel.png, id=1665, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_steel.png Graphic file (type png)
+<use Imagenes/electrode_steel.png>
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 971. 
+on input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+<Imagenes/electrode_ni.png, id=1666, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_ni.png Graphic file (type png)
+<use Imagenes/electrode_ni.png>
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 971. on 
+input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+ [58
+
+ <./Imagenes/electrode_steel.png> <./Imagenes/electrode_ni.png>]
+File: Imagenes/electrode_steel.png Graphic file (type png)
+<use Imagenes/electrode_steel.png>
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 971. 
+on input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+File: Imagenes/electrode_ni.png Graphic file (type png)
+<use Imagenes/electrode_ni.png>
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 971. on 
+input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+ [59
+
+]
+File: Imagenes/electrode_steel.png Graphic file (type png)
+<use Imagenes/electrode_steel.png>
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 971. 
+on input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+File: Imagenes/electrode_ni.png Graphic file (type png)
+<use Imagenes/electrode_ni.png>
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 971. on 
+input line 971.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+71.
+
+[60
+
+]
+<Imagenes/electrode_polvo_ac.png, id=1684, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 99
+7. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+<Imagenes/electrode_polvo_pmma_ac.png, id=1685, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
+ne 997. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+ [61
+
+ <./Imagenes/electrode_polvo_ac.png> <./Imagenes/electrode_polvo_pmma_ac.png>]
+File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 99
+7. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
+ne 997. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+ [62
+
+]
+File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 99
+7. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
+ne 997. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+ [63
+
+]
+File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 99
+7. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ac.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
+ne 997. on input line 997.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
+97.
+ [64
+
+]
+<Imagenes/electrode_paper.png, id=1710, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_paper.png Graphic file (type png)
+<use Imagenes/electrode_paper.png>
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1023.
+ on input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+<Imagenes/electrode_lio.png, id=1711, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_lio.png Graphic file (type png)
+<use Imagenes/electrode_lio.png>
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1023. o
+n input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+ [65
+
+ <./Imagenes/electrode_paper.png> <./Imagenes/electrode_lio.png>]
+File: Imagenes/electrode_paper.png Graphic file (type png)
+<use Imagenes/electrode_paper.png>
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1023.
+ on input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+File: Imagenes/electrode_lio.png Graphic file (type png)
+<use Imagenes/electrode_lio.png>
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1023. o
+n input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+ [66
+
+]
+File: Imagenes/electrode_paper.png Graphic file (type png)
+<use Imagenes/electrode_paper.png>
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1023.
+ on input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+File: Imagenes/electrode_lio.png Graphic file (type png)
+<use Imagenes/electrode_lio.png>
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1023. o
+n input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+ [67
+
+]
+File: Imagenes/electrode_paper.png Graphic file (type png)
+<use Imagenes/electrode_paper.png>
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1023.
+ on input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+File: Imagenes/electrode_lio.png Graphic file (type png)
+<use Imagenes/electrode_lio.png>
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1023. o
+n input line 1023.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+023.
+ [68
+
+]
+<Imagenes/electrode_polvo_ni.png, id=1735, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
+49. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+<Imagenes/electrode_polvo_pmma_ni.png, id=1736, 427.5975pt x 421.575pt>
+File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
+ne 1049. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+ [69
+
+ <./Imagenes/electrode_polvo_ni.png> <./Imagenes/electrode_polvo_pmma_ni.png>]
+File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
+49. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
+ne 1049. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+ [70
+
+]
+File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
+49. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
+ne 1049. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+ [71
+
+]
+File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
+49. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
+<use Imagenes/electrode_polvo_pmma_ni.png>
+Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
+ne 1049. on input line 1049.
+Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
+049.
+ [72
+
+]
+\openout4 = `presentación.vrb'.
+
+ (./presentación.vrb
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+\openout3 = `presentación.pgf-plot.gnuplot'.
+
+runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
+
+PGFPlots: reading {presentación.pgf-plot.table}
+)
+Overfull \vbox (36.28389pt too high) detected at line 1089
+ []
+
+[73
+
+] [74
+
+]
+\openout4 = `presentación.vrb'.
+
+ (./presentación.vrb)
+Overfull \vbox (37.36307pt too high) detected at line 1134
+ []
+
+[75
+
+] [76
+
+] [77
+
+]
+PGFPlots: reading {./Data/CV_CRGO300517_11/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_13/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_9/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
+
+Overfull \vbox (28.3508pt too high) detected at line 1200
+ []
+
+[78
+
+]
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_14/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_10/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample3.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
+pdfTeX warning (ext4): destination with the same identifier (name{fig:resumen_c
+v}) has been already used, duplicate ignored
 <to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-1000.0'. The unreadable part was 
-near '-1000.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-10000.0'. The unreadable part was
- near '-10000.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-100.0'. The unreadable part was n
-ear '-100.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-1000.0'. The unreadable part was 
-near '-1000.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `-10000.0'. The unreadable part was
- near '-10000.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Dimension too large.
-<recently read> \pgfmath@x 
-                           
-l.54 				\end{figure}}
-                      
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-! Dimension too large.
-<recently read> \pgfmath@x 
-                           
-l.54 				\end{figure}}
-                      
-I can't work with sizes bigger than about 19 feet.
-Continue and I'll use the largest value I can.
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.30002'. The unreadable part was 
-near '0.30002'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `16383.99998'. The unreadable part 
-was near '16383.99998'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.30002'. The unreadable part was 
-near '0.30002'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
-ng it (it is [-0.9997:-0.9997]) on input line 54.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.30002'. The unreadable part was 
-near '0.30002'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `16383.99998'. The unreadable part 
-was near '16383.99998'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.30002'. The unreadable part was 
-near '0.30002'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-Package pgfplots Warning: Axis range for axis y is approximately empty; enlargi
-ng it (it is [-0.9997:-0.9997]) on input line 54.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `2.40001'. The unreadable part was 
-near '2.40001'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `2.40001'. The unreadable part was 
-near '2.40001'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `195.0'. The unreadable part was ne
-ar '195.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1.0'. The unreadable part was near
- '1.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `162.0'. The unreadable part was ne
-ar '162.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1.0'. The unreadable part was near
- '1.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   n
-l.54 				\end{figure}}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   n
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   \edef 
-l.54 				\end{figure}}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \edef 
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1.0'. The unreadable part was near
- '1.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1.0'. The unreadable part was near
- '1.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.0'. The unreadable part was near
- '0.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   \xdef 
-l.54 				\end{figure}}
-                      
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \xdef 
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1'. The unreadable part was near '
-1'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `2000.0'. The unreadable part was n
-ear '2000.0'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no Y in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `1'. The unreadable part was near '
-1'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-
-! Package PGF Math Error: Sorry, an internal routine of the floating point unit
- got an ill-formatted floating point number `0.09999'. The unreadable part was 
-near '0.09999'..
-
-See the PGF Math package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 				\end{figure}}
-                      
-(That was another \errmessage.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   Y
-l.54 				\end{figure}}
-                      
-(That makes 100 errors; please try again.) 
+                   \relax 
+l.1237 	\end{frame}
+                   
+Overfull \vbox (28.3418pt too high) detected at line 1237
+ []
+
+[79
+
+] [80
+
+]
+PGFPlots: reading {./Data/CV_CRGO300517_11/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/CV_CRGO300517_13/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/CV_CRGO300517_9/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/eisgalv.txt}
+Missing character: There is no ; in font nullfont!
+
+Overfull \vbox (27.86746pt too high) detected at line 1331
+ []
+
+[81
+
+]
+PGFPlots: reading {./Data/CV_CRGO300517_11/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_13/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_9/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_3/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_7/raw/chargedischarge.txt}
+
+Overfull \vbox (38.42961pt too high) detected at line 1378
+ []
+
+[82
+
+] [83
+
+]
+PGFPlots: reading {./Data/CV_CRGO300517_11/raw/capacitance.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_13/raw/capacitance.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_12/raw/capacitance.txt}
+PGFPlots: reading {./Data/CV_CRGO300517_14/raw/capacitance.txt}
+
+Overfull \vbox (44.78473pt too high) detected at line 1461
+ []
+
+[84
+
+] [85
+
+] [86
+
+] [87
+
+] [88
+
+] [89
+
+] [90
+
+] [91
+
+] (./presentación.bbl) [92
+
+] [93
+
+
+]
+Overfull \vbox (15.63992pt too high) detected at line 1484
+ []
+
+[94
+
+]
+\tf@nav=\write9
+\openout9 = `presentación.nav'.
+
+\tf@toc=\write10
+\openout10 = `presentación.toc'.
+
+\tf@snm=\write11
+\openout11 = `presentación.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1486.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1486.
+ (./presentación.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1486.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1486.
+
+Package rerunfilecheck Info: File `presentación.out' has not changed.
+(rerunfilecheck)             Checksum: 92E7BB1D2028D4E1F98D58E3840AA5CD;624.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 57391 strings out of 492985
- 1410024 string characters out of 6132585
- 1896842 words of memory out of 5000000
- 59993 multiletter control sequences out of 15000+600000
- 545436 words of font info for 79 fonts, out of 8000000 for 9000
+ 74144 strings out of 492985
+ 1891887 string characters out of 6132585
+ 2254117 words of memory out of 5000000
+ 76536 multiletter control sequences out of 15000+600000
+ 545792 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,21n,119p,10398b,2720s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,23n,119p,10398b,2786s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on presentación.pdf (94 pages, 12219548 bytes).
+PDF statistics:
+ 1984 PDF objects out of 2073 (max. 8388607)
+ 1572 compressed objects within 16 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
