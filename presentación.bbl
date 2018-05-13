@@ -7,26 +7,32 @@ Balandin, A.~A. (2011).
 
 \bibitem[Bolotin et~al., 2008]{Bolotin2008}
 Bolotin, K.~I., Sikes, K.~J., Jiang, Z., Klima, M., Fudenberg, G., Hone, J.,
-  Kim, P., y Stormer, H.~L. (2008).
+  Kim, P., and Stormer, H.~L. (2008).
 \newblock {Ultrahigh electron mobility in suspended graphene}.
 \newblock {\em Solid State Communications}, 146(9-10):351--355.
 
 \bibitem[Gimenez-lopez et~al., 2011]{Gimenez2011}
-Gimenez-lopez, M.~C., Chuvilin, A., Kaiser, U., y Khlobystov, A.~N. (2011).
+Gimenez-lopez, M.~C., Chuvilin, A., Kaiser, U., and Khlobystov, A.~N. (2011).
 \newblock {Functionalised endohedral fullerenes in single-walled carbon
   nanotubes}.
 \newblock {\em Chem. C ommun}, 47:2116--2118.
 
 \bibitem[Lee et~al., 2008]{Lee2008}
-Lee, C., Wei, X., Kysar, J.~W., y Hone, J. (2008).
+Lee, C., Wei, X., Kysar, J.~W., and Hone, J. (2008).
 \newblock {Measurement of the Elastic Properties and Intrinsic Strength of
   Monolayer Graphene}.
 \newblock {\em Science}, 321(18 July 2008):385--388.
 
 \bibitem[Nair et~al., 2008]{Nair2008}
 Nair, R.~R., Blake, P., Grigorenko, A.~N., Novoselov, K.~S., Booth, T.~J.,
-  Stauber, T., Peres, N. M.~R., y Geim, A.~K. (2008).
+  Stauber, T., Peres, N. M.~R., and Geim, A.~K. (2008).
 \newblock {Fine Structure Constant Defines Visual Transparency of Graphene}.
 \newblock {\em Science}, 320(5881):1308--1308.
+
+\bibitem[Novoselov et~al., 2004]{Novoselov2004}
+Novoselov, K.~S., Geim, A.~K., Morozov, S.~V., Jiang, D., Zhang, Y., Dubonos,
+  S.~V., Grigorieva, I.~V., and Firsov, A.~A. (2004).
+\newblock {Electric Field Effect in Atomically Thin Carbon Films}.
+\newblock {\em Science}, 306(5696):666--669.
 
 \end{thebibliography}

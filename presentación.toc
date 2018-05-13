@@ -1,9 +1,8 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Objetivos}{3}{0}{1}
 \beamer@sectionintoc {2}{Introducci\IeC {\'o}n}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{\IeC {\textquestiondown }Por qu\IeC {\'e} supercondensadores?}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Nanociencia}{18}{0}{2}
-\beamer@subsectionintoc {2}{3}{Grafeno}{20}{0}{2}
+\beamer@subsectionintoc {2}{1}{Supercondensadores}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nanociencia}{20}{0}{2}
 \beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{32}{0}{3}
 \beamer@sectionintoc {4}{Supercondensadores}{43}{0}{4}
 \beamer@sectionintoc {5}{Conclusiones}{84}{0}{5}
