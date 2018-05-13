@@ -838,39 +838,40 @@
 %		\end{figure}
 		\begin{figure}
 			\begin{tikzpicture}[]
-			\path[ use as bounding box] (-4,-2) rectangle(4,2);
+			\path[ use as bounding box] (-4,-2) rectangle (4,2);
+%			\draw [help lines, dashed] (-4,-2) grid (4,2);
 				\only<1->{\begin{scope}
-					\clip[] (-3, 2)	circle(\clipradius);
+					\clip[] (-5, 1)	rectangle (-2.2, 4);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<2->{\begin{scope}
-					\clip[] (0, 2)	circle(\clipradius);
+					\clip[] (-2.2, 1) rectangle (1, 4);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<3->{\begin{scope}
 					\node[] at (5,2) {\ce{Mn2O7}};
 					\node[scale=1] at (5,2.5) {\includegraphics[width=2.5cm]{Mn2O7.pdf}};
-					\clip[] (3, 2)	circle(\clipradius);
+					\clip[] (1, 1) rectangle (4, 4);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<4->{\begin{scope}
-					\clip[] (3, 0) circle(\clipradius);
+					\clip[] (2, 1) rectangle (4, -1);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<5->{\begin{scope}
-					\clip[] ( 0, 0) circle(\clipradius);
+					\clip[] (2, 1) rectangle (-1, -1.2);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<6->{\begin{scope}
-					\clip[] (-3, 0) circle(\clipradius);
+					\clip[] (-1,1) rectangle (-5, -1.2);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<7->{\begin{scope}
-					\clip[] (0, -3) circle(\clipradius);
+					\clip[] (1, -1.2) rectangle (-2, -5);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<8->{\begin{scope}
-					\clip[] ( 3, -3) circle(\clipradius) ;
+					\clip[] (1, -1.2) rectangle (5, -5);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 			\end{tikzpicture}
@@ -968,12 +969,13 @@
 	\end{frame}
 
 	\begin{frame}{Construcción de supercondensadores}
-		\begin{itemize}
-			\item<1,6> Los colectores de corriente de aluminio y cobre utilizados, se degradan rápidamente.
-			\item<2,6> La deposición de material en los colectores de corriente no es homogénea.
-			\item<3,6> El agua del electrolito se evapora rápidamente, disminuyendo la cantidad de iones en el medio de conducción. 
-			\item<4,6> El cierre del dispositivo no es estable y no permite su reproducibilidad.
-			\item<5,6> La conexión a los terminales eléctricos no es estable.
+		\begin{itemize}[<+->]
+			\item Los colectores de corriente de \textbf{aluminio} y \textbf{cobre} utilizados, \textbf{se degradan rápidamente}.
+			\item La \textbf{deposición} de material en los colectores de corriente \textbf{no es homogénea}.
+			\item El agua del electrolito se evapora rápidamente, \textbf{disminuyendo la cantidad de iones} en el medio de conducción. 
+			\item El cierre del dispositivo \textbf{no es estable y no permite su reproducibilidad}.
+			\item La conexión a los terminales eléctricos \textbf{no es estable}.
+			\item[] \color{red} \textbf{Hay que buscar otro método!}
 		\end{itemize}
 	\end{frame}
 
@@ -1065,10 +1067,10 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}
-					\item<1> Sustrado de acero 316.
-					\item<2> Sustrato de espuma de níquel.
-					\item<3> Diámetro de 7mm.
+				\begin{itemize}[<+->]
+					\item Sustrato de \textbf{acero 316}.
+					\item Sustrato de \textbf{espuma de níquel}.
+					\item Diámetro de \textbf{7mm}.
 				\end{itemize}
 			\end{column}
 		\end{columns}		
@@ -1090,11 +1092,11 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}
-					\item<1-2> Dispersión en etilengrlicol, depositada por goteo, y evaporación del dispersante.
-					\item[!]<2> La deposición no es homogénea.
-					\item<3-4> Dispersión en solución de pmma en acetona, depositada por goteo, y evaporación del solvente.
-					\item[!]<4> Mucho aglutinante.
+				\begin{itemize}[<+->]
+					\item Dispersión en \textbf{etilengilicol}, depositada por goteo, y evaporación del dispersante.
+					\item[!] La deposición \textbf{no es homogénea}.
+					\item Dispersión en \textbf{solución de pmma en acetona}, depositada por goteo, y evaporación del solvente.
+					\item[!] \textbf{Mucho aglutinante}.
 				\end{itemize}
 			\end{column}
 		\end{columns}		
@@ -1116,11 +1118,11 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}
-					\item<1-2> Lámina parecida al papel.
-					\item[!]<2> Bordes irregulares.
-					\item<3-4> Material liofilizado.
-					\item[!]<4> Desconocimiento del resultado.
+				\begin{itemize}[<+->]
+					\item Lámina parecida al papel.
+					\item[!] Bordes irregulares.
+					\item Material liofilizado.
+					\item[!] Desconocimiento del resultado.
 				\end{itemize}
 			\end{column}
 		\end{columns}		
@@ -1142,11 +1144,11 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}
-					\item<1-2> Dispersión en etilenglicol, deposición por goteo, y evaporación del dispersante.
-					\item[!]<2> ?.
-					\item<3-4> Dispersión en solución de ppma en acetona, deposición por goteo, y evaporación del solvente.
-					\item[!]<4> ?.
+				\begin{itemize}[<+->]
+					\item Dispersión en etilenglicol, deposición por goteo, y evaporación del dispersante.
+					\item[!] ?.
+					\item Dispersión en solución de ppma en acetona, deposición por goteo, y evaporación del solvente.
+					\item[!] ?.
 				\end{itemize}
 			\end{column}
 		\end{columns}		
@@ -1568,10 +1570,10 @@
 	\section{Conclusiones}
 	\begin{frame}{Conclusiones}
 		\begin{itemize}[<+->]
-			\item Se sintetizó óxido reducido de carbono para ser utilizado en electrodos de supercondensadores.
-			\item Se diseñó y construyó una celda de pruebas que resultó ser apropiada para	estudiar diferencias en la preparación de electrodos.
-			\item Los electrodos en formato papel y liofilizazdo mostraron mejor desempeño.
-			\item El alto costo del proceso de liofilización hace más atractio el electrodo en formato papel.
+			\item Se sintetizó \textbf{óxido reducido de grafeno} para ser utilizado en \textbf{electrodos de supercondensadores}.
+			\item Se \textbf{diseñó y construyó una celda de pruebas} que resultó ser apropiada para estudiar diferencias en la preparación de electrodos.
+			\item Los electrodos en\textbf{ formato papel y liofilizado} mostraron mejor desempeño.
+			\item El alto costo del proceso de liofilización hace más atractivo el electrodo en formato papel.
 			\item[!] La principal fuente de error es la baja masa del material activo en los electrodos.
 		\end{itemize}
 	\end{frame}
