@@ -1,28 +1,32 @@
-\frametitle{Caracterización electroquímica}
-\begin{figure}
-			\begin{tikzpicture}
-			[scale=1,trim axis right,trim axis left]
-			\begin{axis}
-			[
-			CCDStyle,
-			legend entries={Ideal, Real}
-			]
-			\addplot[green!60!black, thick] table {
-				A B
-				0 0
-				1 1
-				2 0
-			};
-			\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
-			\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
-			\addplot[red, thick, dashed] table {
-				A B
-				0 0
-				0 0.2
-
-				1 1
-				1 0.8
-			};
-			\end{axis}
+\frametitle{Construcción de supercondensadores}
+\begin{figure}[h!]
+			\begin{tikzpicture}[]
+			\path[ use as bounding box] (-4,-2) rectangle(4,2);
+				\only<1->{\begin{scope}
+					\clip[] (-6.5, 0) rectangle (-2.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<2->{\begin{scope}
+					\clip[] (-2.5, 0) rectangle (1.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<3->{\begin{scope}
+					\clip[] (1.5, 0) rectangle (5.5, 2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<4->{\begin{scope}
+					\clip[] (-6.5, 0) rectangle (-2.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<5->{\begin{scope}
+					\clip[] (-2.5, 0) rectangle (1.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
+				\only<6->{\begin{scope}
+					\clip[] (1.5, 0) rectangle (6.5, -2.5);
+					\node at (0,0) {\includegraphics[width = 0.9\textwidth]{SC_process.pdf}};
+				\end{scope}}
 			\end{tikzpicture}
+			\caption[Principio de contrucción de un supercondensador]{Secuencia para la construcción de un supercondensador básico.}
+			\label{fig:SC_process}
 		\end{figure}

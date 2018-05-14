@@ -69,6 +69,7 @@
 \definecolor{c71d89a}{RGB}{113,216,154}
 \definecolor{cbfbfbf}{RGB}{191,191,191}
 \definecolor{c252525}{RGB}{37,37,37}
+\definecolor{red_oxigen}{RGB}{211,95,95}
 
 \definecolor{samplegreen}{RGB}{150,250,150}
 
@@ -192,33 +193,44 @@
 		\begin{columns}
 			\begin{column}{0.5\textwidth}
 				\only<1->\textbf{¿Qué es un supercondensador?}
-				\begin{itemize}
-					\item<2-> Es un dispositivo eléctrico de \textbf{almacenamiento de energía}.
-					\item<3-> Parecido a una batería.
-					\item<4-> Pero más parecido a un condensador convencional.
-					\item<5-> Puede almacenar y entregar energía \textbf{más rápido que una batería}, y de forma \textbf{más eficiente}.
+				\begin{itemize}[<+(1)->]
+					\item Es un dispositivo eléctrico de \textbf{almacenamiento de energía}.
+					\item Parecido a una batería.
+					\item Pero \textbf{más parecido a un condensador convencional}.
 				\end{itemize}
 			\end{column}
 			\begin{column}{0.5\textwidth}
-				\begin{onlyenv}<5->
-					\begin{figure}
-						\centering
-						{
-							\includegraphics[width = \textwidth]{ragone.pdf}
-						}
-						\caption{Diagrama de Ragone}
-					\end{figure}
-				\end{onlyenv}
 				\begin{onlyenv}<1-4>
-					\begin{figure}
+					\begin{figure}[b]
 						\begin{tikzpicture}
 							\node at (3,2) {\includegraphics[width=0.3\textwidth]{com_sc_1.png}};
-							\node at (0,0) {\includegraphics[width=0.5\textwidth]{com_sc_2.png}};
-							\node at (2,-2) {\includegraphics[width=0.6\textwidth]{com_sc_3.png}};
+							\node at (0,2) {\includegraphics[width=0.5\textwidth]{com_sc_2.png}};
+							\node at (1,-1) {\includegraphics[width=0.6\textwidth]{com_sc_3.png}};
 						\end{tikzpicture}
 						\caption{Supercondensadores comercialmente disponibles.}
 					\end{figure}
 				\end{onlyenv}
+
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}{¿Por qué usar supercondensadores?}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1->\textbf{En términos energéticos:}
+				\begin{itemize}[<+(1)->]
+					\item Puede almacenar y entregar energía \textbf{más rápido que una batería}, y de forma \textbf{más eficiente}.
+					\item Pero en \textbf{menor cantidad}.
+					\item Son idóneos para aplicaciones que requieran \textbf{respuestas rápidas por un corto periodo de tiempo}.
+					\item \textbf{Frenado regenerativo}, \textbf{sistemas de respaldo}, \textbf{recolección de energía}, etc.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}[b]
+					\includegraphics[width = \textwidth]{ragone.pdf}
+					\caption{Diagrama de Ragone}
+				\end{figure}
 			\end{column}
 		\end{columns}
 	\end{frame}
@@ -259,18 +271,6 @@
 			\end{column}
 		\end{columns}
 	\end{frame}
-
-	\begin{frame}{Caracterización de supercondensadores}
-		\begin{columns}
-			\begin{column}{0.5\textwidth}
-
-			\end{column}
-			\begin{column}{0.5\textwidth}
-
-			\end{column}
-		\end{columns}
-	\end{frame}
-
 		
 	\subsection{Nanociencia}
 	\begin{frame}{Nanociencia}
@@ -337,14 +337,25 @@
 		\end{figure}
 	\end{frame}
 
+	\begin{frame}{Área superficial}
+		\begin{figure}
+			\includegraphics[width=\textwidth]{area_cubes.pdf}
+			\caption{Aumento del área superficial.}
+		\end{figure}
+		\begin{itemize}[<+(1)->]
+			\item El \textbf{área superficial se dobla} con cada división.
+			\item De 1 cm a 100 nm de lado, \textbf{el área aumenta 100.000 veces}.
+		\end{itemize}
+	\end{frame}
+
 	\begin{frame}{Grafeno y derivados}
 		\begin{columns}
 			\begin{column}{0.6\textwidth}
 				\only<1->\textbf{¿Qué es el grafeno?}
 				\begin{itemize}[<+(1)->]
 					\item Red hexagonal de \textbf{átomos de carbono hibridizados}.
-					\item Los átomos de carbono están a \textbf{0,14 nm} entre ellos.
-					\item \textbf{Andre Geim y Konstantin Novoselov} recibieron el premio Nobel en 2010 por aislar grafeno.  \citep{Novoselov2004}.
+					\item Espesor de \textbf{0,34 nm}, con átomos espaciados en \textbf{0,14 nm}.
+					\item \textbf{Andre Geim y Konstantin Novoselov} recibieron el premio Nobel en 2010 por aislar grafeno \citep{Novoselov2004}.
 				\end{itemize}
 			\end{column}
 			\begin{column}{0.4\textwidth}
@@ -357,7 +368,7 @@
 				\begin{onlyenv}<4->
 					\begin{figure}
 						\includegraphics[width=\textwidth]{Nobel_graphene.png}
-						\caption{text}
+						\caption{Método experimental para la obtención de grafeno \citep{Novoselov2004}.}
 					\end{figure}
 				\end{onlyenv}
 			\end{column}
@@ -370,63 +381,177 @@
 				\only<1->\textbf{Derivados del grafeno}
 				\begin{itemize}[<+(1)->]
 					\item Una forma de producir grafeno en grandes cantidades en mediante la \textbf{ruta del óxido de grafeno}.
-					\item La introducción de \textbf{grupos oxigenados} en el grafito, facilita la \textbf{exfoliación} de \textbf{óxido de grafeno}.
-					\item La remoción de los \textbf{grupos oxigenados} resulta en \textbf{óxido de grafeno reducido}.
+					\item La introducción de \textcolor{red_oxigen}{\textbf{grupos oxigenados}} en el grafito, facilita la \textbf{exfoliación} de \textbf{óxido de grafeno (GO)}.
+					\item La remoción de los \textcolor{red_oxigen}{\textbf{grupos oxigenados}} resulta en \textbf{óxido de grafeno reducido (rGO)}.
+					\item[] \textcolor{red}{\textbf{Lamentablemente este método no es perfecto}}.
 				\end{itemize}
 			\end{column}
 			\begin{column}{0.4\textwidth}
-				\begin{onlyenv}<1-3>
-					\begin{figure}
-						\includegraphics[width=\textwidth]{graphene_lattice.pdf}
-						\caption{Estructura cristalina del grafeno.}
-					\end{figure}
-				\end{onlyenv}
-				\begin{onlyenv}<4->
+				\begin{onlyenv}<1->
 					\begin{figure}
 						\includegraphics[width=0.8\textwidth]{graphiteTORGO_stack.pdf}
-						\caption{text}
+						\caption{Ruta del óxido de grafeno.}
 					\end{figure}
 				\end{onlyenv}
 			\end{column}
 		\end{columns}
 	\end{frame}
 
-%	\subsection{Grafeno}
-%	\begin{frame}{Grafeno}
-%		\begin{figure}
-%			\begin{subfigure}[b]{0.4\textwidth}
-%				\only<1,2>{{\includegraphics[width=\textwidth]{graphene_lattice.pdf}}}
-%				\caption{Red de grafeno.}
-%			\end{subfigure}\hfill
-%			\begin{subfigure}[b]{0.5\textwidth}
-%				\only<1>{{\includegraphics[width=\textwidth]{hybrid.pdf}}}
-%				\only<2>{{\includegraphics[width=\textwidth]{piorbitals.pdf}}}
-%				\caption{Orbitales moleculares e hibridización sp2.}
-%			\end{subfigure}
-%		\end{figure}
-%	\end{frame}
-
 	\begin{frame}{El grafeno en supercondensadores}
+		\only<1->\textbf{¿Por qué usar grafeno en supercondensadores?}
+		\begin{itemize}[<+(1)->]
+			\item Es un material \textbf{no metálico} con \textbf{alta conductividad eléctrica}.
+			\item Tiene un \textbf{área superficial específica} muy grande.
+		\end{itemize}
+	\end{frame}
+
+
+	\subsection{Caracterización electroquímica}
+	
+	\begin{frame}[fragile]{Caracterización de supercondensadores}
 		\begin{columns}
 			\begin{column}{0.5\textwidth}
-				
+				\only<1-> \textbf{Voltametría cíclica}
+				\begin{itemize}[<+(1)->]
+					\item \textbf{Barrido de voltaje a velocidad constante}, y medición de \textbf{corriente}.
+					\item El área encerrada es \textbf{proporcional a la capacitancia específica}.
+					\item Un \textbf{condensador ideal} mostraría un rectángulo.
+				\end{itemize}
 			\end{column}
 			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\begin{tikzpicture}
+					[scale=1,trim axis right,trim axis left]
+						\begin{axis}
+						[
+						CVStyle,
+						width=\textwidth,
+						domain=-1:1,
+						legend entries={Ideal, Real},				
+						]
+							\addplot[green!60!black, thick] table {
+								A B
+								-1  1
+								1  1
+								
+								1 -1
+								-1 -1
+							};
+							\addplot[green!60!black, thick, dashed, forget plot] table {
+								A B
+								-1 -1
+								-1  1
+								
+								1  1
+								1 -1
+							};
+							\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+							\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+							\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+							\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+							
+							\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+							\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+							\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+							\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+						\end{axis}
+					\end{tikzpicture}
+					\caption{Ejemplos de voltametría cíclica.}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+	\begin{frame}[fragile]{Caracterización de supercondensadores}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1-> \textbf{Espectroscopia de impedancia electroquímica}
+				\begin{itemize}[<+(1)->]
+					\item Barrido en frecuencia de una señal sinusoidal.
+					\item Medición de la impedancia en función de la frecuencia.
+					\item Representación en un gráfico de Nyquist.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\centering
+					\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+						\begin{axis}[
+						width=1.3\textwidth,
+						height=\axisdefaultheight,
+						EISStyle,
+						every axis legend/.append style={
+							font=\normalsize,
+							at={(0.02,0.98)},
+							anchor=north west,
+						},
+						legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
+						]
+						\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+						\pgfplotstablegetrowsof{\eistable}
+						\pgfmathsetmacro{\N}{\pgfplotsretval}
+						\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+						node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+						node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+						\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+						\pgfplotstablegetrowsof{\eistable}
+						\pgfmathsetmacro{\N}{\pgfplotsretval}
+						\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+						node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+						node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+						\end{axis}
+					\end{tikzpicture}
+					\caption{Espectro electroquímico de impedancia simulados para los circuitos equivalentes. Obtenido en EIS Spectrum Analyser.}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
 
+	\begin{frame}[fragile]{Caracterización de supercondensadores}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\only<1-> \textbf{Carga y descarga cíclica a corriente constante}
+				\begin{itemize}[<+(1)->]
+					\item Carga a \textbf{corriente constante} hasta un \textbf{potencial máximo}.
+					\item Descarga a \textbf{corriente constante} hasta un \textbf{potencial mínimo}.
+					\item Se evidencia el efecto de la\textbf{ resistencia en serie equivalente} como una \textbf{caída de potencial}.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\begin{tikzpicture}
+					[scale=1,trim axis right,trim axis left]
+						\begin{axis}
+						[
+						CCDStyle,
+						width=\textwidth,
+						legend entries={Ideal, Real}			
+						]
+						\addplot[green!60!black, thick] table {
+							A B
+							0 0
+							1 1
+							2 0
+						};
+						\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
+						\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
+						\addplot[red, thick, dashed] table {
+							A B
+							0 0
+							0 0.2
+							
+							1 1
+							1 0.8
+						};
+						\end{axis}
+					\end{tikzpicture}
+					\caption{Ejemplo de carga y descarga.}
+				\end{figure}			
 			\end{column}
 		\end{columns}
 	\end{frame}
 
-	\begin{frame}{Caracterización de supercondensadores}
-		\begin{columns}
-			\begin{column}{0.5\textwidth}
-
-			\end{column}
-			\begin{column}{0.5\textwidth}
-
-			\end{column}
-		\end{columns}
-	\end{frame}
 %	\begin{frame}[fragile]{El condensador ideal}
 %		\begin{figure}
 %			\centering
@@ -827,6 +952,17 @@
 	
 
 	\newcommand{\clipradius}{1.7cm}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	\section{Ruta de síntesis}
 	\begin{frame}{Ruta de síntesis}
 %		\begin{figure}
@@ -849,8 +985,8 @@
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<3->{\begin{scope}
-					\node[] at (5,2) {\ce{Mn2O7}};
-					\node[scale=1] at (5,2.5) {\includegraphics[width=2.5cm]{Mn2O7.pdf}};
+					\node[] at (6, 3) {\ce{Mn2O7}};
+					\node[scale=1] at (6, 2) {\includegraphics[width=2.5cm]{Mn2O7.pdf}};
 					\clip[] (1, 1) rectangle (4, 4);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
@@ -863,6 +999,7 @@
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<6->{\begin{scope}
+					\node at (-6, -1) {Fotografía GO};
 					\clip[] (-1,1) rectangle (-5, -1.2);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
@@ -871,67 +1008,51 @@
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<8->{\begin{scope}
+					\node at (6, -2) {Fotografía rGO};
 					\clip[] (1, -1.2) rectangle (5, -5);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 			\end{tikzpicture}
 		\end{figure}
-	\end{frame}
-
-	\begin{frame}{Resultados de la síntesis}
-		\begin{figure}[h]
-			\centering
-			{
-				\begin{subfigure}{0.3\textwidth}
-					\includegraphics[width=\textwidth]{RGO_pic.png}
-					\caption{rGO}
-					\label{fig:RGO}
-				\end{subfigure}
-				\begin{subfigure}{0.31\textwidth}
-					\includegraphics[width=\textwidth]{GO_pic.png}
-					\caption{GO}
-					\label{fig:GO}
-				\end{subfigure}
-			}
-			\caption[Dispersiones de rGO y GO en agua]{Dispersiones de rGO y GO en agua.}
-			\label{fig:RGOyGO}
-		\end{figure}
-	\end{frame}
+	\end{frame}	
 	
 	\begin{frame}{XRD}
-		\begin{figure}[h]
-			\centering
-			\begin{tikzpicture}[]
-			\begin{axis}[
-			cycle list name=colorbrewer-RYB,
-			no markers,
-			width = 0.6\textwidth,
-			yticklabels={,,},
-			ylabel={Intensidad},
-			y unit=u.a.,
-			xlabel={2$\mathrm{\theta}$},
-			x unit=grados,
-			every axis legend/.append style={
-				font={\normalsize}, 
-				at={(0.5,1)},
-				anchor=north west,
-			},
-			legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido},
-			]
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
-			\pgfplotsset{cycle list shift=1}
-			\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
-			%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
-%			\node[black, rotate=90] at (24, 0.3){\Tiny{(002)}};
-			%	\node[black, rotate=90] at (7, 1.5){\small{10,2\degree}};
-			%	\node[black, rotate=90] at (26, 3){\small{22,6\degree}};
-			\end{axis}
-			\end{tikzpicture}
-			\caption[Espectro de difracción de rayos x de grafito, GO y rGO]{Espectro de difracción de rayos x.}
-			\label{fig:xrd}
-		\end{figure}
+		\begin{columns}
+			\begin{column}[]{0.3\textwidth}
+				dsasdasd
+			\end{column}
+			\begin{column}[]{0.6\textwidth}
+				\begin{figure}
+					\begin{tikzpicture}
+						\begin{axis}[
+						cycle list name=colorbrewer-RYB,
+						no markers,
+						width=\textwidth,
+						height=0.9*\axisdefaultheight,
+						yticklabels={,,},
+						ylabel={Intensidad},
+						y unit=u.a.,
+						xlabel={2$\mathrm{\theta}$},
+						x unit=grados,
+						every axis legend/.append style={
+							font={\normalsize}, 
+							at={(0.5,1.05)},
+							anchor=north west,
+						},
+						legend entries={Grafito, Óxido de grafeno, Óxido de grafeno reducido},
+						]
+						\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{C}] {./Data/XRD/xrd.txt};
+						\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{GO}+1] {./Data/XRD/xrd.txt};
+						\pgfplotsset{cycle list shift=1}
+						\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGO}+2] {./Data/XRD/xrd.txt};
+						\end{axis}
+					\end{tikzpicture}
+					\caption[]{Espectro de difracción de rayos x.}
+				\end{figure}
+			\end{column}
+		\end{columns}
 	\end{frame}
+
 
 	\section{Supercondensadores}
 	\begin{frame}[fragile]{Construcción de supercondensadores}
@@ -969,15 +1090,37 @@
 	\end{frame}
 
 	\begin{frame}{Construcción de supercondensadores}
-		\begin{itemize}[<+->]
+		\only<1->\textbf{Problemas con la construcción de supercondensadores:}
+		\begin{itemize}[<+(1)->]
 			\item Los colectores de corriente de \textbf{aluminio} y \textbf{cobre} utilizados, \textbf{se degradan rápidamente}.
 			\item La \textbf{deposición} de material en los colectores de corriente \textbf{no es homogénea}.
 			\item El agua del electrolito se evapora rápidamente, \textbf{disminuyendo la cantidad de iones} en el medio de conducción. 
 			\item El cierre del dispositivo \textbf{no es estable y no permite su reproducibilidad}.
 			\item La conexión a los terminales eléctricos \textbf{no es estable}.
-			\item[] \color{red} \textbf{Hay que buscar otro método!}
+			\item[] \color{red} {\large \textbf{¡Hay que buscar otro método!}}
 		\end{itemize}
 	\end{frame}
+
+
+	\begin{frame}{Celda de pruebas}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\textbf{Se decide diseñar una celda de pruebas}
+				\begin{itemize}[<+->]
+					\item Fácil manipulación.
+					\item \textbf{Resistente a la corrosión.}
+					\item \textbf{Hermético.}
+					\item  \textbf{Reproducible}.
+				\end{itemize}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\includegraphics[width=\textwidth]{cell4.png}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
 
 	\begin{frame}{Celda de pruebas}
 		\begin{figure}[h!]
@@ -1119,9 +1262,9 @@
 			\end{column}
 			\begin{column}{0.6\textwidth}
 				\begin{itemize}[<+->]
-					\item Lámina parecida al papel.
+					\item Lámina parecida al \textbf{papel}.
 					\item[!] Bordes irregulares.
-					\item Material liofilizado.
+					\item Material \textbf{liofilizado}.
 					\item[!] Desconocimiento del resultado.
 				\end{itemize}
 			\end{column}
@@ -1145,128 +1288,128 @@
 			\end{column}
 			\begin{column}{0.6\textwidth}
 				\begin{itemize}[<+->]
-					\item Dispersión en etilenglicol, deposición por goteo, y evaporación del dispersante.
-					\item[!] ?.
-					\item Dispersión en solución de ppma en acetona, deposición por goteo, y evaporación del solvente.
-					\item[!] ?.
+					\item Dispersión en \textbf{etilenglicol}, deposición por goteo, y evaporación del dispersante.
+					\item[!] La dispersión \textbf{escurre fuera del electrodo}.
+					\item Dispersión en \textbf{solución de ppma en acetona}, deposición por goteo, y evaporación del solvente.
+					\item[!] La Dispersión \textbf{escurre fuera del electrodo}.
 				\end{itemize}
 			\end{column}
 		\end{columns}		
 	\end{frame}
 	
-	\begin{frame}[fragile]{Caracterización electroquímica}
-		\begin{figure}
-			\begin{tikzpicture}
-				[scale=1,trim axis right,trim axis left]
-				\begin{axis}
-				[
-				CVStyle,
-				domain=-1:1,
-				legend entries={Ideal, Real},				
-				]
-	 		 	\addplot[green!60!black, thick] table {
-	 		 		A B
-	 		 		-1  1
-	 		 		 1  1
-	 		 		
-	 		 		 1 -1
-	 		 		-1 -1
-	 		 	};
- 		 		\addplot[green!60!black, thick, dashed, forget plot] table {
- 		 			A B
- 		 			-1 -1
- 		 			-1  1
- 		 			
- 		 			1  1
- 		 			1 -1
- 		 		};
- 	 			\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
- 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
- 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
- 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
-				
-				\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
-				\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
-				\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
-				\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
- 		 		\end{axis}
-			\end{tikzpicture}
-		\end{figure}
-	\end{frame}
-
-	\begin{frame}{Caracterización electroquímica}
-		\begin{table}[h!]
-			\centering
-			\begin{tabular}{ l r }
-				Voltametría cíclica &  \\
-				\hline
-				Voltaje inicial [V] & 0 \\
-				Límite inferior [V] & -0,8 \\
-				Límite superior [V] & 0,8  \\
-				Número de ciclos & 3 \\
-				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400
-			\end{tabular}
-		\end{table}
-	\end{frame}
-
-	\begin{frame}[fragile]{Caracterización electroquímica}
-		\begin{figure}
-			\begin{tikzpicture}
-			[scale=1,trim axis right,trim axis left]
-			\begin{axis}
-			[
-			CCDStyle,
-			legend entries={Ideal, Real}			
-			]
-			\addplot[green!60!black, thick] table {
-				A B
-				0 0
-				1 1
-				2 0
-			};
-			\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
-			\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
-			\addplot[red, thick, dashed] table {
-				A B
-				0 0
-				0 0.2
-			
-				1 1
-				1 0.8
-			};
-			\end{axis}
-			\end{tikzpicture}
-		\end{figure}
-	\end{frame}
-
-	\begin{frame}{Caracterización electroquímica}
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{ l r }
-		Carga y descarga cíclica & \\
-		\hline
-		Densidad de corriente [A/g] & 0,1 ó 	1 \\
-		Número de ciclos & 1000 \\
-		Límite inferior [V] & 0 \\
-		Límite superior [V] & 1 \\
-	\end{tabular}
-	\label{tab:elec_config}
-	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
-\end{table}
-\end{frame}
-
-	\begin{frame}{Caracterización electroquímica}
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{ l r }
-		Espectroscopía de impedancia electroqúimica & \\
-		\hline
-		Frecuencia inicial	&	1 MHz \\
-		Frecuencia final	&	0.1 Hz \\
-		Corriente de exitación & 1 mA rms \\ 
-	\end{tabular}
-\end{table}
-\end{frame}
+%	\begin{frame}[fragile]{Caracterización electroquímica}
+%		\begin{figure}
+%			\begin{tikzpicture}
+%				[scale=1,trim axis right,trim axis left]
+%				\begin{axis}
+%				[
+%				CVStyle,
+%				domain=-1:1,
+%				legend entries={Ideal, Real},				
+%				]
+%	 		 	\addplot[green!60!black, thick] table {
+%	 		 		A B
+%	 		 		-1  1
+%	 		 		 1  1
+%	 		 		
+%	 		 		 1 -1
+%	 		 		-1 -1
+%	 		 	};
+% 		 		\addplot[green!60!black, thick, dashed, forget plot] table {
+% 		 			A B
+% 		 			-1 -1
+% 		 			-1  1
+% 		 			
+% 		 			1  1
+% 		 			1 -1
+% 		 		};
+% 	 			\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+% 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+% 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+% 	 			\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+%				
+%				\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+%				\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+%				\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+%				\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+% 		 		\end{axis}
+%			\end{tikzpicture}
+%		\end{figure}
+%	\end{frame}
+%
+%	\begin{frame}{Caracterización electroquímica}
+%		\begin{table}[h!]
+%			\centering
+%			\begin{tabular}{ l r }
+%				Voltametría cíclica &  \\
+%				\hline
+%				Voltaje inicial [V] & 0 \\
+%				Límite inferior [V] & -0,8 \\
+%				Límite superior [V] & 0,8  \\
+%				Número de ciclos & 3 \\
+%				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400
+%			\end{tabular}
+%		\end{table}
+%	\end{frame}
+%
+%	\begin{frame}[fragile]{Caracterización electroquímica}
+%		\begin{figure}
+%			\begin{tikzpicture}
+%			[scale=1,trim axis right,trim axis left]
+%			\begin{axis}
+%			[
+%			CCDStyle,
+%			legend entries={Ideal, Real}			
+%			]
+%			\addplot[green!60!black, thick] table {
+%				A B
+%				0 0
+%				1 1
+%				2 0
+%			};
+%			\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
+%			\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
+%			\addplot[red, thick, dashed] table {
+%				A B
+%				0 0
+%				0 0.2
+%			
+%				1 1
+%				1 0.8
+%			};
+%			\end{axis}
+%			\end{tikzpicture}
+%		\end{figure}
+%	\end{frame}
+%
+%	\begin{frame}{Caracterización electroquímica}
+%\begin{table}[h!]
+%	\centering
+%	\begin{tabular}{ l r }
+%		Carga y descarga cíclica & \\
+%		\hline
+%		Densidad de corriente [A/g] & 0,1 ó 	1 \\
+%		Número de ciclos & 1000 \\
+%		Límite inferior [V] & 0 \\
+%		Límite superior [V] & 1 \\
+%	\end{tabular}
+%	\label{tab:elec_config}
+%	\caption[Parámetros de cada medición electroquímica]{Parámetros de cada medición electroquímica.}
+%\end{table}
+%\end{frame}
+%
+%	\begin{frame}{Caracterización electroquímica}
+%\begin{table}[h!]
+%	\centering
+%	\begin{tabular}{ l r }
+%		Espectroscopía de impedancia electroqúimica & \\
+%		\hline
+%		Frecuencia inicial	&	1 MHz \\
+%		Frecuencia final	&	0.1 Hz \\
+%		Corriente de exitación & 1 mA rms \\ 
+%	\end{tabular}
+%\end{table}
+%\end{frame}
 
 	\begin{frame}{Resultados}
 		\begin{figure}[h!]
