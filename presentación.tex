@@ -13,6 +13,7 @@
 \usepackage{pgfplots}
 \usepackage{pgfplotstable,tabularx,booktabs}
 \usepackage[]{qrcode}
+\usepackage{gensymb}
 
 \usetikzlibrary{positioning}
 %\usetikzlibrary{pgfplots.clickable}
@@ -171,14 +172,18 @@
 
 	\section{Objetivos}
 	\begin{frame}{Objetivos}
-		Objetivo general
+		\textbf{Objetivo general:}
 		\begin{itemize}
 			\item Sintetizar \textbf{óxido de grafeno reducido}, para su utilización en electrodos de \textbf{supercondensadores}.
+		\end{itemize}
+		\textbf{Objetivo de laboratorio:}
+		\begin{itemize}
+			\item 
 		\end{itemize}
 	\end{frame}
 
 	\begin{frame}{Objetivos}
-		Objetivos específicos
+		\textbf{Objetivos específicos:}
 		\begin{itemize}[<+->]
 			\item Sintetizar \textbf{óxido de grafeno (GO)}, a partir de grafito natural mediante un proceso químico; para su posterior reducción y obtención de \textbf{óxido reducido de grafeno (rGO)}.
 			\item Fabricar electrodos de \textbf{óxido de grafeno reducido} con diferentes métodos, para su posterior caracterización electroquímica.
@@ -401,7 +406,8 @@
 		\only<1->\textbf{¿Por qué usar grafeno en supercondensadores?}
 		\begin{itemize}[<+(1)->]
 			\item Es un material \textbf{no metálico} con \textbf{alta conductividad eléctrica}.
-			\item Tiene un \textbf{área superficial específica} muy grande.
+			\item Tiene un \textbf{área superficial específica} muy grande. Un gramo de grafeno tiene el área aproximada a 14 canchas de tenis.
+			\item Un gramo de \textbf{óxido reducido de grafeno} puede llegar a aproximadamente 3.
 		\end{itemize}
 	\end{frame}
 
@@ -462,15 +468,57 @@
 		\end{columns}
 	\end{frame}
 	
+	\newcommand{\circuitscale}{0.5}	
 	\begin{frame}[fragile]{Caracterización de supercondensadores}
 		\begin{columns}
 			\begin{column}{0.5\textwidth}
 				\only<1-> \textbf{Espectroscopia de impedancia electroquímica}
-				\begin{itemize}[<+(1)->]
-					\item Barrido en frecuencia de una señal sinusoidal.
-					\item Medición de la impedancia en función de la frecuencia.
-					\item Representación en un gráfico de Nyquist.
-				\end{itemize}
+				\begin{onlyenv}<1-5>
+					\begin{itemize}[<+(1)->]
+						\item \textbf{Barrido en frecuencia} de una señal sinusoidal.
+						\item Medición de la \textbf{impedancia} en función de la frecuencia.
+						\item Representación en un \textbf{gráfico de Nyquist}.
+						\item Cualitativamente podemos asignar un \textbf{circuito equivalente} al dispositivo en cuestión.
+					\end{itemize}
+				\end{onlyenv}
+					\begin{onlyenv}<6>
+						\begin{figure}[h!]
+							\centering
+							\begin{subfigure}[b]{0.5\textwidth}
+								\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+									\draw (0,0)
+									to [R=$R_s$,  o-] (2,0)
+									to [short] (2,-1)
+									to [C=$C_{dl}$] (4,-1)
+									to [short] (4,0)
+									(2,0) to [short] (2,1)
+									to [R=$R_{leak}$] (4,1)
+									to [short] (4,0)
+									to [short, -o] (5,0);
+								\end{circuitikz}
+								\caption{Circuito equivalente clásico.}
+								\label{fig:eq_classic}
+							\end{subfigure}\hfill
+							\begin{subfigure}[b]{0.5\textwidth}
+								\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
+									\draw (0,0)
+									to [R=$R_s$,  o-] (2,0)
+									to [short] (2,-1)
+									to [R=$R$] (4,-1)
+									to [twoport, t=$W$] (6,-1)
+									to [short] (6,0)
+									(2,0) to [short] (2,1)
+									to [C=$C_{dl}$] (6,1)
+									to [short] (6,0)
+									to [short, -o] (7,0);
+								\end{circuitikz}
+								\caption{Circuito equivalente Randles.}
+								\label{fig:eq_randles}
+							\end{subfigure}
+							\caption[Circuitos equivalentes]{Circuitos equivalentes.}
+							\label{fig:ciruitos_equivalente}
+						\end{figure}	
+					\end{onlyenv}
 			\end{column}
 			\begin{column}{0.5\textwidth}
 				\begin{figure}
@@ -551,418 +599,9 @@
 			\end{column}
 		\end{columns}
 	\end{frame}
-
-%	\begin{frame}[fragile]{El condensador ideal}
-%		\begin{figure}
-%			\centering
-%			\begin{tikzpicture}
-%			% let both axes use the same layers
-%			\pgfplotsset{set layers, 	width=0.7\textwidth, height = 0.35\textwidth}
-%			\begin{axis}[
-%			scale only axis,
-%			axis y line=left, % the ’*’ avoids arrow heads
-%			axis x line*=bottom,
-%			xlabel=Tiempo,
-%			ylabel={\color{red} Voltaje},
-%			no markers,
-%			xmin=0,
-%			xmax=6,
-%			cycle list name=exotic,
-%			ticks=none,
-%			]
-%			\addplot [red, thick] table {
-%				A B
-%				%charge
-%				0 -1
-%				1  1
-%				
-%				2 -1
-%				3  1
-%				
-%				4 -1
-%				5  1
-%				
-%				%discharge
-%				1  1			
-%				2 -1
-%				
-%				3  1
-%				4 -1
-%				
-%				5  1
-%				6 -1
-%			};
-%			\end{axis}
-%			\begin{axis}[
-%			scale only axis,
-%			axis y line=right,
-%			axis x line=none,
-%			ylabel={\color{green!60!black} Corriente},
-%			ymin = -1.5,
-%			ymax = 1.5,
-%			xmin = 0,
-%			xmax = 6,
-%			no markers,
-%			ticks=none,
-%			]
-%			\addplot [green!60!black, thick] table {
-%				A B
-%				0  1
-%				1  1
-%				
-%				1 -1
-%				2 -1
-%				
-%				2  1
-%				3  1
-%				
-%				3 -1
-%				4 -1
-%				
-%				4  1
-%				5  1
-%				
-%				5 -1
-%				6 -1	
-%			};
-%			\addplot [green!60!black, thick, dashed] table {
-%				A B
-%				1  1
-%				1 -1
-%				
-%				2  1
-%				2 -1
-%				
-%				3  1
-%				3 -1
-%				
-%				4  1
-%				4 -1
-%				
-%				5  1
-%				5 -1
-%			};
-%			\addplot [black] table {
-%				0  0
-%				6  0
-%			};
-%			\end{axis}
-%			\end{tikzpicture}
-%%			\caption[Carga y descarga de un condensador ideal a corriente constante]{Carga y descarga de un condensador ideal a corriente constante.}
-%%			\label{fig:plot:charge-discharge_ideal_cap}
-%		\end{figure}
-%	\end{frame}
-
-%	\newcommand{\circuitscale}{0.5}	
-%	\begin{frame}{El condensador real}
-%		\begin{itemize}
-%			\item Resistencia en serie equivalene ($R_s$).
-%			\item Corriente de fuga ($R_p$).
-%			\item Circuito equivalente.
-%		\end{itemize}
-%
-%		\only<2>{\begin{figure}[h!]
-%			\centering
-%			\begin{subfigure}[b]{0.3\textwidth}
-%				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-%					\draw (0,0)
-%					to [R=$R_s$,  o-] (2,0)
-%					to [short] (2,-1)
-%					to [C=$C_{dl}$] (4,-1)
-%					to [short] (4,0)
-%					(2,0) to [short] (2,1)
-%					to [R=$R_{leak}$] (4,1)
-%					to [short] (4,0)
-%					to [short, -o] (5,0);
-%				\end{circuitikz}
-%				\caption{Circuito equivalente clásico.}
-%				\label{fig:eq_classic}
-%			\end{subfigure}
-%			\begin{subfigure}[b]{0.3\textwidth}
-%				\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-%					\draw (0,0)
-%					to [R=$R_s$,  o-] (2,0)
-%					to [short] (2,-1)
-%					to [R=$R$] (4,-1)
-%					to [twoport, t=$W$] (6,-1)
-%					to [short] (6,0)
-%					(2,0) to [short] (2,1)
-%					to [C=$C_{dl}$] (6,1)
-%					to [short] (6,0)
-%					to [short, -o] (7,0);
-%				\end{circuitikz}
-%				\caption{Circuito equivalente Randles.}
-%				\label{fig:eq_randles}
-%			\end{subfigure}
-%		\end{figure}}
-%		\only<3>{\begin{figure}
-%			\begin{subfigure}[b]{\textwidth}
-%				\centering
-%				\begin{tikzpicture}[trim axis right,trim axis left]
-%				\begin{axis}[
-%				width=0.5\textwidth,
-%%				height=0.7\textwidth,
-%				EISStyle,
-%				every axis legend/.append style={
-%					font={\normalsize}, 
-%					at={(0.02,0.98)},
-%					anchor=north west,
-%				},
-%				label style={font=\normalsize},
-%				legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
-%				]
-%				\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
-%				\pgfplotstablegetrowsof{\eistable}
-%				\pgfmathsetmacro{\N}{\pgfplotsretval}
-%				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%				node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-%				node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
-%				\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
-%				\pgfplotstablegetrowsof{\eistable}
-%				\pgfmathsetmacro{\N}{\pgfplotsretval}
-%				\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%				node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
-%				node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
-%				\end{axis}
-%				\end{tikzpicture}
-%				\label{fig:eis_equivalent}
-%				\caption{EIS simulado.}
-%			\end{subfigure}
-%		\end{figure}}
-%	\end{frame}
-
-%	\newcommand{\circuitscale}{0.8}	
-%	\begin{frame}{El condensador real}
-%		\begin{columns}
-%			\begin{column}{0.5\textwidth}
-%				\only<1-3>{\begin{itemize}
-%					\item<1-3> Resistencia en serie equivalene ($R_s$).
-%					\item<2-3> Corriente de fuga ($R_p$).
-%					\item<3> Circuito equivalente.
-%				\end{itemize}}
-%			\only<4>{\begin{figure}
-%					\centering
-%					\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-%					\begin{axis}[
-%					width=1.3\textwidth,
-%					height=\axisdefaultheight,
-%					EISStyle,
-%					every axis legend/.append style={
-%						font=\normalsize,
-%						at={(0.02,0.98)},
-%						anchor=north west,
-%					},
-%					legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
-%					]
-%					\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
-%					\pgfplotstablegetrowsof{\eistable}
-%					\pgfmathsetmacro{\N}{\pgfplotsretval}
-%					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%					node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-%					node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
-%					\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
-%					\pgfplotstablegetrowsof{\eistable}
-%					\pgfmathsetmacro{\N}{\pgfplotsretval}
-%					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%					node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
-%					node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
-%					\end{axis}
-%					\end{tikzpicture}
-%					\label{fig:eis_equivalent}
-%					\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes. Obtenido en EIS Spectrum Analyser \footnotemark.}
-%				\end{figure}}
-%			\end{column}
-%			\begin{column}{0.5\textwidth}
-%				\uncover<3->{\begin{figure}[h!]
-%					\centering
-%					\begin{subfigure}[b]{\textwidth}
-%						\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-%							\draw (0,0)
-%							to [R=$R_s$,  o-] (2,0)
-%							to [short] (2,-1)
-%							to [C=$C_{dl}$] (4,-1)
-%							to [short] (4,0)
-%							(2,0) to [short] (2,1)
-%							to [R=$R_{leak}$] (4,1)
-%							to [short] (4,0)
-%							to [short, -o] (5,0);
-%						\end{circuitikz}
-%						\caption{Circuito equivalente clásico.}
-%					\end{subfigure}\\
-%					\begin{subfigure}[b]{\textwidth}
-%						\begin{circuitikz}[scale = \circuitscale, transform shape, font=\large]
-%							\draw (0,0)
-%							to [R=$R_s$,  o-] (2,0)
-%							to [short] (2,-1)
-%							to [R=$R$] (4,-1)
-%							to [twoport, t=$W$] (6,-1)
-%							to [short] (6,0)
-%							(2,0) to [short] (2,1)
-%							to [C=$C_{dl}$] (6,1)
-%							to [short] (6,0)
-%							to [short, -o] (7,0);
-%						\end{circuitikz}
-%						\caption{Circuito equivalente Randles.}
-%					\end{subfigure}
-%				\end{figure}}
-%			\end{column}
-%		\end{columns}
-%	\end{frame}
-
-%	\begin{frame}[fragile]{Caracterización electroquímica}
-%		\begin{columns}
-%			\begin{column}{0.5\textwidth}
-%				\only<1>{Voltametría cíclica:
-%				\begin{itemize}
-%					\item Barrido de voltage.
-%				\end{itemize}
-%					\begin{tabular}{ l l }
-%						Voltaje inicial [V] & 0 \\
-%						Límite inferior [V] & -0,8 \\
-%						Límite superior [V] & 0,8  \\
-%						Número de ciclos & 3 \\
-%						Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400
-%					\end{tabular}}
-%				\only<2>{Espectro electroquímico de impedancia:
-%				\begin{itemize}
-%					\item Barrido en frecuencia.
-%				\end{itemize}
-%				\begin{tabular}{ l l }
-%					Frecuencia inicial	&	1 MHz \\
-%					Frecuencia final	&	0.1 Hz \\
-%					Corriente de exitación & 1 mA rms \\ 
-%				\end{tabular}}
-%				\only<3>{Carga y descarga cíclica:
-%				\begin{itemize}
-%					\item Barrido en algo.
-%				\end{itemize}
-%				\begin{tabular}{ l r }
-%					Densidad de corriente [A/g] & 0,1 ó 	1 \\
-%					Número de ciclos & 1000 \\
-%					Límite inferior [V] & 0 \\
-%					Límite superior [V] & 1 \\
-%				\end{tabular}}
-%			\end{column}
-%			\begin{column}{0.5\textwidth}
-%				\begin{onlyenv}<1>
-%					\begin{figure}
-%					\begin{tikzpicture}
-%						[scale=1,trim axis right,trim axis left]
-%						\begin{axis}
-%						[
-%						CVStyle,
-%						domain=-1:1,
-%						legend entries={Ideal, Real},				
-%						]
-%						\addplot[green!60!black, thick] table {
-%							A B
-%							-1  1
-%							1  1
-%							
-%							1 -1
-%							-1 -1
-%						};
-%						\addplot[green!60!black, thick, dashed, forget plot] table {
-%							A B
-%							-1 -1
-%							-1  1
-%							
-%							1  1
-%							1 -1
-%						};
-%						\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
-%						\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
-%						\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
-%						\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
-%						
-%						\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
-%						\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
-%						\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
-%						\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
-%						\end{axis}
-%						\end{tikzpicture}
-%						\end{figure}
-%					\end{onlyenv}
-%				\begin{onlyenv}<2>
-%					\begin{figure}
-%						\centering
-%						\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-%						\begin{axis}[
-%						width=1.3\textwidth,
-%						height=\axisdefaultheight,
-%						EISStyle,
-%						every axis legend/.append style={
-%							font=\normalsize,
-%							at={(0.02,0.98)},
-%							anchor=north west,
-%						},
-%						legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
-%						]
-%						\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
-%						\pgfplotstablegetrowsof{\eistable}
-%						\pgfmathsetmacro{\N}{\pgfplotsretval}
-%						\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%						node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-%						node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
-%						\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
-%						\pgfplotstablegetrowsof{\eistable}
-%						\pgfmathsetmacro{\N}{\pgfplotsretval}
-%						\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-%						node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
-%						node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
-%						\end{axis}
-%						\end{tikzpicture}
-%						\label{fig:eis_equivalent}
-%						\caption[Simulación de circuito equivalente]{Espectro electroquímico de impedancia simulados para los circuitos equivalentes. Obtenido en EIS Spectrum Analyser \footnotemark.}
-%					\end{figure}
-%				\end{onlyenv}
-%				\begin{onlyenv}<3>
-%					\begin{figure}
-%						\begin{tikzpicture}
-%						[scale=1,trim axis right,trim axis left]
-%						\begin{axis}
-%						[
-%						CCDStyle,
-%						legend entries={Ideal, Real}			
-%						]
-%						\addplot[green!60!black, thick] table {
-%							A B
-%							0 0
-%							1 1
-%							2 0
-%						};
-%						\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
-%						\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
-%						\addplot[red, thick, dashed] table {
-%							A B
-%							0 0
-%							0 0.2
-%							
-%							1 1
-%							1 0.8
-%						};
-%						\end{axis}
-%						\end{tikzpicture}
-%					\end{figure}
-%				\end{onlyenv}
-%			\end{column}
-%		\end{columns}
-%	\end{frame}
-
 	
 
 	\newcommand{\clipradius}{1.7cm}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	\section{Ruta de síntesis}
 	\begin{frame}{Ruta de síntesis}
 %		\begin{figure}
@@ -1019,10 +658,15 @@
 	\begin{frame}{XRD}
 		\begin{columns}
 			\begin{column}[]{0.3\textwidth}
-				dsasdasd
+				\only<1->\textbf{Difracción de rayos X}
+				\begin{itemize}[<+(1)->]
+					\item {\textcolor{RYB1}{\textbf{Grafito:}} \\26,2\degree $\,\to\,$ 0,34 nm.}
+					\item {\textcolor{RYB2}{\textbf{Óxido de grafeno:}} \\10,2\degree $\,\to\,$ 0,87 nm.}
+					\item {\textcolor{RYB4}{\textbf{Óxido reducido de grafeno:}} \\22,6\degree $\,\to\,$ 0,39 nm.}
+				\end{itemize}
 			\end{column}
 			\begin{column}[]{0.6\textwidth}
-				\begin{figure}
+				\begin{figure}[t]
 					\begin{tikzpicture}
 						\begin{axis}[
 						cycle list name=colorbrewer-RYB,
@@ -1048,6 +692,57 @@
 						\end{axis}
 					\end{tikzpicture}
 					\caption[]{Espectro de difracción de rayos x.}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}{Raman}
+		\begin{columns}
+			\begin{column}[]{0.4\textwidth}
+				\textbf{Espectro Raman}
+				\begin{itemize}
+					\item La relación de intensidades entre bandas $I_D/I_G$ se incrementa con los defectos en la red.
+					\item $I_D/I_G$ = 0,9
+					\item $I_D/I_G$ = 1,3
+					
+				\end{itemize}
+			\end{column}
+			\begin{column}[]{0.6\textwidth}
+				\begin{figure}[t]
+					\centering
+					\begin{tikzpicture}[]
+					\begin{axis}[
+					cycle list name=colorbrewer-RYB,
+					no markers,
+					grid=both,
+					%		yticklabels={,,},
+					width = \textwidth,
+					height=0.8*\axisdefaultheight,
+					yticklabels={,,},
+					ylabel={Intensidad},
+					y unit=u.a.,
+					xlabel={Corrimiento Raman},
+					x unit=cm^{-1},
+					every axis legend/.append style={
+						font={\normalsize}, 
+						at={(0.5,1.05)},
+						anchor=north west,
+					},
+					legend entries={Óxido de grafeno, Óxido de grafeno reducido}]
+						\pgfplotsset{cycle list shift=1}
+						\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{CRGO090615_1}] {./Data/RAMAN/raman.txt};
+						%		\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{GO090615_1} + 10] {./Data/RAMAN/raman.txt};
+						\pgfplotsset{cycle list shift=2}
+						\addplot+[restrict x to domain=1000:3500] table [x expr = \thisrow{raman_shift}, y expr=\thisrow{GO090615_2} + 20] {./Data/RAMAN/raman.txt};
+						%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
+						\node[black] at (25,1000){\small{D}};
+						\node[black] at (60, 900){\small{G}};
+						\node[black] at (160, 300){\small{2D}};
+					\end{axis}
+					\end{tikzpicture}
+					\caption[Espectro Raman de GO y rGO]{Espectro Raman de muestras de óxido de grafeno y óxido reducido de grafeno.}
+					\label{fig:raman}
 				\end{figure}
 			\end{column}
 		\end{columns}
@@ -1210,7 +905,8 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}[<+->]
+				\textbf{Sustratos}
+				\begin{itemize}[<+(1)->]
 					\item Sustrato de \textbf{acero 316}.
 					\item Sustrato de \textbf{espuma de níquel}.
 					\item Diámetro de \textbf{7mm}.
@@ -1235,7 +931,8 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}[<+->]
+				\textbf{Electrodos}
+				\begin{itemize}[<+(1)->]
 					\item Dispersión en \textbf{etilengilicol}, depositada por goteo, y evaporación del dispersante.
 					\item[!] La deposición \textbf{no es homogénea}.
 					\item Dispersión en \textbf{solución de pmma en acetona}, depositada por goteo, y evaporación del solvente.
@@ -1261,7 +958,8 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}[<+->]
+				\textbf{Electrodos}
+				\begin{itemize}[<+(1)->]
 					\item Lámina parecida al \textbf{papel}.
 					\item[!] Bordes irregulares.
 					\item Material \textbf{liofilizado}.
@@ -1287,7 +985,8 @@
 				\end{figure}
 			\end{column}
 			\begin{column}{0.6\textwidth}
-				\begin{itemize}[<+->]
+				\textbf{Electrodos}
+				\begin{itemize}[<+(1)->]
 					\item Dispersión en \textbf{etilenglicol}, deposición por goteo, y evaporación del dispersante.
 					\item[!] La dispersión \textbf{escurre fuera del electrodo}.
 					\item Dispersión en \textbf{solución de ppma en acetona}, deposición por goteo, y evaporación del solvente.
@@ -1410,6 +1109,140 @@
 %	\end{tabular}
 %\end{table}
 %\end{frame}
+
+	\begin{frame}[fragile]{Metodología de medición}
+		\begin{columns}
+			\begin{column}{0.5\textwidth}
+				\textbf{¿Cómo se lleva a cabo la caracterización?}
+				\begin{enumerate}[<+(1)->]
+					\item Voltametría cíclica.
+					\item Espectroscopia de impedancia.
+					\item Carga y descaga cíclica.
+					\item Voltametría cíclca.
+				\end{enumerate}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\begin{tikzpicture}
+					[scale=0.3,trim axis right,trim axis left]
+					\begin{axis}
+					[
+					CVStyle,
+					width=\textwidth,
+					domain=-1:1,
+					legend entries={Ideal, Real},				
+					]
+					\addplot[green!60!black, thick] table {
+						A B
+						-1  1
+						1  1
+						
+						1 -1
+						-1 -1
+					};
+					\addplot[green!60!black, thick, dashed, forget plot] table {
+						A B
+						-1 -1
+						-1  1
+						
+						1  1
+						1 -1
+					};
+					\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+					
+					\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+					\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+					\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+					\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+					\end{axis}
+					\begin{axis}[
+					width=1.3\textwidth,
+					height=\axisdefaultheight,
+					EISStyle,
+					every axis legend/.append style={
+						font=\normalsize,
+						at={(0.02,0.98)},
+						anchor=north west,
+					},
+					legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
+					]
+					\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
+					\pgfplotstablegetrowsof{\eistable}
+					\pgfmathsetmacro{\N}{\pgfplotsretval}
+					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+					node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
+					node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
+					\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
+					\pgfplotstablegetrowsof{\eistable}
+					\pgfmathsetmacro{\N}{\pgfplotsretval}
+					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
+					node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
+					node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
+					\end{axis}
+					\begin{axis}
+					[
+					CCDStyle,
+					width=\textwidth,
+					legend entries={Ideal, Real}			
+					]
+					\addplot[green!60!black, thick] table {
+						A B
+						0 0
+						1 1
+						2 0
+					};
+					\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
+					\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
+					\addplot[red, thick, dashed] table {
+						A B
+						0 0
+						0 0.2
+						
+						1 1
+						1 0.8
+					};
+					\end{axis}
+					\begin{axis}
+					[
+					CVStyle,
+					width=\textwidth,
+					domain=-1:1,
+					legend entries={Ideal, Real},				
+					]
+					\addplot[green!60!black, thick] table {
+						A B
+						-1  1
+						1  1
+						
+						1 -1
+						-1 -1
+					};
+					\addplot[green!60!black, thick, dashed, forget plot] table {
+						A B
+						-1 -1
+						-1  1
+						
+						1  1
+						1 -1
+					};
+					\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
+					\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
+					
+					\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
+					\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
+					\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
+					\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
+					\end{axis}
+					\end{tikzpicture}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{frame}
 
 	\begin{frame}{Resultados}
 		\begin{figure}[h!]
