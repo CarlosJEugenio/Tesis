@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  14 MAY 2018 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  15 MAY 2018 10:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3593,14 +3593,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 5.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 5.
-<Imagenes/RGO_pic.png, id=2009, 1003.75pt x 1328.965pt>
+<Imagenes/RGO_pic.png, id=2021, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 <use Imagenes/RGO_pic.png>
 Package pdftex.def Info: Imagenes/RGO_pic.png  used on input line 22. on input 
 line 22.
 Package pdftex.def Info: Requested size: 137.9979pt x 182.7079pt on input line 
 22.
-<Imagenes/GO_pic.png, id=2010, 1003.75pt x 1229.59375pt>
+<Imagenes/GO_pic.png, id=2022, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 <use Imagenes/GO_pic.png>
 Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 22. on input l
@@ -3671,14 +3671,14 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/CRGO300517_paper.png, id=2053, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper.png, id=2065, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper.png Graphic file (type png)
 <use Imagenes/CRGO300517_paper.png>
 Package pdftex.def Info: Imagenes/CRGO300517_paper.png  used on input line 115.
  on input line 115.
 Package pdftex.def Info: Requested size: 241.49895pt x 181.12154pt on input lin
 e 115.
-<Imagenes/CRGO300517_paper_measures.png, id=2054, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper_measures.png, id=2066, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper_measures.png Graphic file (type png)
 <use Imagenes/CRGO300517_paper_measures.png>
 Package pdftex.def Info: Imagenes/CRGO300517_paper_measures.png  used on input 
@@ -3784,7 +3784,7 @@ Overfull \hbox (11.66328pt too wide) in paragraph at lines 2--3
 s[]and-wich electrodo-separador-
  []
 
-<Imagenes/SC_process.pdf, id=2108, pagebox=cropbox, 1628.56967pt x 578.96617pt>
+<Imagenes/SC_process.pdf, id=2120, pagebox=cropbox, 1628.56967pt x 578.96617pt>
 
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 <use Imagenes/SC_process.pdf>
@@ -3831,7 +3831,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 15.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 15.
-<Imagenes/cell_scheme.pdf, id=2122, pagebox=cropbox, 688.86975pt x 437.29802pt>
+<Imagenes/cell_scheme.pdf, id=2134, pagebox=cropbox, 688.86975pt x 437.29802pt>
 
 File: Imagenes/cell_scheme.pdf Graphic file (type pdf)
 <use Imagenes/cell_scheme.pdf>
@@ -3839,7 +3839,7 @@ Package pdftex.def Info: Imagenes/cell_scheme.pdf  used on input line 33. on in
 put line 33.
 Package pdftex.def Info: Requested size: 172.5pt x 109.5044pt on input line 33.
 
-<Imagenes/cell_image.pdf, id=2123, pagebox=cropbox, 320.3717pt x 422.618pt>
+<Imagenes/cell_image.pdf, id=2135, pagebox=cropbox, 320.3717pt x 422.618pt>
 File: Imagenes/cell_image.pdf Graphic file (type pdf)
 <use Imagenes/cell_image.pdf>
 Package pdftex.def Info: Imagenes/cell_image.pdf  used on input line 33. on inp
@@ -3921,56 +3921,56 @@ Overfull \hbox (44.36647pt too wide) in paragraph at lines 46--60
  [][] 
  []
 
-<Imagenes/electrode_steel.png, id=2164, 427.5975pt x 421.575pt>
+<Imagenes/electrode_steel.png, id=2176, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_steel.png Graphic file (type png)
 <use Imagenes/electrode_steel.png>
 Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 68. o
 n input line 68.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 68.
-<Imagenes/electrode_polvo_ac.png, id=2165, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_ac.png, id=2177, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 73
 . on input line 73.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 73.
-<Imagenes/electrode_polvo_pmma_ac.png, id=2166, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_pmma_ac.png, id=2178, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
 ne 78. on input line 78.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 78.
-<Imagenes/electrode_paper.png, id=2167, 427.5975pt x 421.575pt>
+<Imagenes/electrode_paper.png, id=2179, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
 Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 83. o
 n input line 83.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 83.
-<Imagenes/electrode_lio.png, id=2168, 427.5975pt x 421.575pt>
+<Imagenes/electrode_lio.png, id=2180, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
 Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 88. on 
 input line 88.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 88.
-<Imagenes/electrode_ni.png, id=2169, 427.5975pt x 421.575pt>
+<Imagenes/electrode_ni.png, id=2181, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_ni.png Graphic file (type png)
 <use Imagenes/electrode_ni.png>
 Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 93. on i
 nput line 93.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 93.
-<Imagenes/electrode_polvo_ni.png, id=2170, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_ni.png, id=2182, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 98
 . on input line 98.
 Package pdftex.def Info: Requested size: 75.90042pt x 74.83168pt on input line 
 98.
-<Imagenes/electrode_polvo_pmma_ni.png, id=2171, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_pmma_ni.png, id=2183, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
@@ -4372,14 +4372,14 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-<Imagenes/hybrid.pdf, id=2338, pagebox=cropbox, 1980.56624pt x 939.37154pt>
+<Imagenes/hybrid.pdf, id=2350, pagebox=cropbox, 1980.56624pt x 939.37154pt>
 File: Imagenes/hybrid.pdf Graphic file (type pdf)
 <use Imagenes/hybrid.pdf>
 Package pdftex.def Info: Imagenes/hybrid.pdf  used on input line 13. on input l
 ine 13.
 Package pdftex.def Info: Requested size: 258.75pt x 122.7246pt on input line 13
 .
-<Imagenes/piorbitals.pdf, id=2339, pagebox=cropbox, 1872.0734pt x 940.12436pt>
+<Imagenes/piorbitals.pdf, id=2351, pagebox=cropbox, 1872.0734pt x 940.12436pt>
 File: Imagenes/piorbitals.pdf Graphic file (type pdf)
 <use Imagenes/piorbitals.pdf>
 Package pdftex.def Info: Imagenes/piorbitals.pdf  used on input line 22. on inp
@@ -5204,10 +5204,10 @@ ist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/helvetic/uhvro8a.pfb>
-Output written on Tesis.pdf (66 pages, 16148026 bytes).
+Output written on Tesis.pdf (66 pages, 16194895 bytes).
 PDF statistics:
- 3236 PDF objects out of 3580 (max. 8388607)
- 2536 compressed objects within 26 object streams
+ 3248 PDF objects out of 3580 (max. 8388607)
+ 2542 compressed objects within 26 object streams
  212 named destinations out of 1000 (max. 500000)
  39572 words of extra memory for PDF output out of 42996 (max. 10000000)
 

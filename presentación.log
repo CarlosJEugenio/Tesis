@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  14 MAY 2018 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  15 MAY 2018 10:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1918,10 +1918,6 @@ echnical note
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 
-
-LaTeX Warning: Label `fig:resumen_cv' multiply defined.
-
-
 <Reading QR code for "https://github.com/CarlosJEugenio/Tesis" at level 3-M fro
 m aux file.>
 )
@@ -2245,14 +2241,14 @@ LaTeX Info: Redefining \% on input line 1.
 ] [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 187
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 185
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 187.
+LaTeX Font Info:    No file OMScmss.fd. on input line 185.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 187.
+(Font)              for symbol `textbullet' on input line 185.
 
 [4
 
@@ -2272,26 +2268,26 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 <Imagenes/com_sc_1.png, id=123, 97.3236pt x 106.9596pt>
 File: Imagenes/com_sc_1.png Graphic file (type png)
 <use Imagenes/com_sc_1.png>
-Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 59.75139pt x 65.66795pt on input line 
-225.
+223.
 <Imagenes/com_sc_2.png, id=125, 642.4pt x 481.8pt>
 File: Imagenes/com_sc_2.png Graphic file (type png)
 <use Imagenes/com_sc_2.png>
-Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 99.58464pt x 74.68558pt on input line 
-225.
+223.
 <Imagenes/com_sc_3.png, id=126, 597.23125pt x 558.085pt>
 File: Imagenes/com_sc_3.png Graphic file (type png)
 <use Imagenes/com_sc_3.png>
-Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 119.50279pt x 111.6661pt on input line
- 225.
+ 223.
 
-Overfull \vbox (34.53407pt too high) detected at line 225
+Overfull \vbox (34.53407pt too high) detected at line 223
  []
 
 [11
@@ -2299,24 +2295,24 @@ Overfull \vbox (34.53407pt too high) detected at line 225
  <./Imagenes/com_sc_1.png> <./Imagenes/com_sc_2.png> <./Imagenes/com_sc_3.png>]
 File: Imagenes/com_sc_1.png Graphic file (type png)
 <use Imagenes/com_sc_1.png>
-Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 59.75139pt x 65.66795pt on input line 
-225.
+223.
 File: Imagenes/com_sc_2.png Graphic file (type png)
 <use Imagenes/com_sc_2.png>
-Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 99.58464pt x 74.68558pt on input line 
-225.
+223.
 File: Imagenes/com_sc_3.png Graphic file (type png)
 <use Imagenes/com_sc_3.png>
-Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 119.50279pt x 111.6661pt on input line
- 225.
+ 223.
 
-Overfull \vbox (34.53407pt too high) detected at line 225
+Overfull \vbox (34.53407pt too high) detected at line 223
  []
 
 [12
@@ -2324,24 +2320,24 @@ Overfull \vbox (34.53407pt too high) detected at line 225
 ]
 File: Imagenes/com_sc_1.png Graphic file (type png)
 <use Imagenes/com_sc_1.png>
-Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 59.75139pt x 65.66795pt on input line 
-225.
+223.
 File: Imagenes/com_sc_2.png Graphic file (type png)
 <use Imagenes/com_sc_2.png>
-Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 99.58464pt x 74.68558pt on input line 
-225.
+223.
 File: Imagenes/com_sc_3.png Graphic file (type png)
 <use Imagenes/com_sc_3.png>
-Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 119.50279pt x 111.6661pt on input line
- 225.
+ 223.
 
-Overfull \vbox (34.53407pt too high) detected at line 225
+Overfull \vbox (34.53407pt too high) detected at line 223
  []
 
 [13
@@ -2349,24 +2345,24 @@ Overfull \vbox (34.53407pt too high) detected at line 225
 ]
 File: Imagenes/com_sc_1.png Graphic file (type png)
 <use Imagenes/com_sc_1.png>
-Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_1.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 59.75139pt x 65.66795pt on input line 
-225.
+223.
 File: Imagenes/com_sc_2.png Graphic file (type png)
 <use Imagenes/com_sc_2.png>
-Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_2.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 99.58464pt x 74.68558pt on input line 
-225.
+223.
 File: Imagenes/com_sc_3.png Graphic file (type png)
 <use Imagenes/com_sc_3.png>
-Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 225. on inpu
-t line 225.
+Package pdftex.def Info: Imagenes/com_sc_3.png  used on input line 223. on inpu
+t line 223.
 Package pdftex.def Info: Requested size: 119.50279pt x 111.6661pt on input line
- 225.
+ 223.
 
-Overfull \vbox (34.53407pt too high) detected at line 225
+Overfull \vbox (34.53407pt too high) detected at line 223
  []
 
 [14
@@ -2375,63 +2371,63 @@ Overfull \vbox (34.53407pt too high) detected at line 225
 <Imagenes/ragone.pdf, id=150, pagebox=cropbox, 567.04492pt x 361.92574pt>
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
-Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 245. on input 
-line 245.
+Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 199.1693pt x 127.12323pt on input line
- 245.
+ 243.
  [15
 
  <./Imagenes/ragone.pdf>]
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
-Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 245. on input 
-line 245.
+Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 199.1693pt x 127.12323pt on input line
- 245.
+ 243.
  [16
 
 ]
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
-Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 245. on input 
-line 245.
+Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 199.1693pt x 127.12323pt on input line
- 245.
+ 243.
  [17
 
 ]
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
-Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 245. on input 
-line 245.
+Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 199.1693pt x 127.12323pt on input line
- 245.
+ 243.
  [18
 
 ]
 File: Imagenes/ragone.pdf Graphic file (type pdf)
 <use Imagenes/ragone.pdf>
-Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 245. on input 
-line 245.
+Package pdftex.def Info: Imagenes/ragone.pdf  used on input line 243. on input 
+line 243.
 Package pdftex.def Info: Requested size: 199.1693pt x 127.12323pt on input line
- 245.
+ 243.
  [19
 
 ]
 <Imagenes/edlc_schem.pdf, id=246, pagebox=cropbox, 898.68886pt x 696.19154pt>
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 <use Imagenes/edlc_schem.pdf>
-Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 282. on in
-put line 282.
+Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 280. on in
+put line 280.
 Package pdftex.def Info: Requested size: 199.1693pt x 154.28865pt on input line
- 282.
+ 280.
 
-Overfull \hbox (7.29921pt too wide) in paragraph at lines 282--282
+Overfull \hbox (7.29921pt too wide) in paragraph at lines 280--280
  [] 
  []
 
 
-Overfull \vbox (15.00362pt too high) detected at line 282
+Overfull \vbox (15.00362pt too high) detected at line 280
  []
 
 [20
@@ -2439,17 +2435,17 @@ Overfull \vbox (15.00362pt too high) detected at line 282
  <./Imagenes/edlc_schem.pdf>]
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 <use Imagenes/edlc_schem.pdf>
-Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 282. on in
-put line 282.
+Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 280. on in
+put line 280.
 Package pdftex.def Info: Requested size: 199.1693pt x 154.28865pt on input line
- 282.
+ 280.
 
-Overfull \hbox (7.29921pt too wide) in paragraph at lines 282--282
+Overfull \hbox (7.29921pt too wide) in paragraph at lines 280--280
  [] 
  []
 
 
-Overfull \vbox (15.00362pt too high) detected at line 282
+Overfull \vbox (15.00362pt too high) detected at line 280
  []
 
 [21
@@ -2457,17 +2453,17 @@ Overfull \vbox (15.00362pt too high) detected at line 282
 ]
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 <use Imagenes/edlc_schem.pdf>
-Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 282. on in
-put line 282.
+Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 280. on in
+put line 280.
 Package pdftex.def Info: Requested size: 199.1693pt x 154.28865pt on input line
- 282.
+ 280.
 
-Overfull \hbox (7.29921pt too wide) in paragraph at lines 282--282
+Overfull \hbox (7.29921pt too wide) in paragraph at lines 280--280
  [] 
  []
 
 
-Overfull \vbox (15.00362pt too high) detected at line 282
+Overfull \vbox (15.00362pt too high) detected at line 280
  []
 
 [22
@@ -2475,24 +2471,24 @@ Overfull \vbox (15.00362pt too high) detected at line 282
 ]
 File: Imagenes/edlc_schem.pdf Graphic file (type pdf)
 <use Imagenes/edlc_schem.pdf>
-Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 282. on in
-put line 282.
+Package pdftex.def Info: Imagenes/edlc_schem.pdf  used on input line 280. on in
+put line 280.
 Package pdftex.def Info: Requested size: 199.1693pt x 154.28865pt on input line
- 282.
+ 280.
 <Imagenes/edlc_zoom.pdf, id=272, pagebox=cropbox, 830.15842pt x 727.4577pt>
 File: Imagenes/edlc_zoom.pdf Graphic file (type pdf)
 <use Imagenes/edlc_zoom.pdf>
-Package pdftex.def Info: Imagenes/edlc_zoom.pdf  used on input line 282. on inp
-ut line 282.
+Package pdftex.def Info: Imagenes/edlc_zoom.pdf  used on input line 280. on inp
+ut line 280.
 Package pdftex.def Info: Requested size: 149.37697pt x 130.89233pt on input lin
-e 282.
+e 280.
 
-Overfull \hbox (7.29921pt too wide) in paragraph at lines 282--282
+Overfull \hbox (7.29921pt too wide) in paragraph at lines 280--280
  [] 
  []
 
 
-Overfull \vbox (15.00362pt too high) detected at line 282
+Overfull \vbox (15.00362pt too high) detected at line 280
  []
 
 [23
@@ -2501,10 +2497,10 @@ Overfull \vbox (15.00362pt too high) detected at line 282
 <Imagenes/scale.pdf, id=285, pagebox=cropbox, 1207.07848pt x 436.3638pt>
 File: Imagenes/scale.pdf Graphic file (type pdf)
 <use Imagenes/scale.pdf>
-Package pdftex.def Info: Imagenes/scale.pdf  used on input line 292. on input l
-ine 292.
+Package pdftex.def Info: Imagenes/scale.pdf  used on input line 290. on input l
+ine 290.
 Package pdftex.def Info: Requested size: 358.50229pt x 129.59843pt on input lin
-e 292.
+e 290.
  [24
 
  <./Imagenes/scale.pdf>]
@@ -2513,67 +2509,67 @@ e 292.
 File: Imagenes/graphite_structure.pdf Graphic file (type pdf)
 <use Imagenes/graphite_structure.pdf>
 Package pdftex.def Info: Imagenes/graphite_structure.pdf  used on input line 34
-7. on input line 347.
+5. on input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 59.11665pt on input line 
-347.
+345.
 <Imagenes/graphite_image.png, id=352, 401.5pt x 366.36874pt>
 File: Imagenes/graphite_image.png Graphic file (type png)
 <use Imagenes/graphite_image.png>
-Package pdftex.def Info: Imagenes/graphite_image.png  used on input line 347. o
-n input line 347.
+Package pdftex.def Info: Imagenes/graphite_image.png  used on input line 345. o
+n input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 54.51689pt on input line 
-347.
+345.
 <Imagenes/graphene_structure.pdf, id=353, pagebox=cropbox, 318.00186pt x 154.49
 284pt>
 File: Imagenes/graphene_structure.pdf Graphic file (type pdf)
 <use Imagenes/graphene_structure.pdf>
 Package pdftex.def Info: Imagenes/graphene_structure.pdf  used on input line 34
-7. on input line 347.
+5. on input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 29.02626pt on input line 
-347.
+345.
 
-Overfull \hbox (7.29922pt too wide) in paragraph at lines 347--347
+Overfull \hbox (7.29922pt too wide) in paragraph at lines 345--345
 [][] 
  []
 
 <Imagenes/graphene_image.jpg, id=354, 110.0913pt x 85.0377pt>
 File: Imagenes/graphene_image.jpg Graphic file (type jpg)
 <use Imagenes/graphene_image.jpg>
-Package pdftex.def Info: Imagenes/graphene_image.jpg  used on input line 347. o
-n input line 347.
+Package pdftex.def Info: Imagenes/graphene_image.jpg  used on input line 345. o
+n input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 46.15062pt on input line 
-347.
+345.
 <Imagenes/cnt_structure.pdf, id=355, pagebox=cropbox, 343.43239pt x 245.251pt>
 File: Imagenes/cnt_structure.pdf Graphic file (type pdf)
 <use Imagenes/cnt_structure.pdf>
-Package pdftex.def Info: Imagenes/cnt_structure.pdf  used on input line 347. on
- input line 347.
+Package pdftex.def Info: Imagenes/cnt_structure.pdf  used on input line 345. on
+ input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 42.66508pt on input line 
-347.
+345.
 <Imagenes/cnt_image.png, id=356, 314.1336pt x 303.0522pt>
 File: Imagenes/cnt_image.png Graphic file (type png)
 <use Imagenes/cnt_image.png>
-Package pdftex.def Info: Imagenes/cnt_image.png  used on input line 347. on inp
-ut line 347.
+Package pdftex.def Info: Imagenes/cnt_image.png  used on input line 345. on inp
+ut line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 57.64063pt on input line 
-347.
+345.
 <Imagenes/fullerene_structure.pdf, id=357, pagebox=cropbox, 143.9515pt x 148.31
 792pt>
 File: Imagenes/fullerene_structure.pdf Graphic file (type pdf)
 <use Imagenes/fullerene_structure.pdf>
 Package pdftex.def Info: Imagenes/fullerene_structure.pdf  used on input line 3
-47. on input line 347.
+45. on input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 61.55983pt on input line 
-347.
+345.
 <Imagenes/fullerene_image.jpg, id=358, 511.9125pt x 445.665pt>
 File: Imagenes/fullerene_image.jpg Graphic file (type jpg)
 <use Imagenes/fullerene_image.jpg>
-Package pdftex.def Info: Imagenes/fullerene_image.jpg  used on input line 347. 
-on input line 347.
+Package pdftex.def Info: Imagenes/fullerene_image.jpg  used on input line 345. 
+on input line 345.
 Package pdftex.def Info: Requested size: 59.74835pt x 52.01543pt on input line 
-347.
+345.
 
-Overfull \vbox (33.62706pt too high) detected at line 347
+Overfull \vbox (33.62706pt too high) detected at line 345
  []
 
 [25
@@ -2598,28 +2594,28 @@ uded in a single page
 <Imagenes/area_cubes.pdf, id=963, pagebox=cropbox, 712.11333pt x 185.4842pt>
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 <use Imagenes/area_cubes.pdf>
-Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 358. on in
-put line 358.
+Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 356. on in
+put line 356.
 Package pdftex.def Info: Requested size: 398.3386pt x 103.75723pt on input line
- 358.
+ 356.
  [26
 
  <./Imagenes/area_cubes.pdf>]
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 <use Imagenes/area_cubes.pdf>
-Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 358. on in
-put line 358.
+Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 356. on in
+put line 356.
 Package pdftex.def Info: Requested size: 398.3386pt x 103.75723pt on input line
- 358.
+ 356.
  [27
 
 ]
 File: Imagenes/area_cubes.pdf Graphic file (type pdf)
 <use Imagenes/area_cubes.pdf>
-Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 358. on in
-put line 358.
+Package pdftex.def Info: Imagenes/area_cubes.pdf  used on input line 356. on in
+put line 356.
 Package pdftex.def Info: Requested size: 398.3386pt x 103.75723pt on input line
- 358.
+ 356.
 
 [28
 
@@ -2628,62 +2624,62 @@ Package pdftex.def Info: Requested size: 398.3386pt x 103.75723pt on input line
 6pt>
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 <use Imagenes/graphene_lattice.pdf>
-Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 385.
- on input line 385.
+Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 383.
+ on input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 102.0234pt on input line 3
-85.
+83.
 <Imagenes/Nobel_graphene.png, id=983, 105.996pt x 70.3428pt>
 File: Imagenes/Nobel_graphene.png Graphic file (type png)
 <use Imagenes/Nobel_graphene.png>
-Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 385. o
-n input line 385.
+Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 383. o
+n input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 105.75006pt on input line 
-385.
+383.
  [29
 
  <./Imagenes/graphene_lattice.pdf>]
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 <use Imagenes/graphene_lattice.pdf>
-Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 385.
- on input line 385.
+Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 383.
+ on input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 102.0234pt on input line 3
-85.
+83.
 File: Imagenes/Nobel_graphene.png Graphic file (type png)
 <use Imagenes/Nobel_graphene.png>
-Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 385. o
-n input line 385.
+Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 383. o
+n input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 105.75006pt on input line 
-385.
+383.
  [30
 
 ]
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 <use Imagenes/graphene_lattice.pdf>
-Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 385.
- on input line 385.
+Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 383.
+ on input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 102.0234pt on input line 3
-85.
+83.
 File: Imagenes/Nobel_graphene.png Graphic file (type png)
 <use Imagenes/Nobel_graphene.png>
-Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 385. o
-n input line 385.
+Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 383. o
+n input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 105.75006pt on input line 
-385.
+383.
  [31
 
 ]
 File: Imagenes/graphene_lattice.pdf Graphic file (type pdf)
 <use Imagenes/graphene_lattice.pdf>
-Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 385.
- on input line 385.
+Package pdftex.def Info: Imagenes/graphene_lattice.pdf  used on input line 383.
+ on input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 102.0234pt on input line 3
-85.
+83.
 File: Imagenes/Nobel_graphene.png Graphic file (type png)
 <use Imagenes/Nobel_graphene.png>
-Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 385. o
-n input line 385.
+Package pdftex.def Info: Imagenes/Nobel_graphene.png  used on input line 383. o
+n input line 383.
 Package pdftex.def Info: Requested size: 159.333pt x 105.75006pt on input line 
-385.
+383.
  [32
 
  <./Imagenes/Nobel_graphene.png>]
@@ -2692,11 +2688,11 @@ Package pdftex.def Info: Requested size: 159.333pt x 105.75006pt on input line
 File: Imagenes/graphiteToRGO_stack.pdf Graphic file (type pdf)
 <use Imagenes/graphiteToRGO_stack.pdf>
 Package pdftex.def Info: Imagenes/graphiteToRGO_stack.pdf  used on input line 4
-07. on input line 407.
+05. on input line 405.
 Package pdftex.def Info: Requested size: 127.46687pt x 166.75533pt on input lin
-e 407.
+e 405.
 
-Overfull \vbox (4.53116pt too high) detected at line 407
+Overfull \vbox (4.53116pt too high) detected at line 405
  []
 
 [33
@@ -2705,11 +2701,11 @@ Overfull \vbox (4.53116pt too high) detected at line 407
 File: Imagenes/graphiteToRGO_stack.pdf Graphic file (type pdf)
 <use Imagenes/graphiteToRGO_stack.pdf>
 Package pdftex.def Info: Imagenes/graphiteToRGO_stack.pdf  used on input line 4
-07. on input line 407.
+05. on input line 405.
 Package pdftex.def Info: Requested size: 127.46687pt x 166.75533pt on input lin
-e 407.
+e 405.
 
-Overfull \vbox (4.53116pt too high) detected at line 407
+Overfull \vbox (4.53116pt too high) detected at line 405
  []
 
 [34
@@ -2718,11 +2714,11 @@ Overfull \vbox (4.53116pt too high) detected at line 407
 File: Imagenes/graphiteToRGO_stack.pdf Graphic file (type pdf)
 <use Imagenes/graphiteToRGO_stack.pdf>
 Package pdftex.def Info: Imagenes/graphiteToRGO_stack.pdf  used on input line 4
-07. on input line 407.
+05. on input line 405.
 Package pdftex.def Info: Requested size: 127.46687pt x 166.75533pt on input lin
-e 407.
+e 405.
 
-Overfull \vbox (4.53116pt too high) detected at line 407
+Overfull \vbox (4.53116pt too high) detected at line 405
  []
 
 [35
@@ -2731,11 +2727,11 @@ Overfull \vbox (4.53116pt too high) detected at line 407
 File: Imagenes/graphiteToRGO_stack.pdf Graphic file (type pdf)
 <use Imagenes/graphiteToRGO_stack.pdf>
 Package pdftex.def Info: Imagenes/graphiteToRGO_stack.pdf  used on input line 4
-07. on input line 407.
+05. on input line 405.
 Package pdftex.def Info: Requested size: 127.46687pt x 166.75533pt on input lin
-e 407.
+e 405.
 
-Overfull \vbox (4.53116pt too high) detected at line 407
+Overfull \vbox (4.53116pt too high) detected at line 405
  []
 
 [36
@@ -2744,11 +2740,11 @@ Overfull \vbox (4.53116pt too high) detected at line 407
 File: Imagenes/graphiteToRGO_stack.pdf Graphic file (type pdf)
 <use Imagenes/graphiteToRGO_stack.pdf>
 Package pdftex.def Info: Imagenes/graphiteToRGO_stack.pdf  used on input line 4
-07. on input line 407.
+05. on input line 405.
 Package pdftex.def Info: Requested size: 127.46687pt x 166.75533pt on input lin
-e 407.
+e 405.
 
-Overfull \vbox (4.53116pt too high) detected at line 407
+Overfull \vbox (4.53116pt too high) detected at line 405
  []
 
 [37
@@ -2806,7 +2802,7 @@ runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
 )
-Overfull \vbox (21.51863pt too high) detected at line 473
+Overfull \vbox (21.51863pt too high) detected at line 471
  []
 
 [42
@@ -2853,7 +2849,7 @@ runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
 )
-Overfull \vbox (21.51863pt too high) detected at line 473
+Overfull \vbox (21.51863pt too high) detected at line 471
  []
 
 [43
@@ -2900,7 +2896,7 @@ runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
 )
-Overfull \vbox (21.51863pt too high) detected at line 473
+Overfull \vbox (21.51863pt too high) detected at line 471
  []
 
 [44
@@ -2947,7 +2943,7 @@ runsystem(gnuplot presentación.pgf-plot.gnuplot)...executed.
 
 PGFPlots: reading {presentación.pgf-plot.table}
 )
-Overfull \vbox (21.51863pt too high) detected at line 473
+Overfull \vbox (21.51863pt too high) detected at line 471
  []
 
 [45
@@ -2965,7 +2961,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [46
@@ -2980,7 +2976,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [47
@@ -2995,7 +2991,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [48
@@ -3010,7 +3006,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [49
@@ -3025,7 +3021,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [50
@@ -3040,7 +3036,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/eisgalv_sim_warburg.txt}
 Missing character: There is no ; in font nullfont!
 )
-Overfull \vbox (34.31532pt too high) detected at line 560
+Overfull \vbox (34.31532pt too high) detected at line 558
  []
 
 [51
@@ -3049,25 +3045,25 @@ Overfull \vbox (34.31532pt too high) detected at line 560
 \openout4 = `presentación.vrb'.
 
  (./presentación.vrb)
-Overfull \vbox (22.59964pt too high) detected at line 607
+Overfull \vbox (22.59964pt too high) detected at line 605
  []
 
 [52
 
 ] (./presentación.vrb)
-Overfull \vbox (22.59964pt too high) detected at line 607
+Overfull \vbox (22.59964pt too high) detected at line 605
  []
 
 [53
 
 ] (./presentación.vrb)
-Overfull \vbox (22.59964pt too high) detected at line 607
+Overfull \vbox (22.59964pt too high) detected at line 605
  []
 
 [54
 
 ] (./presentación.vrb)
-Overfull \vbox (22.59964pt too high) detected at line 607
+Overfull \vbox (22.59964pt too high) detected at line 605
  []
 
 [55
@@ -3080,303 +3076,303 @@ Overfull \vbox (22.59964pt too high) detected at line 607
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [57
 
  <./Imagenes/experimental_method.pdf>]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [58
 
 ]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
-<Imagenes/Mn2O7.pdf, id=1826, pagebox=cropbox, 496.85625pt x 268.30237pt>
+e 660.
+<Imagenes/Mn2O7.pdf, id=1838, pagebox=cropbox, 496.85625pt x 268.30237pt>
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [59
 
  <./Imagenes/Mn2O7.pdf>]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [60
 
 ]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [61
 
 ]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
-<Imagenes/GO_pic.png, id=1850, 1003.75pt x 1229.59375pt>
+e 660.
+<Imagenes/GO_pic.png, id=1862, 1003.75pt x 1229.59375pt>
 File: Imagenes/GO_pic.png Graphic file (type png)
 <use Imagenes/GO_pic.png>
-Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 662. on input 
-line 662.
+Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 660. on input 
+line 660.
 Package pdftex.def Info: Requested size: 119.50279pt x 146.38164pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [62
 
  <./Imagenes/GO_pic.png>]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/GO_pic.png Graphic file (type png)
 <use Imagenes/GO_pic.png>
-Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 662. on input 
-line 662.
+Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 660. on input 
+line 660.
 Package pdftex.def Info: Requested size: 119.50279pt x 146.38164pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [63
 
 ]
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/Mn2O7.pdf Graphic file (type pdf)
 <use Imagenes/Mn2O7.pdf>
-Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 662. on input l
-ine 662.
+Package pdftex.def Info: Imagenes/Mn2O7.pdf  used on input line 660. on input l
+ine 660.
 Package pdftex.def Info: Requested size: 71.13188pt x 38.40952pt on input line 
-662.
+660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/GO_pic.png Graphic file (type png)
 <use Imagenes/GO_pic.png>
-Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 662. on input 
-line 662.
+Package pdftex.def Info: Imagenes/GO_pic.png  used on input line 660. on input 
+line 660.
 Package pdftex.def Info: Requested size: 119.50279pt x 146.38164pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
-<Imagenes/RGO_pic.png, id=1862, 1003.75pt x 1328.965pt>
+e 660.
+<Imagenes/RGO_pic.png, id=1874, 1003.75pt x 1328.965pt>
 File: Imagenes/RGO_pic.png Graphic file (type png)
 <use Imagenes/RGO_pic.png>
-Package pdftex.def Info: Imagenes/RGO_pic.png  used on input line 662. on input
- line 662.
+Package pdftex.def Info: Imagenes/RGO_pic.png  used on input line 660. on input
+ line 660.
 Package pdftex.def Info: Requested size: 119.50279pt x 158.21165pt on input lin
-e 662.
+e 660.
 File: Imagenes/experimental_method.pdf Graphic file (type pdf)
 <use Imagenes/experimental_method.pdf>
 Package pdftex.def Info: Imagenes/experimental_method.pdf  used on input line 6
-62. on input line 662.
+60. on input line 660.
 Package pdftex.def Info: Requested size: 278.83578pt x 211.01962pt on input lin
-e 662.
+e 660.
  [64
 
  <./Imagenes/RGO_pic.png>]
@@ -3384,12 +3380,12 @@ PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 
-Overfull \hbox (32.50925pt too wide) in paragraph at lines 704--704
+Overfull \hbox (32.50925pt too wide) in paragraph at lines 702--702
  [] 
  []
 
 
-Overfull \vbox (34.90498pt too high) detected at line 704
+Overfull \vbox (34.90498pt too high) detected at line 702
  []
 
 [65
@@ -3399,12 +3395,12 @@ PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 
-Overfull \hbox (32.50925pt too wide) in paragraph at lines 704--704
+Overfull \hbox (32.50925pt too wide) in paragraph at lines 702--702
  [] 
  []
 
 
-Overfull \vbox (34.90498pt too high) detected at line 704
+Overfull \vbox (34.90498pt too high) detected at line 702
  []
 
 [66
@@ -3414,12 +3410,12 @@ PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 
-Overfull \hbox (32.50925pt too wide) in paragraph at lines 704--704
+Overfull \hbox (32.50925pt too wide) in paragraph at lines 702--702
  [] 
  []
 
 
-Overfull \vbox (34.90498pt too high) detected at line 704
+Overfull \vbox (34.90498pt too high) detected at line 702
  []
 
 [67
@@ -3429,12 +3425,12 @@ PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 PGFPlots: reading {./Data/XRD/xrd.txt}
 
-Overfull \hbox (32.50925pt too wide) in paragraph at lines 704--704
+Overfull \hbox (32.50925pt too wide) in paragraph at lines 702--702
  [] 
  []
 
 
-Overfull \vbox (34.90498pt too high) detected at line 704
+Overfull \vbox (34.90498pt too high) detected at line 702
  []
 
 [68
@@ -3443,31 +3439,31 @@ Overfull \vbox (34.90498pt too high) detected at line 704
 PGFPlots: reading {./Data/RAMAN/raman.txt}
 PGFPlots: reading {./Data/RAMAN/raman.txt}
 
-Overfull \hbox (32.51051pt too wide) in paragraph at lines 754--754
+Overfull \hbox (32.51051pt too wide) in paragraph at lines 752--752
  [] 
  []
 
 
-Overfull \vbox (28.41635pt too high) detected at line 754
+Overfull \vbox (28.41635pt too high) detected at line 752
  []
 
 [69
 
 ]
-<Imagenes/CRGO300517_paper.png, id=1899, 1027.84pt x 770.88pt>
+<Imagenes/CRGO300517_paper.png, id=1911, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper.png Graphic file (type png)
 <use Imagenes/CRGO300517_paper.png>
-Package pdftex.def Info: Imagenes/CRGO300517_paper.png  used on input line 767.
- on input line 767.
+Package pdftex.def Info: Imagenes/CRGO300517_paper.png  used on input line 765.
+ on input line 765.
 Package pdftex.def Info: Requested size: 179.25114pt x 134.43552pt on input lin
-e 767.
-<Imagenes/CRGO300517_paper_measures.png, id=1900, 1027.84pt x 770.88pt>
+e 765.
+<Imagenes/CRGO300517_paper_measures.png, id=1912, 1027.84pt x 770.88pt>
 File: Imagenes/CRGO300517_paper_measures.png Graphic file (type png)
 <use Imagenes/CRGO300517_paper_measures.png>
 Package pdftex.def Info: Imagenes/CRGO300517_paper_measures.png  used on input 
-line 767. on input line 767.
+line 765. on input line 765.
 Package pdftex.def Info: Requested size: 179.25114pt x 134.43552pt on input lin
-e 767.
+e 765.
  [70
 
  <./Imagenes/CRGO300517_paper.png> <./Imagenes/CRGO300517_paper_measures.png>] 
@@ -3477,7 +3473,7 @@ e 767.
 \openout4 = `presentación.vrb'.
 
  (./presentación.vrb
-<Imagenes/SC_process.pdf, id=1913, pagebox=cropbox, 1628.56967pt x 578.96617pt>
+<Imagenes/SC_process.pdf, id=1925, pagebox=cropbox, 1628.56967pt x 578.96617pt>
 
 File: Imagenes/SC_process.pdf Graphic file (type pdf)
 <use Imagenes/SC_process.pdf>
@@ -3640,60 +3636,60 @@ e 28.
 ] [84
 
 ]
-<Imagenes/cell4.png, id=1991, 692.5875pt x 606.76688pt>
+<Imagenes/cell4.png, id=2003, 692.5875pt x 606.76688pt>
 File: Imagenes/cell4.png Graphic file (type png)
 <use Imagenes/cell4.png>
-Package pdftex.def Info: Imagenes/cell4.png  used on input line 835. on input l
-ine 835.
+Package pdftex.def Info: Imagenes/cell4.png  used on input line 833. on input l
+ine 833.
 Package pdftex.def Info: Requested size: 199.1693pt x 174.48578pt on input line
- 835.
+ 833.
  [85
 
  <./Imagenes/cell4.png>]
 File: Imagenes/cell4.png Graphic file (type png)
 <use Imagenes/cell4.png>
-Package pdftex.def Info: Imagenes/cell4.png  used on input line 835. on input l
-ine 835.
+Package pdftex.def Info: Imagenes/cell4.png  used on input line 833. on input l
+ine 833.
 Package pdftex.def Info: Requested size: 199.1693pt x 174.48578pt on input line
- 835.
+ 833.
  [86
 
 ]
 File: Imagenes/cell4.png Graphic file (type png)
 <use Imagenes/cell4.png>
-Package pdftex.def Info: Imagenes/cell4.png  used on input line 835. on input l
-ine 835.
+Package pdftex.def Info: Imagenes/cell4.png  used on input line 833. on input l
+ine 833.
 Package pdftex.def Info: Requested size: 199.1693pt x 174.48578pt on input line
- 835.
+ 833.
  [87
 
 ]
 File: Imagenes/cell4.png Graphic file (type png)
 <use Imagenes/cell4.png>
-Package pdftex.def Info: Imagenes/cell4.png  used on input line 835. on input l
-ine 835.
+Package pdftex.def Info: Imagenes/cell4.png  used on input line 833. on input l
+ine 833.
 Package pdftex.def Info: Requested size: 199.1693pt x 174.48578pt on input line
- 835.
+ 833.
  [88
 
 ]
-<Imagenes/cell_scheme.pdf, id=2013, pagebox=cropbox, 688.86975pt x 437.29802pt>
+<Imagenes/cell_scheme.pdf, id=2025, pagebox=cropbox, 688.86975pt x 437.29802pt>
 
 File: Imagenes/cell_scheme.pdf Graphic file (type pdf)
 <use Imagenes/cell_scheme.pdf>
-Package pdftex.def Info: Imagenes/cell_scheme.pdf  used on input line 856. on i
-nput line 856.
+Package pdftex.def Info: Imagenes/cell_scheme.pdf  used on input line 854. on i
+nput line 854.
 Package pdftex.def Info: Requested size: 239.00558pt x 151.72206pt on input lin
-e 856.
-<Imagenes/cell_image.pdf, id=2014, pagebox=cropbox, 320.3717pt x 422.618pt>
+e 854.
+<Imagenes/cell_image.pdf, id=2026, pagebox=cropbox, 320.3717pt x 422.618pt>
 File: Imagenes/cell_image.pdf Graphic file (type pdf)
 <use Imagenes/cell_image.pdf>
-Package pdftex.def Info: Imagenes/cell_image.pdf  used on input line 856. on in
-put line 856.
+Package pdftex.def Info: Imagenes/cell_image.pdf  used on input line 854. on in
+put line 854.
 Package pdftex.def Info: Requested size: 99.58464pt x 131.3649pt on input line 
-856.
+854.
 
-Overfull \vbox (28.82277pt too high) detected at line 856
+Overfull \vbox (28.82277pt too high) detected at line 854
  []
 
 [89
@@ -3704,338 +3700,338 @@ pdfTeX warning: /usr/local/texlive/2017/bin/x86_64-linux/pdflatex (file ./Image
 nes/cell_image.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<Imagenes/electrode_steel.png, id=2047, 427.5975pt x 421.575pt>
+<Imagenes/electrode_steel.png, id=2059, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_steel.png Graphic file (type png)
 <use Imagenes/electrode_steel.png>
-Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 934. 
-on input line 934.
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 932. 
+on input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
-<Imagenes/electrode_ni.png, id=2048, 427.5975pt x 421.575pt>
+32.
+<Imagenes/electrode_ni.png, id=2060, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_ni.png Graphic file (type png)
 <use Imagenes/electrode_ni.png>
-Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 934. on 
-input line 934.
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 932. on 
+input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
  [90
 
  <./Imagenes/electrode_steel.png> <./Imagenes/electrode_ni.png>]
 File: Imagenes/electrode_steel.png Graphic file (type png)
 <use Imagenes/electrode_steel.png>
-Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 934. 
-on input line 934.
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 932. 
+on input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
 File: Imagenes/electrode_ni.png Graphic file (type png)
 <use Imagenes/electrode_ni.png>
-Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 934. on 
-input line 934.
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 932. on 
+input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
  [91
 
 ]
 File: Imagenes/electrode_steel.png Graphic file (type png)
 <use Imagenes/electrode_steel.png>
-Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 934. 
-on input line 934.
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 932. 
+on input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
 File: Imagenes/electrode_ni.png Graphic file (type png)
 <use Imagenes/electrode_ni.png>
-Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 934. on 
-input line 934.
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 932. on 
+input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
 
 [92
 
 ]
 File: Imagenes/electrode_steel.png Graphic file (type png)
 <use Imagenes/electrode_steel.png>
-Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 934. 
-on input line 934.
+Package pdftex.def Info: Imagenes/electrode_steel.png  used on input line 932. 
+on input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
 File: Imagenes/electrode_ni.png Graphic file (type png)
 <use Imagenes/electrode_ni.png>
-Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 934. on 
-input line 934.
+Package pdftex.def Info: Imagenes/electrode_ni.png  used on input line 932. on 
+input line 932.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-34.
+32.
  [93
 
 ]
-<Imagenes/electrode_polvo_ac.png, id=2072, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_ac.png, id=2084, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
-Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 96
-1. on input line 961.
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 95
+9. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
-<Imagenes/electrode_polvo_pmma_ac.png, id=2073, 427.5975pt x 421.575pt>
+59.
+<Imagenes/electrode_polvo_pmma_ac.png, id=2085, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 961. on input line 961.
+ne 959. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
  [94
 
  <./Imagenes/electrode_polvo_ac.png> <./Imagenes/electrode_polvo_pmma_ac.png>]
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
-Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 96
-1. on input line 961.
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 95
+9. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 961. on input line 961.
+ne 959. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
  [95
 
 ]
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
-Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 96
-1. on input line 961.
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 95
+9. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 961. on input line 961.
+ne 959. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
  [96
 
 ]
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
-Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 96
-1. on input line 961.
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 95
+9. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 961. on input line 961.
+ne 959. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
  [97
 
 ]
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
-Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 96
-1. on input line 961.
+Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 95
+9. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 961. on input line 961.
+ne 959. on input line 959.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-61.
+59.
  [98
 
 ]
-<Imagenes/electrode_paper.png, id=2103, 427.5975pt x 421.575pt>
+<Imagenes/electrode_paper.png, id=2115, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 988. 
-on input line 988.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 986. 
+on input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
-<Imagenes/electrode_lio.png, id=2104, 427.5975pt x 421.575pt>
+86.
+<Imagenes/electrode_lio.png, id=2116, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 988. on
- input line 988.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 986. on
+ input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
  [99
 
  <./Imagenes/electrode_paper.png> <./Imagenes/electrode_lio.png>]
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 988. 
-on input line 988.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 986. 
+on input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 988. on
- input line 988.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 986. on
+ input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
  [100
 
 ]
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 988. 
-on input line 988.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 986. 
+on input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 988. on
- input line 988.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 986. on
+ input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
  [101
 
 ]
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 988. 
-on input line 988.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 986. 
+on input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 988. on
- input line 988.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 986. on
+ input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
  [102
 
 ]
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 988. 
-on input line 988.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 986. 
+on input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 988. on
- input line 988.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 986. on
+ input line 986.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 9
-88.
+86.
  [103
 
 ]
-<Imagenes/electrode_polvo_ni.png, id=2133, 427.5975pt x 421.575pt>
+<Imagenes/electrode_polvo_ni.png, id=2145, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-15. on input line 1015.
+13. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
-<Imagenes/electrode_polvo_pmma_ni.png, id=2134, 427.5975pt x 421.575pt>
+013.
+<Imagenes/electrode_polvo_pmma_ni.png, id=2146, 427.5975pt x 421.575pt>
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1015. on input line 1015.
+ne 1013. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
  [104
 
  <./Imagenes/electrode_polvo_ni.png> <./Imagenes/electrode_polvo_pmma_ni.png>]
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-15. on input line 1015.
+13. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1015. on input line 1015.
+ne 1013. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
  [105
 
 ]
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-15. on input line 1015.
+13. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1015. on input line 1015.
+ne 1013. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
  [106
 
 ]
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-15. on input line 1015.
+13. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1015. on input line 1015.
+ne 1013. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
  [107
 
 ]
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-15. on input line 1015.
+13. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1015. on input line 1015.
+ne 1013. on input line 1013.
 Package pdftex.def Info: Requested size: 59.75139pt x 58.9043pt on input line 1
-015.
+013.
  [108
 
 ]
 File: Imagenes/electrode_polvo_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ac.png  used on input line 10
-29. on input line 1029.
+27. on input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 File: Imagenes/electrode_polvo_pmma_ac.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ac.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ac.png  used on input li
-ne 1029. on input line 1029.
+ne 1027. on input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 File: Imagenes/electrode_paper.png Graphic file (type png)
 <use Imagenes/electrode_paper.png>
-Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1029.
- on input line 1029.
+Package pdftex.def Info: Imagenes/electrode_paper.png  used on input line 1027.
+ on input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 File: Imagenes/electrode_lio.png Graphic file (type png)
 <use Imagenes/electrode_lio.png>
-Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1029. o
-n input line 1029.
+Package pdftex.def Info: Imagenes/electrode_lio.png  used on input line 1027. o
+n input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 File: Imagenes/electrode_polvo_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_ni.png  used on input line 10
-29. on input line 1029.
+27. on input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 File: Imagenes/electrode_polvo_pmma_ni.png Graphic file (type png)
 <use Imagenes/electrode_polvo_pmma_ni.png>
 Package pdftex.def Info: Imagenes/electrode_polvo_pmma_ni.png  used on input li
-ne 1029. on input line 1029.
+ne 1027. on input line 1027.
 Package pdftex.def Info: Requested size: 31.86781pt x 31.41734pt on input line 
-1029.
+1027.
 
-Overfull \hbox (1.50552pt too wide) in paragraph at lines 1029--1029
+Overfull \hbox (1.50552pt too wide) in paragraph at lines 1027--1027
 [][]  
  []
 
@@ -4064,7 +4060,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_3/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
 
-Overfull \vbox (28.3508pt too high) detected at line 1190
+Overfull \vbox (28.3508pt too high) detected at line 1187
  []
 
 [115
@@ -4085,7 +4081,7 @@ Missing character: There is no ; in font nullfont!
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/eisgalv.txt}
 Missing character: There is no ; in font nullfont!
 
-Overfull \vbox (27.86746pt too high) detected at line 1285
+Overfull \vbox (27.86746pt too high) detected at line 1282
  []
 
 [117
@@ -4098,7 +4094,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_3/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_5/raw/chargedischarge.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/chargedischarge.txt}
 
-Overfull \vbox (38.42961pt too high) detected at line 1332
+Overfull \vbox (38.42961pt too high) detected at line 1329
  []
 
 [118
@@ -4112,13 +4108,8 @@ PGFPlots: reading {./Data/CV_CRGO300517_10/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_4/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_6/raw/sample3.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_7/raw/sample3.txt}
-pdfTeX warning (ext4): destination with the same identifier (name{fig:resumen_c
-v}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1389 	\end{frame}
-                   
-Overfull \vbox (28.3418pt too high) detected at line 1389
+
+Overfull \vbox (28.3418pt too high) detected at line 1385
  []
 
 [120
@@ -4129,7 +4120,7 @@ PGFPlots: reading {./Data/CV_CRGO300517_13/raw/capacitance.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_12/raw/capacitance.txt}
 PGFPlots: reading {./Data/CV_CRGO300517_14/raw/capacitance.txt}
 
-Overfull \vbox (11.11151pt too high) detected at line 1455
+Overfull \vbox (16.68443pt too high) detected at line 1451
  []
 
 [121
@@ -4172,7 +4163,7 @@ Overfull \vbox (11.11151pt too high) detected at line 1455
 <Copying the QR code for "https://github.com/CarlosJEugenio/Tesis" in version 3
 -M as previously calculated.>
 
-Overfull \vbox (60.19649pt too high) detected at line 1495
+Overfull \vbox (60.19649pt too high) detected at line 1491
  []
 
 [135
@@ -4195,8 +4186,8 @@ Overfull \vbox (60.19649pt too high) detected at line 1495
 \tf@snm=\write11
 \openout11 = `presentación.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1552.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1552.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1548.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1548.
  (./presentación.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -4204,8 +4195,8 @@ LaTeX Info: Redefining \% on input line 26.
 <Reading QR code for "https://github.com/CarlosJEugenio/Tesis" at level 3-M fro
 m aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1548.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1548.
 
 Package rerunfilecheck Info: File `presentación.out' has not changed.
 (rerunfilecheck)             Checksum: 747907E9A2EB9E9C97662282C9E79943;513.
@@ -4213,15 +4204,12 @@ Package rerunfilecheck Info: File `presentación.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 76951 strings out of 492985
- 1944977 string characters out of 6132585
- 2288889 words of memory out of 5000000
- 79216 multiletter control sequences out of 15000+600000
+ 76948 strings out of 492985
+ 1944930 string characters out of 6132585
+ 2288732 words of memory out of 5000000
+ 79214 multiletter control sequences out of 15000+600000
  546086 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,21n,119p,10398b,2791s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4239,10 +4227,10 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentación.pdf (139 pages, 16095820 bytes).
+Output written on presentación.pdf (139 pages, 16143355 bytes).
 PDF statistics:
- 2470 PDF objects out of 2487 (max. 8388607)
- 1853 compressed objects within 19 object streams
- 327 named destinations out of 1000 (max. 500000)
+ 2481 PDF objects out of 2487 (max. 8388607)
+ 1858 compressed objects within 19 object streams
+ 326 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 
