@@ -1124,13 +1124,14 @@
 			\begin{column}{0.5\textwidth}
 				\begin{figure}
 					\begin{tikzpicture}
-					[scale=0.3,trim axis right,trim axis left]
+					[scale=0.4,trim axis right,trim axis left]
 					\begin{axis}
 					[
 					CVStyle,
 					width=\textwidth,
 					domain=-1:1,
-					legend entries={Ideal, Real},				
+					legend entries={Ideal, Real},
+					at={(-100,400)},		
 					]
 					\addplot[green!60!black, thick] table {
 						A B
@@ -1159,6 +1160,7 @@
 					\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
 					\end{axis}
 					\begin{axis}[
+					at={(0,0)},
 					width=1.3\textwidth,
 					height=\axisdefaultheight,
 					EISStyle,
@@ -1184,6 +1186,7 @@
 					\end{axis}
 					\begin{axis}
 					[
+					at={(100,-100)},
 					CCDStyle,
 					width=\textwidth,
 					legend entries={Ideal, Real}			
@@ -1207,6 +1210,7 @@
 					\end{axis}
 					\begin{axis}
 					[
+					at={(200,-500)},
 					CVStyle,
 					width=\textwidth,
 					domain=-1:1,
@@ -1281,42 +1285,6 @@
 		\end{figure}
 	\end{frame}
 
-	
-	\begin{frame}{Resultados}
-		\begin{figure}[h!]
-			\centering
-			\hfill
-			\begin{subfigure}[b]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-				\begin{axis}[
-				CVStyle,
-				legend entries={\mPapelAcero, \mLiofilizadoAcero}
-				]
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
-				\end{axis}
-				\end{tikzpicture}
-				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-			\end{subfigure}\hfill
-			\begin{subfigure}[b]{0.4\textwidth}
-				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
-				\begin{axis}[
-				CVStyle,
-				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
-				cycle list shift=2
-				] 
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
-				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
-				\end{axis}
-				\end{tikzpicture}
-				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
-			\end{subfigure}
-			\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
-			\label{fig:resumen_cv}
-		\end{figure}
-	\end{frame}
 
 	\begin{frame}{Resumen Capacitancia}
 		\begin{table}[h!]
@@ -1477,6 +1445,42 @@
 		\end{table}
 	\end{frame}
 
+	
+	\begin{frame}{Resultados}
+		\begin{figure}[h!]
+			\centering
+			\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPapelAcero, \mLiofilizadoAcero}
+				]
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_12/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0006 ] {./Data/CV_CRGO300517_14/raw/sample3.txt};	
+				\end{axis}
+				\end{tikzpicture}
+				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}\hfill
+			\begin{subfigure}[b]{0.4\textwidth}
+				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
+				\begin{axis}[
+				CVStyle,
+				legend entries={\mPolvoAcero, \mPolvoAceroPMMA, \mPolvoNiquel, \mPolvoNiquelPMMA},
+				cycle list shift=2
+				] 
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0004 ] {./Data/CV_CRGO300517_10/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0028 ] {./Data/CV_CRGO300517_4/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0009 ] {./Data/CV_CRGO300517_6/raw/sample3.txt};
+				\addplot table [x=Voltaje, y expr=\thisrow{Corriente}/0.0008 ] {./Data/CV_CRGO300517_7/raw/sample3.txt};
+				\end{axis}
+				\end{tikzpicture}
+				%				\subcaption{Después de 1000 ciclos de carga y descarga.}
+			\end{subfigure}
+			\caption[Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga]{Resumen voltametría cíclica a 100 mV/s antes y después de 1000 ciclos de carga y descarga. Las muestras son separadas en dos gráficos para mejorar su visualización.}
+			\label{fig:resumen_cv}
+		\end{figure}
+	\end{frame}
 	\begin{frame}{Capacidad específica}
 		\begin{figure}[h]
 			\centering
