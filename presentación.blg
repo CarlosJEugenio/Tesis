@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: presentación.aux
 The style file: apalike.bst
 Database file #1: Nanosintesis.bib
-You've used 9 entries,
+You've used 10 entries,
             1935 wiz_defined-function locations,
-            546 strings with 5590 characters,
-and the built_in function-call counts, 4309 in all, are:
-= -- 413
-> -- 231
+            553 strings with 5782 characters,
+and the built_in function-call counts, 4800 in all, are:
+= -- 460
+> -- 259
 < -- 2
-+ -- 82
-- -- 82
-* -- 418
-:= -- 758
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 86
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 126
-empty$ -- 271
-format.name$ -- 93
-if$ -- 810
++ -- 92
+- -- 92
+* -- 467
+:= -- 844
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 96
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 140
+empty$ -- 301
+format.name$ -- 104
+if$ -- 902
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 48
-num.names$ -- 27
-pop$ -- 66
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 96
 quote$ -- 0
-skip$ -- 93
+skip$ -- 103
 stack$ -- 0
-substring$ -- 335
-swap$ -- 9
+substring$ -- 372
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 60
 warning$ -- 0
-while$ -- 35
+while$ -- 39
 width$ -- 0
-write$ -- 119
+write$ -- 132

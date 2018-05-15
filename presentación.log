@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  15 MAY 2018 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.10)  15 MAY 2018 11:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4176,6 +4176,42 @@ Overfull \vbox (60.19649pt too high) detected at line 1491
 
 ] [139
 
+] [140
+
+] [141
+
+] [142
+
+
+] [143
+
+
+]
+<Imagenes/hybrid.pdf, id=2387, pagebox=cropbox, 1980.56624pt x 939.37154pt>
+File: Imagenes/hybrid.pdf Graphic file (type pdf)
+<use Imagenes/hybrid.pdf>
+Package pdftex.def Info: Imagenes/hybrid.pdf  used on input line 1599. on input
+ line 1599.
+Package pdftex.def Info: Requested size: 298.75394pt x 141.68799pt on input lin
+e 1599.
+<Imagenes/piorbitals.pdf, id=2388, pagebox=cropbox, 1872.0734pt x 940.12436pt>
+File: Imagenes/piorbitals.pdf Graphic file (type pdf)
+<use Imagenes/piorbitals.pdf>
+Package pdftex.def Info: Imagenes/piorbitals.pdf  used on input line 1599. on i
+nput line 1599.
+Package pdftex.def Info: Requested size: 298.75394pt x 150.0213pt on input line
+ 1599.
+ [144
+
+] [145
+
+
+ <./Imagenes/hybrid.pdf>] [146
+
+
+ <./Imagenes/piorbitals.pdf>] [147
+
+
 ]
 \tf@nav=\write9
 \openout9 = `presentación.nav'.
@@ -4186,8 +4222,8 @@ Overfull \vbox (60.19649pt too high) detected at line 1491
 \tf@snm=\write11
 \openout11 = `presentación.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1548.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1548.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1600.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1600.
  (./presentación.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -4195,8 +4231,8 @@ LaTeX Info: Redefining \% on input line 26.
 <Reading QR code for "https://github.com/CarlosJEugenio/Tesis" at level 3-M fro
 m aux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1548.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1548.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1600.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1600.
 
 Package rerunfilecheck Info: File `presentación.out' has not changed.
 (rerunfilecheck)             Checksum: 747907E9A2EB9E9C97662282C9E79943;513.
@@ -4206,10 +4242,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 76948 strings out of 492985
- 1944930 string characters out of 6132585
- 2288732 words of memory out of 5000000
- 79214 multiletter control sequences out of 15000+600000
+ 76988 strings out of 492985
+ 1945435 string characters out of 6132585
+ 2288814 words of memory out of 5000000
+ 79232 multiletter control sequences out of 15000+600000
  546086 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,21n,119p,10398b,2791s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4225,12 +4261,13 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentación.pdf (139 pages, 16143355 bytes).
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on presentación.pdf (147 pages, 17037195 bytes).
 PDF statistics:
- 2481 PDF objects out of 2487 (max. 8388607)
- 1858 compressed objects within 19 object streams
- 326 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2768 PDF objects out of 2984 (max. 8388607)
+ 2036 compressed objects within 21 object streams
+ 346 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
