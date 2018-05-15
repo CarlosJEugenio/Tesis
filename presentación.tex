@@ -172,14 +172,18 @@
 
 	\section{Objetivos}
 	\begin{frame}{Objetivos}
-		\textbf{Objetivo general:}
-		\begin{itemize}
-			\item Sintetizar \textbf{óxido de grafeno reducido}, para su utilización en electrodos de \textbf{supercondensadores}.
-		\end{itemize}
-		\textbf{Objetivo de laboratorio:}
-		\begin{itemize}
-			\item 
-		\end{itemize}
+		\begin{onlyenv}<1->
+			\textbf{Objetivo general:}
+			\begin{itemize}
+				\item Sintetizar \textbf{óxido de grafeno reducido}, para su utilización en electrodos de \textbf{supercondensadores}.
+			\end{itemize}
+		\end{onlyenv}
+		\begin{onlyenv}<2->
+			\textbf{Objetivo de laboratorio:}
+			\begin{itemize}
+				\item Implementar una \textbf{metodología} para \textbf{construir y caracterizar supercondensadores}.
+			\end{itemize}
+		\end{onlyenv}
 	\end{frame}
 
 	\begin{frame}{Objetivos}
@@ -592,6 +596,8 @@
 							1 1
 							1 0.8
 						};
+						\draw [arrows={|-|}] (axis cs:1.1,1.2) -- node[right]{$iR$} (axis cs:1.1,0.8);
+						\draw [arrows={|-|}] (axis cs:2.1,-1.2) -- node[right]{$iR$} (axis cs:2.1,-0.8);
 						\end{axis}
 					\end{tikzpicture}
 					\caption{Ejemplo de carga y descarga.}
@@ -638,7 +644,7 @@
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 				\end{scope}}
 				\only<6->{\begin{scope}
-					\node at (-6, -1) {Fotografía GO};
+					\node at (-6, -1) {\includegraphics[width=0.3\textwidth]{GO_pic.png}};
 					\clip[] (-1,1) rectangle (-5, -1.2);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
@@ -647,7 +653,7 @@
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
 				\only<8->{\begin{scope}
-					\node at (6, -2) {Fotografía rGO};
+					\node at (6, -2) {\includegraphics[width=0.3\textwidth]{RGO_pic.png}};
 					\clip[] (1, -1.2) rectangle (5, -5);
 					\node at (0, 0) {\includegraphics[width=0.7\textwidth]{experimental_method.pdf}};
 					\end{scope}}
@@ -703,8 +709,8 @@
 				\textbf{Espectro Raman}
 				\begin{itemize}
 					\item La relación de intensidades entre bandas $I_D/I_G$ se incrementa con los defectos en la red.
-					\item $I_D/I_G$ = 0,9
-					\item $I_D/I_G$ = 1,3
+					\item \textcolor{RYB2}{Óxido de grafeno:\\$I_D/I_G$ = 0,9}.
+					\item \textcolor{RYB4}{Óxido reducido de grafeno:\\ $I_D/I_G$ = 1,3}
 					
 				\end{itemize}
 			\end{column}
@@ -715,7 +721,7 @@
 					\begin{axis}[
 					cycle list name=colorbrewer-RYB,
 					no markers,
-					grid=both,
+%					grid=both,
 					%		yticklabels={,,},
 					width = \textwidth,
 					height=0.8*\axisdefaultheight,
@@ -738,14 +744,26 @@
 						%	\addplot table [x expr = \thisrow{2t}, y expr=\thisrow{RGOLYO}+3] {./Data/XRD/xrd.txt};
 						\node[black] at (25,1000){\small{D}};
 						\node[black] at (60, 900){\small{G}};
-						\node[black] at (160, 300){\small{2D}};
+%						\node[black] at (160, 300){\small{2D}};
 					\end{axis}
 					\end{tikzpicture}
 					\caption[Espectro Raman de GO y rGO]{Espectro Raman de muestras de óxido de grafeno y óxido reducido de grafeno.}
-					\label{fig:raman}
 				\end{figure}
 			\end{column}
 		\end{columns}
+	\end{frame}
+
+	\begin{frame}{Microscopía SEM}
+		\begin{figure}[h]
+			\centering
+			\begin{subfigure}{0.45\textwidth}
+				\includegraphics[width=\textwidth]{CRGO300517_paper.png}
+			\end{subfigure}
+			\begin{subfigure}{0.45\textwidth}
+				\includegraphics[width=\textwidth]{CRGO300517_paper_measures.png}
+			\end{subfigure}
+			\caption[Imagen SEM de un electrodo de rGO en formato papel]{Imagen SEM de un electrodo de rGO en formato papel.}
+		\end{figure}
 	\end{frame}
 
 
@@ -995,6 +1013,20 @@
 			\end{column}
 		\end{columns}		
 	\end{frame}
+
+	\begin{frame}{Resumen electrodos}
+		\begin{tabular}{l|c|c|c|c|c|c}
+			&
+			\includegraphics[width=0.08\textwidth]{electrode_polvo_ac.png} & \includegraphics[width=0.08\textwidth]{electrode_polvo_pmma_ac.png} & \includegraphics[width=0.08\textwidth]{electrode_paper.png} & \includegraphics[width=0.08\textwidth]{electrode_lio.png} & \includegraphics[width=0.08\textwidth]{electrode_polvo_ni.png} & \includegraphics[width=0.08\textwidth]{electrode_polvo_pmma_ni.png} \\
+			\hline
+			Nombre & PolvoAc & PolvoAc+ & PapelAc & LioAc & PolvoNi & PolvoNi\\
+					&		& pmma		&			&				&	pmma\\
+			\hline
+			Masa [mg] & 0,4 $\pm$ 0,2 & 2,8 $\pm$ 0,2 & 0,6 $\pm$ 0,1 & 0,6 $\pm$ 0,1 & 0,9 $\pm$ 0,2 & 0,8 $\pm$ 0,2
+			
+
+		\end{tabular}
+	\end{frame}
 	
 %	\begin{frame}[fragile]{Caracterización electroquímica}
 %		\begin{figure}
@@ -1111,144 +1143,16 @@
 %\end{frame}
 
 	\begin{frame}[fragile]{Metodología de medición}
-		\begin{columns}
-			\begin{column}{0.5\textwidth}
-				\textbf{¿Cómo se lleva a cabo la caracterización?}
-				\begin{enumerate}[<+(1)->]
-					\item Voltametría cíclica.
-					\item Espectroscopia de impedancia.
-					\item Carga y descaga cíclica.
-					\item Voltametría cíclca.
-				\end{enumerate}
-			\end{column}
-			\begin{column}{0.5\textwidth}
-				\begin{figure}
-					\begin{tikzpicture}
-					[scale=0.4,trim axis right,trim axis left]
-					\begin{axis}
-					[
-					CVStyle,
-					width=\textwidth,
-					domain=-1:1,
-					legend entries={Ideal, Real},
-					at={(-100,400)},		
-					]
-					\addplot[green!60!black, thick] table {
-						A B
-						-1  1
-						1  1
-						
-						1 -1
-						-1 -1
-					};
-					\addplot[green!60!black, thick, dashed, forget plot] table {
-						A B
-						-1 -1
-						-1  1
-						
-						1  1
-						1 -1
-					};
-					\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
-					
-					\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
-					\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
-					\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
-					\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
-					\end{axis}
-					\begin{axis}[
-					at={(0,0)},
-					width=1.3\textwidth,
-					height=\axisdefaultheight,
-					EISStyle,
-					every axis legend/.append style={
-						font=\normalsize,
-						at={(0.02,0.98)},
-						anchor=north west,
-					},
-					legend entries = {Circuito equivalente clásico, Circuito equivalente Randles}
-					]
-					\pgfplotstableread{./Data/eisgalv_sim_simple.txt}{\eistable};
-					\pgfplotstablegetrowsof{\eistable}
-					\pgfmathsetmacro{\N}{\pgfplotsretval}
-					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-					node[pos=(1-1)/(\N-1), pin=right:{1 MHz}]{}
-					node[pos=(\N-1)/(\N-1), pin=right:{0,1 Hz}]{};
-					\pgfplotstableread{./Data/eisgalv_sim_warburg.txt}{\eistable};
-					\pgfplotstablegetrowsof{\eistable}
-					\pgfmathsetmacro{\N}{\pgfplotsretval}
-					\addplot table [only marks, x=Zreal, y expr=\thisrow{Zimag}] {\eistable}
-					node[pos=(1-1)/(\N-1), pin=left:{1 MHz}]{}
-					node[pos=(\N-1)/(\N-1), pin=left:{0,1 Hz}]{};
-					\end{axis}
-					\begin{axis}
-					[
-					at={(100,-100)},
-					CCDStyle,
-					width=\textwidth,
-					legend entries={Ideal, Real}			
-					]
-					\addplot[green!60!black, thick] table {
-						A B
-						0 0
-						1 1
-						2 0
-					};
-					\addplot[red, thick, domain=0:1] (\x,{-0.8*(\x)^(2)+1.6*(\x)+0.2});
-					\addplot[red, thick, domain=1:2] (\x,{0.8*(\x)^(2)-3.2*(\x)+3.2});
-					\addplot[red, thick, dashed] table {
-						A B
-						0 0
-						0 0.2
-						
-						1 1
-						1 0.8
-					};
-					\end{axis}
-					\begin{axis}
-					[
-					at={(200,-500)},
-					CVStyle,
-					width=\textwidth,
-					domain=-1:1,
-					legend entries={Ideal, Real},				
-					]
-					\addplot[green!60!black, thick] table {
-						A B
-						-1  1
-						1  1
-						
-						1 -1
-						-1 -1
-					};
-					\addplot[green!60!black, thick, dashed, forget plot] table {
-						A B
-						-1 -1
-						-1  1
-						
-						1  1
-						1 -1
-					};
-					\addplot[thick,color=red, smooth,samples=100,domain=0:0.4] plot[parametric] function{1.57041*t**(3)+0*t**(2)+0.4621*t-1,-0.11402*t**(3)+0*t**(2)+3.25798*t-1};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.4:0.54] plot[parametric] function{8.70966*t**(3)-8.49528*t**(2)+3.83173*t-1.44552,-14.95269*t**(3)+17.65714*t**(2)-3.74567*t-0.07401};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.54:0.8] plot[parametric] function{-8.63754*t**(3)+19.61633*t**(2)-11.35349*t+1.28871,7.29314*t**(3)-18.39283*t**(2)+15.72766*t-3.58035};
-					\addplot[thick,color=red, smooth,samples=100,domain=0.80:1.0] plot[parametric] function{1.73159*t**(3)-5.19477*t**(2)+8.43573*t-3.97255,1.55121*t**(3)-4.65363*t**(2)+4.76933*t-0.66691};
-					
-					\addplot[thick, red, smooth, samples=100,domain=0:0.4] plot[parametric] function{-1.57041*t**(3)+0*t**(2)-0.4621*t+1,0.11402*t**(3)+0*t**(2)-3.25798*t+1};
-					\addplot[thick, red, smooth, samples=100,domain=0.4:0.54] plot[parametric] function{-8.70966*t**(3)+8.49528*t**(2)-3.83173*t+1.44552,14.95269*t**(3)-17.65714*t**(2)+3.74567*t+0.07401};
-					\addplot[thick, red, smooth, samples=100,domain=0.54:0.8] plot[parametric] function{8.63754*t**(3)-19.61633*t**(2)+11.35349*t-1.28871,-7.29314*t**(3)+18.39283*t**(2)-15.72766*t+3.58035};
-					\addplot[thick, red, smooth, samples=100,domain=0.80:1.0] plot[parametric] function{-1.73159*t**(3)+5.19477*t**(2)-8.43573*t+3.97255,-1.55121*t**(3)+4.65363*t**(2)-4.76933*t+0.66691};
-					\end{axis}
-					\end{tikzpicture}
-				\end{figure}
-			\end{column}
-		\end{columns}
+		\textbf{¿Cómo se lleva a cabo la caracterización?}
+		\begin{enumerate}[<+(1)->]
+			\item Voltametría cíclica.
+			\item Espectroscopia de impedancia.
+			\item Carga y descaga cíclica.
+			\item Voltametría cíclica.
+		\end{enumerate}
 	\end{frame}
 
-	\begin{frame}{Resultados}
+	\begin{frame}{Resultados: Voltametría cíclica}
 		\begin{figure}[h!]
 			\centering
 			\hfill
@@ -1286,7 +1190,7 @@
 	\end{frame}
 
 
-	\begin{frame}{Resumen Capacitancia}
+	\begin{frame}{Resultados: Voltametría cíclica}
 		\begin{table}[h!]
 			\centering
 			\begin{tabular}{ l l c c c }
@@ -1309,7 +1213,7 @@
 		\end{table}
 	\end{frame}
 
-	\begin{frame}{EIS}
+	\begin{frame}{Resultados: Espectro de impedancia electroquímica}
 		\begin{figure}[h!]
 			\centering
 			\hfill
@@ -1380,7 +1284,7 @@
 		\end{figure}
 	\end{frame}
 	
-	\begin{frame}{Carga y descarga}
+	\begin{frame}{Resultados: Carga y descarga}
 		\begin{figure}[h!]
 			\centering
 			\hfill
@@ -1427,26 +1331,28 @@
 		\end{figure}
 	\end{frame}
 
-	\begin{frame}{Carga y descarga}
+	\begin{frame}{Resultados: Carga y descarga}
 		\begin{table}[h!]
 			\centering
 			\caption{Resistencia en serie equivalente calculada de los ciclos de carga y descarga.}
 			\begin{tabular}{l c c c c}
 				Muestra	&	$\mathrm{V_1}$ [mV]	&	$\mathrm{V_2}$ [mV]	&	Corriente [mA]	&	Resistencia [$\Omega$]	\\
 				\hline
+				\mPolvoAcero			&	1.000	&	719	&	-0,398	&	705		\\
 				\mPolvoAceroPMMA		&	1.000	&	596	&	-0,279	&	1.447	\\
+				\rowcolor{samplegreen}
+				\mPapelAcero			&	996		&	911	&	-0,599	&	141		\\
+				\rowcolor{samplegreen}
+				\mLiofilizadoAcero		&	1.000	&	909	&	-0,599	&	150		\\
 				\mPolvoNiquel			&	1.000	&	854	&	-0,088	&	1.656	\\
 				\mPolvoNiquelPMMA		&	999		&	402	&	-0,799	&	748		\\
-				\mPolvoAcero			&	1.000	&	719	&	-0,398	&	705		\\
-				\mPapelAcero			&	996		&	911	&	-0,599	&	141		\\
-				\mLiofilizadoAcero		&	1.000	&	909	&	-0,599	&	150		\\
 			\end{tabular}
 			\label{tab:esr}
 		\end{table}
 	\end{frame}
 
 	
-	\begin{frame}{Resultados}
+	\begin{frame}{Resultados: Voltametría cíclica}
 		\begin{figure}[h!]
 			\centering
 			\hfill
@@ -1481,7 +1387,8 @@
 			\label{fig:resumen_cv}
 		\end{figure}
 	\end{frame}
-	\begin{frame}{Capacidad específica}
+
+	\begin{frame}{Resultados: Capacidad específica}
 		\begin{figure}[h]
 			\centering
 			\hfill
@@ -1489,6 +1396,7 @@
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{semilogxaxis}[
 				SCStyle,
+				width=1.2\textwidth,
 				only marks,
 				xtick = {25, 50, 100, 200, 400},
 				xticklabels = {25, 50, 100, 200, 400},
@@ -1511,12 +1419,13 @@
 				
 				\end{semilogxaxis}
 				\end{tikzpicture}
-				\caption{Capacidad específica antes de 1000 ciclos de carga y descarga. }
+				\caption{Antes de 1000 ciclos de carga y descarga. }
 			\end{subfigure}\hfill
 			\begin{subfigure}[t]{0.4\textwidth}
 				\begin{tikzpicture}[scale=\plotscale,trim axis right,trim axis left]
 				\begin{semilogxaxis}[
 				SCStyle,
+				width=1.2\textwidth,
 				only marks,
 				xtick = {25, 50, 100, 200, 400},
 				xticklabels = {25, 50, 100, 200, 400},
@@ -1539,10 +1448,9 @@
 				
 				\end{semilogxaxis}
 				\end{tikzpicture}
-				\caption{Capacidad específica después de 1000 ciclos de carga y descarga. }
+				\caption{CDespués de 1000 ciclos de carga y descarga. }
 			\end{subfigure}
 			\caption[Resumen de la capacidad específica]{Resumen de la capacidad específica.}
-			\label{fig:resumen_cs}
 		\end{figure}
 	\end{frame}
 
@@ -1557,11 +1465,22 @@
 			\item[!] La principal fuente de error es la baja masa del material activo en los electrodos.
 		\end{itemize}
 	\end{frame}
+	
+	\begin{frame}{Trabajo futuro}
+		\begin{itemize}[<+->]
+			\item Mejorar la síntesis de \textbf{óxido reducido de grafeno}, por ejemplo, añadiendo \textbf{tratamiento térmico}.
+			\item Sintetizar compuestos de \textbf{óxido reducido de grafeno} con variedad de \textbf{nanopartículas}.
+			\item Diseñar una \textbf{celda de pruebas} más grande, para dismunuir el error asociado a la \textbf{baja masa}.
+		\end{itemize}
+	\end{frame}
 
 	
 
 	\section{Bibliografía}
 	\begin{frame}[allowframebreaks]{Bibliografía}
+		\nocite{Abdolhosseinzadeh2015}
+		\nocite{Thounthong2009}
+		\nocite{Frackowiak2001}
 		\bibliography{Nanosintesis}
 		\bibliographystyle{apalike}
 		
@@ -1591,5 +1510,43 @@
 			\caption{Propiedades del grafeno}
 		\end{table}
 	\end{frame}
+
+	\begin{frame}{Anexo}
+		\begin{table}[h!]
+			\begin{tabular}{ l r }
+				Voltametría cíclica &  \\
+				\hline
+				Voltaje inicial [V] & 0 \\
+				Límite inferior [V] & -0,8 \\
+				Límite superior [V] & 0,8  \\
+				Número de ciclos & 3 \\
+				Velocidad de barrido [mV/s] & 25, 50, 100, 200, 400 \\
+			\end{tabular}
+		\end{table}
+	\end{frame}
+	\begin{frame}{Anexo}
+		\begin{table}[h!]
+			\begin{tabular}{ l r }
+				Carga y descarga cíclica & \\
+				\hline
+				Densidad de corriente [A/g] & 0,1 ó 	1 \\
+				Número de ciclos & 1000 \\
+				Límite inferior [V] & 0 \\
+				Límite superior [V] & 1 \\
+			\end{tabular}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}{Anexo}
+		\begin{table}[h!]
+			\begin{tabular}{ l r }
+				Espectroscopía de impedancia electroqúimica & \\
+				\hline
+				Frecuencia inicial	&	1 MHz \\
+				Frecuencia final	&	0.1 Hz \\
+				Corriente de exitación & 1 mA rms \\ 
+			\end{tabular}
+		\end{table}
+	\end{frame}	
 
 \end{document}

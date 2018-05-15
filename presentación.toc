@@ -1,10 +1,10 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Objetivos}{3}{0}{1}
-\beamer@sectionintoc {2}{Introducci\IeC {\'o}n}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{Supercondensadores}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Nanociencia}{23}{0}{2}
-\beamer@subsectionintoc {2}{3}{Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{41}{0}{2}
-\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{55}{0}{3}
-\beamer@sectionintoc {4}{Supercondensadores}{69}{0}{4}
-\beamer@sectionintoc {5}{Conclusiones}{119}{0}{5}
-\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{125}{0}{6}
+\beamer@sectionintoc {2}{Introducci\IeC {\'o}n}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Supercondensadores}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Nanociencia}{24}{0}{2}
+\beamer@subsectionintoc {2}{3}{Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{42}{0}{2}
+\beamer@sectionintoc {3}{Ruta de s\IeC {\'\i }ntesis}{56}{0}{3}
+\beamer@sectionintoc {4}{Supercondensadores}{71}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones}{122}{0}{5}
+\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a}{131}{0}{6}
