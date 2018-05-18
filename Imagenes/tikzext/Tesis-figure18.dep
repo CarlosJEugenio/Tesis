@@ -1,2 +1,5 @@
-Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt
-Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/chargedischarge.txt
+Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/sample1.txt
+Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/sample2.txt
+Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/sample3.txt
+Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/sample4.txt
+Imagenes/tikzext/Tesis-figure18.pdf: ./Data/CV_Steel_Disk_No_Material_1/raw/sample5.txt

@@ -5,11 +5,6 @@ Abdolhosseinzadeh, S., Asgharzadeh, H., y {Seop Kim}, H. (2015).
 \newblock {Fast and fully-scalable synthesis of reduced graphene oxide}.
 \newblock {\em Scientific Reports}, 5:10160.
 
-\bibitem[Balandin, 2011]{Balandin2011}
-Balandin, A.~A. (2011).
-\newblock {Thermal properties of graphene and nanostructured carbon materials}.
-\newblock {\em Nature Materials}, 10(8):569--581.
-
 \bibitem[Binnig y Rohrer, 1982]{Binnig1982}
 Binnig, G. y Rohrer, H. (1982).
 \newblock {Scanning tunneling microscopy}.
@@ -106,6 +101,11 @@ Fern{\'{a}}ndez-Merino, M.~J., Guardia, L., Paredes, J.~I., Villar-Rodil, S.,
 Feynman, R. (1960).
 \newblock {There's plenty of room at the bottom}.
 \newblock {\em Engeneering and Science}, pages 22--36.
+
+\bibitem[Fletcher et~al., 2014]{Fletcher2014}
+Fletcher, S., Black, V.~J., y Kirkpatrick, I. (2014).
+\newblock {A universal equivalent circuit for carbon-based supercapacitors}.
+\newblock {\em Journal of Solid State Electrochemistry}, 18(5):1377--1387.
 
 \bibitem[Frackowiak y B{\'{e}}guin, 2001]{Frackowiak2001}
 Frackowiak, E. y B{\'{e}}guin, F. (2001).

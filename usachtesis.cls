@@ -2,7 +2,7 @@
 \ProvidesClass{usachtesis}[2016/07/07 USACH thesis class]
 
 \LoadClass[10pt,oneside]{book}
-\RequirePackage[utf8]{inputenc}
+\RequirePackage[utf8x]{inputenc}
 \RequirePackage[spanish]{babel}
 \RequirePackage{graphics}
 \RequirePackage{pst-all,pstricks-add,pst-math}

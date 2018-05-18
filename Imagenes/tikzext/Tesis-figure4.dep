@@ -1,3 +1,8 @@
-Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
-Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
-Imagenes/tikzext/Tesis-figure4.pdf: ./Data/XRD/xrd.txt
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
+Imagenes/tikzext/Tesis-figure4.pdf: Imagenes/tikzext/Tesis-figure4.pgf-plot.table
