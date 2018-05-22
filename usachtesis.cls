@@ -89,20 +89,22 @@
 	\begin{center}
 		\large{\textbf{\@title}}\\ %\vspace*{2cm}
 	\end{center}
+
+	\vspace*{2cm}
+	
 	\begin{center}
 		\textbf{\@author}
 	\end{center}
-	
-	\vspace*{3cm}
-	\makebox[\textwidth]{
-		\hspace{0.5\textwidth}
-		\begin{tabular}{ll}
-			\multicolumn{2}{l}{\textbf{Tesis para optar al Título Profesional de}}\\
-			\multicolumn{2}{l}{\textbf{\@tituloprofesional}}\\
-			\textbf{Profesor Guía:}& \textsc{\@profesorguia}
+
+		
+	\hspace{6cm}\begin{tabular}{@{}l@{}}
+			\textbf{Profesor Guía:}\\
+			\textbf{\@profesorguia}
+			\vspace*{1.5cm}\\
+			\textbf{Tesis para optar al Título Profesional de}\\
+			\textbf{\@tituloprofesional}
 		\end{tabular}
-	}
-		\\\vspace{3cm}
+
 		
 	
 	\vfill
@@ -154,4 +156,6 @@
 	\renewcommand{\indexname}{Índice analítico}
 	\renewcommand{\listtablename}{Índice de tablas}
 	\renewcommand{\tablename}{Tabla}
+	\renewcommand\bibname{Referencias bibliográficas}
 }
+

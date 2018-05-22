@@ -7,6 +7,14 @@
 \usepackage{titlesec}
 \usepackage{gensymb}
 \usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	linktoc=all,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
 \usepackage{subcaption}
 \usepackage[american,siunitx]{circuitikz}
 \usepackage{pgfplots}
@@ -351,16 +359,16 @@
 \hojacalificacion
 \newpage
 
-%%DEDICATORIA
-%\newpage
-%\chapter*{}
-%\begin{flushright}
-%\textit{Dedicado a...}
-%\end{flushright}
-%\newpage
+%DEDICATORIA
+\newpage
+\chapter*{}
+\begin{flushright}
+	\textit{En memoria de mi abuela.}
+\end{flushright}
+\newpage
 
-%%AGRADECIMIENTOS(OPTATIVA)
-%\include{agradecimientos}
+%AGRADECIMIENTOS(OPTATIVA)
+\include{Agradecimientos}
 
 %%TABLA DE CONTENIDOS
 \newpage
@@ -394,9 +402,6 @@
 %%INTRODUCCIÓN
 \newpage
 
-
-
-
 %%CAPÍTULOS
 \newpage
 \pagenumbering{arabic}
@@ -404,7 +409,6 @@
 \include{Marco_teorico}
 \include{Cuerpo_tesis}
 \include{Conclusiones}
-\include{Anexo}
 
 %%ÍNDICE ANALÍTICO
 %\newpage
@@ -413,8 +417,11 @@
 
 %%BIBLIOGRAFÍA
 \newpage
-\addcontentsline{toc}{chapter}{Bibliografía}
+\addcontentsline{toc}{chapter}{Referencias bibliográficas}
 \bibliography{Nanosintesis}
 \bibliographystyle{apalike}
+
+%%Anexo
+\include{Anexo}
 
 \end{document}
