@@ -19,23 +19,24 @@
 \usepackage[american,siunitx]{circuitikz}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable,tabularx,booktabs}
+%%tikz external para desminuir el uso de memoria en latex
 \usetikzlibrary{external}
 %\usepgfplotslibrary{external}
-\tikzexternalize[prefix=Imagenes/tikzext/]
+\tikzexternalize[prefix=Imagenes/tikzext/] %%directorio para renders
 \usetikzlibrary{positioning}
 %\usetikzlibrary{pgfplots.clickable}
 %\usepgfplotslibrary{clickable}
 \usepgfplotslibrary{units}
 \let\clipbox\relax
 \usepackage{adjustbox}
-
+%% macros para gráficos
 \newcommand{\plotwidth}{0.3\textwidth}
 \newcommand{\plotscale}{0.8}
 
 \captionsetup{subrefformat=parens}
 
 
-%nombre de muestras:
+%macros para el nombre de muestras:
 \newcommand{\mSustratoAcero}{SusAc }
 \newcommand{\mPolvoAcero}{PolvoAc }
 \newcommand{\mPolvoAceroPMMA}{PolvoAc+pmma }
@@ -45,7 +46,7 @@
 \newcommand{\mPolvoNiquel}{PolvoNi }
 \newcommand{\mPolvoNiquelPMMA}{PolvoNi+pmma }
 
-
+%% colores para gráficos
 \definecolor{RYB1}{RGB}{228,26,28}
 \definecolor{RYB2}{RGB}{55,126,184}
 \definecolor{RYB3}{RGB}{77,175,74}
@@ -61,7 +62,7 @@
 \definecolor{c71d89a}{RGB}{113,216,154}
 \definecolor{cbfbfbf}{RGB}{191,191,191}
 \definecolor{c252525}{RGB}{37,37,37}
-
+%% ciclo de colores y estilos
 \pgfplotscreateplotcyclelist{colorbrewer-RYB}{
 	{RYB1},every mark/.append style={fill=RYB1!80!black},mark=*\\
 	{RYB2},every mark/.append style={fill=RYB2!80!black},mark=square*\\
@@ -71,7 +72,7 @@
 	{RYB6},every mark/.append style={fill=RYB6!80!black},mark=o\\
 	{RYB7},every mark/.append style={fill=RYB7!80!black},mark=square\\
 }
-
+%% estilos para diferentes gráficos
 \pgfplotsset{
 	compat=1.15,
 	CVStyle/.style={
@@ -152,8 +153,9 @@
 }
 \pagestyle{plain}
 
-\titleformat{\chapter}
-{\normalfont\bfseries}{\thechapter}{11pt}{}
+%%formato títulos de secciones
+\titleformat{\chapter}[hang] 
+{\normalfont\bfseries}{\chaptertitlename\ \thechapter:}{11pt}{} 
 
 \titleformat{\section}
 {\normalfont\bfseries}{\thesection}{10pt}{}
@@ -175,7 +177,7 @@
 \DeclareRobustCommand*\circled[1]{
 	\tikz[baseline=-5]{\node[draw,circle,inner sep=1pt] {#1};}
 	}
-
+%% macros para generar los gráficos
 %#1:filename, #2:filename, #3:mass,#4:ccdDomain, #5ccdTime, #6 caption, #7 mass abs err
 \newcommand{\SCGraphs}[7]{
 	\pgfmathsetmacro\SCError{1/#3*#7}
@@ -359,6 +361,10 @@
 \hojacalificacion
 \newpage
 
+%%RESUMEN
+\newpage
+\include{Resumen}
+
 %DEDICATORIA
 \newpage
 \chapter*{}
@@ -395,9 +401,7 @@
 \psset{xunit=1.0cm,yunit=1.0cm,algebraic=true,dotstyle=*,dotsize=3pt
 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}
 
-%%RESUMEN
-\newpage
-\include{Resumen}
+
 
 %%INTRODUCCIÓN
 \newpage

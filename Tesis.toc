@@ -1,10 +1,9 @@
 \select@language {spanish}
-\contentsline {chapter}{Resumen}{\es@scroman {ix}}{chapter*.6}
-\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.7}
-\contentsline {section}{Objetivos}{1}{section*.8}
-\contentsline {section}{Nanociencia}{2}{section*.8}
-\contentsline {section}{Grafeno}{8}{figure.caption.12}
-\contentsline {section}{Supercondensadores}{12}{figure.caption.15}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.4}
+\contentsline {section}{Objetivos}{1}{section*.5}
+\contentsline {section}{Nanociencia}{2}{section*.5}
+\contentsline {section}{Grafeno}{8}{figure.caption.9}
+\contentsline {section}{Supercondensadores}{12}{figure.caption.12}
 \contentsline {chapter}{\numberline {1}Ruta de s\IeC {\'\i }ntesis de \IeC {\'o}xido de grafeno}{23}{chapter.1}
 \contentsline {chapter}{\numberline {2}Reducci\IeC {\'o}n del \IeC {\'o}xido de grafeno}{25}{chapter.2}
 \contentsline {section}{\numberline {2.1}Resultados}{25}{section.2.1}
@@ -13,8 +12,8 @@
 \contentsline {section}{\numberline {3.2}Construcci\IeC {\'o}n de electrodos}{31}{section.3.2}
 \contentsline {section}{\numberline {3.3}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{33}{section.3.3}
 \contentsline {section}{\numberline {3.4}Resultados y an\IeC {\'a}lisis}{35}{section.3.4}
-\contentsline {chapter}{Conclusiones}{41}{chapter*.39}
-\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{42}{chapter*.39}
+\contentsline {chapter}{Conclusiones}{41}{chapter*.36}
+\contentsline {chapter}{Referencias bibliogr\IeC {\'a}ficas}{42}{chapter*.36}
 \contentsline {chapter}{\numberline {A}Anexo}{48}{appendix.Alph1}
 \contentsline {section}{\numberline {A.1}Hibridaci\IeC {\'o}n sp2}{48}{section.Alph1.1}
 \contentsline {section}{\numberline {A.2}Caracterizaci\IeC {\'o}n electroqu\IeC {\'\i }mica}{50}{section.Alph1.2}

@@ -19,7 +19,7 @@
 \RequirePackage{cleveref}
 \RequirePackage{multirow}
 \RequirePackage[format=plain, font=small, labelfont=bf, justification=centering, margin=0cm]{caption}
-\RequirePackage[titles]{tocloft}
+\RequirePackage[]{tocloft}
 \cftsetindents{figure}{0em}{3.5em}
 \cftsetindents{table}{0em}{3.5em}
 
@@ -34,16 +34,18 @@
 
 \renewcommand{\baselinestretch}{1.5}
 
-
+%% márgenes
 \topmargin=0cm
 \oddsidemargin=1.5cm
 
+%% nombres tablas, figuras, etc
 \crefname{equation}{ecuación}{ecuaciones}
 \crefname{table}{tabla}{tablas}
 \crefname{figure}{figura}{figuras}
 \crefname{section}{sección}{Sección}
 \crefname{chapter}{capítulo}{Capítulo}
 
+%% macros
 \newcommand\facultad[1]{\renewcommand\@facultad{#1}}
 \newcommand\@facultad{}
 
@@ -71,7 +73,7 @@
 \newcommand\@commisionThird{}
 
 \newcommand{\@largoLinea}{4cm}
-
+%% portada
 \renewcommand{\maketitle}{
 	\makebox[\textwidth]{
 		\hspace{3cm}
